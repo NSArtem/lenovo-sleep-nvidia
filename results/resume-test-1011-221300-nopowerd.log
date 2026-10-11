@@ -1,0 +1,140 @@
+== before suspend  22:13:00.545063327
+backlight nvidia_0: brightness=100 actual=100 bl_power=0
+card2-eDP-1: status=connected enabled=enabled dpms=On
+lid: open  profile: balanced  powerd: inactive
+gpu: Enabled, [Requested functionality has been deprecated], P8, 8.15 W
+  kscreen: Output: 1 eDP-1 b8526171-ef91-43af-b8f9-0cb169307dbd
+  kscreen: 	enabled
+  kscreen: 	connected
+  kscreen: 	Modes:  1:2560x1600@165.00*!  2:2560x1600@60.00 
+  kscreen: 	HDR: disabled
+  kscreen: 	Wide Color Gamut: disabled
+== resumed (suspend_stats success 0 -> 1)
+== resume +1s  22:13:33.264976756
+backlight nvidia_0: brightness=100 actual=100 bl_power=0
+card2-eDP-1: status=connected enabled=enabled dpms=On
+lid: open  profile: balanced  powerd: inactive
+gpu: Enabled, [Requested functionality has been deprecated], P4, 17.97 W
+  kscreen: Output: 1 eDP-1 b8526171-ef91-43af-b8f9-0cb169307dbd
+  kscreen: 	enabled
+  kscreen: 	connected
+  kscreen: 	Modes:  1:2560x1600@165.00*!  2:2560x1600@60.00 
+  kscreen: 	HDR: disabled
+  kscreen: 	Wide Color Gamut: disabled
+== resume +3s  22:13:35.347455430
+backlight nvidia_0: brightness=100 actual=100 bl_power=0
+card2-eDP-1: status=connected enabled=enabled dpms=On
+lid: open  profile: balanced  powerd: inactive
+gpu: Enabled, [Requested functionality has been deprecated], P4, 7.74 W
+  kscreen: Output: 1 eDP-1 b8526171-ef91-43af-b8f9-0cb169307dbd
+  kscreen: 	enabled
+  kscreen: 	connected
+  kscreen: 	Modes:  1:2560x1600@165.00*!  2:2560x1600@60.00 
+  kscreen: 	HDR: disabled
+  kscreen: 	Wide Color Gamut: disabled
+== resume +6s  22:13:38.437765754
+backlight nvidia_0: brightness=100 actual=100 bl_power=0
+card2-eDP-1: status=connected enabled=enabled dpms=On
+lid: open  profile: balanced  powerd: inactive
+gpu: Enabled, [Requested functionality has been deprecated], P4, 10.37 W
+  kscreen: Output: 1 eDP-1 b8526171-ef91-43af-b8f9-0cb169307dbd
+  kscreen: 	enabled
+  kscreen: 	connected
+  kscreen: 	Modes:  1:2560x1600@165.00*!  2:2560x1600@60.00 
+  kscreen: 	HDR: disabled
+  kscreen: 	Wide Color Gamut: disabled
+== resume +10s  22:13:42.513739121
+backlight nvidia_0: brightness=100 actual=100 bl_power=0
+card2-eDP-1: status=connected enabled=enabled dpms=On
+lid: open  profile: balanced  powerd: inactive
+gpu: Enabled, [Requested functionality has been deprecated], P5, 7.64 W
+  kscreen: Output: 1 eDP-1 b8526171-ef91-43af-b8f9-0cb169307dbd
+  kscreen: 	enabled
+  kscreen: 	connected
+  kscreen: 	Modes:  1:2560x1600@165.00*!  2:2560x1600@60.00 
+  kscreen: 	HDR: disabled
+  kscreen: 	Wide Color Gamut: disabled
+== resume +20s  22:13:52.608621967
+backlight nvidia_0: brightness=100 actual=100 bl_power=0
+card2-eDP-1: status=connected enabled=enabled dpms=On
+lid: open  profile: balanced  powerd: inactive
+gpu: Enabled, [Requested functionality has been deprecated], P5, 7.90 W
+  kscreen: Output: 1 eDP-1 b8526171-ef91-43af-b8f9-0cb169307dbd
+  kscreen: 	enabled
+  kscreen: 	connected
+  kscreen: 	Modes:  1:2560x1600@165.00*!  2:2560x1600@60.00 
+  kscreen: 	HDR: disabled
+  kscreen: 	Wide Color Gamut: disabled
+== resume +40s  22:14:12.729462452
+backlight nvidia_0: brightness=100 actual=100 bl_power=0
+card2-eDP-1: status=connected enabled=enabled dpms=On
+lid: open  profile: balanced  powerd: inactive
+gpu: Enabled, [Requested functionality has been deprecated], P5, 7.30 W
+  kscreen: Output: 1 eDP-1 b8526171-ef91-43af-b8f9-0cb169307dbd
+  kscreen: 	enabled
+  kscreen: 	connected
+  kscreen: 	Modes:  1:2560x1600@165.00*!  2:2560x1600@60.00 
+  kscreen: 	HDR: disabled
+  kscreen: 	Wide Color Gamut: disabled
+== kernel since suspend
+Oct 11 22:13:30.477266 nixos kernel: OOM killer disabled.
+Oct 11 22:13:30.477282 nixos kernel: Freezing remaining freezable tasks
+Oct 11 22:13:30.477294 nixos kernel: Freezing remaining freezable tasks completed (elapsed 0.000 seconds)
+Oct 11 22:13:30.477314 nixos kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+Oct 11 22:13:30.477329 nixos kernel: queueing ieee80211 work while going to suspend
+Oct 11 22:13:30.477350 nixos kernel: ACPI: EC: interrupt blocked
+Oct 11 22:13:30.477364 nixos kernel: ACPI: PM: Preparing to enter system sleep state S3
+Oct 11 22:13:30.477378 nixos kernel: ACPI: EC: event blocked
+Oct 11 22:13:30.477394 nixos kernel: ACPI: EC: EC stopped
+Oct 11 22:13:30.477408 nixos kernel: ACPI: PM: Saving platform NVS memory
+Oct 11 22:13:30.477417 nixos kernel: Disabling non-boot CPUs ...
+Oct 11 22:13:30.477676 nixos kernel: ACPI: PM: Low-level resume complete
+Oct 11 22:13:30.477689 nixos kernel: ACPI: EC: EC started
+Oct 11 22:13:30.477701 nixos kernel: ACPI: PM: Restoring platform NVS memory
+Oct 11 22:13:30.477713 nixos kernel: Enabling non-boot CPUs ...
+Oct 11 22:13:30.477926 nixos kernel: core: The event 0x5d0 is not supported as an auto-counter reload event.
+Oct 11 22:13:30.478318 nixos kernel: ACPI: PM: Waking up from system sleep state S3
+Oct 11 22:13:30.478329 nixos kernel: ACPI: button: [Firmware Bug]: Unexpected lid state reported by firmware
+Oct 11 22:13:30.478338 nixos kernel: ACPI: EC: interrupt unblocked
+Oct 11 22:13:30.478352 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 22:13:30.478661 nixos kernel: ACPI: EC: event unblocked
+Oct 11 22:13:30.478674 nixos kernel: xhci_hcd 0000:00:0d.0: xHC error in resume, USBSTS 0x401, Reinit
+Oct 11 22:13:30.478806 nixos kernel: usb usb1: root hub lost power or was reset
+Oct 11 22:13:30.478985 nixos kernel: usb usb2: root hub lost power or was reset
+Oct 11 22:13:30.479128 nixos kernel: spd5118 4-0051: Failed to write b = 0: -6
+Oct 11 22:13:30.479259 nixos kernel: spd5118 4-0051: PM: dpm_run_callback(): spd5118_resume [spd5118] returns -6
+Oct 11 22:13:30.479350 nixos kernel: spd5118 4-0051: PM: failed to resume async: error -6
+Oct 11 22:13:30.479433 nixos kernel: i915 0000:00:02.0: [drm] GT0: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+Oct 11 22:13:30.479552 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: submission enabled
+Oct 11 22:13:30.479650 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: SLPC enabled
+Oct 11 22:13:30.479744 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: RC enabled
+Oct 11 22:13:30.479838 nixos kernel: i915 0000:00:02.0: [drm] GT1: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+Oct 11 22:13:30.479931 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC firmware i915/mtl_huc_gsc.bin version 8.5.4
+Oct 11 22:13:30.480023 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC: authenticated for clear media
+Oct 11 22:13:30.480107 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: submission enabled
+Oct 11 22:13:30.480196 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: SLPC enabled
+Oct 11 22:13:30.480279 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: RC enabled
+Oct 11 22:13:30.480361 nixos kernel: i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io,decodes=io:owns=none
+Oct 11 22:13:30.480441 nixos kernel: i915 0000:00:02.0: [drm] GT1: Loaded GSC firmware i915/mtl_gsc_1.bin (cv1.0, r102.1.15.1926, svn 1)
+Oct 11 22:13:30.480521 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC: authenticated for all workloads
+Oct 11 22:13:30.480598 nixos kernel: nvme nvme0: 20/0/0 default/read/poll queues
+Oct 11 22:13:30.480679 nixos kernel: usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+Oct 11 22:13:30.480801 nixos kernel: usb 3-11: reset high-speed USB device number 4 using xhci_hcd
+Oct 11 22:13:30.480928 nixos kernel: mei_gsc_proxy 0000:80:16.0-0f73db04-97ab-4125-b893-e904ad0d5464: bound 0000:00:02.0 (ops i915_gsc_proxy_component_ops [i915])
+Oct 11 22:13:30.480979 nixos kernel: OOM killer enabled.
+Oct 11 22:13:30.480991 nixos kernel: Restarting tasks: Starting
+Oct 11 22:13:30.481001 nixos kernel: Restarting tasks: Done
+Oct 11 22:13:30.481011 nixos kernel: efivarfs: resyncing variable state
+Oct 11 22:13:30.732251 nixos kernel: efivarfs: finished resyncing variable state
+Oct 11 22:13:30.732316 nixos kernel: random: crng reseeded on system resumption
+Oct 11 22:13:32.232178 nixos kernel: PM: suspend exit
+Oct 11 22:13:32.282294 nixos kernel: Generic FE-GE Realtek PHY r8169-0-8100:00: attached PHY driver (mii_bus:phy_addr=r8169-0-8100:00, irq=MAC)
+Oct 11 22:13:32.438291 nixos kernel: r8169 0000:81:00.0 enp129s0: Link is Down
+Oct 11 22:13:35.565333 nixos kernel: wlp130s0: authenticate with 14:eb:b6:e0:86:a7 (local address=f4:4e:b4:1a:65:0f)
+Oct 11 22:13:35.582308 nixos kernel: wlp130s0: send auth to 14:eb:b6:e0:86:a7 (try 1/3)
+Oct 11 22:13:35.587289 nixos kernel: wlp130s0: authenticated
+Oct 11 22:13:35.590324 nixos kernel: wlp130s0: associate with 14:eb:b6:e0:86:a7 (try 1/3)
+Oct 11 22:13:35.614332 nixos kernel: wlp130s0: RX AssocResp from 14:eb:b6:e0:86:a7 (capab=0x1511 status=0 aid=1)
+Oct 11 22:13:35.654385 nixos kernel: wlp130s0: associated
+Oct 11 22:13:35.699294 nixos kernel: wlp130s0: Limiting TX power to 20 (23 - 3) dBm as advertised by 14:eb:b6:e0:86:a7
+log: /home/artem/resume-test-1011-221300-nopowerd.log

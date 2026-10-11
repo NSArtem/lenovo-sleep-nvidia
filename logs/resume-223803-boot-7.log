@@ -1,0 +1,1379 @@
+Oct 11 22:36:49.862734 nixos systemd[1548]: Starting Cleanup of User's Temporary Files and Directories...
+Oct 11 22:36:49.880374 nixos systemd[1548]: Finished Cleanup of User's Temporary Files and Directories.
+Oct 11 22:37:42.935290 nixos sudo[3806]:    artem : TTY=pts/2 ; PWD=/home/artem ; USER=root ; COMMAND=/run/current-system/sw/bin/tee /sys/power/pm_print_times
+Oct 11 22:37:42.939558 nixos sudo[3806]: pam_unix(sudo:session): session opened for user root(uid=0) by artem(uid=1000)
+Oct 11 22:37:42.943212 nixos sudo[3806]: pam_unix(sudo:session): session closed for user root
+Oct 11 22:37:46.217620 nixos systemd-logind[1045]: suspend requested from client PID 1754 ('.plasmashell-wr') (unit user@1000.service)...
+Oct 11 22:37:46.218502 nixos systemd-logind[1045]: The system will suspend now!
+Oct 11 22:37:46.218549 nixos org_kde_powerdevil[1771]: [  1843][412.255161] (ldbus_handle_message)Received dbus signal PrepareForSleep(true=prepare)
+Oct 11 22:37:46.218589 nixos ModemManager[1935]: <msg> [sleep-monitor-systemd] system is about to suspend
+Oct 11 22:37:46.218626 nixos ModemManager[1935]: <msg> [sleep-monitor-systemd] ready to sleep; dropping inhibitor
+Oct 11 22:37:46.218798 nixos rtkit-daemon[1385]: Demoting known real-time threads.
+Oct 11 22:37:46.218856 nixos rtkit-daemon[1385]: Successfully demoted thread 2379 of process 2237.
+Oct 11 22:37:46.218872 nixos rtkit-daemon[1385]: Successfully demoted thread 1832 of process 1822.
+Oct 11 22:37:46.218882 nixos rtkit-daemon[1385]: Successfully demoted thread 1822 of process 1822.
+Oct 11 22:37:46.218901 nixos rtkit-daemon[1385]: Successfully demoted thread 1731 of process 1696.
+Oct 11 22:37:46.218912 nixos rtkit-daemon[1385]: Successfully demoted thread 1722 of process 1696.
+Oct 11 22:37:46.218921 nixos rtkit-daemon[1385]: Successfully demoted thread 1696 of process 1696.
+Oct 11 22:37:46.218935 nixos rtkit-daemon[1385]: Successfully demoted thread 1699 of process 1694.
+Oct 11 22:37:46.218944 nixos rtkit-daemon[1385]: Successfully demoted thread 1694 of process 1694.
+Oct 11 22:37:46.218945 nixos rtkit-daemon[1385]: Demoted 8 threads.
+Oct 11 22:37:46.224954 nixos avahi-daemon[1017]: Leaving mDNS multicast group on interface wlp130s0.IPv4 with address 192.168.68.57.
+Oct 11 22:37:46.227140 nixos systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 22:37:46.239968 nixos systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 22:37:46.243764 nixos avahi-daemon[1017]: Interface wlp130s0.IPv4 no longer relevant for mDNS.
+Oct 11 22:37:46.286389 nixos systemd[1]: Stopped target Host and Network Name Lookups.
+Oct 11 22:37:46.286405 nixos systemd[1]: Stopping Host and Network Name Lookups...
+Oct 11 22:37:46.286441 nixos systemd[1]: Stopped target User and Group Name Lookups.
+Oct 11 22:37:46.286446 nixos systemd[1]: Stopping User and Group Name Lookups...
+Oct 11 22:37:46.286567 nixos systemd[1]: Stopping Name Service Cache Daemon (nsncd)...
+Oct 11 22:37:46.287578 nixos avahi-daemon[1017]: Got SIGHUP, reloading.
+Oct 11 22:37:46.287614 nixos avahi-daemon[1017]: No service file found in /etc/avahi/services.
+Oct 11 22:37:46.287804 nixos systemd[1]: nscd.service: Deactivated successfully.
+Oct 11 22:37:46.288016 nixos systemd[1]: Stopped Name Service Cache Daemon (nsncd).
+Oct 11 22:37:46.288063 nixos systemd[1]: nscd.service: Consumed 41ms CPU time over 4min 49.278s wall clock time, 5.6M memory peak, 12.4K incoming IP traffic, 6.9K outgoing IP traffic.
+Oct 11 22:37:46.289487 nixos systemd[1]: Starting Name Service Cache Daemon (nsncd)...
+Oct 11 22:37:46.292639 nixos kernel: wlp130s0: deauthenticating from 14:eb:b6:e0:86:a7 by local choice (Reason: 3=DEAUTH_LEAVING)
+Oct 11 22:37:46.301787 nixos nsncd[3884]: Oct 11 22:37:46.301 INFO started, config: Config { ignored_request_types: {}, worker_count: 8, handoff_timeout: 10s }, path: "/var/run/nscd/socket"
+Oct 11 22:37:46.301892 nixos systemd[1]: Started Name Service Cache Daemon (nsncd).
+Oct 11 22:37:46.302049 nixos systemd[1]: Reached target Host and Network Name Lookups.
+Oct 11 22:37:46.302096 nixos systemd[1]: Reached target User and Group Name Lookups.
+Oct 11 22:37:46.534956 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-DISCONNECTED bssid=14:eb:b6:e0:86:a7 reason=3 locally_generated=1
+Oct 11 22:37:46.535140 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:37:46.535599 nixos avahi-daemon[1017]: Leaving mDNS multicast group on interface wlp130s0.IPv6 with address fe80::16b:6b8c:d6ce:be09.
+Oct 11 22:37:46.535618 nixos avahi-daemon[1017]: Interface wlp130s0.IPv6 no longer relevant for mDNS.
+Oct 11 22:37:46.759305 nixos wpa_supplicant[1187]: p2p-dev-wlp130s: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:37:46.759376 nixos wpa_supplicant[1187]: p2p-dev-wlp130s: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:37:46.759389 nixos wpa_supplicant[1187]: nl80211: deinit ifname=p2p-dev-wlp130s disabled_11b_rates=0
+Oct 11 22:37:46.786123 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:37:46.805825 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:37:46.805842 nixos wpa_supplicant[1187]: nl80211: deinit ifname=wlp130s0 disabled_11b_rates=0
+Oct 11 22:37:46.866555 nixos org_kde_powerdevil[1771]: [  1850][412.903181] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 22:37:46.952161 nixos systemd[1]: Starting Sleep Actions...
+Oct 11 22:37:46.957755 nixos cupsd[1284]: REQUEST localhost - - "POST /admin/ HTTP/1.1" 401 173 CUPS-Delete-Printer successful-ok
+Oct 11 22:37:46.959959 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" deleted by "root".
+Oct 11 22:37:46.960244 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 173 CUPS-Delete-Printer successful-ok
+Oct 11 22:37:46.966679 nixos systemd[1]: Finished Sleep Actions.
+Oct 11 22:37:46.967263 nixos systemd[1]: Reached target Sleep.
+Oct 11 22:37:46.968301 nixos systemd[1]: Starting System Suspend...
+Oct 11 22:37:46.974548 nixos systemd[1]: user-175.slice: Unit now frozen-by-parent.
+Oct 11 22:37:46.974555 nixos systemd[1]: session-2.scope: Unit now frozen-by-parent.
+Oct 11 22:37:46.975130 nixos systemd[1]: user.slice: Unit now frozen.
+Oct 11 22:37:46.975143 nixos systemd[1]: user-1000.slice: Unit now frozen-by-parent.
+Oct 11 22:37:46.975150 nixos systemd-sleep[3915]: Successfully froze unit 'user.slice'.
+Oct 11 22:37:46.975150 nixos systemd[1]: user@1000.service: Unit now frozen-by-parent.
+Oct 11 22:37:46.975455 nixos systemd-sleep[3915]: Performing sleep operation 'suspend'...
+Oct 11 22:37:46.975613 nixos kernel: PM: suspend entry (deep)
+Oct 11 22:37:46.992619 nixos kernel: Filesystems sync: 0.016 seconds
+Oct 11 22:38:01.501437 nixos kernel: Freezing user space processes
+Oct 11 22:38:01.501649 nixos kernel: Freezing user space processes completed (elapsed 0.001 seconds)
+Oct 11 22:38:01.501672 nixos kernel: OOM killer disabled.
+Oct 11 22:38:01.501690 nixos kernel: Freezing remaining freezable tasks
+Oct 11 22:38:01.501706 nixos kernel: Freezing remaining freezable tasks completed (elapsed 0.000 seconds)
+Oct 11 22:38:01.501726 nixos kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+Oct 11 22:38:01.501741 nixos kernel: snd_hda_codec_nvhdmi hdaudioC0D0: PM: calling hda_codec_pm_suspend [snd_hda_codec] @ 3088, parent: 0000:02:00.1
+Oct 11 22:38:01.502121 nixos kernel: input input31: PM: calling input_dev_suspend @ 3915, parent: card1
+Oct 11 22:38:01.502349 nixos kernel: input input31: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.502518 nixos kernel: input input30: PM: calling input_dev_suspend @ 3915, parent: card1
+Oct 11 22:38:01.502698 nixos kernel: input input30: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.502852 nixos kernel: pci 0000:80:1f.0: PM: calling pci_pm_suspend @ 489, parent: pci0000:80
+Oct 11 22:38:01.503015 nixos kernel: pci 0000:80:14.5: PM: calling pci_pm_suspend @ 3102, parent: pci0000:80
+Oct 11 22:38:01.503168 nixos kernel: input input29: PM: calling input_dev_suspend @ 3915, parent: card1
+Oct 11 22:38:01.503338 nixos kernel: input input29: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.503491 nixos kernel: pci 0000:80:1f.0: PM: pci_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.503628 nixos kernel: pci 0000:80:14.5: PM: pci_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.503759 nixos kernel: input input28: PM: calling input_dev_suspend @ 3915, parent: card1
+Oct 11 22:38:01.503919 nixos kernel: input input28: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.504071 nixos kernel: input input27: PM: calling input_dev_suspend @ 3915, parent: card1
+Oct 11 22:38:01.504244 nixos kernel: input input27: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.504394 nixos kernel: pci 0000:00:1f.5: PM: calling pci_pm_suspend @ 3100, parent: pci0000:00
+Oct 11 22:38:01.504539 nixos kernel: input input26: PM: calling input_dev_suspend @ 3915, parent: card1
+Oct 11 22:38:01.504709 nixos kernel: input input26: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.504857 nixos kernel: input input25: PM: calling input_dev_suspend @ 3915, parent: card1
+Oct 11 22:38:01.505021 nixos kernel: input input25: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.505171 nixos kernel: pci 0000:00:1f.5: PM: pci_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.505302 nixos kernel: sound pcmC1D9p: PM: calling do_pcm_suspend [snd_pcm] @ 3915, parent: card1
+Oct 11 22:38:01.505445 nixos kernel: sound pcmC1D9p: PM: do_pcm_suspend [snd_pcm] returned 0 after 1 usecs
+Oct 11 22:38:01.505561 nixos kernel: sound pcmC1D8p: PM: calling do_pcm_suspend [snd_pcm] @ 3915, parent: card1
+Oct 11 22:38:01.505692 nixos kernel: sound pcmC1D8p: PM: do_pcm_suspend [snd_pcm] returned 0 after 0 usecs
+Oct 11 22:38:01.505805 nixos kernel: sound pcmC1D7p: PM: calling do_pcm_suspend [snd_pcm] @ 3915, parent: card1
+Oct 11 22:38:01.505926 nixos kernel: sound pcmC1D7p: PM: do_pcm_suspend [snd_pcm] returned 0 after 0 usecs
+Oct 11 22:38:01.506037 nixos kernel: sound pcmC1D3p: PM: calling do_pcm_suspend [snd_pcm] @ 3915, parent: card1
+Oct 11 22:38:01.506165 nixos kernel: sound pcmC1D3p: PM: do_pcm_suspend [snd_pcm] returned 0 after 0 usecs
+Oct 11 22:38:01.506275 nixos kernel: sound pcmC1D0c: PM: calling do_pcm_suspend [snd_pcm] @ 3915, parent: card1
+Oct 11 22:38:01.506397 nixos kernel: sound pcmC1D0c: PM: do_pcm_suspend [snd_pcm] returned 0 after 0 usecs
+Oct 11 22:38:01.506507 nixos kernel: sound pcmC1D0p: PM: calling do_pcm_suspend [snd_pcm] @ 3915, parent: card1
+Oct 11 22:38:01.506636 nixos kernel: sound pcmC1D0p: PM: do_pcm_suspend [snd_pcm] returned 0 after 0 usecs
+Oct 11 22:38:01.506749 nixos kernel: input input24: PM: calling input_dev_suspend @ 3915, parent: acpi.video_bus.1
+Oct 11 22:38:01.506918 nixos kernel: input input24: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.507071 nixos kernel: input input23: PM: calling input_dev_suspend @ 3915, parent: acpi.video_bus.0
+Oct 11 22:38:01.507236 nixos kernel: input input23: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.507378 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: calling pci_pm_suspend @ 489, parent: pci0000:80
+Oct 11 22:38:01.507528 nixos kernel: rfkill rfkill3: PM: calling rfkill_suspend [rfkill] @ 3915, parent: phy0
+Oct 11 22:38:01.507709 nixos kernel: rfkill rfkill3: PM: rfkill_suspend [rfkill] returned 0 after 0 usecs
+Oct 11 22:38:01.507851 nixos kernel: input input22: PM: calling input_dev_suspend @ 3915, parent: 0018:04F3:327E.0007
+Oct 11 22:38:01.508055 nixos kernel: input input22: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.508239 nixos kernel: input input20: PM: calling input_dev_suspend @ 3915, parent: 0018:04F3:327E.0007
+Oct 11 22:38:01.508426 nixos kernel: input input20: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.508599 nixos kernel: intel_rapl_msr intel_rapl_msr.0: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.508763 nixos kernel: intel_rapl_msr intel_rapl_msr.0: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.508884 nixos kernel: input input19: PM: calling input_dev_suspend @ 3915, parent: card0
+Oct 11 22:38:01.509054 nixos kernel: input input19: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.509207 nixos kernel: input input18: PM: calling input_dev_suspend @ 3915, parent: card0
+Oct 11 22:38:01.509373 nixos kernel: input input18: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.509522 nixos kernel: input input17: PM: calling input_dev_suspend @ 3915, parent: card0
+Oct 11 22:38:01.509693 nixos kernel: input input17: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.509841 nixos kernel: platform coretemp.0: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.509978 nixos kernel: platform coretemp.0: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.510093 nixos kernel: input input16: PM: calling input_dev_suspend @ 3915, parent: card0
+Oct 11 22:38:01.510260 nixos kernel: input input16: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.510413 nixos kernel: sound pcmC0D9p: PM: calling do_pcm_suspend [snd_pcm] @ 3915, parent: card0
+Oct 11 22:38:01.510550 nixos kernel: sound pcmC0D9p: PM: do_pcm_suspend [snd_pcm] returned 0 after 0 usecs
+Oct 11 22:38:01.510673 nixos kernel: sound pcmC0D8p: PM: calling do_pcm_suspend [snd_pcm] @ 3915, parent: card0
+Oct 11 22:38:01.510802 nixos kernel: sound pcmC0D8p: PM: do_pcm_suspend [snd_pcm] returned 0 after 0 usecs
+Oct 11 22:38:01.510915 nixos kernel: sound pcmC0D7p: PM: calling do_pcm_suspend [snd_pcm] @ 3915, parent: card0
+Oct 11 22:38:01.511042 nixos kernel: sound pcmC0D7p: PM: do_pcm_suspend [snd_pcm] returned 0 after 0 usecs
+Oct 11 22:38:01.511153 nixos kernel: sound pcmC0D3p: PM: calling do_pcm_suspend [snd_pcm] @ 3915, parent: card0
+Oct 11 22:38:01.511279 nixos kernel: sound pcmC0D3p: PM: do_pcm_suspend [snd_pcm] returned 0 after 0 usecs
+Oct 11 22:38:01.511364 nixos kernel: mtd mtd0ro: PM: calling mtd_cls_suspend [mtd] @ 3915, parent: spi0.0
+Oct 11 22:38:01.511449 nixos kernel: mtd mtd0ro: PM: mtd_cls_suspend [mtd] returned 0 after 0 usecs
+Oct 11 22:38:01.511507 nixos kernel: mtd mtd0: PM: calling mtd_cls_suspend [mtd] @ 3915, parent: spi0.0
+Oct 11 22:38:01.511582 nixos kernel: mtd mtd0: PM: mtd_cls_suspend [mtd] returned 0 after 0 usecs
+Oct 11 22:38:01.511658 nixos kernel: rfkill rfkill2: PM: calling rfkill_suspend [rfkill] @ 3915, parent: hci0
+Oct 11 22:38:01.511751 nixos kernel: rfkill rfkill2: PM: rfkill_suspend [rfkill] returned 0 after 0 usecs
+Oct 11 22:38:01.511826 nixos kernel: Generic FE-GE Realtek PHY r8169-0-8100:00: PM: calling mdio_bus_phy_suspend [libphy] @ 3915, parent: r8169-0-8100
+Oct 11 22:38:01.511921 nixos kernel: Generic FE-GE Realtek PHY r8169-0-8100:00: PM: mdio_bus_phy_suspend [libphy] returned 0 after 0 usecs
+Oct 11 22:38:01.511988 nixos kernel: platform yogafan: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.512059 nixos kernel: platform yogafan: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.512120 nixos kernel: rfkill rfkill1: PM: calling rfkill_suspend [rfkill] @ 3915, parent: VPC2004:00
+Oct 11 22:38:01.512206 nixos kernel: rfkill rfkill1: PM: rfkill_suspend [rfkill] returned 0 after 0 usecs
+Oct 11 22:38:01.512275 nixos kernel: rfkill rfkill0: PM: calling rfkill_suspend [rfkill] @ 3915, parent: VPC2004:00
+Oct 11 22:38:01.512348 nixos kernel: rfkill rfkill0: PM: rfkill_suspend [rfkill] returned 0 after 0 usecs
+Oct 11 22:38:01.512415 nixos kernel: leds platform::fnlock: PM: calling led_suspend [led_class] @ 3915, parent: VPC2004:00
+Oct 11 22:38:01.512503 nixos kernel: leds platform::fnlock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.512568 nixos kernel: leds input8::scrolllock: PM: calling led_suspend [led_class] @ 3915, parent: input8
+Oct 11 22:38:01.512663 nixos kernel: leds input8::scrolllock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.512738 nixos kernel: leds input8::capslock: PM: calling led_suspend [led_class] @ 3915, parent: input8
+Oct 11 22:38:01.512819 nixos kernel: leds input8::capslock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.512893 nixos kernel: leds input8::numlock: PM: calling led_suspend [led_class] @ 3915, parent: input8
+Oct 11 22:38:01.512975 nixos kernel: leds input8::numlock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.513046 nixos kernel: leds input5::scrolllock: PM: calling led_suspend [led_class] @ 3915, parent: input5
+Oct 11 22:38:01.513138 nixos kernel: leds input5::scrolllock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.513213 nixos kernel: leds input5::capslock: PM: calling led_suspend [led_class] @ 3915, parent: input5
+Oct 11 22:38:01.513297 nixos kernel: leds input5::capslock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.513370 nixos kernel: idma64 idma64.1: PM: calling platform_pm_suspend @ 3915, parent: 0000:80:15.1
+Oct 11 22:38:01.513444 nixos kernel: i2c_designware i2c_designware.3: PM: calling platform_pm_suspend @ 3092, parent: 0000:80:19.1
+Oct 11 22:38:01.513522 nixos kernel: i2c_designware i2c_designware.3: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.513586 nixos kernel: i2c_designware i2c_designware.2: PM: calling platform_pm_suspend @ 3092, parent: 0000:80:19.0
+Oct 11 22:38:01.513665 nixos kernel: i2c_designware i2c_designware.2: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.513728 nixos kernel: i2c_designware i2c_designware.0: PM: calling platform_pm_suspend @ 149, parent: 0000:80:15.0
+Oct 11 22:38:01.513801 nixos kernel: i2c_designware i2c_designware.0: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.513863 nixos kernel: usb 3-14: PM: calling usb_dev_suspend @ 3092, parent: usb3
+Oct 11 22:38:01.513960 nixos kernel: idma64 idma64.1: PM: platform_pm_suspend returned 0 after 287 usecs
+Oct 11 22:38:01.514025 nixos kernel: leds input5::numlock: PM: calling led_suspend [led_class] @ 3915, parent: input5
+Oct 11 22:38:01.514114 nixos kernel: leds input5::numlock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.514195 nixos kernel: leds input1::kana: PM: calling led_suspend [led_class] @ 3915, parent: input1
+Oct 11 22:38:01.514292 nixos kernel: leds input1::kana: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.514373 nixos kernel: leds input1::compose: PM: calling led_suspend [led_class] @ 3915, parent: input1
+Oct 11 22:38:01.514462 nixos kernel: leds input1::compose: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.514538 nixos kernel: leds input1::scrolllock: PM: calling led_suspend [led_class] @ 3915, parent: input1
+Oct 11 22:38:01.514628 nixos kernel: leds input1::scrolllock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.514710 nixos kernel: rtc rtc1: PM: calling rtc_suspend @ 3915, parent: rtc_cmos
+Oct 11 22:38:01.514787 nixos kernel: rtc rtc1: PM: rtc_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.514844 nixos kernel: leds input1::capslock: PM: calling led_suspend [led_class] @ 3915, parent: input1
+Oct 11 22:38:01.514931 nixos kernel: leds input1::capslock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.515011 nixos kernel: mei_me 0000:80:16.0: PM: calling pci_pm_suspend @ 3102, parent: pci0000:80
+Oct 11 22:38:01.515092 nixos kernel: idma64 idma64.0: PM: calling platform_pm_suspend @ 3915, parent: 0000:80:15.0
+Oct 11 22:38:01.515173 nixos kernel: usb 3-14: PM: usb_dev_suspend returned 0 after 484 usecs
+Oct 11 22:38:01.515262 nixos kernel: idma64 idma64.0: PM: platform_pm_suspend returned 0 after 295 usecs
+Oct 11 22:38:01.515330 nixos kernel: leds input1::numlock: PM: calling led_suspend [led_class] @ 3915, parent: input1
+Oct 11 22:38:01.515421 nixos kernel: leds input1::numlock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.515502 nixos kernel: iTCO_wdt iTCO_wdt: PM: calling platform_pm_suspend @ 3915, parent: 0000:80:1f.4
+Oct 11 22:38:01.515581 nixos kernel: iTCO_wdt iTCO_wdt: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.515648 nixos kernel: leds input0::scrolllock: PM: calling led_suspend [led_class] @ 3915, parent: input0
+Oct 11 22:38:01.515736 nixos kernel: leds input0::scrolllock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.515804 nixos kernel: input input12: PM: calling input_dev_suspend @ 3915, parent: VPC2004:00
+Oct 11 22:38:01.515906 nixos kernel: input input12: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.515995 nixos kernel: leds input0::capslock: PM: calling led_suspend [led_class] @ 3915, parent: input0
+Oct 11 22:38:01.516077 nixos kernel: leds input0::capslock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.516146 nixos kernel: leds input0::numlock: PM: calling led_suspend [led_class] @ 3915, parent: input0
+Oct 11 22:38:01.516222 nixos kernel: leds input0::numlock: PM: led_suspend [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.516285 nixos kernel: alarmtimer alarmtimer.0.auto: PM: calling platform_pm_suspend @ 3915, parent: rtc0
+Oct 11 22:38:01.516366 nixos kernel: alarmtimer alarmtimer.0.auto: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.516432 nixos kernel: rtc rtc0: PM: calling rtc_suspend @ 3915, parent: ACPI000E:00
+Oct 11 22:38:01.516500 nixos kernel: rtc rtc0: PM: rtc_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.516551 nixos kernel: input input11: PM: calling input_dev_suspend @ 3915, parent: LNXPWRBN:00
+Oct 11 22:38:01.516647 nixos kernel: input input11: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.516719 nixos kernel: input input10: PM: calling input_dev_suspend @ 3915, parent: PNP0C0C:00
+Oct 11 22:38:01.516801 nixos kernel: input input10: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.516867 nixos kernel: input input9: PM: calling input_dev_suspend @ 3915, parent: PNP0C0D:00
+Oct 11 22:38:01.516952 nixos kernel: input input9: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.517021 nixos kernel: usb 3-11: PM: calling usb_dev_suspend @ 3095, parent: usb3
+Oct 11 22:38:01.517110 nixos kernel: usb 3-11: PM: usb_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.517188 nixos kernel: input input8: PM: calling input_dev_suspend @ 3915, parent: 0003:1532:00B9.0006
+Oct 11 22:38:01.517312 nixos kernel: input input8: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.517422 nixos kernel: input input7: PM: calling input_dev_suspend @ 3915, parent: 0003:1532:00B9.0005
+Oct 11 22:38:01.517530 nixos kernel: input input7: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.517632 nixos kernel: input input6: PM: calling input_dev_suspend @ 3915, parent: 0003:1532:00B9.0005
+Oct 11 22:38:01.517747 nixos kernel: input input6: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.517849 nixos kernel: input input5: PM: calling input_dev_suspend @ 3915, parent: 0003:1532:00B9.0005
+Oct 11 22:38:01.517977 nixos kernel: input input5: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.518096 nixos kernel: input input4: PM: calling input_dev_suspend @ 3915, parent: 0003:1532:00B9.0004
+Oct 11 22:38:01.518210 nixos kernel: input input4: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.518314 nixos kernel: input input3: PM: calling input_dev_suspend @ 3915, parent: 0003:048D:C195.0002
+Oct 11 22:38:01.518422 nixos kernel: input input3: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.518522 nixos kernel: input input2: PM: calling input_dev_suspend @ 3915, parent: 0003:048D:C195.0002
+Oct 11 22:38:01.518630 nixos kernel: input input2: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.518728 nixos kernel: input input1: PM: calling input_dev_suspend @ 3915, parent: 0003:048D:C195.0002
+Oct 11 22:38:01.518853 nixos kernel: input input1: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.518972 nixos kernel: input input0: PM: calling input_dev_suspend @ 3915, parent: serio0
+Oct 11 22:38:01.519064 nixos kernel: input input0: PM: input_dev_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.519149 nixos kernel: atkbd serio0: PM: calling serio_suspend [serio] @ 3915, parent: i8042
+Oct 11 22:38:01.519240 nixos kernel: pcieport 0000:00:07.0: PM: calling pci_pm_suspend @ 3108, parent: pci0000:00
+Oct 11 22:38:01.519327 nixos kernel: mei_me 0000:80:16.0: PM: pci_pm_suspend returned 0 after 696 usecs
+Oct 11 22:38:01.519404 nixos kernel: usb usb4: PM: calling usb_dev_suspend @ 3102, parent: 0000:80:14.0
+Oct 11 22:38:01.519510 nixos kernel: atkbd serio0: PM: serio_suspend [serio] returned 0 after 373 usecs
+Oct 11 22:38:01.519588 nixos kernel: i8042 i8042: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.519673 nixos kernel: i8042 i8042: PM: platform_pm_suspend returned 0 after 480 usecs
+Oct 11 22:38:01.519739 nixos kernel: port serial8250:0.3: PM: calling pm_runtime_force_suspend @ 3915, parent: serial8250:0
+Oct 11 22:38:01.519833 nixos kernel: port serial8250:0.3: PM: pm_runtime_force_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.519902 nixos kernel: port serial8250:0.2: PM: calling pm_runtime_force_suspend @ 3915, parent: serial8250:0
+Oct 11 22:38:01.519980 nixos kernel: port serial8250:0.2: PM: pm_runtime_force_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.520050 nixos kernel: port serial8250:0.1: PM: calling pm_runtime_force_suspend @ 3915, parent: serial8250:0
+Oct 11 22:38:01.520133 nixos kernel: port serial8250:0.1: PM: pm_runtime_force_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.520201 nixos kernel: port serial8250:0.0: PM: calling pm_runtime_force_suspend @ 3915, parent: serial8250:0
+Oct 11 22:38:01.520282 nixos kernel: port serial8250:0.0: PM: pm_runtime_force_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.520355 nixos kernel: serial8250 serial8250: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.520429 nixos kernel: serial8250 serial8250: PM: platform_pm_suspend returned 0 after 1 usecs
+Oct 11 22:38:01.520491 nixos kernel: platform pcspkr: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.520569 nixos kernel: platform pcspkr: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.520646 nixos kernel: rtc_cmos rtc_cmos: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.520720 nixos kernel: usb usb2: PM: calling usb_dev_suspend @ 3094, parent: 0000:00:0d.0
+Oct 11 22:38:01.520828 nixos kernel: usb usb1: PM: calling usb_dev_suspend @ 3959, parent: 0000:00:0d.0
+Oct 11 22:38:01.520923 nixos kernel: rtc_cmos rtc_cmos: PM: platform_pm_suspend returned 0 after 312 usecs
+Oct 11 22:38:01.520988 nixos kernel: ieee80211 phy0: PM: calling wiphy_suspend [cfg80211] @ 3966, parent: 0000:82:00.0
+Oct 11 22:38:01.521077 nixos kernel: i8042 kbd 00:00: PM: calling pnp_bus_suspend @ 3915, parent: pnp0
+Oct 11 22:38:01.521159 nixos kernel: i8042 kbd 00:00: PM: pnp_bus_suspend returned 0 after 1 usecs
+Oct 11 22:38:01.521224 nixos kernel: platform efivars.0: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.521294 nixos kernel: platform efivars.0: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.521355 nixos kernel: platform rtc-efi.0: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.521423 nixos kernel: platform rtc-efi.0: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.521481 nixos kernel: acpi-button LNXPWRBN:00: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.521562 nixos kernel: acpi-button LNXPWRBN:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.521630 nixos kernel: platform NVDA0820:00: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.521704 nixos kernel: platform NVDA0820:00: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.521767 nixos kernel: platform INT340E:00: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.521840 nixos kernel: platform INT340E:00: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.521906 nixos kernel: acpi-wmi PNP0C14:07: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.521979 nixos kernel: acpi-wmi PNP0C14:07: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.522041 nixos kernel: ucsi_acpi USBC000:00: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.522114 nixos kernel: ucsi_acpi USBC000:00: PM: acpi_subsys_suspend returned 0 after 2 usecs
+Oct 11 22:38:01.522171 nixos kernel: int3403 thermal INTC1062:06: PM: calling acpi_subsys_suspend @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.522242 nixos kernel: int3403 thermal INTC1062:06: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.522305 nixos kernel: int3403 thermal INTC1062:05: PM: calling acpi_subsys_suspend @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.522377 nixos kernel: int3403 thermal INTC1062:05: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.522438 nixos kernel: int3403 thermal INTC1062:04: PM: calling acpi_subsys_suspend @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.522509 nixos kernel: int3403 thermal INTC1062:04: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.522572 nixos kernel: int3403 thermal INTC1062:03: PM: calling acpi_subsys_suspend @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.522644 nixos kernel: int3403 thermal INTC1062:03: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.522701 nixos kernel: int3403 thermal INTC1062:02: PM: calling acpi_subsys_suspend @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.522771 nixos kernel: int3403 thermal INTC1062:02: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.522833 nixos kernel: int3403 thermal INTC1062:01: PM: calling acpi_subsys_suspend @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.522901 nixos kernel: int3403 thermal INTC1062:01: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.522967 nixos kernel: int3403 thermal INTC1062:00: PM: calling acpi_subsys_suspend @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.523046 nixos kernel: int3403 thermal INTC1062:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.523112 nixos kernel: int3400 thermal INTC1042:00: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.523186 nixos kernel: int3400 thermal INTC1042:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.523252 nixos kernel: tpm_crb_acpi INTC7001:00: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.523326 nixos kernel: r8169 0000:81:00.0: PM: calling pci_pm_suspend @ 3969, parent: 0000:80:1c.0
+Oct 11 22:38:01.523420 nixos kernel: spd5118 0-0051: PM: calling spd5118_suspend [spd5118] @ 3970, parent: i2c-0
+Oct 11 22:38:01.523508 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: calling acpi_subsys_suspend @ 3971, parent: i2c-2
+Oct 11 22:38:01.523594 nixos kernel: intel-lpss 0000:80:19.1: PM: calling pci_pm_suspend @ 3975, parent: pci0000:80
+Oct 11 22:38:01.523677 nixos kernel: intel-lpss 0000:80:19.1: PM: pci_pm_suspend returned 0 after 7 usecs
+Oct 11 22:38:01.523747 nixos kernel: intel-lpss 0000:80:19.0: PM: calling pci_pm_suspend @ 3975, parent: pci0000:80
+Oct 11 22:38:01.523825 nixos kernel: intel-lpss 0000:80:19.0: PM: pci_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.523895 nixos kernel: intel-lpss 0000:80:15.0: PM: calling pci_pm_suspend @ 3975, parent: pci0000:80
+Oct 11 22:38:01.523970 nixos kernel: intel-lpss 0000:80:15.0: PM: pci_pm_suspend returned 0 after 139 usecs
+Oct 11 22:38:01.524039 nixos kernel: intel-spi 0000:80:1f.5: PM: calling pci_pm_suspend @ 3977, parent: pci0000:80
+Oct 11 22:38:01.524122 nixos kernel: intel-spi 0000:80:1f.5: PM: pci_pm_suspend returned 0 after 10 usecs
+Oct 11 22:38:01.524194 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: calling pci_pm_suspend @ 3977, parent: pci0000:00
+Oct 11 22:38:01.524273 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: pci_pm_suspend returned 0 after 1 usecs
+Oct 11 22:38:01.524341 nixos kernel: intel_vsec 0000:00:0a.0: PM: calling pci_pm_suspend @ 3977, parent: pci0000:00
+Oct 11 22:38:01.524424 nixos kernel: intel_vsec 0000:00:0a.0: PM: pci_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.524495 nixos kernel: nvme 0000:01:00.0: PM: calling pci_pm_suspend @ 3978, parent: 0000:00:01.0
+Oct 11 22:38:01.524579 nixos kernel: usb 3-2: PM: calling usb_dev_suspend @ 3087, parent: usb3
+Oct 11 22:38:01.524685 nixos kernel: usb 3-2: PM: usb_dev_suspend returned 0 after 6 usecs
+Oct 11 22:38:01.524770 nixos kernel: usb 3-13: PM: calling usb_dev_suspend @ 149, parent: usb3
+Oct 11 22:38:01.524872 nixos kernel: usb 3-5: PM: calling usb_dev_suspend @ 3092, parent: usb3
+Oct 11 22:38:01.524970 nixos kernel: spd5118 0-0051: PM: spd5118_suspend [spd5118] returned 0 after 2413 usecs
+Oct 11 22:38:01.525044 nixos kernel: i801_smbus 0000:80:1f.4: PM: calling pci_pm_suspend @ 3976, parent: pci0000:80
+Oct 11 22:38:01.525125 nixos kernel: i801_smbus 0000:80:1f.4: PM: pci_pm_suspend returned 0 after 5 usecs
+Oct 11 22:38:01.525198 nixos kernel: snd_hda_codec_nvhdmi hdaudioC0D0: PM: hda_codec_pm_suspend [snd_hda_codec] returned 0 after 11360 usecs
+Oct 11 22:38:01.525288 nixos kernel: snd_hda_intel 0000:02:00.1: PM: calling pci_pm_suspend @ 3968, parent: 0000:00:06.0
+Oct 11 22:38:01.525378 nixos kernel: snd_hda_intel 0000:02:00.1: PM: pci_pm_suspend returned 0 after 1134 usecs
+Oct 11 22:38:01.525458 nixos kernel: nvidia 0000:02:00.0: PM: calling pci_pm_suspend @ 3100, parent: 0000:00:06.0
+Oct 11 22:38:01.525560 nixos kernel: nvidia 0000:02:00.0: PM: pci_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.525637 nixos kernel: usb usb1: PM: usb_dev_suspend returned 0 after 13418 usecs
+Oct 11 22:38:01.525740 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: acpi_subsys_suspend returned 0 after 17807 usecs
+Oct 11 22:38:01.525824 nixos kernel: i2c_designware i2c_designware.1: PM: calling platform_pm_suspend @ 3973, parent: 0000:80:15.1
+Oct 11 22:38:01.525905 nixos kernel: i2c_designware i2c_designware.1: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.525976 nixos kernel: intel-lpss 0000:80:15.1: PM: calling pci_pm_suspend @ 3974, parent: pci0000:80
+Oct 11 22:38:01.526057 nixos kernel: intel-lpss 0000:80:15.1: PM: pci_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.526125 nixos kernel: usb usb4: PM: usb_dev_suspend returned 0 after 21701 usecs
+Oct 11 22:38:01.526217 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: pci_pm_suspend returned 0 after 25402 usecs
+Oct 11 22:38:01.526298 nixos kernel: i915 0000:00:02.0: PM: calling pci_pm_suspend @ 492, parent: pci0000:00
+Oct 11 22:38:01.526384 nixos kernel: usb 3-5: PM: usb_dev_suspend returned 0 after 22245 usecs
+Oct 11 22:38:01.526486 nixos kernel: i915 0000:00:02.0: PM: pci_pm_suspend returned 0 after 1065 usecs
+Oct 11 22:38:01.526566 nixos kernel: usb 3-13: PM: usb_dev_suspend returned 0 after 24400 usecs
+Oct 11 22:38:01.526674 nixos kernel: usb usb3: PM: calling usb_dev_suspend @ 3107, parent: 0000:80:14.0
+Oct 11 22:38:01.526778 nixos kernel: usb usb2: PM: usb_dev_suspend returned 0 after 34103 usecs
+Oct 11 22:38:01.526879 nixos kernel: xhci_hcd 0000:00:0d.0: PM: calling pci_pm_suspend @ 3959, parent: pci0000:00
+Oct 11 22:38:01.526964 nixos kernel: xhci_hcd 0000:00:0d.0: PM: pci_pm_suspend returned 0 after 150 usecs
+Oct 11 22:38:01.527042 nixos kernel: ieee80211 phy0: PM: wiphy_suspend [cfg80211] returned 0 after 34761 usecs
+Oct 11 22:38:01.527128 nixos kernel: r8169 0000:81:00.0: PM: pci_pm_suspend returned 0 after 34684 usecs
+Oct 11 22:38:01.527216 nixos kernel: mt7925e 0000:82:00.0: PM: calling pci_pm_suspend @ 3967, parent: 0000:80:1c.7
+Oct 11 22:38:01.527309 nixos kernel: usb usb3: PM: usb_dev_suspend returned 0 after 10188 usecs
+Oct 11 22:38:01.527398 nixos kernel: xhci_hcd 0000:80:14.0: PM: calling pci_pm_suspend @ 3102, parent: pci0000:80
+Oct 11 22:38:01.527477 nixos kernel: xhci_hcd 0000:80:14.0: PM: pci_pm_suspend returned 0 after 230 usecs
+Oct 11 22:38:01.527557 nixos kernel: pcieport 0000:00:07.0: PM: pci_pm_suspend returned 0 after 41156 usecs
+Oct 11 22:38:01.527649 nixos kernel: thunderbolt 0000:00:0d.2: PM: calling pci_pm_suspend @ 3977, parent: pci0000:00
+Oct 11 22:38:01.527743 nixos kernel: thunderbolt 0000:00:0d.2: PM: pci_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.527826 nixos kernel: mt7925e 0000:82:00.0: PM: pci_pm_suspend returned 0 after 9059 usecs
+Oct 11 22:38:01.527908 nixos kernel: tpm_crb_acpi INTC7001:00: PM: acpi_subsys_suspend returned 0 after 64693 usecs
+Oct 11 22:38:01.527993 nixos kernel: acpi-wmi PNP0C14:06: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.528075 nixos kernel: acpi-wmi PNP0C14:06: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.528147 nixos kernel: acpi-wmi PNP0C14:05: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.528227 nixos kernel: acpi-wmi PNP0C14:05: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.528297 nixos kernel: processor_aggregator ACPI000C:00: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.528381 nixos kernel: processor_aggregator ACPI000C:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.528453 nixos kernel: platform acpi-cpufreq: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.528530 nixos kernel: platform acpi-cpufreq: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.528598 nixos kernel: platform INTC109F:00: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.528677 nixos kernel: platform INTC109F:00: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.528744 nixos kernel: acpi-wmi PNP0C14:04: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.528823 nixos kernel: acpi-wmi PNP0C14:04: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.528891 nixos kernel: platform IGR2022:00: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.528967 nixos kernel: platform IGR2022:00: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.529034 nixos kernel: acpi-wmi PNP0C14:03: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.529106 nixos kernel: acpi-wmi PNP0C14:03: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.529171 nixos kernel: acpi-wmi PNP0C14:02: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.529239 nixos kernel: acpi-wmi PNP0C14:02: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.529300 nixos kernel: platform LHK2019:00: PM: calling platform_pm_suspend @ 3915, parent: platform
+Oct 11 22:38:01.529366 nixos kernel: platform LHK2019:00: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.529426 nixos kernel: acpi-wmi PNP0C14:01: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.529494 nixos kernel: acpi-wmi PNP0C14:01: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.529556 nixos kernel: acpi-wmi PNP0C14:00: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.529625 nixos kernel: acpi-wmi PNP0C14:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.529689 nixos kernel: acpi-button PNP0C0C:00: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.529759 nixos kernel: acpi-button PNP0C0C:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.529822 nixos kernel: acpi-button PNP0C0D:00: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.529891 nixos kernel: acpi-button PNP0C0D:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.529952 nixos kernel: ac ACPI0003:00: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.530020 nixos kernel: ac ACPI0003:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.530083 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.530150 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.530208 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: calling acpi_subsys_suspend @ 3915, parent: platform
+Oct 11 22:38:01.530270 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.530327 nixos kernel: acpi-tad ACPI000E:00: PM: calling acpi_subsys_suspend @ 3915, parent: pci0000:80
+Oct 11 22:38:01.530391 nixos kernel: acpi-tad ACPI000E:00: PM: acpi_subsys_suspend returned 0 after 30 usecs
+Oct 11 22:38:01.530446 nixos kernel: platform PNP0103:00: PM: calling platform_pm_suspend @ 3915, parent: 0000:00:1f.0
+Oct 11 22:38:01.530507 nixos kernel: platform PNP0103:00: PM: platform_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.530563 nixos kernel: ideapad_acpi VPC2004:00: PM: calling acpi_subsys_suspend @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.530632 nixos kernel: ideapad_acpi VPC2004:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.530693 nixos kernel: acpi-battery PNP0C0A:00: PM: calling acpi_subsys_suspend @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.530756 nixos kernel: acpi-battery PNP0C0A:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.530818 nixos kernel: acpi-ec PNP0C09:00: PM: calling acpi_subsys_suspend @ 3915, parent: 0000:00:1f.0
+Oct 11 22:38:01.530882 nixos kernel: acpi-ec PNP0C09:00: PM: acpi_subsys_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.530939 nixos kernel: pcieport 0000:80:1c.7: PM: calling pci_pm_suspend @ 3960, parent: pci0000:80
+Oct 11 22:38:01.531007 nixos kernel: pcieport 0000:80:1c.0: PM: calling pci_pm_suspend @ 3961, parent: pci0000:80
+Oct 11 22:38:01.531077 nixos kernel: pcieport 0000:80:1c.7: PM: pci_pm_suspend returned 0 after 15 usecs
+Oct 11 22:38:01.531143 nixos kernel: pcieport 0000:80:1c.0: PM: pci_pm_suspend returned 0 after 15 usecs
+Oct 11 22:38:01.531205 nixos kernel: pci 0000:00:1f.0: PM: calling pci_pm_suspend @ 3960, parent: pci0000:00
+Oct 11 22:38:01.531271 nixos kernel: pci 0000:00:1f.0: PM: pci_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.531334 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: calling pci_pm_suspend @ 3961, parent: pci0000:00
+Oct 11 22:38:01.531405 nixos kernel: pci 0000:00:00.0: PM: calling pci_pm_suspend @ 3960, parent: pci0000:00
+Oct 11 22:38:01.531473 nixos kernel: pci 0000:00:00.0: PM: pci_pm_suspend returned 0 after 0 usecs
+Oct 11 22:38:01.531535 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: pci_pm_suspend returned 0 after 2 usecs
+Oct 11 22:38:01.531597 nixos kernel: pcieport 0000:00:06.0: PM: calling pci_pm_suspend @ 3962, parent: pci0000:00
+Oct 11 22:38:01.531665 nixos kernel: regulator regulator.0: PM: calling regulator_suspend @ 3915, parent: reg-dummy
+Oct 11 22:38:01.531737 nixos kernel: regulator regulator.0: PM: regulator_suspend returned 0 after 1 usecs
+Oct 11 22:38:01.531796 nixos kernel: pcieport 0000:00:06.0: PM: pci_pm_suspend returned 0 after 6 usecs
+Oct 11 22:38:01.531862 nixos kernel: nvme 0000:01:00.0: PM: pci_pm_suspend returned 0 after 64861 usecs
+Oct 11 22:38:01.531934 nixos kernel: pcieport 0000:00:01.0: PM: calling pci_pm_suspend @ 3963, parent: pci0000:00
+Oct 11 22:38:01.532001 nixos kernel: pcieport 0000:00:01.0: PM: pci_pm_suspend returned 0 after 21 usecs
+Oct 11 22:38:01.532064 nixos kernel: pci 0000:80:1f.0: PM: calling pci_pm_suspend_late @ 3965, parent: pci0000:80
+Oct 11 22:38:01.532129 nixos kernel: pci 0000:80:1f.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.532191 nixos kernel: pci 0000:00:1f.5: PM: calling pci_pm_suspend_late @ 3965, parent: pci0000:00
+Oct 11 22:38:01.532256 nixos kernel: pci 0000:80:14.5: PM: calling pci_pm_suspend_late @ 3963, parent: pci0000:80
+Oct 11 22:38:01.532318 nixos kernel: pci 0000:00:1f.5: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.532377 nixos kernel: pci 0000:80:14.5: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.532437 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: calling pci_pm_suspend_late @ 3963, parent: pci0000:80
+Oct 11 22:38:01.532502 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.532563 nixos kernel: i915 0000:00:02.0: PM: calling pci_pm_suspend_late @ 3963, parent: pci0000:00
+Oct 11 22:38:01.532633 nixos kernel: snd_hda_intel 0000:02:00.1: PM: calling pci_pm_suspend_late @ 3978, parent: 0000:00:06.0
+Oct 11 22:38:01.532700 nixos kernel: snd_hda_intel 0000:02:00.1: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.532766 nixos kernel: acpi-button LNXPWRBN:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.532827 nixos kernel: mt7925e 0000:82:00.0: PM: calling pci_pm_suspend_late @ 3978, parent: 0000:80:1c.7
+Oct 11 22:38:01.532894 nixos kernel: mt7925e 0000:82:00.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.532959 nixos kernel: acpi-button LNXPWRBN:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.533019 nixos kernel: acpi-wmi PNP0C14:07: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.533077 nixos kernel: acpi-wmi PNP0C14:07: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.533130 nixos kernel: ucsi_acpi USBC000:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.533188 nixos kernel: nvidia 0000:02:00.0: PM: calling pci_pm_suspend_late @ 3965, parent: 0000:00:06.0
+Oct 11 22:38:01.533258 nixos kernel: nvidia 0000:02:00.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.533323 nixos kernel: pcieport 0000:00:07.0: PM: calling pci_pm_suspend_late @ 3102, parent: pci0000:00
+Oct 11 22:38:01.533387 nixos kernel: pcieport 0000:00:07.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.533449 nixos kernel: r8169 0000:81:00.0: PM: calling pci_pm_suspend_late @ 3102, parent: 0000:80:1c.0
+Oct 11 22:38:01.533514 nixos kernel: r8169 0000:81:00.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.533576 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: calling acpi_subsys_suspend_late @ 3102, parent: i2c-2
+Oct 11 22:38:01.533643 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.533704 nixos kernel: i2c_designware i2c_designware.1: PM: calling i2c_dw_suspend @ 3102, parent: 0000:80:15.1
+Oct 11 22:38:01.533769 nixos kernel: i2c_designware i2c_designware.1: PM: i2c_dw_suspend returned 0 after 16 usecs
+Oct 11 22:38:01.533828 nixos kernel: intel-lpss 0000:80:15.1: PM: calling pci_pm_suspend_late @ 3102, parent: pci0000:80
+Oct 11 22:38:01.533891 nixos kernel: intel-lpss 0000:80:15.1: PM: pci_pm_suspend_late returned 0 after 122 usecs
+Oct 11 22:38:01.533953 nixos kernel: mei_me 0000:80:16.0: PM: calling pci_pm_suspend_late @ 3966, parent: pci0000:80
+Oct 11 22:38:01.534016 nixos kernel: mei_me 0000:80:16.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.534076 nixos kernel: intel-lpss 0000:80:15.0: PM: calling pci_pm_suspend_late @ 3966, parent: pci0000:80
+Oct 11 22:38:01.534138 nixos kernel: intel-lpss 0000:80:15.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.534200 nixos kernel: i801_smbus 0000:80:1f.4: PM: calling pci_pm_suspend_late @ 3094, parent: pci0000:80
+Oct 11 22:38:01.534262 nixos kernel: i801_smbus 0000:80:1f.4: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.534321 nixos kernel: intel-spi 0000:80:1f.5: PM: calling pci_pm_suspend_late @ 3094, parent: pci0000:80
+Oct 11 22:38:01.534386 nixos kernel: intel-spi 0000:80:1f.5: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.534450 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: calling pci_pm_suspend_late @ 3094, parent: pci0000:00
+Oct 11 22:38:01.534514 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.534574 nixos kernel: intel_vsec 0000:00:0a.0: PM: calling pci_pm_suspend_late @ 149, parent: pci0000:00
+Oct 11 22:38:01.534641 nixos kernel: intel_vsec 0000:00:0a.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.534701 nixos kernel: thunderbolt 0000:00:0d.2: PM: calling pci_pm_suspend_late @ 149, parent: pci0000:00
+Oct 11 22:38:01.534761 nixos kernel: thunderbolt 0000:00:0d.2: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.534824 nixos kernel: nvme 0000:01:00.0: PM: calling pci_pm_suspend_late @ 149, parent: 0000:00:01.0
+Oct 11 22:38:01.534894 nixos kernel: nvme 0000:01:00.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.534962 nixos kernel: intel-lpss 0000:80:19.1: PM: calling pci_pm_suspend_late @ 149, parent: pci0000:80
+Oct 11 22:38:01.535024 nixos kernel: intel-lpss 0000:80:19.1: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.535083 nixos kernel: intel-lpss 0000:80:19.0: PM: calling pci_pm_suspend_late @ 149, parent: pci0000:80
+Oct 11 22:38:01.535144 nixos kernel: intel-lpss 0000:80:19.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.535204 nixos kernel: xhci_hcd 0000:00:0d.0: PM: calling pci_pm_suspend_late @ 492, parent: pci0000:00
+Oct 11 22:38:01.535267 nixos kernel: xhci_hcd 0000:00:0d.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.535332 nixos kernel: xhci_hcd 0000:80:14.0: PM: calling pci_pm_suspend_late @ 149, parent: pci0000:80
+Oct 11 22:38:01.535393 nixos kernel: xhci_hcd 0000:80:14.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.535454 nixos kernel: i915 0000:00:02.0: PM: pci_pm_suspend_late returned 0 after 18022 usecs
+Oct 11 22:38:01.535518 nixos kernel: ucsi_acpi USBC000:00: PM: acpi_subsys_suspend_late returned 0 after 1111464 usecs
+Oct 11 22:38:01.535576 nixos kernel: int3403 thermal INTC1062:06: PM: calling acpi_subsys_suspend_late @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.535641 nixos kernel: int3403 thermal INTC1062:06: PM: acpi_subsys_suspend_late returned 0 after 1 usecs
+Oct 11 22:38:01.535701 nixos kernel: int3403 thermal INTC1062:05: PM: calling acpi_subsys_suspend_late @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.535762 nixos kernel: int3403 thermal INTC1062:05: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.535821 nixos kernel: int3403 thermal INTC1062:04: PM: calling acpi_subsys_suspend_late @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.535885 nixos kernel: int3403 thermal INTC1062:04: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.535942 nixos kernel: int3403 thermal INTC1062:03: PM: calling acpi_subsys_suspend_late @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.536002 nixos kernel: int3403 thermal INTC1062:03: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.536061 nixos kernel: int3403 thermal INTC1062:02: PM: calling acpi_subsys_suspend_late @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.536121 nixos kernel: int3403 thermal INTC1062:02: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.536179 nixos kernel: int3403 thermal INTC1062:01: PM: calling acpi_subsys_suspend_late @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.536241 nixos kernel: int3403 thermal INTC1062:01: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.536298 nixos kernel: int3403 thermal INTC1062:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.536358 nixos kernel: int3403 thermal INTC1062:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.536419 nixos kernel: int3400 thermal INTC1042:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.536475 nixos kernel: int3400 thermal INTC1042:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.536529 nixos kernel: tpm_crb_acpi INTC7001:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.536584 nixos kernel: tpm_crb_acpi INTC7001:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.536640 nixos kernel: acpi-wmi PNP0C14:06: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.536693 nixos kernel: acpi-wmi PNP0C14:06: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.536746 nixos kernel: acpi-wmi PNP0C14:05: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.536798 nixos kernel: acpi-wmi PNP0C14:05: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.536853 nixos kernel: processor_aggregator ACPI000C:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.536907 nixos kernel: processor_aggregator ACPI000C:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.536962 nixos kernel: acpi-wmi PNP0C14:04: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.537017 nixos kernel: acpi-wmi PNP0C14:04: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.537073 nixos kernel: acpi-wmi PNP0C14:03: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.537126 nixos kernel: acpi-wmi PNP0C14:03: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.537180 nixos kernel: acpi-wmi PNP0C14:02: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.537237 nixos kernel: acpi-wmi PNP0C14:02: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.537291 nixos kernel: acpi-wmi PNP0C14:01: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.537347 nixos kernel: acpi-wmi PNP0C14:01: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.537404 nixos kernel: acpi-wmi PNP0C14:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.537459 nixos kernel: acpi-wmi PNP0C14:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.537514 nixos kernel: acpi-button PNP0C0C:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.537566 nixos kernel: acpi-button PNP0C0C:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.537621 nixos kernel: acpi-button PNP0C0D:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.537674 nixos kernel: acpi-button PNP0C0D:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.537726 nixos kernel: ac ACPI0003:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.537782 nixos kernel: ac ACPI0003:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.537836 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.537890 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.537947 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: platform
+Oct 11 22:38:01.538003 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.538060 nixos kernel: acpi-tad ACPI000E:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: pci0000:80
+Oct 11 22:38:01.538115 nixos kernel: acpi-tad ACPI000E:00: PM: acpi_subsys_suspend_late returned 0 after 21 usecs
+Oct 11 22:38:01.538169 nixos kernel: ideapad_acpi VPC2004:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.538229 nixos kernel: ideapad_acpi VPC2004:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.538288 nixos kernel: acpi-battery PNP0C0A:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.538348 nixos kernel: acpi-battery PNP0C0A:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.538409 nixos kernel: acpi-ec PNP0C09:00: PM: calling acpi_subsys_suspend_late @ 3915, parent: 0000:00:1f.0
+Oct 11 22:38:01.538466 nixos kernel: acpi-ec PNP0C09:00: PM: acpi_subsys_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.538524 nixos kernel: pcieport 0000:80:1c.0: PM: calling pci_pm_suspend_late @ 3959, parent: pci0000:80
+Oct 11 22:38:01.538590 nixos kernel: pcieport 0000:80:1c.7: PM: calling pci_pm_suspend_late @ 3969, parent: pci0000:80
+Oct 11 22:38:01.538656 nixos kernel: pcieport 0000:80:1c.0: PM: pci_pm_suspend_late returned 0 after 1 usecs
+Oct 11 22:38:01.538720 nixos kernel: pcieport 0000:80:1c.7: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.538782 nixos kernel: pci 0000:00:1f.0: PM: calling pci_pm_suspend_late @ 3959, parent: pci0000:00
+Oct 11 22:38:01.538841 nixos kernel: pci 0000:00:1f.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.538899 nixos kernel: pci 0000:00:00.0: PM: calling pci_pm_suspend_late @ 3969, parent: pci0000:00
+Oct 11 22:38:01.538958 nixos kernel: pcieport 0000:00:01.0: PM: calling pci_pm_suspend_late @ 3090, parent: pci0000:00
+Oct 11 22:38:01.539021 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: calling pci_pm_suspend_late @ 3963, parent: pci0000:00
+Oct 11 22:38:01.539082 nixos kernel: pcieport 0000:00:06.0: PM: calling pci_pm_suspend_late @ 3102, parent: pci0000:00
+Oct 11 22:38:01.539143 nixos kernel: pci 0000:00:00.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.539205 nixos kernel: pcieport 0000:00:01.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.539266 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: pci_pm_suspend_late returned 0 after 1 usecs
+Oct 11 22:38:01.539326 nixos kernel: pcieport 0000:00:06.0: PM: pci_pm_suspend_late returned 0 after 0 usecs
+Oct 11 22:38:01.539388 nixos kernel: pci 0000:80:1f.0: PM: calling pci_pm_suspend_noirq @ 3094, parent: pci0000:80
+Oct 11 22:38:01.539450 nixos kernel: pci 0000:80:14.5: PM: calling pci_pm_suspend_noirq @ 149, parent: pci0000:80
+Oct 11 22:38:01.539511 nixos kernel: pci 0000:00:1f.5: PM: calling pci_pm_suspend_noirq @ 3963, parent: pci0000:00
+Oct 11 22:38:01.539572 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: calling pci_pm_suspend_noirq @ 3090, parent: pci0000:80
+Oct 11 22:38:01.539636 nixos kernel: iTCO_wdt iTCO_wdt: PM: calling iTCO_wdt_suspend_noirq [iTCO_wdt] @ 3915, parent: 0000:80:1f.4
+Oct 11 22:38:01.539699 nixos kernel: iTCO_wdt iTCO_wdt: PM: iTCO_wdt_suspend_noirq [iTCO_wdt] returned 0 after 0 usecs
+Oct 11 22:38:01.539755 nixos kernel: acpi-button LNXPWRBN:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.539813 nixos kernel: acpi-button LNXPWRBN:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.539868 nixos kernel: acpi-wmi PNP0C14:07: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.539924 nixos kernel: acpi-wmi PNP0C14:07: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.539977 nixos kernel: ucsi_acpi USBC000:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.540030 nixos kernel: ucsi_acpi USBC000:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.540084 nixos kernel: int3403 thermal INTC1062:06: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.540143 nixos kernel: int3403 thermal INTC1062:06: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.540200 nixos kernel: int3403 thermal INTC1062:05: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.540256 nixos kernel: int3403 thermal INTC1062:05: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.540315 nixos kernel: int3403 thermal INTC1062:04: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.540372 nixos kernel: int3403 thermal INTC1062:04: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.540428 nixos kernel: int3403 thermal INTC1062:03: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.540486 nixos kernel: int3403 thermal INTC1062:03: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.540543 nixos kernel: int3403 thermal INTC1062:02: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.540599 nixos kernel: int3403 thermal INTC1062:02: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.540659 nixos kernel: int3403 thermal INTC1062:01: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.540718 nixos kernel: int3403 thermal INTC1062:01: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.540777 nixos kernel: int3403 thermal INTC1062:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.540837 nixos kernel: int3403 thermal INTC1062:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.540894 nixos kernel: int3400 thermal INTC1042:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.540950 nixos kernel: int3400 thermal INTC1042:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.541004 nixos kernel: tpm_crb_acpi INTC7001:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.541058 nixos kernel: tpm_crb_acpi INTC7001:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.541112 nixos kernel: acpi-wmi PNP0C14:06: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.541168 nixos kernel: snd_hda_intel 0000:02:00.1: PM: calling pci_pm_suspend_noirq @ 3966, parent: 0000:00:06.0
+Oct 11 22:38:01.541235 nixos kernel: acpi-wmi PNP0C14:06: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.541291 nixos kernel: acpi-wmi PNP0C14:05: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.541347 nixos kernel: acpi-wmi PNP0C14:05: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.541403 nixos kernel: processor_aggregator ACPI000C:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.541458 nixos kernel: processor_aggregator ACPI000C:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.541512 nixos kernel: acpi-wmi PNP0C14:04: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.541569 nixos kernel: acpi-wmi PNP0C14:04: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.541627 nixos kernel: acpi-wmi PNP0C14:03: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.541681 nixos kernel: acpi-wmi PNP0C14:03: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.541736 nixos kernel: acpi-wmi PNP0C14:02: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.541791 nixos kernel: acpi-wmi PNP0C14:02: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.541844 nixos kernel: acpi-wmi PNP0C14:01: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.541899 nixos kernel: acpi-wmi PNP0C14:01: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.541953 nixos kernel: acpi-wmi PNP0C14:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.542005 nixos kernel: acpi-wmi PNP0C14:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.542057 nixos kernel: acpi-button PNP0C0C:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.542110 nixos kernel: acpi-button PNP0C0C:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.542165 nixos kernel: acpi-button PNP0C0D:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.542222 nixos kernel: acpi-button PNP0C0D:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.542276 nixos kernel: ac ACPI0003:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.542331 nixos kernel: ac ACPI0003:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.542388 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.542445 nixos kernel: pci 0000:80:1f.0: PM: pci_pm_suspend_noirq returned 0 after 399 usecs
+Oct 11 22:38:01.542505 nixos kernel: pci 0000:00:1f.5: PM: pci_pm_suspend_noirq returned 0 after 404 usecs
+Oct 11 22:38:01.542568 nixos kernel: pci 0000:80:14.5: PM: pci_pm_suspend_noirq returned 0 after 464 usecs
+Oct 11 22:38:01.542631 nixos kernel: pcieport 0000:00:07.0: PM: calling pci_pm_suspend_noirq @ 3978, parent: pci0000:00
+Oct 11 22:38:01.542693 nixos kernel: mt7925e 0000:82:00.0: PM: calling pci_pm_suspend_noirq @ 3092, parent: 0000:80:1c.7
+Oct 11 22:38:01.542756 nixos kernel: r8169 0000:81:00.0: PM: calling pci_pm_suspend_noirq @ 489, parent: 0000:80:1c.0
+Oct 11 22:38:01.542823 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: calling acpi_subsys_suspend_noirq @ 3974, parent: i2c-2
+Oct 11 22:38:01.542885 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.542948 nixos kernel: intel-lpss 0000:80:15.1: PM: calling pci_pm_suspend_noirq @ 3974, parent: pci0000:80
+Oct 11 22:38:01.543012 nixos kernel: mei_me 0000:80:16.0: PM: calling pci_pm_suspend_noirq @ 3973, parent: pci0000:80
+Oct 11 22:38:01.543073 nixos kernel: intel-lpss 0000:80:15.0: PM: calling pci_pm_suspend_noirq @ 3972, parent: pci0000:80
+Oct 11 22:38:01.543135 nixos kernel: intel-lpss 0000:80:15.0: PM: pci_pm_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.543195 nixos kernel: i801_smbus 0000:80:1f.4: PM: calling pci_pm_suspend_noirq @ 3972, parent: pci0000:80
+Oct 11 22:38:01.543257 nixos kernel: intel-spi 0000:80:1f.5: PM: calling pci_pm_suspend_noirq @ 3971, parent: pci0000:80
+Oct 11 22:38:01.543320 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: calling pci_pm_suspend_noirq @ 3100, parent: pci0000:00
+Oct 11 22:38:01.543381 nixos kernel: intel_vsec 0000:00:0a.0: PM: calling pci_pm_suspend_noirq @ 3968, parent: pci0000:00
+Oct 11 22:38:01.543441 nixos kernel: nvme 0000:01:00.0: PM: calling pci_pm_suspend_noirq @ 3960, parent: 0000:00:01.0
+Oct 11 22:38:01.543505 nixos kernel: intel-lpss 0000:80:19.1: PM: calling pci_pm_suspend_noirq @ 3976, parent: pci0000:80
+Oct 11 22:38:01.543566 nixos kernel: intel-lpss 0000:80:19.0: PM: calling pci_pm_suspend_noirq @ 3107, parent: pci0000:80
+Oct 11 22:38:01.543628 nixos kernel: xhci_hcd 0000:00:0d.0: PM: calling pci_pm_suspend_noirq @ 3959, parent: pci0000:00
+Oct 11 22:38:01.543692 nixos kernel: intel-lpss 0000:80:19.0: PM: pci_pm_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.543752 nixos kernel: intel-lpss 0000:80:19.1: PM: pci_pm_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.543814 nixos kernel: xhci_hcd 0000:80:14.0: PM: calling pci_pm_suspend_noirq @ 3962, parent: pci0000:80
+Oct 11 22:38:01.543880 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: acpi_subsys_suspend_noirq returned 0 after 6078 usecs
+Oct 11 22:38:01.543936 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: platform
+Oct 11 22:38:01.543991 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: acpi_subsys_suspend_noirq returned 0 after 2212 usecs
+Oct 11 22:38:01.544046 nixos kernel: acpi-tad ACPI000E:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: pci0000:80
+Oct 11 22:38:01.544103 nixos kernel: acpi-tad ACPI000E:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.544161 nixos kernel: ideapad_acpi VPC2004:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.544220 nixos kernel: ideapad_acpi VPC2004:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.544278 nixos kernel: acpi-battery PNP0C0A:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.544337 nixos kernel: acpi-battery PNP0C0A:00: PM: acpi_subsys_suspend_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.544395 nixos kernel: acpi-ec PNP0C09:00: PM: calling acpi_subsys_suspend_noirq @ 3915, parent: 0000:00:1f.0
+Oct 11 22:38:01.544453 nixos kernel: ACPI: EC: interrupt blocked
+Oct 11 22:38:01.544461 nixos kernel: acpi-ec PNP0C09:00: PM: acpi_subsys_suspend_noirq returned 0 after 1 usecs
+Oct 11 22:38:01.544520 nixos kernel: pci 0000:00:1f.0: PM: calling pci_pm_suspend_noirq @ 3961, parent: pci0000:00
+Oct 11 22:38:01.544583 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: calling pci_pm_suspend_noirq @ 149, parent: pci0000:00
+Oct 11 22:38:01.544649 nixos kernel: pci 0000:00:00.0: PM: calling pci_pm_suspend_noirq @ 3975, parent: pci0000:00
+Oct 11 22:38:01.544711 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: pci_pm_suspend_noirq returned 0 after 18811 usecs
+Oct 11 22:38:01.544773 nixos kernel: i915 0000:00:02.0: PM: calling pci_pm_suspend_noirq @ 3969, parent: pci0000:00
+Oct 11 22:38:01.544836 nixos kernel: pcieport 0000:00:07.0: PM: pci_pm_suspend_noirq returned 0 after 18229 usecs
+Oct 11 22:38:01.544898 nixos kernel: thunderbolt 0000:00:0d.2: PM: calling pci_pm_suspend_noirq @ 3088, parent: pci0000:00
+Oct 11 22:38:01.544962 nixos kernel: snd_hda_intel 0000:02:00.1: PM: pci_pm_suspend_noirq returned 0 after 26308 usecs
+Oct 11 22:38:01.545025 nixos kernel: nvidia 0000:02:00.0: PM: calling pci_pm_suspend_noirq @ 3102, parent: 0000:00:06.0
+Oct 11 22:38:01.545090 nixos kernel: i801_smbus 0000:80:1f.4: PM: pci_pm_suspend_noirq returned 0 after 40205 usecs
+Oct 11 22:38:01.545149 nixos kernel: intel-spi 0000:80:1f.5: PM: pci_pm_suspend_noirq returned 0 after 40146 usecs
+Oct 11 22:38:01.545212 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: pci_pm_suspend_noirq returned 0 after 45198 usecs
+Oct 11 22:38:01.545275 nixos kernel: pci 0000:00:1f.0: PM: pci_pm_suspend_noirq returned 0 after 43524 usecs
+Oct 11 22:38:01.545336 nixos kernel: intel_vsec 0000:00:0a.0: PM: pci_pm_suspend_noirq returned 0 after 52805 usecs
+Oct 11 22:38:01.545399 nixos kernel: pci 0000:00:00.0: PM: pci_pm_suspend_noirq returned 0 after 48676 usecs
+Oct 11 22:38:01.545459 nixos kernel: intel-lpss 0000:80:15.1: PM: pci_pm_suspend_noirq returned 0 after 65652 usecs
+Oct 11 22:38:01.545518 nixos kernel: mei_me 0000:80:16.0: PM: pci_pm_suspend_noirq returned 0 after 67940 usecs
+Oct 11 22:38:01.545578 nixos kernel: nvme 0000:01:00.0: PM: pci_pm_suspend_noirq returned 0 after 75356 usecs
+Oct 11 22:38:01.545644 nixos kernel: pcieport 0000:00:01.0: PM: calling pci_pm_suspend_noirq @ 492, parent: pci0000:00
+Oct 11 22:38:01.545704 nixos kernel: r8169 0000:81:00.0: PM: pci_pm_suspend_noirq returned 0 after 76466 usecs
+Oct 11 22:38:01.545768 nixos kernel: pcieport 0000:80:1c.0: PM: calling pci_pm_suspend_noirq @ 3977, parent: pci0000:80
+Oct 11 22:38:01.545830 nixos kernel: xhci_hcd 0000:00:0d.0: PM: pci_pm_suspend_noirq returned 0 after 77749 usecs
+Oct 11 22:38:01.545890 nixos kernel: mt7925e 0000:82:00.0: PM: pci_pm_suspend_noirq returned 0 after 78757 usecs
+Oct 11 22:38:01.545952 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: pci_pm_suspend_noirq returned 0 after 71553 usecs
+Oct 11 22:38:01.546012 nixos kernel: pcieport 0000:80:1c.7: PM: calling pci_pm_suspend_noirq @ 3965, parent: pci0000:80
+Oct 11 22:38:01.546071 nixos kernel: xhci_hcd 0000:80:14.0: PM: pci_pm_suspend_noirq returned 0 after 79190 usecs
+Oct 11 22:38:01.546132 nixos kernel: i915 0000:00:02.0: PM: pci_pm_suspend_noirq returned 0 after 63444 usecs
+Oct 11 22:38:01.546193 nixos kernel: nvidia 0000:02:00.0: PM: pci_pm_suspend_noirq returned 0 after 55976 usecs
+Oct 11 22:38:01.546256 nixos kernel: pcieport 0000:00:06.0: PM: calling pci_pm_suspend_noirq @ 3108, parent: pci0000:00
+Oct 11 22:38:01.546319 nixos kernel: thunderbolt 0000:00:0d.2: PM: pci_pm_suspend_noirq returned 0 after 63744 usecs
+Oct 11 22:38:01.546383 nixos kernel: pcieport 0000:00:01.0: PM: pci_pm_suspend_noirq returned 0 after 16428 usecs
+Oct 11 22:38:01.546444 nixos kernel: pcieport 0000:80:1c.7: PM: pci_pm_suspend_noirq returned 0 after 14764 usecs
+Oct 11 22:38:01.546504 nixos kernel: pcieport 0000:80:1c.0: PM: pci_pm_suspend_noirq returned 0 after 16982 usecs
+Oct 11 22:38:01.546565 nixos kernel: pcieport 0000:00:06.0: PM: pci_pm_suspend_noirq returned 0 after 42181 usecs
+Oct 11 22:38:01.546630 nixos kernel: ACPI: PM: Preparing to enter system sleep state S3
+Oct 11 22:38:01.546635 nixos kernel: ACPI: EC: event blocked
+Oct 11 22:38:01.546641 nixos kernel: ACPI: EC: EC stopped
+Oct 11 22:38:01.546646 nixos kernel: ACPI: PM: Saving platform NVS memory
+Oct 11 22:38:01.546652 nixos kernel: Disabling non-boot CPUs ...
+Oct 11 22:38:01.546753 nixos kernel: ACPI: PM: Low-level resume complete
+Oct 11 22:38:01.546757 nixos kernel: ACPI: EC: EC started
+Oct 11 22:38:01.546761 nixos kernel: ACPI: PM: Restoring platform NVS memory
+Oct 11 22:38:01.546765 nixos kernel: Enabling non-boot CPUs ...
+Oct 11 22:38:01.546842 nixos kernel: core: The event 0x5d0 is not supported as an auto-counter reload event.
+Oct 11 22:38:01.546848 nixos kernel: core: cpu_atom PMU driver: 
+Oct 11 22:38:01.546853 nixos kernel: ... version:                   6
+Oct 11 22:38:01.546859 nixos kernel: ... bit width:                 48
+Oct 11 22:38:01.546863 nixos kernel: ... generic counters:          8
+Oct 11 22:38:01.546870 nixos kernel: ... generic bitmap:            00000000000000ff
+Oct 11 22:38:01.546874 nixos kernel: ... fixed-purpose counters:    6
+Oct 11 22:38:01.546878 nixos kernel: ... fixed-purpose bitmap:      0000000000000077
+Oct 11 22:38:01.546882 nixos kernel: ... value mask:                0000ffffffffffff
+Oct 11 22:38:01.546886 nixos kernel: ... max period:                00007fffffffffff
+Oct 11 22:38:01.546892 nixos kernel: ... global_ctrl mask:          00000077000000ff
+Oct 11 22:38:01.546997 nixos kernel: ACPI: PM: Waking up from system sleep state S3
+Oct 11 22:38:01.547001 nixos kernel: pci 0000:00:00.0: PM: calling pci_pm_resume_noirq @ 3963, parent: pci0000:00
+Oct 11 22:38:01.547064 nixos kernel: pcieport 0000:00:01.0: PM: calling pci_pm_resume_noirq @ 3108, parent: pci0000:00
+Oct 11 22:38:01.547127 nixos kernel: pci 0000:00:00.0: PM: pci_pm_resume_noirq returned 0 after 37 usecs
+Oct 11 22:38:01.547188 nixos kernel: i915 0000:00:02.0: PM: calling pci_pm_resume_noirq @ 3963, parent: pci0000:00
+Oct 11 22:38:01.547262 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: calling pci_pm_resume_noirq @ 3964, parent: pci0000:00
+Oct 11 22:38:01.547323 nixos kernel: pcieport 0000:00:06.0: PM: calling pci_pm_resume_noirq @ 3977, parent: pci0000:00
+Oct 11 22:38:01.547386 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: pci_pm_resume_noirq returned 0 after 301 usecs
+Oct 11 22:38:01.547447 nixos kernel: intel_vsec 0000:00:0a.0: PM: calling pci_pm_resume_noirq @ 3964, parent: pci0000:00
+Oct 11 22:38:01.547506 nixos kernel: intel_vsec 0000:00:0a.0: PM: pci_pm_resume_noirq returned 0 after 28 usecs
+Oct 11 22:38:01.547568 nixos kernel: xhci_hcd 0000:00:0d.0: PM: calling pci_pm_resume_noirq @ 3964, parent: pci0000:00
+Oct 11 22:38:01.547634 nixos kernel: thunderbolt 0000:00:0d.2: PM: calling pci_pm_resume_noirq @ 492, parent: pci0000:00
+Oct 11 22:38:01.547698 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: calling pci_pm_resume_noirq @ 3088, parent: pci0000:00
+Oct 11 22:38:01.547759 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: pci_pm_resume_noirq returned 0 after 37 usecs
+Oct 11 22:38:01.547819 nixos kernel: pci 0000:00:1f.0: PM: calling pci_pm_resume_noirq @ 3088, parent: pci0000:00
+Oct 11 22:38:01.547877 nixos kernel: pci 0000:00:1f.5: PM: calling pci_pm_resume_noirq @ 3102, parent: pci0000:00
+Oct 11 22:38:01.547937 nixos kernel: pci 0000:00:1f.5: PM: pci_pm_resume_noirq returned 0 after 60 usecs
+Oct 11 22:38:01.548000 nixos kernel: xhci_hcd 0000:80:14.0: PM: calling pci_pm_resume_noirq @ 3102, parent: pci0000:80
+Oct 11 22:38:01.548061 nixos kernel: pci 0000:80:14.5: PM: calling pci_pm_resume_noirq @ 3969, parent: pci0000:80
+Oct 11 22:38:01.548120 nixos kernel: intel-lpss 0000:80:15.0: PM: calling pci_pm_resume_noirq @ 3962, parent: pci0000:80
+Oct 11 22:38:01.548179 nixos kernel: pci 0000:80:14.5: PM: pci_pm_resume_noirq returned 0 after 148 usecs
+Oct 11 22:38:01.548237 nixos kernel: intel-lpss 0000:80:15.1: PM: calling pci_pm_resume_noirq @ 3969, parent: pci0000:80
+Oct 11 22:38:01.548298 nixos kernel: mei_me 0000:80:16.0: PM: calling pci_pm_resume_noirq @ 149, parent: pci0000:80
+Oct 11 22:38:01.548358 nixos kernel: intel-lpss 0000:80:19.0: PM: calling pci_pm_resume_noirq @ 3092, parent: pci0000:80
+Oct 11 22:38:01.548417 nixos kernel: pci 0000:00:1f.0: PM: pci_pm_resume_noirq returned 0 after 661 usecs
+Oct 11 22:38:01.548477 nixos kernel: intel-lpss 0000:80:19.1: PM: calling pci_pm_resume_noirq @ 3088, parent: pci0000:80
+Oct 11 22:38:01.548537 nixos kernel: pcieport 0000:80:1c.0: PM: calling pci_pm_resume_noirq @ 3959, parent: pci0000:80
+Oct 11 22:38:01.548599 nixos kernel: pcieport 0000:80:1c.7: PM: calling pci_pm_resume_noirq @ 489, parent: pci0000:80
+Oct 11 22:38:01.548664 nixos kernel: pci 0000:80:1f.0: PM: calling pci_pm_resume_noirq @ 3960, parent: pci0000:80
+Oct 11 22:38:01.548726 nixos kernel: acpi-ec PNP0C09:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: 0000:00:1f.0
+Oct 11 22:38:01.548783 nixos kernel: ACPI: EC: interrupt unblocked
+Oct 11 22:38:01.548788 nixos kernel: acpi-ec PNP0C09:00: PM: acpi_subsys_resume_noirq returned 0 after 1 usecs
+Oct 11 22:38:01.548845 nixos kernel: acpi-battery PNP0C0A:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.548904 nixos kernel: acpi-battery PNP0C0A:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.548962 nixos kernel: ideapad_acpi VPC2004:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.549023 nixos kernel: ideapad_acpi VPC2004:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.549082 nixos kernel: pci 0000:80:1f.0: PM: pci_pm_resume_noirq returned 0 after 41 usecs
+Oct 11 22:38:01.549142 nixos kernel: i801_smbus 0000:80:1f.4: PM: calling pci_pm_resume_noirq @ 3973, parent: pci0000:80
+Oct 11 22:38:01.549201 nixos kernel: intel-spi 0000:80:1f.5: PM: calling pci_pm_resume_noirq @ 3974, parent: pci0000:80
+Oct 11 22:38:01.549261 nixos kernel: intel-spi 0000:80:1f.5: PM: pci_pm_resume_noirq returned 0 after 43 usecs
+Oct 11 22:38:01.549319 nixos kernel: mei_me 0000:80:16.0: PM: pci_pm_resume_noirq returned 0 after 1093 usecs
+Oct 11 22:38:01.549379 nixos kernel: i801_smbus 0000:80:1f.4: PM: pci_pm_resume_noirq returned 0 after 1324 usecs
+Oct 11 22:38:01.549437 nixos kernel: pcieport 0000:00:01.0: PM: pci_pm_resume_noirq returned 0 after 5349 usecs
+Oct 11 22:38:01.549498 nixos kernel: nvme 0000:01:00.0: PM: calling pci_pm_resume_noirq @ 3975, parent: 0000:00:01.0
+Oct 11 22:38:01.549561 nixos kernel: i915 0000:00:02.0: PM: pci_pm_resume_noirq returned 0 after 5344 usecs
+Oct 11 22:38:01.549627 nixos kernel: nvme 0000:01:00.0: PM: pci_pm_resume_noirq returned 0 after 89 usecs
+Oct 11 22:38:01.549694 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: calling pci_pm_resume_noirq @ 3960, parent: pci0000:80
+Oct 11 22:38:01.549754 nixos kernel: pcieport 0000:80:1c.0: PM: pci_pm_resume_noirq returned 0 after 5850 usecs
+Oct 11 22:38:01.549815 nixos kernel: r8169 0000:81:00.0: PM: calling pci_pm_resume_noirq @ 3959, parent: 0000:80:1c.0
+Oct 11 22:38:01.549877 nixos kernel: r8169 0000:81:00.0: PM: pci_pm_resume_noirq returned 0 after 212 usecs
+Oct 11 22:38:01.549939 nixos kernel: xhci_hcd 0000:80:14.0: PM: pci_pm_resume_noirq returned 0 after 6913 usecs
+Oct 11 22:38:01.550001 nixos kernel: pcieport 0000:80:1c.7: PM: pci_pm_resume_noirq returned 0 after 6413 usecs
+Oct 11 22:38:01.550065 nixos kernel: mt7925e 0000:82:00.0: PM: calling pci_pm_resume_noirq @ 3102, parent: 0000:80:1c.7
+Oct 11 22:38:01.550130 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: pci_pm_resume_noirq returned 0 after 43598 usecs
+Oct 11 22:38:01.550193 nixos kernel: intel-lpss 0000:80:19.0: PM: pci_pm_resume_noirq returned 0 after 63420 usecs
+Oct 11 22:38:01.550253 nixos kernel: intel-lpss 0000:80:15.1: PM: pci_pm_resume_noirq returned 0 after 66156 usecs
+Oct 11 22:38:01.550313 nixos kernel: intel-lpss 0000:80:19.1: PM: pci_pm_resume_noirq returned 0 after 65872 usecs
+Oct 11 22:38:01.550372 nixos kernel: intel-lpss 0000:80:15.0: PM: pci_pm_resume_noirq returned 0 after 66241 usecs
+Oct 11 22:38:01.550431 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: calling acpi_subsys_resume_noirq @ 3981, parent: i2c-2
+Oct 11 22:38:01.550494 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.550557 nixos kernel: mt7925e 0000:82:00.0: PM: pci_pm_resume_noirq returned 0 after 82523 usecs
+Oct 11 22:38:01.550623 nixos kernel: xhci_hcd 0000:00:0d.0: PM: pci_pm_resume_noirq returned 0 after 89882 usecs
+Oct 11 22:38:01.550684 nixos kernel: thunderbolt 0000:00:0d.2: PM: pci_pm_resume_noirq returned 0 after 101603 usecs
+Oct 11 22:38:01.550748 nixos kernel: pcieport 0000:00:07.0: PM: calling pci_pm_resume_noirq @ 3965, parent: pci0000:00
+Oct 11 22:38:01.550810 nixos kernel: pcieport 0000:00:07.0: PM: pci_pm_resume_noirq returned 0 after 285 usecs
+Oct 11 22:38:01.550871 nixos kernel: pcieport 0000:00:06.0: PM: pci_pm_resume_noirq returned 0 after 216068 usecs
+Oct 11 22:38:01.550932 nixos kernel: nvidia 0000:02:00.0: PM: calling pci_pm_resume_noirq @ 3974, parent: 0000:00:06.0
+Oct 11 22:38:01.550998 nixos kernel: acpi-tad ACPI000E:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: pci0000:80
+Oct 11 22:38:01.551054 nixos kernel: acpi-tad ACPI000E:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.551110 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.551165 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 22:38:01.551228 nixos kernel: nvidia 0000:02:00.0: PM: pci_pm_resume_noirq returned 0 after 171 usecs
+Oct 11 22:38:01.551292 nixos kernel: snd_hda_intel 0000:02:00.1: PM: calling pci_pm_resume_noirq @ 3985, parent: 0000:00:06.0
+Oct 11 22:38:01.551358 nixos kernel: snd_hda_intel 0000:02:00.1: PM: pci_pm_resume_noirq returned 0 after 47 usecs
+Oct 11 22:38:01.551424 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: acpi_subsys_resume_noirq returned 0 after 2205 usecs
+Oct 11 22:38:01.551480 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.551534 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: acpi_subsys_resume_noirq returned 0 after 8562 usecs
+Oct 11 22:38:01.551592 nixos kernel: ac ACPI0003:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.551649 nixos kernel: ac ACPI0003:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.551706 nixos kernel: acpi-button PNP0C0D:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.551760 nixos kernel: acpi-button PNP0C0D:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.551813 nixos kernel: acpi-button PNP0C0C:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.551866 nixos kernel: acpi-button PNP0C0C:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.551919 nixos kernel: acpi-wmi PNP0C14:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.551972 nixos kernel: acpi-wmi PNP0C14:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.552024 nixos kernel: acpi-wmi PNP0C14:01: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.552076 nixos kernel: acpi-wmi PNP0C14:01: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.552129 nixos kernel: acpi-wmi PNP0C14:02: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.552181 nixos kernel: acpi-wmi PNP0C14:02: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.552241 nixos kernel: acpi-wmi PNP0C14:03: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.552293 nixos kernel: acpi-wmi PNP0C14:03: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.552349 nixos kernel: acpi-wmi PNP0C14:04: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.552406 nixos kernel: acpi-wmi PNP0C14:04: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.552459 nixos kernel: processor_aggregator ACPI000C:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.552513 nixos kernel: processor_aggregator ACPI000C:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.552569 nixos kernel: acpi-wmi PNP0C14:05: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.552625 nixos kernel: acpi-wmi PNP0C14:05: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.552678 nixos kernel: acpi-wmi PNP0C14:06: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.552730 nixos kernel: acpi-wmi PNP0C14:06: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.552786 nixos kernel: tpm_crb_acpi INTC7001:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.552841 nixos kernel: tpm_crb_acpi INTC7001:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.552899 nixos kernel: int3400 thermal INTC1042:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.552954 nixos kernel: int3400 thermal INTC1042:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.553008 nixos kernel: int3403 thermal INTC1062:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.553065 nixos kernel: int3403 thermal INTC1062:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.553121 nixos kernel: int3403 thermal INTC1062:01: PM: calling acpi_subsys_resume_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.553177 nixos kernel: int3403 thermal INTC1062:01: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.553234 nixos kernel: int3403 thermal INTC1062:02: PM: calling acpi_subsys_resume_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.553293 nixos kernel: int3403 thermal INTC1062:02: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.553351 nixos kernel: int3403 thermal INTC1062:03: PM: calling acpi_subsys_resume_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.553408 nixos kernel: int3403 thermal INTC1062:03: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.553463 nixos kernel: int3403 thermal INTC1062:04: PM: calling acpi_subsys_resume_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.553519 nixos kernel: int3403 thermal INTC1062:04: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.553575 nixos kernel: int3403 thermal INTC1062:05: PM: calling acpi_subsys_resume_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.553636 nixos kernel: int3403 thermal INTC1062:05: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.553693 nixos kernel: int3403 thermal INTC1062:06: PM: calling acpi_subsys_resume_noirq @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.553750 nixos kernel: int3403 thermal INTC1062:06: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.553805 nixos kernel: ucsi_acpi USBC000:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.553858 nixos kernel: ucsi_acpi USBC000:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.553911 nixos kernel: acpi-wmi PNP0C14:07: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.553964 nixos kernel: acpi-wmi PNP0C14:07: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.554016 nixos kernel: acpi-button LNXPWRBN:00: PM: calling acpi_subsys_resume_noirq @ 3915, parent: platform
+Oct 11 22:38:01.554071 nixos kernel: acpi-button LNXPWRBN:00: PM: acpi_subsys_resume_noirq returned 0 after 0 usecs
+Oct 11 22:38:01.554125 nixos kernel: i8042 i8042: PM: calling i8042_pm_resume_noirq [i8042] @ 3915, parent: platform
+Oct 11 22:38:01.554188 nixos kernel: i8042 i8042: PM: i8042_pm_resume_noirq [i8042] returned 0 after 0 usecs
+Oct 11 22:38:01.554244 nixos kernel: iTCO_wdt iTCO_wdt: PM: calling iTCO_wdt_resume_noirq [iTCO_wdt] @ 3915, parent: 0000:80:1f.4
+Oct 11 22:38:01.554304 nixos kernel: iTCO_wdt iTCO_wdt: PM: iTCO_wdt_resume_noirq [iTCO_wdt] returned 0 after 0 usecs
+Oct 11 22:38:01.554361 nixos kernel: pci 0000:00:00.0: PM: calling pci_pm_resume_early @ 3974, parent: pci0000:00
+Oct 11 22:38:01.554423 nixos kernel: pci 0000:00:00.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.554485 nixos kernel: pcieport 0000:00:01.0: PM: calling pci_pm_resume_early @ 3974, parent: pci0000:00
+Oct 11 22:38:01.554547 nixos kernel: pcieport 0000:00:01.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.554612 nixos kernel: i915 0000:00:02.0: PM: calling pci_pm_resume_early @ 3974, parent: pci0000:00
+Oct 11 22:38:01.554677 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:00
+Oct 11 22:38:01.554739 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.554798 nixos kernel: pcieport 0000:00:06.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:00
+Oct 11 22:38:01.554859 nixos kernel: pcieport 0000:00:06.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.554920 nixos kernel: intel_vsec 0000:00:0a.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:00
+Oct 11 22:38:01.554980 nixos kernel: intel_vsec 0000:00:0a.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.555039 nixos kernel: xhci_hcd 0000:00:0d.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:00
+Oct 11 22:38:01.555100 nixos kernel: xhci_hcd 0000:00:0d.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.555162 nixos kernel: thunderbolt 0000:00:0d.2: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:00
+Oct 11 22:38:01.555226 nixos kernel: thunderbolt 0000:00:0d.2: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.555288 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:00
+Oct 11 22:38:01.555347 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.555407 nixos kernel: pci 0000:00:1f.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:00
+Oct 11 22:38:01.555467 nixos kernel: pci 0000:00:1f.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.555526 nixos kernel: pci 0000:00:1f.5: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:00
+Oct 11 22:38:01.555585 nixos kernel: pci 0000:00:1f.5: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.555646 nixos kernel: nvme 0000:01:00.0: PM: calling pci_pm_resume_early @ 3977, parent: 0000:00:01.0
+Oct 11 22:38:01.555711 nixos kernel: nvme 0000:01:00.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.555774 nixos kernel: nvidia 0000:02:00.0: PM: calling pci_pm_resume_early @ 3977, parent: 0000:00:06.0
+Oct 11 22:38:01.555839 nixos kernel: acpi-ec PNP0C09:00: PM: calling acpi_subsys_resume_early @ 3915, parent: 0000:00:1f.0
+Oct 11 22:38:01.555895 nixos kernel: nvidia 0000:02:00.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.555959 nixos kernel: acpi-ec PNP0C09:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.556016 nixos kernel: pcieport 0000:00:07.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:00
+Oct 11 22:38:01.556077 nixos kernel: pcieport 0000:00:07.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.556138 nixos kernel: acpi-battery PNP0C0A:00: PM: calling acpi_subsys_resume_early @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.556201 nixos kernel: xhci_hcd 0000:80:14.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:80
+Oct 11 22:38:01.556266 nixos kernel: acpi-battery PNP0C0A:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.556325 nixos kernel: xhci_hcd 0000:80:14.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.556387 nixos kernel: ideapad_acpi VPC2004:00: PM: calling acpi_subsys_resume_early @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.556446 nixos kernel: pci 0000:80:14.5: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:80
+Oct 11 22:38:01.556505 nixos kernel: ideapad_acpi VPC2004:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.556564 nixos kernel: pci 0000:80:14.5: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.556624 nixos kernel: intel-lpss 0000:80:15.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:80
+Oct 11 22:38:01.556685 nixos kernel: acpi-tad ACPI000E:00: PM: calling acpi_subsys_resume_early @ 3915, parent: pci0000:80
+Oct 11 22:38:01.556741 nixos kernel: intel-lpss 0000:80:15.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.556800 nixos kernel: acpi-tad ACPI000E:00: PM: acpi_subsys_resume_early returned 0 after 11 usecs
+Oct 11 22:38:01.556855 nixos kernel: intel-lpss 0000:80:15.1: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:80
+Oct 11 22:38:01.556915 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.556969 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.557024 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.557081 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.557137 nixos kernel: ac ACPI0003:00: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.557193 nixos kernel: intel-lpss 0000:80:15.1: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.557256 nixos kernel: ac ACPI0003:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.557311 nixos kernel: mei_me 0000:80:16.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:80
+Oct 11 22:38:01.557371 nixos kernel: acpi-button PNP0C0D:00: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.557424 nixos kernel: acpi-button PNP0C0D:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.557478 nixos kernel: mei_me 0000:80:16.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.557537 nixos kernel: acpi-button PNP0C0C:00: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.557590 nixos kernel: intel-lpss 0000:80:19.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:80
+Oct 11 22:38:01.557651 nixos kernel: acpi-button PNP0C0C:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.557705 nixos kernel: acpi-wmi PNP0C14:00: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.557757 nixos kernel: acpi-wmi PNP0C14:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.557810 nixos kernel: acpi-wmi PNP0C14:01: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.557864 nixos kernel: acpi-wmi PNP0C14:01: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.557917 nixos kernel: acpi-wmi PNP0C14:02: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.557970 nixos kernel: intel-lpss 0000:80:19.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.558030 nixos kernel: acpi-wmi PNP0C14:02: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.558082 nixos kernel: intel-lpss 0000:80:19.1: PM: calling pci_pm_resume_early @ 492, parent: pci0000:80
+Oct 11 22:38:01.558144 nixos kernel: pcieport 0000:80:1c.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:80
+Oct 11 22:38:01.558206 nixos kernel: acpi-wmi PNP0C14:03: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.558259 nixos kernel: pcieport 0000:80:1c.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.558320 nixos kernel: acpi-wmi PNP0C14:03: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.558372 nixos kernel: pcieport 0000:80:1c.7: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:80
+Oct 11 22:38:01.558433 nixos kernel: acpi-wmi PNP0C14:04: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.558486 nixos kernel: pcieport 0000:80:1c.7: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.558547 nixos kernel: acpi-wmi PNP0C14:04: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.558606 nixos kernel: pci 0000:80:1f.0: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:80
+Oct 11 22:38:01.558668 nixos kernel: processor_aggregator ACPI000C:00: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.558724 nixos kernel: intel-lpss 0000:80:19.1: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.558784 nixos kernel: pci 0000:80:1f.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.558844 nixos kernel: processor_aggregator ACPI000C:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.558899 nixos kernel: acpi-wmi PNP0C14:05: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.558951 nixos kernel: i801_smbus 0000:80:1f.4: PM: calling pci_pm_resume_early @ 492, parent: pci0000:80
+Oct 11 22:38:01.559011 nixos kernel: acpi-wmi PNP0C14:05: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.559064 nixos kernel: i801_smbus 0000:80:1f.4: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.559123 nixos kernel: acpi-wmi PNP0C14:06: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.559176 nixos kernel: intel-spi 0000:80:1f.5: PM: calling pci_pm_resume_early @ 492, parent: pci0000:80
+Oct 11 22:38:01.559236 nixos kernel: acpi-wmi PNP0C14:06: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.559288 nixos kernel: intel-spi 0000:80:1f.5: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.559351 nixos kernel: tpm_crb_acpi INTC7001:00: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.559407 nixos kernel: tpm_crb_acpi INTC7001:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.559461 nixos kernel: snd_hda_intel 0000:02:00.1: PM: calling pci_pm_resume_early @ 492, parent: 0000:00:06.0
+Oct 11 22:38:01.559525 nixos kernel: snd_hda_intel 0000:02:00.1: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.559590 nixos kernel: int3400 thermal INTC1042:00: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.559647 nixos kernel: int3400 thermal INTC1042:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.559701 nixos kernel: int3403 thermal INTC1062:00: PM: calling acpi_subsys_resume_early @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.559760 nixos kernel: int3403 thermal INTC1062:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.559817 nixos kernel: int3403 thermal INTC1062:01: PM: calling acpi_subsys_resume_early @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.559873 nixos kernel: int3403 thermal INTC1062:01: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.559932 nixos kernel: int3403 thermal INTC1062:02: PM: calling acpi_subsys_resume_early @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.559990 nixos kernel: r8169 0000:81:00.0: PM: calling pci_pm_resume_early @ 492, parent: 0000:80:1c.0
+Oct 11 22:38:01.560052 nixos kernel: int3403 thermal INTC1062:02: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.560109 nixos kernel: r8169 0000:81:00.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.560172 nixos kernel: int3403 thermal INTC1062:03: PM: calling acpi_subsys_resume_early @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.560228 nixos kernel: mt7925e 0000:82:00.0: PM: calling pci_pm_resume_early @ 492, parent: 0000:80:1c.7
+Oct 11 22:38:01.560291 nixos kernel: int3403 thermal INTC1062:03: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.560348 nixos kernel: mt7925e 0000:82:00.0: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.560411 nixos kernel: int3403 thermal INTC1062:04: PM: calling acpi_subsys_resume_early @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.560467 nixos kernel: int3403 thermal INTC1062:04: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.560526 nixos kernel: i2c_designware i2c_designware.0: PM: calling i2c_dw_resume @ 492, parent: 0000:80:15.0
+Oct 11 22:38:01.560594 nixos kernel: int3403 thermal INTC1062:05: PM: calling acpi_subsys_resume_early @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.560653 nixos kernel: int3403 thermal INTC1062:05: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.560710 nixos kernel: int3403 thermal INTC1062:06: PM: calling acpi_subsys_resume_early @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.560768 nixos kernel: int3403 thermal INTC1062:06: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.560826 nixos kernel: ucsi_acpi USBC000:00: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.560880 nixos kernel: ucsi_acpi USBC000:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.560935 nixos kernel: acpi-wmi PNP0C14:07: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.560988 nixos kernel: acpi-wmi PNP0C14:07: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.561041 nixos kernel: i2c_designware i2c_designware.0: PM: i2c_dw_resume returned 0 after 14 usecs
+Oct 11 22:38:01.561099 nixos kernel: acpi-button LNXPWRBN:00: PM: calling acpi_subsys_resume_early @ 3915, parent: platform
+Oct 11 22:38:01.561154 nixos kernel: acpi-button LNXPWRBN:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.561211 nixos kernel: i2c_designware i2c_designware.2: PM: calling i2c_dw_resume @ 492, parent: 0000:80:19.0
+Oct 11 22:38:01.561278 nixos kernel: i2c_designware i2c_designware.1: PM: calling i2c_dw_resume @ 3965, parent: 0000:80:15.1
+Oct 11 22:38:01.561340 nixos kernel: i2c_designware i2c_designware.2: PM: i2c_dw_resume returned 0 after 13 usecs
+Oct 11 22:38:01.561400 nixos kernel: i2c_designware i2c_designware.1: PM: i2c_dw_resume returned 0 after 9 usecs
+Oct 11 22:38:01.561460 nixos kernel: i2c_designware i2c_designware.3: PM: calling i2c_dw_resume @ 492, parent: 0000:80:19.1
+Oct 11 22:38:01.561527 nixos kernel: i2c_designware i2c_designware.3: PM: i2c_dw_resume returned 0 after 14 usecs
+Oct 11 22:38:01.561585 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: calling acpi_subsys_resume_early @ 3962, parent: i2c-2
+Oct 11 22:38:01.561649 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: acpi_subsys_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.561710 nixos kernel: i915 0000:00:02.0: PM: pci_pm_resume_early returned 0 after 19221 usecs
+Oct 11 22:38:01.561774 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: calling pci_pm_resume_early @ 3977, parent: pci0000:80
+Oct 11 22:38:01.561834 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: pci_pm_resume_early returned 0 after 0 usecs
+Oct 11 22:38:01.561895 nixos kernel: regulator regulator.0: PM: calling regulator_resume @ 3915, parent: reg-dummy
+Oct 11 22:38:01.561952 nixos kernel: regulator regulator.0: PM: regulator_resume returned 0 after 0 usecs
+Oct 11 22:38:01.562006 nixos kernel: pci 0000:00:00.0: PM: calling pci_pm_resume @ 3977, parent: pci0000:00
+Oct 11 22:38:01.562068 nixos kernel: pci 0000:00:00.0: PM: pci_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.562129 nixos kernel: pcieport 0000:00:01.0: PM: calling pci_pm_resume @ 3977, parent: pci0000:00
+Oct 11 22:38:01.562193 nixos kernel: pcieport 0000:00:01.0: PM: pci_pm_resume returned 0 after 38 usecs
+Oct 11 22:38:01.562254 nixos kernel: i915 0000:00:02.0: PM: calling pci_pm_resume @ 3977, parent: pci0000:00
+Oct 11 22:38:01.562316 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: calling pci_pm_resume @ 3974, parent: pci0000:00
+Oct 11 22:38:01.562377 nixos kernel: proc_thermal_pci 0000:00:04.0: PM: pci_pm_resume returned 0 after 34 usecs
+Oct 11 22:38:01.562437 nixos kernel: pcieport 0000:00:06.0: PM: calling pci_pm_resume @ 3974, parent: pci0000:00
+Oct 11 22:38:01.562498 nixos kernel: pcieport 0000:00:06.0: PM: pci_pm_resume returned 0 after 78 usecs
+Oct 11 22:38:01.562559 nixos kernel: intel_vsec 0000:00:0a.0: PM: calling pci_pm_resume @ 3974, parent: pci0000:00
+Oct 11 22:38:01.562622 nixos kernel: intel_vsec 0000:00:0a.0: PM: pci_pm_resume returned 0 after 2 usecs
+Oct 11 22:38:01.562683 nixos kernel: xhci_hcd 0000:00:0d.0: PM: calling pci_pm_resume @ 3974, parent: pci0000:00
+Oct 11 22:38:01.562744 nixos kernel: thunderbolt 0000:00:0d.2: PM: calling pci_pm_resume @ 3964, parent: pci0000:00
+Oct 11 22:38:01.562806 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: calling pci_pm_resume @ 3962, parent: pci0000:00
+Oct 11 22:38:01.562866 nixos kernel: intel_pmc_ssram_telemetry 0000:00:14.0: PM: pci_pm_resume returned 0 after 4 usecs
+Oct 11 22:38:01.562927 nixos kernel: pci 0000:00:1f.0: PM: calling pci_pm_resume @ 3962, parent: pci0000:00
+Oct 11 22:38:01.562985 nixos kernel: pci 0000:00:1f.0: PM: pci_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.563044 nixos kernel: pci 0000:00:1f.5: PM: calling pci_pm_resume @ 3962, parent: pci0000:00
+Oct 11 22:38:01.563104 nixos kernel: pci 0000:00:1f.5: PM: pci_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.563163 nixos kernel: xhci_hcd 0000:80:14.0: PM: calling pci_pm_resume @ 3962, parent: pci0000:80
+Oct 11 22:38:01.563224 nixos kernel: pci 0000:80:14.5: PM: calling pci_pm_resume @ 492, parent: pci0000:80
+Oct 11 22:38:01.563287 nixos kernel: pci 0000:80:14.5: PM: pci_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.563349 nixos kernel: intel-lpss 0000:80:15.0: PM: calling pci_pm_resume @ 492, parent: pci0000:80
+Oct 11 22:38:01.563409 nixos kernel: intel-lpss 0000:80:15.0: PM: pci_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.563469 nixos kernel: intel-lpss 0000:80:15.1: PM: calling pci_pm_resume @ 492, parent: pci0000:80
+Oct 11 22:38:01.563529 nixos kernel: intel-lpss 0000:80:15.1: PM: pci_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.563588 nixos kernel: mei_me 0000:80:16.0: PM: calling pci_pm_resume @ 492, parent: pci0000:80
+Oct 11 22:38:01.563651 nixos kernel: acpi-ec PNP0C09:00: PM: calling acpi_subsys_resume @ 3915, parent: 0000:00:1f.0
+Oct 11 22:38:01.563707 nixos kernel: thunderbolt 0000:00:0d.2: PM: pci_pm_resume returned 0 after 269 usecs
+Oct 11 22:38:01.564021 nixos kernel: intel-lpss 0000:80:19.0: PM: calling pci_pm_resume @ 3964, parent: pci0000:80
+Oct 11 22:38:01.564077 nixos kernel: ACPI: EC: event unblocked
+Oct 11 22:38:01.564082 nixos kernel: intel-lpss 0000:80:19.0: PM: pci_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.564127 nixos kernel: intel-lpss 0000:80:19.1: PM: calling pci_pm_resume @ 3964, parent: pci0000:80
+Oct 11 22:38:01.564169 nixos kernel: intel-lpss 0000:80:19.1: PM: pci_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.564207 nixos kernel: pcieport 0000:80:1c.0: PM: calling pci_pm_resume @ 3964, parent: pci0000:80
+Oct 11 22:38:01.564249 nixos kernel: acpi-ec PNP0C09:00: PM: acpi_subsys_resume returned 0 after 44 usecs
+Oct 11 22:38:01.564288 nixos kernel: acpi-battery PNP0C0A:00: PM: calling acpi_subsys_resume @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.564326 nixos kernel: pcieport 0000:80:1c.0: PM: pci_pm_resume returned 0 after 18 usecs
+Oct 11 22:38:01.564366 nixos kernel: pcieport 0000:80:1c.7: PM: calling pci_pm_resume @ 3964, parent: pci0000:80
+Oct 11 22:38:01.564416 nixos kernel: pci 0000:80:1f.0: PM: calling pci_pm_resume @ 3102, parent: pci0000:80
+Oct 11 22:38:01.564455 nixos kernel: pci 0000:80:1f.0: PM: pci_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.564494 nixos kernel: xhci_hcd 0000:00:0d.0: xHC error in resume, USBSTS 0x401, Reinit
+Oct 11 22:38:01.564541 nixos kernel: usb usb1: root hub lost power or was reset
+Oct 11 22:38:01.564609 nixos kernel: usb usb2: root hub lost power or was reset
+Oct 11 22:38:01.564666 nixos kernel: pcieport 0000:00:07.0: PM: calling pci_pm_resume @ 3965, parent: pci0000:00
+Oct 11 22:38:01.564709 nixos kernel: i801_smbus 0000:80:1f.4: PM: calling pci_pm_resume @ 3088, parent: pci0000:80
+Oct 11 22:38:01.564749 nixos kernel: i801_smbus 0000:80:1f.4: PM: pci_pm_resume returned 0 after 6 usecs
+Oct 11 22:38:01.564789 nixos kernel: intel-spi 0000:80:1f.5: PM: calling pci_pm_resume @ 3088, parent: pci0000:80
+Oct 11 22:38:01.564829 nixos kernel: intel-spi 0000:80:1f.5: PM: pci_pm_resume returned 0 after 4 usecs
+Oct 11 22:38:01.564867 nixos kernel: nvme 0000:01:00.0: PM: calling pci_pm_resume @ 3088, parent: 0000:00:01.0
+Oct 11 22:38:01.564909 nixos kernel: nvme 0000:01:00.0: PM: pci_pm_resume returned 0 after 2 usecs
+Oct 11 22:38:01.564952 nixos kernel: nvidia 0000:02:00.0: PM: calling pci_pm_resume @ 3088, parent: 0000:00:06.0
+Oct 11 22:38:01.564996 nixos kernel: nvidia 0000:02:00.0: PM: pci_pm_resume returned 0 after 1 usecs
+Oct 11 22:38:01.565037 nixos kernel: snd_hda_intel 0000:02:00.1: PM: calling pci_pm_resume @ 3088, parent: 0000:00:06.0
+Oct 11 22:38:01.565082 nixos kernel: xhci_hcd 0000:80:14.0: PM: pci_pm_resume returned 0 after 397 usecs
+Oct 11 22:38:01.565124 nixos kernel: i2c_designware i2c_designware.0: PM: calling platform_pm_resume @ 3962, parent: 0000:80:15.0
+Oct 11 22:38:01.565162 nixos kernel: i2c_designware i2c_designware.0: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.565197 nixos kernel: i2c_designware i2c_designware.1: PM: calling platform_pm_resume @ 3962, parent: 0000:80:15.1
+Oct 11 22:38:01.565234 nixos kernel: i2c_designware i2c_designware.1: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.565269 nixos kernel: i2c_designware i2c_designware.2: PM: calling platform_pm_resume @ 3962, parent: 0000:80:19.0
+Oct 11 22:38:01.565304 nixos kernel: i2c_designware i2c_designware.2: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.565339 nixos kernel: i2c_designware i2c_designware.3: PM: calling platform_pm_resume @ 3962, parent: 0000:80:19.1
+Oct 11 22:38:01.565391 nixos kernel: i2c_designware i2c_designware.3: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.565427 nixos kernel: r8169 0000:81:00.0: PM: calling pci_pm_resume @ 3962, parent: 0000:80:1c.0
+Oct 11 22:38:01.565469 nixos kernel: usb usb3: PM: calling usb_dev_resume @ 3969, parent: 0000:80:14.0
+Oct 11 22:38:01.565524 nixos kernel: pcieport 0000:80:1c.7: PM: pci_pm_resume returned 0 after 304 usecs
+Oct 11 22:38:01.565565 nixos kernel: acpi-battery PNP0C0A:00: PM: acpi_subsys_resume returned 0 after 310 usecs
+Oct 11 22:38:01.565602 nixos kernel: usb usb4: PM: calling usb_dev_resume @ 3964, parent: 0000:80:14.0
+Oct 11 22:38:01.565660 nixos kernel: ideapad_acpi VPC2004:00: PM: calling acpi_subsys_resume @ 3915, parent: PNP0C09:00
+Oct 11 22:38:01.565699 nixos kernel: r8169 0000:81:00.0: PM: pci_pm_resume returned 0 after 149 usecs
+Oct 11 22:38:01.565739 nixos kernel: mt7925e 0000:82:00.0: PM: calling pci_pm_resume @ 3962, parent: 0000:80:1c.7
+Oct 11 22:38:01.565780 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: calling acpi_subsys_resume @ 3959, parent: i2c-2
+Oct 11 22:38:01.565820 nixos kernel: spd5118 0-0051: PM: calling spd5118_resume [spd5118] @ 3981, parent: i2c-0
+Oct 11 22:38:01.565862 nixos kernel: xhci_hcd 0000:00:0d.0: PM: pci_pm_resume returned 0 after 4179 usecs
+Oct 11 22:38:01.565900 nixos kernel: usb usb1: PM: calling usb_dev_resume @ 3974, parent: 0000:00:0d.0
+Oct 11 22:38:01.565952 nixos kernel: usb usb2: PM: calling usb_dev_resume @ 3092, parent: 0000:00:0d.0
+Oct 11 22:38:01.566002 nixos kernel: spd5118 0-0051: PM: dpm_run_callback(): spd5118_resume [spd5118] returns -6
+Oct 11 22:38:01.566041 nixos kernel: spd5118 0-0051: PM: spd5118_resume [spd5118] returned -6 after 6073 usecs
+Oct 11 22:38:01.566077 nixos kernel: spd5118 0-0051: PM: failed to resume async: error -6
+Oct 11 22:38:01.566112 nixos kernel: i915 0000:00:02.0: [drm] GT0: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+Oct 11 22:38:01.566153 nixos kernel: snd_hda_intel 0000:02:00.1: PM: pci_pm_resume returned 0 after 8013 usecs
+Oct 11 22:38:01.566195 nixos kernel: snd_hda_codec_nvhdmi hdaudioC0D0: PM: calling hda_codec_pm_resume [snd_hda_codec] @ 3088, parent: 0000:02:00.1
+Oct 11 22:38:01.566236 nixos kernel: snd_hda_codec_nvhdmi hdaudioC0D0: PM: hda_codec_pm_resume [snd_hda_codec] returned 0 after 0 usecs
+Oct 11 22:38:01.566271 nixos kernel: ideapad_acpi VPC2004:00: PM: acpi_subsys_resume returned 0 after 9118 usecs
+Oct 11 22:38:01.566307 nixos kernel: platform PNP0103:00: PM: calling platform_pm_resume @ 3915, parent: 0000:00:1f.0
+Oct 11 22:38:01.566341 nixos kernel: platform PNP0103:00: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.566376 nixos kernel: acpi-tad ACPI000E:00: PM: calling acpi_subsys_resume @ 3915, parent: pci0000:80
+Oct 11 22:38:01.566411 nixos kernel: acpi-tad ACPI000E:00: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.566445 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.566482 nixos kernel: pcieport 0000:00:07.0: PM: pci_pm_resume returned 0 after 10777 usecs
+Oct 11 22:38:01.566522 nixos kernel: meteorlake-pinctrl INTC1082:00: PM: acpi_subsys_resume returned 0 after 1652 usecs
+Oct 11 22:38:01.566556 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.566591 nixos kernel: meteorpoint-pinctrl INTC1084:00: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.566626 nixos kernel: ac ACPI0003:00: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.566661 nixos kernel: ac ACPI0003:00: PM: acpi_subsys_resume returned 0 after 84 usecs
+Oct 11 22:38:01.566695 nixos kernel: acpi-button PNP0C0D:00: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.566731 nixos kernel: acpi-button PNP0C0D:00: PM: acpi_subsys_resume returned 0 after 44 usecs
+Oct 11 22:38:01.566764 nixos kernel: acpi-button PNP0C0C:00: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.566798 nixos kernel: acpi-button PNP0C0C:00: PM: acpi_subsys_resume returned 0 after 11 usecs
+Oct 11 22:38:01.566835 nixos kernel: acpi-wmi PNP0C14:00: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.566871 nixos kernel: acpi-wmi PNP0C14:00: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.566906 nixos kernel: acpi-wmi PNP0C14:01: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.566942 nixos kernel: acpi-wmi PNP0C14:01: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.566977 nixos kernel: platform LHK2019:00: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.567013 nixos kernel: platform LHK2019:00: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567044 nixos kernel: acpi-wmi PNP0C14:02: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.567077 nixos kernel: acpi-wmi PNP0C14:02: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567108 nixos kernel: acpi-wmi PNP0C14:03: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.567141 nixos kernel: acpi-wmi PNP0C14:03: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567172 nixos kernel: platform IGR2022:00: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.567205 nixos kernel: platform IGR2022:00: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567236 nixos kernel: acpi-wmi PNP0C14:04: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.567269 nixos kernel: acpi-wmi PNP0C14:04: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567301 nixos kernel: platform INTC109F:00: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.567334 nixos kernel: platform INTC109F:00: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567366 nixos kernel: platform acpi-cpufreq: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.567400 nixos kernel: platform acpi-cpufreq: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567431 nixos kernel: processor_aggregator ACPI000C:00: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.567467 nixos kernel: processor_aggregator ACPI000C:00: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567503 nixos kernel: acpi-wmi PNP0C14:05: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.567536 nixos kernel: acpi-wmi PNP0C14:05: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567568 nixos kernel: acpi-wmi PNP0C14:06: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.567601 nixos kernel: acpi-wmi PNP0C14:06: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567636 nixos kernel: tpm_crb_acpi INTC7001:00: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.567672 nixos kernel: tpm_crb_acpi INTC7001:00: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567706 nixos kernel: int3400 thermal INTC1042:00: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.567740 nixos kernel: int3400 thermal INTC1042:00: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567773 nixos kernel: int3403 thermal INTC1062:00: PM: calling acpi_subsys_resume @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.567809 nixos kernel: int3403 thermal INTC1062:00: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567845 nixos kernel: int3403 thermal INTC1062:01: PM: calling acpi_subsys_resume @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.567880 nixos kernel: int3403 thermal INTC1062:01: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567914 nixos kernel: int3403 thermal INTC1062:02: PM: calling acpi_subsys_resume @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.567949 nixos kernel: int3403 thermal INTC1062:02: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.567984 nixos kernel: int3403 thermal INTC1062:03: PM: calling acpi_subsys_resume @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.568021 nixos kernel: int3403 thermal INTC1062:03: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.568055 nixos kernel: int3403 thermal INTC1062:04: PM: calling acpi_subsys_resume @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.568092 nixos kernel: int3403 thermal INTC1062:04: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.568127 nixos kernel: int3403 thermal INTC1062:05: PM: calling acpi_subsys_resume @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.568162 nixos kernel: int3403 thermal INTC1062:05: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.568196 nixos kernel: int3403 thermal INTC1062:06: PM: calling acpi_subsys_resume @ 3915, parent: INTC1042:00
+Oct 11 22:38:01.568232 nixos kernel: int3403 thermal INTC1062:06: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.568266 nixos kernel: ucsi_acpi USBC000:00: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.568300 nixos kernel: mt7925e 0000:82:00.0: PM: pci_pm_resume returned 0 after 16488 usecs
+Oct 11 22:38:01.568340 nixos kernel: ieee80211 phy0: PM: calling wiphy_resume [cfg80211] @ 3962, parent: 0000:82:00.0
+Oct 11 22:38:01.568377 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: submission enabled
+Oct 11 22:38:01.568423 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: SLPC enabled
+Oct 11 22:38:01.568463 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: RC enabled
+Oct 11 22:38:01.568503 nixos kernel: i915 0000:00:02.0: [drm] GT1: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+Oct 11 22:38:01.568541 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC firmware i915/mtl_huc_gsc.bin version 8.5.4
+Oct 11 22:38:01.568581 nixos kernel: mei_me 0000:80:16.0: PM: pci_pm_resume returned 0 after 21008 usecs
+Oct 11 22:38:01.568620 nixos kernel: usb usb4: PM: usb_dev_resume returned 0 after 20824 usecs
+Oct 11 22:38:01.568673 nixos kernel: usb usb1: PM: usb_dev_resume returned 0 after 20507 usecs
+Oct 11 22:38:01.568724 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC: authenticated for clear media
+Oct 11 22:38:01.568767 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: submission enabled
+Oct 11 22:38:01.568806 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: SLPC enabled
+Oct 11 22:38:01.568844 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: RC enabled
+Oct 11 22:38:01.568882 nixos kernel: i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io,decodes=io:owns=none
+Oct 11 22:38:01.568921 nixos kernel: i915 0000:00:02.0: PM: pci_pm_resume returned 0 after 44410 usecs
+Oct 11 22:38:01.568959 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: calling pci_pm_resume @ 3102, parent: pci0000:80
+Oct 11 22:38:01.568997 nixos kernel: snd_hda_intel 0000:80:1f.3: PM: pci_pm_resume returned 0 after 13021 usecs
+Oct 11 22:38:01.569034 nixos kernel: i2c_hid_acpi i2c-ELAN06FA:00: PM: acpi_subsys_resume returned 0 after 76690 usecs
+Oct 11 22:38:01.569071 nixos kernel: usb usb2: PM: usb_dev_resume returned 0 after 108367 usecs
+Oct 11 22:38:01.569122 nixos kernel: ieee80211 phy0: PM: wiphy_resume [cfg80211] returned 0 after 108016 usecs
+Oct 11 22:38:01.569156 nixos kernel: usb usb3: PM: usb_dev_resume returned 0 after 159880 usecs
+Oct 11 22:38:01.569206 nixos kernel: usb 3-2: PM: calling usb_dev_resume @ 3969, parent: usb3
+Oct 11 22:38:01.569260 nixos kernel: usb 3-5: PM: calling usb_dev_resume @ 492, parent: usb3
+Oct 11 22:38:01.569313 nixos kernel: usb 3-11: PM: calling usb_dev_resume @ 3962, parent: usb3
+Oct 11 22:38:01.569371 nixos kernel: usb 3-13: PM: calling usb_dev_resume @ 3092, parent: usb3
+Oct 11 22:38:01.569425 nixos kernel: usb 3-14: PM: calling usb_dev_resume @ 3959, parent: usb3
+Oct 11 22:38:01.569482 nixos kernel: usb 3-14: PM: usb_dev_resume returned 0 after 10837 usecs
+Oct 11 22:38:01.569532 nixos kernel: i915 0000:00:02.0: [drm] GT1: Loaded GSC firmware i915/mtl_gsc_1.bin (cv1.0, r102.1.15.1926, svn 1)
+Oct 11 22:38:01.569572 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC: authenticated for all workloads
+Oct 11 22:38:01.569614 nixos kernel: nvme nvme0: 20/0/0 default/read/poll queues
+Oct 11 22:38:01.569650 nixos kernel: usb 3-13: PM: usb_dev_resume returned 0 after 93259 usecs
+Oct 11 22:38:01.569701 nixos kernel: usb 3-5: PM: usb_dev_resume returned 0 after 94007 usecs
+Oct 11 22:38:01.569752 nixos kernel: usb 3-11: reset high-speed USB device number 4 using xhci_hcd
+Oct 11 22:38:01.569803 nixos kernel: usb 3-11: PM: usb_dev_resume returned 0 after 262110 usecs
+Oct 11 22:38:01.569853 nixos kernel: usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+Oct 11 22:38:01.569903 nixos kernel: usb 3-2: PM: usb_dev_resume returned 0 after 495322 usecs
+Oct 11 22:38:01.569951 nixos kernel: ucsi_acpi USBC000:00: PM: acpi_subsys_resume returned 0 after 1111285 usecs
+Oct 11 22:38:01.569984 nixos kernel: acpi-wmi PNP0C14:07: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.570018 nixos kernel: acpi-wmi PNP0C14:07: PM: acpi_subsys_resume returned 0 after 0 usecs
+Oct 11 22:38:01.570049 nixos kernel: platform INT340E:00: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.570087 nixos kernel: platform INT340E:00: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.570119 nixos kernel: platform NVDA0820:00: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.570155 nixos kernel: platform NVDA0820:00: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.570187 nixos kernel: acpi-button LNXPWRBN:00: PM: calling acpi_subsys_resume @ 3915, parent: platform
+Oct 11 22:38:01.570222 nixos kernel: acpi-button LNXPWRBN:00: PM: acpi_subsys_resume returned 0 after 7 usecs
+Oct 11 22:38:01.570255 nixos kernel: platform rtc-efi.0: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.570291 nixos kernel: platform rtc-efi.0: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.570322 nixos kernel: platform efivars.0: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.570357 nixos kernel: platform efivars.0: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.570388 nixos kernel: i8042 kbd 00:00: PM: calling pnp_bus_resume @ 3915, parent: pnp0
+Oct 11 22:38:01.570428 nixos kernel: i8042 kbd 00:00: PM: pnp_bus_resume returned 0 after 1 usecs
+Oct 11 22:38:01.570459 nixos kernel: rtc_cmos rtc_cmos: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.570496 nixos kernel: rtc_cmos rtc_cmos: PM: platform_pm_resume returned 0 after 1 usecs
+Oct 11 22:38:01.570528 nixos kernel: platform pcspkr: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.570564 nixos kernel: platform pcspkr: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.570595 nixos kernel: serial8250 serial8250: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.570635 nixos kernel: serial8250 serial8250: PM: platform_pm_resume returned 0 after 1 usecs
+Oct 11 22:38:01.570667 nixos kernel: port serial8250:0.0: PM: calling pm_runtime_force_resume @ 3915, parent: serial8250:0
+Oct 11 22:38:01.570711 nixos kernel: port serial8250:0.0: PM: pm_runtime_force_resume returned 0 after 0 usecs
+Oct 11 22:38:01.570745 nixos kernel: port serial8250:0.1: PM: calling pm_runtime_force_resume @ 3915, parent: serial8250:0
+Oct 11 22:38:01.570786 nixos kernel: port serial8250:0.1: PM: pm_runtime_force_resume returned 0 after 0 usecs
+Oct 11 22:38:01.570819 nixos kernel: port serial8250:0.2: PM: calling pm_runtime_force_resume @ 3915, parent: serial8250:0
+Oct 11 22:38:01.570859 nixos kernel: port serial8250:0.2: PM: pm_runtime_force_resume returned 0 after 0 usecs
+Oct 11 22:38:01.570892 nixos kernel: port serial8250:0.3: PM: calling pm_runtime_force_resume @ 3915, parent: serial8250:0
+Oct 11 22:38:01.570929 nixos kernel: port serial8250:0.3: PM: pm_runtime_force_resume returned 0 after 0 usecs
+Oct 11 22:38:01.570964 nixos kernel: i8042 i8042: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.570997 nixos kernel: i8042 i8042: PM: platform_pm_resume returned 0 after 658 usecs
+Oct 11 22:38:01.571029 nixos kernel: atkbd serio0: PM: calling serio_resume [serio] @ 3915, parent: i8042
+Oct 11 22:38:01.571074 nixos kernel: atkbd serio0: PM: serio_resume [serio] returned 0 after 8 usecs
+Oct 11 22:38:01.571108 nixos kernel: input input0: PM: calling input_dev_resume @ 3915, parent: serio0
+Oct 11 22:38:01.571168 nixos kernel: input input0: PM: input_dev_resume returned 0 after 1 usecs
+Oct 11 22:38:01.571218 nixos kernel: input input1: PM: calling input_dev_resume @ 3915, parent: 0003:048D:C195.0002
+Oct 11 22:38:01.571306 nixos kernel: input input1: PM: input_dev_resume returned 0 after 15 usecs
+Oct 11 22:38:01.571383 nixos kernel: input input2: PM: calling input_dev_resume @ 3915, parent: 0003:048D:C195.0002
+Oct 11 22:38:01.571452 nixos kernel: input input2: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.571516 nixos kernel: input input3: PM: calling input_dev_resume @ 3915, parent: 0003:048D:C195.0002
+Oct 11 22:38:01.571591 nixos kernel: input input3: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.571658 nixos kernel: input input4: PM: calling input_dev_resume @ 3915, parent: 0003:1532:00B9.0004
+Oct 11 22:38:01.571737 nixos kernel: input input4: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.571804 nixos kernel: input input5: PM: calling input_dev_resume @ 3915, parent: 0003:1532:00B9.0005
+Oct 11 22:38:01.571890 nixos kernel: input input5: PM: input_dev_resume returned 0 after 4 usecs
+Oct 11 22:38:01.571967 nixos kernel: input input6: PM: calling input_dev_resume @ 3915, parent: 0003:1532:00B9.0005
+Oct 11 22:38:01.572038 nixos kernel: input input6: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.572103 nixos kernel: input input7: PM: calling input_dev_resume @ 3915, parent: 0003:1532:00B9.0005
+Oct 11 22:38:01.572172 nixos kernel: input input7: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.572236 nixos kernel: input input8: PM: calling input_dev_resume @ 3915, parent: 0003:1532:00B9.0006
+Oct 11 22:38:01.572315 nixos kernel: input input8: PM: input_dev_resume returned 0 after 4 usecs
+Oct 11 22:38:01.572385 nixos kernel: input input9: PM: calling input_dev_resume @ 3915, parent: PNP0C0D:00
+Oct 11 22:38:01.572435 nixos kernel: input input9: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.572478 nixos kernel: input input10: PM: calling input_dev_resume @ 3915, parent: PNP0C0C:00
+Oct 11 22:38:01.572529 nixos kernel: input input10: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.572571 nixos kernel: input input11: PM: calling input_dev_resume @ 3915, parent: LNXPWRBN:00
+Oct 11 22:38:01.572622 nixos kernel: input input11: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.572664 nixos kernel: rtc rtc0: PM: calling rtc_resume @ 3915, parent: ACPI000E:00
+Oct 11 22:38:01.572705 nixos kernel: rtc rtc0: PM: rtc_resume returned 0 after 0 usecs
+Oct 11 22:38:01.572734 nixos kernel: alarmtimer alarmtimer.0.auto: PM: calling platform_pm_resume @ 3915, parent: rtc0
+Oct 11 22:38:01.572780 nixos kernel: alarmtimer alarmtimer.0.auto: PM: platform_pm_resume returned 0 after 1 usecs
+Oct 11 22:38:01.572819 nixos kernel: leds input0::numlock: PM: calling led_resume [led_class] @ 3915, parent: input0
+Oct 11 22:38:01.572867 nixos kernel: leds input0::numlock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.572904 nixos kernel: leds input0::capslock: PM: calling led_resume [led_class] @ 3915, parent: input0
+Oct 11 22:38:01.572947 nixos kernel: leds input0::capslock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.572983 nixos kernel: input input12: PM: calling input_dev_resume @ 3915, parent: VPC2004:00
+Oct 11 22:38:01.573037 nixos kernel: input input12: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.573085 nixos kernel: leds input0::scrolllock: PM: calling led_resume [led_class] @ 3915, parent: input0
+Oct 11 22:38:01.573128 nixos kernel: leds input0::scrolllock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.573165 nixos kernel: iTCO_wdt iTCO_wdt: PM: calling platform_pm_resume @ 3915, parent: 0000:80:1f.4
+Oct 11 22:38:01.573201 nixos kernel: iTCO_wdt iTCO_wdt: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.573235 nixos kernel: leds input1::numlock: PM: calling led_resume [led_class] @ 3915, parent: input1
+Oct 11 22:38:01.573284 nixos kernel: leds input1::numlock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.573328 nixos kernel: idma64 idma64.0: PM: calling platform_pm_resume @ 3915, parent: 0000:80:15.0
+Oct 11 22:38:01.573370 nixos kernel: idma64 idma64.0: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.573404 nixos kernel: leds input1::capslock: PM: calling led_resume [led_class] @ 3915, parent: input1
+Oct 11 22:38:01.573453 nixos kernel: leds input1::capslock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.573496 nixos kernel: rtc rtc1: PM: calling rtc_resume @ 3915, parent: rtc_cmos
+Oct 11 22:38:01.573532 nixos kernel: rtc rtc1: PM: rtc_resume returned 0 after 0 usecs
+Oct 11 22:38:01.573560 nixos kernel: leds input1::scrolllock: PM: calling led_resume [led_class] @ 3915, parent: input1
+Oct 11 22:38:01.573613 nixos kernel: leds input1::scrolllock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.573657 nixos kernel: leds input1::compose: PM: calling led_resume [led_class] @ 3915, parent: input1
+Oct 11 22:38:01.573706 nixos kernel: leds input1::compose: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.573748 nixos kernel: leds input1::kana: PM: calling led_resume [led_class] @ 3915, parent: input1
+Oct 11 22:38:01.573797 nixos kernel: leds input1::kana: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.573837 nixos kernel: leds input5::numlock: PM: calling led_resume [led_class] @ 3915, parent: input5
+Oct 11 22:38:01.573887 nixos kernel: leds input5::numlock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.573928 nixos kernel: idma64 idma64.1: PM: calling platform_pm_resume @ 3915, parent: 0000:80:15.1
+Oct 11 22:38:01.573970 nixos kernel: idma64 idma64.1: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.574004 nixos kernel: leds input5::capslock: PM: calling led_resume [led_class] @ 3915, parent: input5
+Oct 11 22:38:01.574053 nixos kernel: leds input5::capslock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.574094 nixos kernel: leds input5::scrolllock: PM: calling led_resume [led_class] @ 3915, parent: input5
+Oct 11 22:38:01.574143 nixos kernel: leds input5::scrolllock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.574188 nixos kernel: leds input8::numlock: PM: calling led_resume [led_class] @ 3915, parent: input8
+Oct 11 22:38:01.574235 nixos kernel: leds input8::numlock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.574276 nixos kernel: leds input8::capslock: PM: calling led_resume [led_class] @ 3915, parent: input8
+Oct 11 22:38:01.574321 nixos kernel: leds input8::capslock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.574363 nixos kernel: leds input8::scrolllock: PM: calling led_resume [led_class] @ 3915, parent: input8
+Oct 11 22:38:01.574412 nixos kernel: leds input8::scrolllock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.574453 nixos kernel: leds platform::fnlock: PM: calling led_resume [led_class] @ 3915, parent: VPC2004:00
+Oct 11 22:38:01.574497 nixos kernel: leds platform::fnlock: PM: led_resume [led_class] returned 0 after 0 usecs
+Oct 11 22:38:01.574534 nixos kernel: rfkill rfkill0: PM: calling rfkill_resume [rfkill] @ 3915, parent: VPC2004:00
+Oct 11 22:38:01.574584 nixos kernel: rfkill rfkill0: PM: rfkill_resume [rfkill] returned 0 after 0 usecs
+Oct 11 22:38:01.574625 nixos kernel: rfkill rfkill1: PM: calling rfkill_resume [rfkill] @ 3915, parent: VPC2004:00
+Oct 11 22:38:01.574670 nixos kernel: rfkill rfkill1: PM: rfkill_resume [rfkill] returned 0 after 0 usecs
+Oct 11 22:38:01.574712 nixos kernel: platform yogafan: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.574751 nixos kernel: platform yogafan: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.574782 nixos kernel: Generic FE-GE Realtek PHY r8169-0-8100:00: PM: calling mdio_bus_phy_resume [libphy] @ 3915, parent: r8169-0-8100
+Oct 11 22:38:01.574835 nixos kernel: Generic FE-GE Realtek PHY r8169-0-8100:00: PM: mdio_bus_phy_resume [libphy] returned 0 after 0 usecs
+Oct 11 22:38:01.574873 nixos kernel: rfkill rfkill2: PM: calling rfkill_resume [rfkill] @ 3915, parent: hci0
+Oct 11 22:38:01.574926 nixos kernel: rfkill rfkill2: PM: rfkill_resume [rfkill] returned 0 after 1 usecs
+Oct 11 22:38:01.574968 nixos kernel: mtd mtd0: PM: calling mtd_cls_resume [mtd] @ 3915, parent: spi0.0
+Oct 11 22:38:01.575016 nixos kernel: mtd mtd0: PM: mtd_cls_resume [mtd] returned 0 after 17 usecs
+Oct 11 22:38:01.575050 nixos kernel: mtd mtd0ro: PM: calling mtd_cls_resume [mtd] @ 3915, parent: spi0.0
+Oct 11 22:38:01.575090 nixos kernel: mtd mtd0ro: PM: mtd_cls_resume [mtd] returned 0 after 0 usecs
+Oct 11 22:38:01.575122 nixos kernel: input input16: PM: calling input_dev_resume @ 3915, parent: card0
+Oct 11 22:38:01.575176 nixos kernel: input input16: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.575222 nixos kernel: platform coretemp.0: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.575262 nixos kernel: platform coretemp.0: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.575294 nixos kernel: input input17: PM: calling input_dev_resume @ 3915, parent: card0
+Oct 11 22:38:01.575344 nixos kernel: input input17: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.575387 nixos kernel: input input18: PM: calling input_dev_resume @ 3915, parent: card0
+Oct 11 22:38:01.575439 nixos kernel: input input18: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.575483 nixos kernel: input input19: PM: calling input_dev_resume @ 3915, parent: card0
+Oct 11 22:38:01.575534 nixos kernel: input input19: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.575579 nixos kernel: intel_rapl_msr intel_rapl_msr.0: PM: calling platform_pm_resume @ 3915, parent: platform
+Oct 11 22:38:01.575622 nixos kernel: intel_rapl_msr intel_rapl_msr.0: PM: platform_pm_resume returned 0 after 0 usecs
+Oct 11 22:38:01.575655 nixos kernel: input input20: PM: calling input_dev_resume @ 3915, parent: 0018:04F3:327E.0007
+Oct 11 22:38:01.575717 nixos kernel: input input20: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.575769 nixos kernel: input input22: PM: calling input_dev_resume @ 3915, parent: 0018:04F3:327E.0007
+Oct 11 22:38:01.575831 nixos kernel: input input22: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.575882 nixos kernel: rfkill rfkill3: PM: calling rfkill_resume [rfkill] @ 3915, parent: phy0
+Oct 11 22:38:01.575929 nixos kernel: rfkill rfkill3: PM: rfkill_resume [rfkill] returned 0 after 0 usecs
+Oct 11 22:38:01.575968 nixos kernel: input input23: PM: calling input_dev_resume @ 3915, parent: acpi.video_bus.0
+Oct 11 22:38:01.576015 nixos kernel: input input23: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.576053 nixos kernel: input input24: PM: calling input_dev_resume @ 3915, parent: acpi.video_bus.1
+Oct 11 22:38:01.576105 nixos kernel: input input24: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.576150 nixos kernel: input input25: PM: calling input_dev_resume @ 3915, parent: card1
+Oct 11 22:38:01.576200 nixos kernel: input input25: PM: input_dev_resume returned 0 after 1 usecs
+Oct 11 22:38:01.576244 nixos kernel: input input26: PM: calling input_dev_resume @ 3915, parent: card1
+Oct 11 22:38:01.576294 nixos kernel: input input26: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.576336 nixos kernel: input input27: PM: calling input_dev_resume @ 3915, parent: card1
+Oct 11 22:38:01.576384 nixos kernel: input input27: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.576425 nixos kernel: input input28: PM: calling input_dev_resume @ 3915, parent: card1
+Oct 11 22:38:01.576474 nixos kernel: input input28: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.576519 nixos kernel: input input29: PM: calling input_dev_resume @ 3915, parent: card1
+Oct 11 22:38:01.576565 nixos kernel: input input29: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.576608 nixos kernel: input input30: PM: calling input_dev_resume @ 3915, parent: card1
+Oct 11 22:38:01.576652 nixos kernel: input input30: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.576694 nixos kernel: input input31: PM: calling input_dev_resume @ 3915, parent: card1
+Oct 11 22:38:01.576738 nixos kernel: input input31: PM: input_dev_resume returned 0 after 0 usecs
+Oct 11 22:38:01.576779 nixos kernel: mei_gsc_proxy 0000:80:16.0-0f73db04-97ab-4125-b893-e904ad0d5464: bound 0000:00:02.0 (ops i915_gsc_proxy_component_ops [i915])
+Oct 11 22:38:01.576798 nixos kernel: OOM killer enabled.
+Oct 11 22:38:01.576801 nixos kernel: Restarting tasks: Starting
+Oct 11 22:38:01.576805 nixos kernel: Restarting tasks: Done
+Oct 11 22:38:01.576808 nixos kernel: efivarfs: resyncing variable state
+Oct 11 22:38:01.765768 nixos kernel: efivarfs: finished resyncing variable state
+Oct 11 22:38:01.765803 nixos kernel: random: crng reseeded on system resumption
+Oct 11 22:38:03.210866 nixos bluetoothd[1018]: Controller resume with wake event 0x0
+Oct 11 22:38:03.214057 nixos kernel: PM: suspend exit
+Oct 11 22:38:03.232398 nixos systemd-sleep[3915]: System returned from sleep operation 'suspend'.
+Oct 11 22:38:03.233902 nixos systemd[1]: user.slice: Unit now thawed.
+Oct 11 22:38:03.234069 nixos systemd[1]: user-1000.slice: Unit now thawed.
+Oct 11 22:38:03.234076 nixos systemd-sleep[3915]: Successfully thawed unit 'user.slice'.
+Oct 11 22:38:03.234077 nixos systemd[1]: session-2.scope: Unit now thawed.
+Oct 11 22:38:03.234083 nixos systemd[1]: user@1000.service: Unit now thawed.
+Oct 11 22:38:03.234091 nixos systemd[1]: user-175.slice: Unit now thawed.
+Oct 11 22:38:03.234675 nixos systemd[1]: systemd-suspend.service: Deactivated successfully.
+Oct 11 22:38:03.234892 nixos systemd[1]: Finished System Suspend.
+Oct 11 22:38:03.234980 nixos systemd[1]: systemd-suspend.service: Consumed 3.560s CPU time over 6.994s wall clock time, 699.4M memory peak.
+Oct 11 22:38:03.235502 nixos systemd[1]: Stopped target Sleep.
+Oct 11 22:38:03.235564 nixos systemd[1]: Reached target Suspend.
+Oct 11 22:38:03.235757 nixos systemd[1]: Stopped target Suspend.
+Oct 11 22:38:03.236806 nixos systemd[1]: Stopping Sleep Actions...
+Oct 11 22:38:03.237371 nixos systemd-logind[1045]: Operation 'suspend' finished.
+Oct 11 22:38:03.237550 nixos org_kde_powerdevil[1771]: [  1843][429.274163] (ldbus_handle_message)Received dbus signal PrepareForSleep(false=resume)
+Oct 11 22:38:03.237586 nixos ModemManager[1935]: <msg> [sleep-monitor-systemd] system is resuming
+Oct 11 22:38:03.238218 nixos rtkit-daemon[1385]: Resuming known real-time threads.
+Oct 11 22:38:03.238372 nixos rtkit-daemon[1385]: Successfully made thread 2379 of process 2237 owned by '1000' RT at priority 10.
+Oct 11 22:38:03.238446 nixos rtkit-daemon[1385]: Successfully made thread 1832 of process 1822 owned by '1000' RT at priority 20.
+Oct 11 22:38:03.238490 nixos rtkit-daemon[1385]: Successfully made thread 1822 of process 1822 owned by '1000' high priority at nice level -11.
+Oct 11 22:38:03.238559 nixos rtkit-daemon[1385]: Successfully made thread 1731 of process 1696 owned by '1000' RT at priority 20.
+Oct 11 22:38:03.238637 nixos rtkit-daemon[1385]: Successfully made thread 1722 of process 1696 owned by '1000' RT at priority 20.
+Oct 11 22:38:03.238679 nixos rtkit-daemon[1385]: Successfully made thread 1696 of process 1696 owned by '1000' high priority at nice level -11.
+Oct 11 22:38:03.238744 nixos rtkit-daemon[1385]: Successfully made thread 1699 of process 1694 owned by '1000' RT at priority 20.
+Oct 11 22:38:03.238785 nixos rtkit-daemon[1385]: Successfully made thread 1694 of process 1694 owned by '1000' high priority at nice level -11.
+Oct 11 22:38:03.238789 nixos rtkit-daemon[1385]: Resumed scheduling 8 threads.
+Oct 11 22:38:03.251853 nixos systemd[1]: sleep-actions.service: Deactivated successfully.
+Oct 11 22:38:03.252024 nixos systemd[1]: Stopped Sleep Actions.
+Oct 11 22:38:03.259620 nixos kernel: Generic FE-GE Realtek PHY r8169-0-8100:00: attached PHY driver (mii_bus:phy_addr=r8169-0-8100:00, irq=MAC)
+Oct 11 22:38:03.383617 nixos kernel: r8169 0000:81:00.0 enp129s0: Link is Down
+Oct 11 22:38:03.402176 nixos NetworkManager[1179]: <warn>  [1791743883.4021] device (p2p-dev-wlp130s0): error setting IPv4 forwarding to '0': Resource temporarily unavailable
+Oct 11 22:38:03.431337 nixos NetworkManager[1179]: <warn>  [1791743883.4313] device (p2p-dev-wlp130s0): error setting IPv4 forwarding to '0': Resource temporarily unavailable
+Oct 11 22:38:03.822260 nixos kwin_wayland[1637]: Applying output configuration failed!
+Oct 11 22:38:05.249140 nixos ModemManager[1935]: <wrn> [plugin-manager] task 5,wlp130s0: error when checking support with plugin 'generic': (generic) Missing port probe for port (net/wlp130s0)
+Oct 11 22:38:06.475829 nixos wpa_supplicant[1187]: wlp130s0: WPS-CANCEL
+Oct 11 22:38:06.481291 nixos wpa_supplicant[1187]: wlp130s0: SME: Trying to authenticate with 14:eb:b6:e0:86:a7 (SSID='tyoma' freq=5240 MHz)
+Oct 11 22:38:06.528615 nixos kernel: wlp130s0: authenticate with 14:eb:b6:e0:86:a7 (local address=f4:4e:b4:1a:65:0f)
+Oct 11 22:38:06.546755 nixos kernel: wlp130s0: send auth to 14:eb:b6:e0:86:a7 (try 1/3)
+Oct 11 22:38:06.550878 nixos wpa_supplicant[1187]: wlp130s0: Trying to associate with 14:eb:b6:e0:86:a7 (SSID='tyoma' freq=5240 MHz)
+Oct 11 22:38:06.551804 nixos kernel: wlp130s0: authenticated
+Oct 11 22:38:06.553800 nixos kernel: wlp130s0: associate with 14:eb:b6:e0:86:a7 (try 1/3)
+Oct 11 22:38:06.578800 nixos kernel: wlp130s0: RX AssocResp from 14:eb:b6:e0:86:a7 (capab=0x1511 status=0 aid=1)
+Oct 11 22:38:06.619813 nixos kernel: wlp130s0: associated
+Oct 11 22:38:06.621986 nixos wpa_supplicant[1187]: wlp130s0: Associated with 14:eb:b6:e0:86:a7
+Oct 11 22:38:06.622161 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Oct 11 22:38:06.659919 nixos wpa_supplicant[1187]: wlp130s0: WPA: Key negotiation completed with 14:eb:b6:e0:86:a7 [PTK=CCMP GTK=CCMP]
+Oct 11 22:38:06.659931 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-CONNECTED - Connection to 14:eb:b6:e0:86:a7 completed [id=0 id_str=]
+Oct 11 22:38:06.674724 nixos kernel: wlp130s0: Limiting TX power to 20 (23 - 3) dBm as advertised by 14:eb:b6:e0:86:a7
+Oct 11 22:38:06.715018 nixos systemd[1]: Stopped target Host and Network Name Lookups.
+Oct 11 22:38:06.715039 nixos systemd[1]: Stopping Host and Network Name Lookups...
+Oct 11 22:38:06.715087 nixos systemd[1]: Stopped target User and Group Name Lookups.
+Oct 11 22:38:06.715094 nixos systemd[1]: Stopping User and Group Name Lookups...
+Oct 11 22:38:06.715267 nixos systemd[1]: Stopping Name Service Cache Daemon (nsncd)...
+Oct 11 22:38:06.716354 nixos systemd[1]: nscd.service: Deactivated successfully.
+Oct 11 22:38:06.716670 nixos systemd[1]: Stopped Name Service Cache Daemon (nsncd).
+Oct 11 22:38:06.716729 nixos systemd[1]: nscd.service: Consumed 23ms CPU time over 11.154s wall clock time, 4.2M memory peak, 2.9K outgoing IP traffic.
+Oct 11 22:38:06.716803 nixos avahi-daemon[1017]: Got SIGHUP, reloading.
+Oct 11 22:38:06.716862 nixos avahi-daemon[1017]: No service file found in /etc/avahi/services.
+Oct 11 22:38:06.719511 nixos systemd[1]: Starting Name Service Cache Daemon (nsncd)...
+Oct 11 22:38:06.721139 nixos avahi-daemon[1017]: Joining mDNS multicast group on interface wlp130s0.IPv6 with address fe80::16b:6b8c:d6ce:be09.
+Oct 11 22:38:06.721173 nixos avahi-daemon[1017]: New relevant interface wlp130s0.IPv6 for mDNS.
+Oct 11 22:38:06.736187 nixos nsncd[4124]: Oct 11 22:38:06.736 INFO started, config: Config { ignored_request_types: {}, worker_count: 8, handoff_timeout: 10s }, path: "/var/run/nscd/socket"
+Oct 11 22:38:06.736270 nixos systemd[1]: Started Name Service Cache Daemon (nsncd).
+Oct 11 22:38:06.736427 nixos systemd[1]: Reached target Host and Network Name Lookups.
+Oct 11 22:38:06.736468 nixos systemd[1]: Reached target User and Group Name Lookups.
+Oct 11 22:38:06.741898 nixos org_kde_powerdevil[1771]: [  1850][432.778521] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 22:38:06.859144 nixos avahi-daemon[1017]: Joining mDNS multicast group on interface wlp130s0.IPv4 with address 192.168.68.57.
+Oct 11 22:38:06.862882 nixos avahi-daemon[1017]: New relevant interface wlp130s0.IPv4 for mDNS.
+Oct 11 22:38:07.249534 nixos ModemManager[1935]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:80/0000:80:1c.0/0000:81:00.0': not supported by any plugin
+Oct 11 22:38:07.249570 nixos ModemManager[1935]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:80/0000:80:1c.7/0000:82:00.0': not supported by any plugin
+Oct 11 22:38:10.378173 nixos cupsd[1284]: REQUEST localhost - - "POST /admin/ HTTP/1.1" 401 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:38:10.380104 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 1 (was 0.)
+Oct 11 22:38:10.380568 nixos cupsd[1284]: New printer "Pantum_BP2300W_Series_587E16" added by "root".
+Oct 11 22:38:10.380695 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:38:10.382048 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 0 (was 1.)
+Oct 11 22:38:10.382353 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:38:10.382435 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:38:10.384496 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 device-uri to "implicitclass://Pantum_BP2300W_Series_587E16/" (was "file:///dev/null".)
+Oct 11 22:38:10.384504 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-is-accepting-jobs to 1 (was 0.)
+Oct 11 22:38:10.384846 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-state to 3 (was 5.)
+Oct 11 22:38:10.386156 nixos cupsd[1284]: CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:38:10.386379 nixos cupsd[1284]: CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:38:10.386384 nixos cupsd[1284]: Registering ICC color profiles for "Pantum_BP2300W_Series_587E16".
+Oct 11 22:38:10.386581 nixos cupsd[1284]: CreateDevice failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:38:10.388292 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:38:10.388421 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 6812 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:38:10.389246 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 0 (was 0.)
+Oct 11 22:38:10.389947 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:38:10.390051 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 197 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:38:10.402561 nixos cupsd[1284]: REQUEST localhost - - "POST /admin/ HTTP/1.1" 401 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:38:10.404189 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 1 (was 0.)
+Oct 11 22:38:10.404505 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:38:10.404580 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:38:10.405299 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 0 (was 1.)
+Oct 11 22:38:10.405587 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:38:10.405611 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:38:10.406545 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 device-uri to "implicitclass://Pantum_BP2300W_Series_587E16/" (was "implicitclass://Pantum_BP2300W_Series_587E16/".)
+Oct 11 22:38:10.406547 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-state to 3 (was 3.)
+Oct 11 22:38:10.407012 nixos cupsd[1284]: CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:38:10.407033 nixos cupsd[1284]: CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:38:10.407034 nixos cupsd[1284]: Registering ICC color profiles for "Pantum_BP2300W_Series_587E16".
+Oct 11 22:38:10.407056 nixos cupsd[1284]: CreateDevice failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:38:10.407645 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:38:10.407725 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 6812 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:38:10.408075 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 0 (was 0.)
+Oct 11 22:38:10.408351 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:38:10.408427 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 197 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:38:10.499339 nixos org_kde_powerdevil[1771]: [  1850][436.535950] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 22:38:16.908181 nixos systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 11 22:38:17.434694 nixos cupsd[1284]: Saving printers.conf...
+Oct 11 22:38:17.434873 nixos cupsd[1284]: Generating printcap /etc/printcap...
+Oct 11 22:38:17.435110 nixos cupsd[1284]: Saving subscriptions.conf...
+Oct 11 22:38:22.479997 nixos kscreenlocker_greet[3821]: pam_warn(kde-fingerprint:auth): function=[pam_sm_authenticate] flags=0 service=[kde-fingerprint] terminal=[<unknown>] user=[artem] ruser=[<unknown>] rhost=[<unknown>]
+Oct 11 22:38:22.480250 nixos kscreenlocker_greet[3821]: pam_warn(kde-smartcard:auth): function=[pam_sm_authenticate] flags=0 service=[kde-smartcard] terminal=[<unknown>] user=[artem] ruser=[<unknown>] rhost=[<unknown>]

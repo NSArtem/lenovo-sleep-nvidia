@@ -1,0 +1,257 @@
+Oct 11 15:43:58.545397 nixos nix-daemon[20276]: accepted connection from pid 40093, user artem
+Oct 11 15:44:15.865483 nixos nix-daemon[20276]: accepted connection from pid 40117, user artem
+Oct 11 15:44:42.193827 nixos nix-daemon[20276]: accepted connection from pid 40194, user artem
+Oct 11 15:44:42.710425 nixos systemd-logind[1044]: suspend requested from client PID 1658 ('.plasmashell-wr') (unit user@1000.service)...
+Oct 11 15:44:42.711251 nixos org_kde_powerdevil[1730]: [  1815][4091.240262] (ldbus_handle_message)Received dbus signal PrepareForSleep(true=prepare)
+Oct 11 15:44:42.711580 nixos ModemManager[1910]: <msg> [sleep-monitor-systemd] system is about to suspend
+Oct 11 15:44:42.712060 nixos systemd-logind[1044]: The system will suspend now!
+Oct 11 15:44:42.713099 nixos org_kde_powerdevil[1730]: Watching for display connection changes, resolved watch mode = Watch_Mode_Udev, poll loop interval = 500 millisec
+Oct 11 15:44:42.713099 nixos org_kde_powerdevil[1730]:                                          initial_stabilization_millisec: 0,  stabilization_poll_millisec: 100
+Oct 11 15:44:42.711618 nixos ModemManager[1910]: <msg> [sleep-monitor-systemd] ready to sleep; dropping inhibitor
+Oct 11 15:44:42.711654 nixos rtkit-daemon[1378]: Demoting known real-time threads.
+Oct 11 15:44:42.711715 nixos rtkit-daemon[1378]: Successfully demoted thread 26864 of process 26709.
+Oct 11 15:44:42.711733 nixos rtkit-daemon[1378]: Successfully demoted thread 6167 of process 6110.
+Oct 11 15:44:42.711746 nixos rtkit-daemon[1378]: Successfully demoted thread 6166 of process 6110.
+Oct 11 15:44:42.711762 nixos rtkit-daemon[1378]: Successfully demoted thread 1812 of process 1800.
+Oct 11 15:44:42.711772 nixos rtkit-daemon[1378]: Successfully demoted thread 1800 of process 1800.
+Oct 11 15:44:42.711789 nixos rtkit-daemon[1378]: Successfully demoted thread 1635 of process 1597.
+Oct 11 15:44:42.711800 nixos rtkit-daemon[1378]: Successfully demoted thread 1627 of process 1597.
+Oct 11 15:44:42.711810 nixos rtkit-daemon[1378]: Successfully demoted thread 1597 of process 1597.
+Oct 11 15:44:42.711826 nixos rtkit-daemon[1378]: Successfully demoted thread 1600 of process 1595.
+Oct 11 15:44:42.711836 nixos rtkit-daemon[1378]: Successfully demoted thread 1595 of process 1595.
+Oct 11 15:44:42.711837 nixos rtkit-daemon[1378]: Demoted 10 threads.
+Oct 11 15:44:42.718738 nixos avahi-daemon[1015]: Leaving mDNS multicast group on interface wlp130s0.IPv4 with address 192.168.10.26.
+Oct 11 15:44:42.721082 nixos systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 15:44:42.737083 nixos systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 15:44:42.737292 nixos avahi-daemon[1015]: Interface wlp130s0.IPv4 no longer relevant for mDNS.
+Oct 11 15:44:42.777676 nixos systemd[1]: Stopped target Host and Network Name Lookups.
+Oct 11 15:44:42.777692 nixos systemd[1]: Stopping Host and Network Name Lookups...
+Oct 11 15:44:42.777721 nixos systemd[1]: Stopped target User and Group Name Lookups.
+Oct 11 15:44:42.777726 nixos systemd[1]: Stopping User and Group Name Lookups...
+Oct 11 15:44:42.777845 nixos systemd[1]: Stopping Name Service Cache Daemon (nsncd)...
+Oct 11 15:44:42.779011 nixos systemd[1]: nscd.service: Deactivated successfully.
+Oct 11 15:44:42.779076 nixos avahi-daemon[1015]: Got SIGHUP, reloading.
+Oct 11 15:44:42.779254 nixos systemd[1]: Stopped Name Service Cache Daemon (nsncd).
+Oct 11 15:44:42.779111 nixos avahi-daemon[1015]: No service file found in /etc/avahi/services.
+Oct 11 15:44:42.779294 nixos systemd[1]: nscd.service: Consumed 429ms CPU time over 1h 6min 8.830s wall clock time, 5.2M memory peak, 35.6K incoming IP traffic, 20.7K outgoing IP traffic.
+Oct 11 15:44:42.780904 nixos systemd[1]: Starting Name Service Cache Daemon (nsncd)...
+Oct 11 15:44:42.783450 nixos kernel: wlp130s0: deauthenticating from b4:64:15:82:cb:ea by local choice (Reason: 3=DEAUTH_LEAVING)
+Oct 11 15:44:42.795934 nixos nsncd[40277]: Oct 11 15:44:42.795 INFO started, config: Config { ignored_request_types: {}, worker_count: 8, handoff_timeout: 10s }, path: "/var/run/nscd/socket"
+Oct 11 15:44:42.795947 nixos systemd[1]: Started Name Service Cache Daemon (nsncd).
+Oct 11 15:44:42.796115 nixos systemd[1]: Reached target Host and Network Name Lookups.
+Oct 11 15:44:42.796158 nixos systemd[1]: Reached target User and Group Name Lookups.
+Oct 11 15:44:43.022684 nixos wpa_supplicant[1190]: wlp130s0: CTRL-EVENT-DISCONNECTED bssid=b4:64:15:82:cb:ea reason=3 locally_generated=1
+Oct 11 15:44:43.022844 nixos wpa_supplicant[1190]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 15:44:43.023277 nixos avahi-daemon[1015]: Leaving mDNS multicast group on interface wlp130s0.IPv6 with address fe80::eee0:9514:8907:e8a0.
+Oct 11 15:44:43.023291 nixos avahi-daemon[1015]: Interface wlp130s0.IPv6 no longer relevant for mDNS.
+Oct 11 15:44:43.180455 nixos wpa_supplicant[1190]: wlp130s0: CTRL-EVENT-SCAN-FAILED ret=-100
+Oct 11 15:44:43.225279 nixos wpa_supplicant[1190]: p2p-dev-wlp130s: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 15:44:43.225344 nixos wpa_supplicant[1190]: p2p-dev-wlp130s: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 15:44:43.225354 nixos wpa_supplicant[1190]: nl80211: deinit ifname=p2p-dev-wlp130s disabled_11b_rates=0
+Oct 11 15:44:43.272078 nixos wpa_supplicant[1190]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 15:44:43.299795 nixos wpa_supplicant[1190]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 15:44:43.299799 nixos wpa_supplicant[1190]: nl80211: deinit ifname=wlp130s0 disabled_11b_rates=0
+Oct 11 15:44:43.390970 nixos org_kde_powerdevil[1730]: [  1819][4091.919977] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 15:44:43.539259 nixos systemd[1]: Starting Sleep Actions...
+Oct 11 15:44:43.554131 nixos systemd[1]: Finished Sleep Actions.
+Oct 11 15:44:43.554810 nixos systemd[1]: Reached target Sleep.
+Oct 11 15:44:43.555999 nixos systemd[1]: Starting System Suspend...
+Oct 11 15:44:43.565117 nixos systemd[1]: user-175.slice: Unit now frozen-by-parent.
+Oct 11 15:44:43.565126 nixos systemd[1]: session-2.scope: Unit now frozen-by-parent.
+Oct 11 15:44:43.565270 nixos systemd[1]: user.slice: Unit now frozen.
+Oct 11 15:44:43.565280 nixos systemd[1]: user-1000.slice: Unit now frozen-by-parent.
+Oct 11 15:44:43.565286 nixos systemd[1]: user@1000.service: Unit now frozen-by-parent.
+Oct 11 15:44:43.565287 nixos systemd-sleep[40307]: Successfully froze unit 'user.slice'.
+Oct 11 15:44:43.565447 nixos systemd-sleep[40307]: Performing sleep operation 'suspend'...
+Oct 11 15:44:43.566444 nixos kernel: PM: suspend entry (deep)
+Oct 11 15:44:43.587603 nixos kernel: Filesystems sync: 0.021 seconds
+Oct 11 16:26:41.424181 nixos kernel: Freezing user space processes
+Oct 11 16:26:41.424279 nixos kernel: Freezing user space processes completed (elapsed 0.001 seconds)
+Oct 11 16:26:41.424289 nixos kernel: OOM killer disabled.
+Oct 11 16:26:41.424297 nixos kernel: Freezing remaining freezable tasks
+Oct 11 16:26:41.424304 nixos kernel: Freezing remaining freezable tasks completed (elapsed 0.000 seconds)
+Oct 11 16:26:41.424311 nixos kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+Oct 11 16:26:41.424322 nixos kernel: queueing ieee80211 work while going to suspend
+Oct 11 16:26:41.424334 nixos kernel: ACPI: EC: interrupt blocked
+Oct 11 16:26:41.424344 nixos kernel: ACPI: PM: Preparing to enter system sleep state S3
+Oct 11 16:26:41.424351 nixos kernel: ACPI: EC: event blocked
+Oct 11 16:26:41.424358 nixos kernel: ACPI: EC: EC stopped
+Oct 11 16:26:41.424365 nixos kernel: ACPI: PM: Saving platform NVS memory
+Oct 11 16:26:41.424370 nixos kernel: Disabling non-boot CPUs ...
+Oct 11 16:26:41.424516 nixos kernel: ACPI: PM: Low-level resume complete
+Oct 11 16:26:41.424523 nixos kernel: ACPI: EC: EC started
+Oct 11 16:26:41.424529 nixos kernel: ACPI: PM: Restoring platform NVS memory
+Oct 11 16:26:41.424535 nixos kernel: Enabling non-boot CPUs ...
+Oct 11 16:26:41.424549 nixos kernel: CPU0: Thermal monitoring enabled (TM1)
+Oct 11 16:26:41.424557 nixos kernel: x86/cpu: User Mode Instruction Prevention (UMIP) activated
+Oct 11 16:26:41.424562 nixos kernel: [Firmware Bug]: TSC ADJUST differs within socket(s), fixing all errors
+Oct 11 16:26:41.424676 nixos kernel: core: The event 0x5d0 is not supported as an auto-counter reload event.
+Oct 11 16:26:41.424681 nixos kernel: core: cpu_atom PMU driver: 
+Oct 11 16:26:41.424687 nixos kernel: ... version:                   6
+Oct 11 16:26:41.424694 nixos kernel: ... bit width:                 48
+Oct 11 16:26:41.424698 nixos kernel: ... generic counters:          8
+Oct 11 16:26:41.424703 nixos kernel: ... generic bitmap:            00000000000000ff
+Oct 11 16:26:41.424708 nixos kernel: ... fixed-purpose counters:    6
+Oct 11 16:26:41.424714 nixos kernel: ... fixed-purpose bitmap:      0000000000000077
+Oct 11 16:26:41.424717 nixos kernel: ... value mask:                0000ffffffffffff
+Oct 11 16:26:41.424720 nixos kernel: ... max period:                00007fffffffffff
+Oct 11 16:26:41.424726 nixos kernel: ... global_ctrl mask:          00000077000000ff
+Oct 11 16:26:41.424883 nixos kernel: ACPI: PM: Waking up from system sleep state S3
+Oct 11 16:26:41.424888 nixos kernel: ACPI: button: [Firmware Bug]: Unexpected lid state reported by firmware
+Oct 11 16:26:41.424894 nixos kernel: ACPI: EC: interrupt unblocked
+Oct 11 16:26:41.424902 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 16:26:41.425048 nixos kernel: ACPI: EC: event unblocked
+Oct 11 16:26:41.425057 nixos kernel: xhci_hcd 0000:00:0d.0: xHC error in resume, USBSTS 0x401, Reinit
+Oct 11 16:26:41.425121 nixos kernel: usb usb1: root hub lost power or was reset
+Oct 11 16:26:41.425209 nixos kernel: usb usb2: root hub lost power or was reset
+Oct 11 16:26:41.425277 nixos kernel: spd5118 4-0051: Failed to write b = 0: -6
+Oct 11 16:26:41.425334 nixos kernel: spd5118 4-0051: PM: dpm_run_callback(): spd5118_resume [spd5118] returns -6
+Oct 11 16:26:41.425375 nixos kernel: spd5118 4-0051: PM: failed to resume async: error -6
+Oct 11 16:26:41.425415 nixos kernel: i915 0000:00:02.0: [drm] GT0: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+Oct 11 16:26:41.425469 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: submission enabled
+Oct 11 16:26:41.425517 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: SLPC enabled
+Oct 11 16:26:41.425566 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: RC enabled
+Oct 11 16:26:41.425612 nixos kernel: i915 0000:00:02.0: [drm] GT1: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+Oct 11 16:26:41.425659 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC firmware i915/mtl_huc_gsc.bin version 8.5.4
+Oct 11 16:26:41.425703 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC: authenticated for clear media
+Oct 11 16:26:41.425748 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: submission enabled
+Oct 11 16:26:41.425794 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: SLPC enabled
+Oct 11 16:26:41.425839 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: RC enabled
+Oct 11 16:26:41.425889 nixos kernel: i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io,decodes=io:owns=none
+Oct 11 16:26:41.425936 nixos kernel: nvme nvme0: 20/0/0 default/read/poll queues
+Oct 11 16:26:41.425985 nixos kernel: i915 0000:00:02.0: [drm] GT1: Loaded GSC firmware i915/mtl_gsc_1.bin (cv1.0, r102.1.15.1926, svn 1)
+Oct 11 16:26:41.426032 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC: authenticated for all workloads
+Oct 11 16:26:41.426079 nixos kernel: usb 3-11: reset high-speed USB device number 4 using xhci_hcd
+Oct 11 16:26:41.426148 nixos kernel: usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+Oct 11 16:26:41.426216 nixos kernel: mei_gsc_proxy 0000:80:16.0-0f73db04-97ab-4125-b893-e904ad0d5464: bound 0000:00:02.0 (ops i915_gsc_proxy_component_ops [i915])
+Oct 11 16:26:41.426244 nixos kernel: OOM killer enabled.
+Oct 11 16:26:41.426249 nixos kernel: Restarting tasks: Starting
+Oct 11 16:26:41.426256 nixos kernel: Restarting tasks: Done
+Oct 11 16:26:41.426265 nixos kernel: efivarfs: resyncing variable state
+Oct 11 16:26:41.427507 nixos systemd[1]: Starting Refresh fwupd metadata and update motd...
+Oct 11 16:26:41.429242 nixos systemd[1]: Starting Logrotate Service...
+Oct 11 16:26:41.435410 nixos systemd-timesyncd[524]: Network configuration changed, trying to establish connection.
+Oct 11 16:26:41.508363 nixos fwupd[30352]: 12:26:41.508 FuPluginLinuxSwap    could not parse /proc/swaps: no volumes for devnum 51
+Oct 11 16:26:41.823878 nixos kernel: efivarfs: finished resyncing variable state
+Oct 11 16:26:41.823945 nixos kernel: random: crng reseeded on system resumption
+Oct 11 16:26:41.841776 nixos systemd[1]: logrotate.service: Deactivated successfully.
+Oct 11 16:26:41.842053 nixos systemd[1]: Finished Logrotate Service.
+Oct 11 16:26:41.842797 nixos fwupdmgr[40424]: Idle…
+Oct 11 16:26:41.851869 nixos fwupdmgr[40424]: Metadata is up to date; use --force to refresh again.
+Oct 11 16:26:41.853267 nixos systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Oct 11 16:26:41.853415 nixos systemd[1]: Finished Refresh fwupd metadata and update motd.
+Oct 11 16:26:43.424140 nixos bluetoothd[1016]: Controller resume with wake event 0x0
+Oct 11 16:26:43.424873 nixos kernel: PM: suspend exit
+Oct 11 16:26:43.457291 nixos systemd-sleep[40307]: System returned from sleep operation 'suspend'.
+Oct 11 16:26:43.459545 nixos systemd[1]: user.slice: Unit now thawed.
+Oct 11 16:26:43.459555 nixos systemd[1]: user-175.slice: Unit now thawed.
+Oct 11 16:26:43.459561 nixos systemd[1]: user-1000.slice: Unit now thawed.
+Oct 11 16:26:43.459566 nixos systemd[1]: session-2.scope: Unit now thawed.
+Oct 11 16:26:43.459572 nixos systemd[1]: user@1000.service: Unit now thawed.
+Oct 11 16:26:43.459782 nixos systemd-sleep[40307]: Successfully thawed unit 'user.slice'.
+Oct 11 16:26:43.460405 nixos systemd[1]: systemd-suspend.service: Deactivated successfully.
+Oct 11 16:26:43.460642 nixos systemd[1]: Finished System Suspend.
+Oct 11 16:26:43.460740 nixos systemd[1]: systemd-suspend.service: Consumed 3.926s CPU time over 7.626s wall clock time, 1.1G memory peak, 24K read from disk.
+Oct 11 16:26:43.461455 nixos systemd[1]: Stopped target Sleep.
+Oct 11 16:26:43.461518 nixos systemd[1]: Reached target Suspend.
+Oct 11 16:26:43.461601 nixos systemd-logind[1044]: Operation 'suspend' finished.
+Oct 11 16:26:43.461656 nixos systemd[1]: Stopped target Suspend.
+Oct 11 16:26:43.461684 nixos org_kde_powerdevil[1730]: [  1815][6611.990695] (ldbus_handle_message)Received dbus signal PrepareForSleep(false=resume)
+Oct 11 16:26:43.461742 nixos ModemManager[1910]: <msg> [sleep-monitor-systemd] system is resuming
+Oct 11 16:26:43.462706 nixos rtkit-daemon[1378]: Resuming known real-time threads.
+Oct 11 16:26:43.462804 nixos rtkit-daemon[1378]: Successfully made thread 26864 of process 26709 owned by '1000' RT at priority 10.
+Oct 11 16:26:43.462712 nixos systemd[1]: Stopping Sleep Actions...
+Oct 11 16:26:43.462845 nixos rtkit-daemon[1378]: Successfully made thread 6167 of process 6110 owned by '1000' high priority at nice level -10.
+Oct 11 16:26:43.462876 nixos rtkit-daemon[1378]: Successfully made thread 6166 of process 6110 owned by '1000' high priority at nice level -10.
+Oct 11 16:26:43.462915 nixos rtkit-daemon[1378]: Successfully made thread 1812 of process 1800 owned by '1000' RT at priority 20.
+Oct 11 16:26:43.462938 nixos rtkit-daemon[1378]: Successfully made thread 1800 of process 1800 owned by '1000' high priority at nice level -11.
+Oct 11 16:26:43.462978 nixos rtkit-daemon[1378]: Successfully made thread 1635 of process 1597 owned by '1000' RT at priority 20.
+Oct 11 16:26:43.463011 nixos rtkit-daemon[1378]: Successfully made thread 1627 of process 1597 owned by '1000' RT at priority 20.
+Oct 11 16:26:43.463033 nixos rtkit-daemon[1378]: Successfully made thread 1597 of process 1597 owned by '1000' high priority at nice level -11.
+Oct 11 16:26:43.463070 nixos rtkit-daemon[1378]: Successfully made thread 1600 of process 1595 owned by '1000' RT at priority 20.
+Oct 11 16:26:43.463092 nixos rtkit-daemon[1378]: Successfully made thread 1595 of process 1595 owned by '1000' high priority at nice level -11.
+Oct 11 16:26:43.463094 nixos rtkit-daemon[1378]: Resumed scheduling 10 threads.
+Oct 11 16:26:43.480410 nixos systemd[1]: sleep-actions.service: Deactivated successfully.
+Oct 11 16:26:43.480587 nixos systemd[1]: Stopped Sleep Actions.
+Oct 11 16:26:43.483872 nixos kernel: Generic FE-GE Realtek PHY r8169-0-8100:00: attached PHY driver (mii_bus:phy_addr=r8169-0-8100:00, irq=MAC)
+Oct 11 16:26:43.639873 nixos kernel: r8169 0000:81:00.0 enp129s0: Link is Down
+Oct 11 16:26:43.743435 nixos NetworkManager[1180]: <warn>  [1791721603.7434] device (p2p-dev-wlp130s0): error setting IPv4 forwarding to '0': Resource temporarily unavailable
+Oct 11 16:26:43.781361 nixos NetworkManager[1180]: <warn>  [1791721603.7813] device (p2p-dev-wlp130s0): error setting IPv4 forwarding to '0': Resource temporarily unavailable
+Oct 11 16:26:44.028851 nixos kwin_wayland[1538]: Applying output configuration failed!
+Oct 11 16:26:45.473384 nixos ModemManager[1910]: <wrn> [plugin-manager] task 3,wlp130s0: error when checking support with plugin 'generic': (generic) Missing port probe for port (net/wlp130s0)
+Oct 11 16:26:45.962852 nixos org_kde_powerdevil[1730]: [  1819][6614.491862] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 16:26:47.444409 nixos wpa_supplicant[1190]: wlp130s0: WPS-PBC-ACTIVE
+Oct 11 16:26:47.473047 nixos ModemManager[1910]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:80/0000:80:1c.0/0000:81:00.0': not supported by any plugin
+Oct 11 16:26:47.473066 nixos ModemManager[1910]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:80/0000:80:1c.7/0000:82:00.0': not supported by any plugin
+Oct 11 16:26:47.473760 nixos wpa_supplicant[1190]: wlp130s0: WPS-CANCEL
+Oct 11 16:26:47.490801 nixos wpa_supplicant[1190]: wlp130s0: SME: Trying to authenticate with 14:eb:b6:e0:86:a7 (SSID='tyoma' freq=5240 MHz)
+Oct 11 16:26:47.528884 nixos kernel: wlp130s0: authenticate with 14:eb:b6:e0:86:a7 (local address=f4:4e:b4:1a:65:0f)
+Oct 11 16:26:47.665888 nixos kernel: wlp130s0: send auth to 14:eb:b6:e0:86:a7 (try 1/3)
+Oct 11 16:26:47.669494 nixos wpa_supplicant[1190]: wlp130s0: Trying to associate with 14:eb:b6:e0:86:a7 (SSID='tyoma' freq=5240 MHz)
+Oct 11 16:26:47.670012 nixos kernel: wlp130s0: authenticated
+Oct 11 16:26:47.673060 nixos kernel: wlp130s0: associate with 14:eb:b6:e0:86:a7 (try 1/3)
+Oct 11 16:26:47.697102 nixos kernel: wlp130s0: RX AssocResp from 14:eb:b6:e0:86:a7 (capab=0x1511 status=0 aid=1)
+Oct 11 16:26:47.735869 nixos kernel: wlp130s0: associated
+Oct 11 16:26:47.738933 nixos wpa_supplicant[1190]: wlp130s0: Associated with 14:eb:b6:e0:86:a7
+Oct 11 16:26:47.739025 nixos wpa_supplicant[1190]: wlp130s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Oct 11 16:26:47.771207 nixos wpa_supplicant[1190]: wlp130s0: WPA: Key negotiation completed with 14:eb:b6:e0:86:a7 [PTK=CCMP GTK=CCMP]
+Oct 11 16:26:47.771214 nixos wpa_supplicant[1190]: wlp130s0: CTRL-EVENT-CONNECTED - Connection to 14:eb:b6:e0:86:a7 completed [id=0 id_str=]
+Oct 11 16:26:47.771998 nixos kernel: wlp130s0: Limiting TX power to 20 (23 - 3) dBm as advertised by 14:eb:b6:e0:86:a7
+Oct 11 16:26:47.813799 nixos systemd[1]: Stopped target Host and Network Name Lookups.
+Oct 11 16:26:47.813814 nixos systemd[1]: Stopping Host and Network Name Lookups...
+Oct 11 16:26:47.813843 nixos systemd[1]: Stopped target User and Group Name Lookups.
+Oct 11 16:26:47.813848 nixos systemd[1]: Stopping User and Group Name Lookups...
+Oct 11 16:26:47.813963 nixos systemd[1]: Stopping Name Service Cache Daemon (nsncd)...
+Oct 11 16:26:47.815055 nixos avahi-daemon[1015]: Got SIGHUP, reloading.
+Oct 11 16:26:47.815101 nixos avahi-daemon[1015]: No service file found in /etc/avahi/services.
+Oct 11 16:26:47.815118 nixos systemd[1]: nscd.service: Deactivated successfully.
+Oct 11 16:26:47.815363 nixos systemd[1]: Stopped Name Service Cache Daemon (nsncd).
+Oct 11 16:26:47.815402 nixos systemd[1]: nscd.service: Consumed 24ms CPU time over 12.755s wall clock time, 3.9M memory peak, 3.4K outgoing IP traffic.
+Oct 11 16:26:47.817013 nixos systemd[1]: Starting Name Service Cache Daemon (nsncd)...
+Oct 11 16:26:47.819600 nixos avahi-daemon[1015]: Joining mDNS multicast group on interface wlp130s0.IPv6 with address fe80::16b:6b8c:d6ce:be09.
+Oct 11 16:26:47.819619 nixos avahi-daemon[1015]: New relevant interface wlp130s0.IPv6 for mDNS.
+Oct 11 16:26:47.832941 nixos nsncd[40610]: Oct 11 16:26:47.832 INFO started, config: Config { ignored_request_types: {}, worker_count: 8, handoff_timeout: 10s }, path: "/var/run/nscd/socket"
+Oct 11 16:26:47.832938 nixos systemd[1]: Started Name Service Cache Daemon (nsncd).
+Oct 11 16:26:47.833083 nixos systemd[1]: Reached target Host and Network Name Lookups.
+Oct 11 16:26:47.833125 nixos systemd[1]: Reached target User and Group Name Lookups.
+Oct 11 16:26:48.081374 nixos avahi-daemon[1015]: Joining mDNS multicast group on interface wlp130s0.IPv4 with address 192.168.68.57.
+Oct 11 16:26:48.085239 nixos avahi-daemon[1015]: New relevant interface wlp130s0.IPv4 for mDNS.
+Oct 11 16:26:48.158784 nixos plasmashell[1658]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 16:26:48.217395 nixos steam[6026]: [2026-10-11 16:26:48] Background update loop checking for update. . .
+Oct 11 16:26:48.217757 nixos steam[6026]: [2026-10-11 16:26:48] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_client_ubuntu12
+Oct 11 16:26:48.268252 nixos steam[6026]: [2026-10-11 16:26:48] Manifest download: send request
+Oct 11 16:26:48.467599 nixos steam[6026]: [2026-10-11 16:26:48] Manifest download: waiting for download to finish
+Oct 11 16:26:48.469719 nixos org_kde_powerdevil[1730]: [  1819][6616.998727] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 16:26:49.218094 nixos steam[6026]: [2026-10-11 16:26:49] Manifest download: finished
+Oct 11 16:26:49.218094 nixos steam[6026]: [2026-10-11 16:26:49] Download skipped by HTTP 304 Not Modified
+Oct 11 16:26:49.218094 nixos steam[6026]: [2026-10-11 16:26:49] Nothing to do
+Oct 11 16:26:52.021818 nixos cupsd[1287]: REQUEST localhost - - "POST /admin/ HTTP/1.1" 401 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 16:26:52.024734 nixos cupsd[1287]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 1 (was 0.)
+Oct 11 16:26:52.025673 nixos cupsd[1287]: New printer "Pantum_BP2300W_Series_587E16" added by "root".
+Oct 11 16:26:52.025743 nixos cupsd[1287]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 16:26:52.026182 nixos cupsd[1287]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 0 (was 1.)
+Oct 11 16:26:52.026255 nixos cupsd[1287]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 16:26:52.026353 nixos cupsd[1287]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 16:26:52.028397 nixos cupsd[1287]: Setting Pantum_BP2300W_Series_587E16 device-uri to "implicitclass://Pantum_BP2300W_Series_587E16/" (was "file:///dev/null".)
+Oct 11 16:26:52.028400 nixos cupsd[1287]: Setting Pantum_BP2300W_Series_587E16 printer-is-accepting-jobs to 1 (was 0.)
+Oct 11 16:26:52.028452 nixos cupsd[1287]: Setting Pantum_BP2300W_Series_587E16 printer-state to 3 (was 5.)
+Oct 11 16:26:52.028825 nixos cupsd[1287]: CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 16:26:52.028852 nixos cupsd[1287]: CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 16:26:52.028854 nixos cupsd[1287]: Registering ICC color profiles for "Pantum_BP2300W_Series_587E16".
+Oct 11 16:26:52.028883 nixos cupsd[1287]: CreateDevice failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 16:26:52.029609 nixos cupsd[1287]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 16:26:52.029699 nixos cupsd[1287]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 6812 CUPS-Add-Modify-Printer successful-ok
+Oct 11 16:26:52.030316 nixos cupsd[1287]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 0 (was 0.)
+Oct 11 16:26:52.030563 nixos cupsd[1287]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 16:26:52.030642 nixos cupsd[1287]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 197 CUPS-Add-Modify-Printer successful-ok
+Oct 11 16:26:58.153742 nixos systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 11 16:27:11.823929 nixos systemd-timesyncd[524]: Contacted time server 46.19.96.19:123 (1.nixos.pool.ntp.org).
+Oct 11 16:27:17.756417 nixos kscreenlocker_greet[40216]: pam_warn(kde-fingerprint:auth): function=[pam_sm_authenticate] flags=0 service=[kde-fingerprint] terminal=[<unknown>] user=[artem] ruser=[<unknown>] rhost=[<unknown>]
+Oct 11 16:27:17.756641 nixos kscreenlocker_greet[40216]: pam_warn(kde-smartcard:auth): function=[pam_sm_authenticate] flags=0 service=[kde-smartcard] terminal=[<unknown>] user=[artem] ruser=[<unknown>] rhost=[<unknown>]
+Oct 11 16:27:23.047114 nixos cupsd[1287]: Saving printers.conf...
+Oct 11 16:27:23.047186 nixos cupsd[1287]: Generating printcap /etc/printcap...
+Oct 11 16:27:23.047277 nixos cupsd[1287]: Saving subscriptions.conf...
+Oct 11 16:27:32.931003 nixos nix-daemon[20276]: accepted connection from pid 43451, user artem
+Oct 11 16:27:34.186822 nixos nix-daemon[20276]: accepted connection from pid 43472, user artem
+Oct 11 16:27:40.149623 nixos systemd-logind[1044]: Power key pressed short.
+Oct 11 16:27:40.164173 nixos systemd-logind[1044]: Power key pressed short.

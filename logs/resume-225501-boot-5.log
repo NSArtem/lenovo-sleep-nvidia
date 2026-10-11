@@ -1,0 +1,762 @@
+Oct 11 22:53:59.939368 nixos faugus-launcher[2304]: Faugus 2.4.2
+Oct 11 22:54:02.473999 nixos plasmashell[1772]: No default firefox profile found
+Oct 11 22:54:02.479118 nixos plasmashell[1772]: "/nix/store/33csdwvl6r8x2sp6l3m429q6c7j0yir7-system-path/share/applications/discord.desktop" contains supported protocols but doesn't use %u or %U in its Exec line! This is inconsistent.
+Oct 11 22:54:02.638709 nixos plasmashell[1772]: "/nix/store/33csdwvl6r8x2sp6l3m429q6c7j0yir7-system-path/share/applications/discord.desktop" contains supported protocols but doesn't use %u or %U in its Exec line! This is inconsistent.
+Oct 11 22:54:02.711563 nixos plasmashell[1772]: "/nix/store/33csdwvl6r8x2sp6l3m429q6c7j0yir7-system-path/share/applications/discord.desktop" contains supported protocols but doesn't use %u or %U in its Exec line! This is inconsistent.
+Oct 11 22:54:02.813535 nixos plasmashell[1772]: "/nix/store/33csdwvl6r8x2sp6l3m429q6c7j0yir7-system-path/share/applications/discord.desktop" contains supported protocols but doesn't use %u or %U in its Exec line! This is inconsistent.
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: === ENVIRONMENT VARIABLES ===
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: FAUGUSID=final-fantasy-xiv
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: LOG_DIR=final-fantasy-xiv
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: PROTONPATH=Proton-CachyOS Latest
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: PROTON_BATTLEYE_RUNTIME=/home/artem/.local/share/faugus-launcher/components/be
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: PROTON_DLSS_INDICATOR=1
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: PROTON_DLSS_UPGRADE=1
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: PROTON_EAC_RUNTIME=/home/artem/.local/share/faugus-launcher/components/eac
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: SPLASHICON=/home/artem/.local/share/faugus-launcher/icons/final-fantasy-xiv.png
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: UMU_CONTAINER_NSENTER=1
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: UMU_USE_STEAM=1
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: WINEPREFIX=/mnt/data/Faugus/ffxiv
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: === UMU-LAUNCHER COMMAND ===
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: mangohud /nix/store/dc3n9imznvfxr4q72sd06srlp3mgccl1-umu-launcher-1.4.4/bin/umu-run '/mnt/data/Faugus/ffxiv/drive_c/Program Files (x86)/SquareEnix/FINAL FANTASY XIV - A Realm Reborn/boot/ffxivboot.exe'
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: UMU-Launcher is up to date.
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: Components are up to date.
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: Proton-CachyOS is up to date.
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: INFO: umu-launcher version 1.4.4 (3.14.7 (main, Aug  5 2026, 10:29:49) [GCC 16.2.0])
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: INFO: No GAMEID set, using umu-default
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: INFO: steamrt4 is up to date
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: INFO: Failed to find bus name com.steampowered.App72a0dfab12201057d75bd6bfeabc38e7 (retry 1)
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: INFO: Failed to find bus name com.steampowered.App72a0dfab12201057d75bd6bfeabc38e7 (retry 2)
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: INFO: Failed to find bus name com.steampowered.App72a0dfab12201057d75bd6bfeabc38e7 (retry 3)
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: INFO: Failed to find bus name com.steampowered.App72a0dfab12201057d75bd6bfeabc38e7 (retry 4)
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: INFO: Failed to find bus name com.steampowered.App72a0dfab12201057d75bd6bfeabc38e7 (retry 5)
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: INFO: Running 'Proton-CachyOS Latest' using runtime 'steamrt4'
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: INFO: Running 'steamrt4' using runtime 'host'
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: pressure-vessel-wrap[2425]: W: "/run/current-system/sw/bin/getent" is unlikely to appear in "/run/host"
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: pressure-vessel-wrap[2425]: W: Unable to determine architecture of provider / ldconfig: Error reading "(null)" ELF header: invalid `Elf' handle
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: pressure-vessel-wrap[2425]: W: "run/opengl-driver/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:03.282236 nixos faugus-launcher[2348]: pressure-vessel-wrap[2425]: W: "run/opengl-driver-32/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Running protonfixes on "cachyos-11.0-20261005-slr", build at 2026-10-04 20:34:14+00:00.
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Running checks
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: All checks successful
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] WARN: Game title not found in CSV
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Non-steam game UNKNOWN (umu-default)
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: No store specified, using UMU database
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Using early stage global defaults for UNKNOWN (umu-default)
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Non-steam game UNKNOWN (umu-default)
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: No store specified, using UMU database
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: No early stage global protonfix found for UNKNOWN (umu-default)
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: [2026-10-11 22:53:01.226] [MANGOHUD] [info] [cpu.cpp:636] hwmon: using input: /sys/class/hwmon/hwmon4/temp1_input
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: Proton: Error: unable to use parent for game drive, path /mnt/data
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Setting up DLSS version default.
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Automatic DLSS upgrade enabled.
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Setting up FSR4 version default.
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Automatic FSR4 upgrade enabled.
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Running protonfixes on "cachyos-11.0-20261005-slr", build at 2026-10-04 20:34:14+00:00.
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Running checks
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: All checks successful
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Non-steam game UNKNOWN (umu-default)
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: No store specified, using UMU database
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Using main stage global defaults for UNKNOWN (umu-default)
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: Non-steam game UNKNOWN (umu-default)
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: No store specified, using UMU database
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: ProtonFixes[2562] INFO: No main stage global protonfix found for UNKNOWN (umu-default)
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: Starting program with command-launcher service.
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: To run commands in the per-app container, use a command like:
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: /home/artem/.local/share/umu/steamrt4/pressure-vessel/bin/steam-runtime-launch-client \
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]:         --bus-name=:1.80 \
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]:         -- \
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]:         bash
+Oct 11 22:54:03.282840 nixos faugus-launcher[2348]: fsync: up and running.
+Oct 11 22:54:03.283058 nixos faugus-launcher[2348]: [2026-10-11 22:53:03.569] [MANGOHUD] [info] [blacklist.cpp:86] process 'explorer.exe' is blacklisted in MangoHud
+Oct 11 22:54:03.283058 nixos faugus-launcher[2348]: [2026-10-11 22:53:03.619] [MANGOHUD] [info] [blacklist.cpp:86] process 'explorer.exe' is blacklisted in MangoHud
+Oct 11 22:54:03.283058 nixos faugus-launcher[2348]: ERROR: ld.so: object '/tmp/pressure-vessel-libs-PBCJVS/${PLATFORM}/libgamemode.so' from LD_PRELOAD cannot be preloaded (cannot open shared object file): ignored.
+Oct 11 22:54:03.283058 nixos faugus-launcher[2348]: [2026-10-11 22:53:03.966] [MANGOHUD] [info] [cpu.cpp:636] hwmon: using input: /sys/class/hwmon/hwmon4/temp1_input
+Oct 11 22:54:03.283058 nixos faugus-launcher[2348]: WARNING: accRole returned System.String instead of int for hwnd-600da--2
+Oct 11 22:54:03.283058 nixos faugus-launcher[2348]: WARNING: accRole returned System.String instead of int for hwnd-600da--3
+Oct 11 22:54:03.283058 nixos faugus-launcher[2348]: WARNING: accRole returned System.String instead of int for hwnd-600da--4
+Oct 11 22:54:03.283058 nixos faugus-launcher[2348]: [2026-10-11 22:53:11.157] [MANGOHUD] [info] [blacklist.cpp:86] process 'ffxivlauncher64.exe' is blacklisted in MangoHud
+Oct 11 22:54:03.283058 nixos faugus-launcher[2348]: Some threads failed to suspend before timeout reached. Continuing with shutdown.
+Oct 11 22:54:03.394933 nixos systemd[1567]: app-io.github.Faugus.faugus\x2dlauncher@7b408edf03ba4b86adfc91a7f79b957b.service: Consumed 26.761s CPU time over 1min 14.948s wall clock time, 2.4G memory peak.
+Oct 11 22:54:03.523514 nixos systemd[1567]: Started Steam.
+Oct 11 22:54:04.808638 nixos steam-runtime-steam-remote[3851]: steam-runtime-steam-remote: Steam is not running: No such device or address
+Oct 11 22:54:04.890157 nixos steam[3863]: steam.sh[3839]: Running Steam on nixos 26.11 64-bit
+Oct 11 22:54:04.890450 nixos steam[3863]: steam.sh[3839]: STEAM_RUNTIME is enabled automatically
+Oct 11 22:54:04.898855 nixos steam[3863]: setup.sh[3900]: Steam runtime environment up-to-date!
+Oct 11 22:54:04.976724 nixos steam[3863]: steam.sh[3839]: Log already open
+Oct 11 22:54:05.080047 nixos steam[3863]: steam.sh[3839]: Steam client's requirements are satisfied
+Oct 11 22:54:05.090387 nixos steam[3863]: CProcessEnvironmentManager is ready, 5 preallocated environment variables.
+Oct 11 22:54:05.094469 nixos steam[3863]: [2026-10-11 22:54:05] Startup - updater built Sep  3 2026 01:31:48
+Oct 11 22:54:05.094469 nixos steam[3863]: [2026-10-11 22:54:05] Startup - Steam Client launched with: '/home/artem/.local/share/Steam/ubuntu12_32/steam' '-srt-logger-opened'
+Oct 11 22:54:05.098717 nixos steam[3863]: 10/11 22:54:05 minidumps folder is set to /tmp/dumps
+Oct 11 22:54:05.099102 nixos steam[3863]: 10/11 22:54:05 Init: Installing breakpad exception handler for appid(steam)/version(1788652215)/tid(3943)
+Oct 11 22:54:05.099366 nixos steam[3863]: Looks like steam didn't shutdown cleanly, scheduling immediate update check
+Oct 11 22:54:05.103984 nixos steam[3863]: CProcessEnvironmentManager is ready, 5 preallocated environment variables.
+Oct 11 22:54:05.106082 nixos steam[3863]: [2026-10-11 22:54:05] Process started with command-line: '/home/artem/.local/share/Steam/ubuntu12_32/steam' '-child-update-ui' '-child-update-ui-socket' '8' '-srt-logger-opened'
+Oct 11 22:54:05.106630 nixos steam[3863]: 10/11 22:54:05 minidumps folder is set to /tmp/dumps
+Oct 11 22:54:05.109230 nixos steam[3863]: [2026-10-11 22:54:05] Using update UI: xwin
+Oct 11 22:54:05.109230 nixos steam[3863]: 10/11 22:54:05 Init: Installing breakpad exception handler for appid(steam)/version(0)/tid(3944)
+Oct 11 22:54:05.109320 nixos steam[3863]: [2026-10-11 22:54:05] Create window
+Oct 11 22:54:05.118262 nixos steam[3863]: [2026-10-11 22:54:05] Loading cached metrics from disk (/home/artem/.local/share/Steam/package/steam_client_metrics.bin)
+Oct 11 22:54:05.119803 nixos steam[3863]: [2026-10-11 22:54:05] Using the following download hosts for Public, Realm steamglobal
+Oct 11 22:54:05.119803 nixos steam[3863]: [2026-10-11 22:54:05] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+Oct 11 22:54:05.119803 nixos steam[3863]: [2026-10-11 22:54:05] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+Oct 11 22:54:05.119803 nixos steam[3863]: [2026-10-11 22:54:05] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+Oct 11 22:54:05.119803 nixos steam[3863]: [2026-10-11 22:54:05] Checking for update on startup
+Oct 11 22:54:05.120257 nixos steam[3863]: [2026-10-11 22:54:05] Checking for available updates...
+Oct 11 22:54:05.120257 nixos steam[3863]: [2026-10-11 22:54:05] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_client_ubuntu12
+Oct 11 22:54:05.121177 nixos steam[3863]: [2026-10-11 22:54:05] Manifest download: send request
+Oct 11 22:54:05.281594 nixos steam[3863]: [2026-10-11 22:54:05] Set percent complete: 0
+Oct 11 22:54:05.290230 nixos steam[3863]: [2026-10-11 22:54:05] Set status message: Checking for available updates...
+Oct 11 22:54:05.298612 nixos steam[3863]: [2026-10-11 22:54:05] Set percent complete: -1
+Oct 11 22:54:05.370607 nixos steam[3863]: [2026-10-11 22:54:05] Manifest download: waiting for download to finish
+Oct 11 22:54:05.620981 nixos steam[3863]: [2026-10-11 22:54:05] Manifest download: finished
+Oct 11 22:54:05.621141 nixos steam[3863]: [2026-10-11 22:54:05] Download skipped: /steam_client_ubuntu12 version 1788652215, installed version 1788652215, existing pending version 0
+Oct 11 22:54:05.621141 nixos steam[3863]: [2026-10-11 22:54:05] Nothing to do
+Oct 11 22:54:05.621310 nixos steam[3863]: [2026-10-11 22:54:05] Verifying installation...
+Oct 11 22:54:05.621310 nixos steam[3863]: [2026-10-11 22:54:05] Verifying all executable checksums
+Oct 11 22:54:05.623852 nixos steam[3863]: [2026-10-11 22:54:05] Set percent complete: -1
+Oct 11 22:54:05.629346 nixos steam[3863]: [2026-10-11 22:54:05] Set status message: Verifying installation...
+Oct 11 22:54:07.123906 nixos steam[3863]: [2026-10-11 22:54:07] Show window
+Oct 11 22:54:07.493062 nixos steam[3863]: [2026-10-11 22:54:07] Verification complete
+Oct 11 22:54:07.494076 nixos steam[3863]: UpdateUI: skip show logo
+Oct 11 22:54:07.495331 nixos steam[3863]: [2026-10-11 22:54:07] Destroy window
+Oct 11 22:54:07.520269 nixos steam[3863]: [2026-10-11 22:54:07] Shutdown
+Oct 11 22:54:07.550472 nixos steam[3863]: Steam logging initialized: directory: /home/artem/.local/share/Steam/logs
+Oct 11 22:54:07.586668 nixos steam[3863]: XOpenIM() failed, LANG = en_GB.UTF-8
+Oct 11 22:54:07.587507 nixos steam[3863]: XOpenIM() failed, LANG = en_GB.UTF-8XRRGetOutputInfo Workaround: initialized with override: 0 real: 0xe98acd20
+Oct 11 22:54:07.587507 nixos steam[3863]: XRRGetCrtcInfo Workaround: initialized with override: 0 real: 0xe98ab240
+Oct 11 22:54:07.747013 nixos steam[3863]: 10/11 22:54:07 minidumps folder is set to /tmp/dumps
+Oct 11 22:54:07.747013 nixos steam[3863]: 10/11 22:54:07 Init: Installing breakpad exception handler for appid(steamsysinfo)/version(1788652215)/tid(3960)
+Oct 11 22:54:07.747242 nixos steam[3863]: Running query: 1 - GpuTopology
+Oct 11 22:54:07.961955 nixos steam[3863]: Response: gpu_topology {
+Oct 11 22:54:07.961955 nixos steam[3863]:   gpus {
+Oct 11 22:54:07.961955 nixos steam[3863]:     id: 1
+Oct 11 22:54:07.961955 nixos steam[3863]:     name: "NVIDIA GeForce RTX 5070 Laptop GPU"
+Oct 11 22:54:07.961955 nixos steam[3863]:     vram_size_bytes: 8546942976
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_id: k_EGpuDriverId_NvidiaProprietary
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_major: 615
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_minor: 71
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_patch: 9
+Oct 11 22:54:07.961955 nixos steam[3863]:     luid: 0
+Oct 11 22:54:07.961955 nixos steam[3863]:   }
+Oct 11 22:54:07.961955 nixos steam[3863]:   gpus {
+Oct 11 22:54:07.961955 nixos steam[3863]:     id: 2
+Oct 11 22:54:07.961955 nixos steam[3863]:     name: "Intel(R) Graphics (ARL)"
+Oct 11 22:54:07.961955 nixos steam[3863]:     vram_size_bytes: 24785836032
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_id: k_EGpuDriverId_MesaIntel
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_major: 26
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_minor: 2
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_patch: 4
+Oct 11 22:54:07.961955 nixos steam[3863]:     luid: 0
+Oct 11 22:54:07.961955 nixos steam[3863]:   }
+Oct 11 22:54:07.961955 nixos steam[3863]:   gpus {
+Oct 11 22:54:07.961955 nixos steam[3863]:     id: 3
+Oct 11 22:54:07.961955 nixos steam[3863]:     name: "Intel(R) Graphics (ARL)"
+Oct 11 22:54:07.961955 nixos steam[3863]:     vram_size_bytes: 24785836032
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_id: k_EGpuDriverId_MesaIntel
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_major: 26
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_minor: 2
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_patch: 4
+Oct 11 22:54:07.961955 nixos steam[3863]:     luid: 0
+Oct 11 22:54:07.961955 nixos steam[3863]:   }
+Oct 11 22:54:07.961955 nixos steam[3863]:   gpus {
+Oct 11 22:54:07.961955 nixos steam[3863]:     id: 4
+Oct 11 22:54:07.961955 nixos steam[3863]:     name: "llvmpipe (LLVM 21.1.8, 256 bits)"
+Oct 11 22:54:07.961955 nixos steam[3863]:     vram_size_bytes: 3221225472
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_id: k_EGpuDriverId_MesaLLVMPipe
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_major: 26
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_minor: 2
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_patch: 4
+Oct 11 22:54:07.961955 nixos steam[3863]:     luid: 0
+Oct 11 22:54:07.961955 nixos steam[3863]:   }
+Oct 11 22:54:07.961955 nixos steam[3863]:   gpus {
+Oct 11 22:54:07.961955 nixos steam[3863]:     id: 5
+Oct 11 22:54:07.961955 nixos steam[3863]:     name: "llvmpipe (LLVM 21.1.8, 256 bits)"
+Oct 11 22:54:07.961955 nixos steam[3863]:     vram_size_bytes: 3221225472
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_id: k_EGpuDriverId_MesaLLVMPipe
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_major: 26
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_minor: 2
+Oct 11 22:54:07.961955 nixos steam[3863]:     driver_version_patch: 4
+Oct 11 22:54:07.961955 nixos steam[3863]:     luid: 0
+Oct 11 22:54:07.961955 nixos steam[3863]:   }
+Oct 11 22:54:07.961955 nixos steam[3863]:   default_gpu_id: 1
+Oct 11 22:54:07.961955 nixos steam[3863]: }
+Oct 11 22:54:07.961955 nixos steam[3863]: Exit code: 0
+Oct 11 22:54:07.961955 nixos steam[3863]: Saving response to: /tmp/steamLAJpcL - 260 bytes
+Oct 11 22:54:08.054011 nixos steam[3863]: Fontconfig warning: line 5: unknown element "description"
+Oct 11 22:54:08.054066 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/10-hinting-slight.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054076 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054106 nixos steam[3863]: Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 72: non-double matrix element
+Oct 11 22:54:08.054114 nixos steam[3863]: Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 72: non-double matrix element
+Oct 11 22:54:08.054114 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 80: saw unknown, expected number
+Oct 11 22:54:08.054128 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/10-sub-pixel-none.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054151 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/10-yes-antialias.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054163 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/11-lcdfilter-default.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054174 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/20-unhint-small-vera.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054206 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/30-metric-aliases.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054348 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054451 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/45-generic.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054509 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054609 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054620 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 20: invalid constant used :
+Oct 11 22:54:08.054627 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 23: invalid constant used : monospace
+Oct 11 22:54:08.054632 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 43: invalid constant used :
+Oct 11 22:54:08.054639 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 46: invalid constant used : sans-serif
+Oct 11 22:54:08.054646 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 69: invalid constant used :
+Oct 11 22:54:08.054653 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 72: invalid constant used : serif
+Oct 11 22:54:08.054662 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 89: invalid constant used :
+Oct 11 22:54:08.054662 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 92: invalid constant used : emoji
+Oct 11 22:54:08.054677 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 109: invalid constant used :
+Oct 11 22:54:08.054677 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 112: invalid constant used : math
+Oct 11 22:54:08.054677 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 121: invalid constant used :
+Oct 11 22:54:08.054677 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 124: invalid constant used : system-ui
+Oct 11 22:54:08.054677 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 133: invalid constant used :
+Oct 11 22:54:08.054708 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 136: invalid constant used : cursive
+Oct 11 22:54:08.054708 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 145: invalid constant used :
+Oct 11 22:54:08.054708 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 148: invalid constant used : fantasy
+Oct 11 22:54:08.054708 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 157: invalid constant used :
+Oct 11 22:54:08.054708 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 160: invalid constant used : ui-sans-serif
+Oct 11 22:54:08.054708 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 169: invalid constant used :
+Oct 11 22:54:08.054708 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 172: invalid constant used : ui-serif
+Oct 11 22:54:08.054708 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 181: invalid constant used :
+Oct 11 22:54:08.054708 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 184: invalid constant used : ui-monospace
+Oct 11 22:54:08.054766 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 193: invalid constant used :
+Oct 11 22:54:08.054766 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 196: invalid constant used : ui-rounded
+Oct 11 22:54:08.054766 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 205: invalid constant used :
+Oct 11 22:54:08.054766 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 208: invalid constant used : fangsong
+Oct 11 22:54:08.054766 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-spacing.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054766 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/48-spacing.conf", line 14: invalid constant used : monospace
+Oct 11 22:54:08.054766 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054766 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 10: invalid constant used : serif
+Oct 11 22:54:08.054814 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 18: invalid constant used : sans-serif
+Oct 11 22:54:08.054814 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 26: invalid constant used : monospace
+Oct 11 22:54:08.054814 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 34: invalid constant used : emoji
+Oct 11 22:54:08.054814 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 42: invalid constant used : math
+Oct 11 22:54:08.054814 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/50-user.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054843 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/51-local.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054894 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/60-generic.conf", line 4: unknown element "description"
+Oct 11 22:54:08.054927 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/60-latin.conf", line 4: unknown element "description"
+Oct 11 22:54:08.055085 nixos steam[3863]: Fontconfig warning: "/etc/fonts/conf.d/65-nonlatin.conf", line 4: unknown element "description"
+Oct 11 22:54:08.070570 nixos steamwebhelper[3977]: steamwebhelper.sh[3966]: Starting steamwebhelper under bootstrap steamrt steam runtime via: /home/artem/.local/share/Steam/steamrt64/pv-runtime/steam-runtime-steamrt/_v2-entry-point
+Oct 11 22:54:08.070991 nixos steamwebhelper[3977]: steamwebhelper.sh[3966]: Starting steamwebhelper with steamrt steam runtime at /home/artem/.local/share/Steam/steamrt64/pv-runtime/steam-runtime-steamrt/_v2-entry-point
+Oct 11 22:54:08.236844 nixos rtkit-daemon[1399]: Successfully made thread 4005 of process 3943 owned by '1000' high priority at nice level -10.
+Oct 11 22:54:08.271153 nixos rtkit-daemon[1399]: Successfully made thread 4006 of process 3943 owned by '1000' high priority at nice level -10.
+Oct 11 22:54:08.334580 nixos steam[3863]: sh: line 1: pactl: command not found
+Oct 11 22:54:08.338051 nixos steam[3863]: sh: line 1: pactl: command not found
+Oct 11 22:54:08.514499 nixos steam[3863]: Steam Runtime Launch Service: starting steam-runtime-launcher-service
+Oct 11 22:54:08.515764 nixos steam[3863]: Steam Runtime Launch Service: steam-runtime-launcher-service is running pid 4135
+Oct 11 22:54:08.523213 nixos steam[3863]: bus_name=com.steampowered.PressureVessel.LaunchAlongsideSteam
+Oct 11 22:54:08.920501 nixos steamwebhelper[3977]: pressure-vessel-wrap[3966]: W: "/run/current-system/sw/bin/getent" is unlikely to appear in "/run/host"
+Oct 11 22:54:08.921249 nixos steamwebhelper[3977]: pressure-vessel-wrap[3966]: W: Unable to determine architecture of provider / ldconfig: Error reading "(null)" ELF header: invalid `Elf' handle
+Oct 11 22:54:08.922836 nixos steamwebhelper[3977]: pressure-vessel-wrap[3966]: W: "run/opengl-driver/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:08.922836 nixos steamwebhelper[3977]: pressure-vessel-wrap[3966]: W: "run/opengl-driver-32/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:09.299385 nixos steamwebhelper[3977]: exec ./steamwebhelper -nocrashdialog -lang=en_US -cachedir=/home/artem/.local/share/Steam/config/htmlcache -steampid=3943 -buildid=1788652215 -steamid=0 -logdir=/home/artem/.local/share/Steam/logs -uimode=7 -startcount=0 -steamuniverse=Public -realm=Global -clientui=/home/artem/.local/share/Steam/clientui -steampath=/home/artem/.local/share/Steam/ubuntu12_32/steam -launcher=0 -use_xcomposite_workaround --valve-initial-threadpool-size=16 --valve-enable-site-isolation --enable-smooth-scrolling --password-store=basic --log-file=/home/artem/.local/share/Steam/logs/cef_log.txt --disable-quick-menu --disable-component-update --gaia-url=http://disabled.invalid --enable-features=PlatformHEVCDecoderSupport --disable-features=WinRetrieveSuggestionsOnlyOnDemand,SpareRendererForSitePerProcess,DcheckIsFatal,BlockPromptsIfIgnoredOften,WebUsbDeviceDetection,ValveFFmpegAllowLowDelayHEVC
+Oct 11 22:54:15.840134 nixos steam[3863]: Desktop state changed: desktop: { pos:    0,   0 size: 2560,1600 } primary: { pos:    0,   0 size: 2560,1600 }
+Oct 11 22:54:15.840382 nixos steam[3863]: Caching cursor image for , size 48x48, serial 3, cache size = 0
+Oct 11 22:54:16.003766 nixos kernel: x86/split lock detection: #AC: CHTTPClientThre/4448 took a split_lock trap at address: 0xe708fcef
+Oct 11 22:54:16.003860 nixos kernel: x86/split lock detection: #AC: CHTTPClientThre/4447 took a split_lock trap at address: 0xe708fcef
+Oct 11 22:54:17.012508 nixos steam[3863]: pressure-vessel-wrap[4426]: W: "/run/current-system/sw/bin/getent" is unlikely to appear in "/run/host"
+Oct 11 22:54:17.012763 nixos steam[3863]: pressure-vessel-wrap[4426]: W: Unable to determine architecture of provider / ldconfig: Error reading "(null)" ELF header: invalid `Elf' handle
+Oct 11 22:54:17.012929 nixos steam[3863]: pressure-vessel-wrap[4426]: W: "run/opengl-driver/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:17.012969 nixos steam[3863]: pressure-vessel-wrap[4426]: W: "run/opengl-driver-32/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:17.839220 nixos steam[3863]: ProtonFixes[4621] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:54:17.922188 nixos steam[3863]: Proton: Upgrading prefix from dwproton-11.0-14 to CachyOS-11.0-100 (/home/artem/.local/share/Steam/steamapps/compatdata/0/)
+Oct 11 22:54:17.922264 nixos steam[3863]: Proton: Prefix has an invalid version?! You may want to back up user files and delete this prefix.
+Oct 11 22:54:18.407743 nixos steam[3863]: ProtonFixes[4621] INFO: Setting up FSR4 version default.
+Oct 11 22:54:18.791523 nixos steam[3863]: ProtonFixes[4621] INFO: Automatic FSR4 upgrade enabled.
+Oct 11 22:54:18.791523 nixos steam[3863]: ProtonFixes[4621] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:54:18.796332 nixos steam[3863]: fsync: up and running.
+Oct 11 22:54:23.847472 nixos steam[3863]: Fossilize INFO: Overriding serialization path: "/home/artem/.local/share/Steam/shader_cache_temp_dir_d3d11_64/fozpipelinesv6/steamapprun_pipeline_cache".
+Oct 11 22:54:25.407469 nixos steam[3863]: pressure-vessel-wrap[4824]: W: "/run/current-system/sw/bin/getent" is unlikely to appear in "/run/host"
+Oct 11 22:54:25.407469 nixos steam[3863]: pressure-vessel-wrap[4824]: W: Unable to determine architecture of provider / ldconfig: Error reading "(null)" ELF header: invalid `Elf' handle
+Oct 11 22:54:25.408055 nixos steam[3863]: pressure-vessel-wrap[4824]: W: "run/opengl-driver/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:25.408055 nixos steam[3863]: pressure-vessel-wrap[4824]: W: "run/opengl-driver-32/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:25.618481 nixos steam[3863]: ProtonFixes[5002] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:54:25.703299 nixos steam[3863]: ProtonFixes[5002] INFO: Setting up FSR4 version default.
+Oct 11 22:54:26.065624 nixos steam[3863]: ProtonFixes[5002] INFO: Automatic FSR4 upgrade enabled.
+Oct 11 22:54:26.065717 nixos steam[3863]: ProtonFixes[5002] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:54:26.070051 nixos steam[3863]: fsync: up and running.
+Oct 11 22:54:26.371353 nixos systemd-coredump[5028]: Process 5004 (wine) of user 1000 terminated abnormally with signal 3/QUIT, processing...
+Oct 11 22:54:26.376231 nixos systemd[1]: Created slice Slice /system/drkonqi-coredump-processor.
+Oct 11 22:54:26.376753 nixos systemd[1]: Created slice Slice /system/systemd-coredump.
+Oct 11 22:54:26.378199 nixos systemd[1]: Started Process Core Dump (PID 5028/UID 0).
+Oct 11 22:54:26.379708 nixos systemd[1]: Started Pass systemd-coredump journal entries to relevant user for potential DrKonqi handling.
+Oct 11 22:54:26.445735 nixos systemd-coredump[5029]: Process 5004 (wine) of user 1000 dumped core.
+                                                     
+                                                     Module /nix/store/q2mkz6ca1alqfqf750dygvakmq8kjrwz-gcc-16.2.0-libgcc/lib/libgcc_s.so.1 without build-id.
+                                                     Stack trace of thread 5004:
+                                                     #0  0x000079c07412966d syscall (/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/libc.so.6 + 0x12966d)
+                                                     #1  0x000079c073f29dbc fsync_wait_objects (/home/artem/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/lib/wine/x86_64-unix/ntdll.so + 0x34dbc)
+                                                     #2  0x000079c073f639d4 NtWaitForMultipleObjects (/home/artem/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/lib/wine/x86_64-unix/ntdll.so + 0x6e9d4)
+                                                     #3  0x000079c073f0f36d init_startup_info (/home/artem/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/lib/wine/x86_64-unix/ntdll.so + 0x1a36d)
+                                                     #4  0x000079c073f30ee3 __wine_main (/home/artem/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/lib/wine/x86_64-unix/ntdll.so + 0x3bee3)
+                                                     #5  0x000079c0742a117a main (/home/artem/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/lib/wine/x86_64-unix/wine + 0x117a)
+                                                     #6  0x000079c07402b391 __libc_start_call_main (/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/libc.so.6 + 0x2b391)
+                                                     #7  0x000079c07402b4a8 __libc_start_main@@GLIBC_2.34 (/nix/store/h4wfwic161kxrr74jlzla5lsm28hgary-glibc-2.44-25/lib/libc.so.6 + 0x2b4a8)
+                                                     #8  0x000079c0742a1211 _start (/home/artem/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/lib/wine/x86_64-unix/wine + 0x1211)
+                                                     ELF object binary architecture: AMD x86-64
+Oct 11 22:54:26.447283 nixos systemd[1]: systemd-coredump@0-2-5028_65761-0.service: Deactivated successfully.
+Oct 11 22:54:26.632008 nixos drkonqi-coredump-processor[5030]: "/home/artem/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/lib/wine/x86_64-unix/wine-preloader" 5004 "/var/lib/systemd/coredump/core.wine.1000.f90c75d93e8245088654e5a1734c72ae.5004.1791744866000000.zst"
+Oct 11 22:54:26.635841 nixos systemd[1567]: Started Launch DrKonqi for a systemd-coredump crash (PID 5030/UID 0).
+Oct 11 22:54:26.696741 nixos drkonqi-coredump-launcher[5038]: Unable to find file for pid 5004 expected at "kcrash-metadata/wine-preloader.f90c75d93e8245088654e5a1734c72ae.5004.ini"
+Oct 11 22:54:26.696995 nixos drkonqi-coredump-launcher[5038]: KCrash metadata not marked complete. Please file a bug at bugs.kde.org giving as much detail about the crash as possible and maybe include the file ""
+Oct 11 22:54:26.701131 nixos systemd[1]: drkonqi-coredump-processor@0-2-5028_65761-0.service: Deactivated successfully.
+Oct 11 22:54:26.701463 nixos systemd[1]: drkonqi-coredump-processor@0-2-5028_65761-0.service: Consumed 34ms CPU time over 321ms wall clock time, 13.5M memory peak, 7.6M read from disk.
+Oct 11 22:54:26.805210 nixos plasmashell[1772]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 22:54:27.994350 nixos steam[3863]: [2026-10-11 22:54:27] Shutdown
+Oct 11 22:54:28.199834 nixos systemd[1567]: app-steam@d56a8e11730044cd9400aadd75febb61.service: Consumed 22.574s CPU time over 24.676s wall clock time, 4.1G memory peak.
+Oct 11 22:54:31.882806 nixos plasmashell[1772]: No default firefox profile found
+Oct 11 22:54:31.885874 nixos plasmashell[1772]: "/nix/store/33csdwvl6r8x2sp6l3m429q6c7j0yir7-system-path/share/applications/discord.desktop" contains supported protocols but doesn't use %u or %U in its Exec line! This is inconsistent.
+Oct 11 22:54:32.021722 nixos plasmashell[1772]: "/nix/store/33csdwvl6r8x2sp6l3m429q6c7j0yir7-system-path/share/applications/discord.desktop" contains supported protocols but doesn't use %u or %U in its Exec line! This is inconsistent.
+Oct 11 22:54:32.108316 nixos plasmashell[1772]: "/nix/store/33csdwvl6r8x2sp6l3m429q6c7j0yir7-system-path/share/applications/discord.desktop" contains supported protocols but doesn't use %u or %U in its Exec line! This is inconsistent.
+Oct 11 22:54:32.240004 nixos plasmashell[1772]: "/nix/store/33csdwvl6r8x2sp6l3m429q6c7j0yir7-system-path/share/applications/discord.desktop" contains supported protocols but doesn't use %u or %U in its Exec line! This is inconsistent.
+Oct 11 22:54:33.132466 nixos systemd[1567]: Started Steam.
+Oct 11 22:54:33.227743 nixos steam-runtime-steam-remote[5072]: steam-runtime-steam-remote: Steam is not running: No such device or address
+Oct 11 22:54:33.257189 nixos steam[5082]: steam.sh[5060]: Running Steam on nixos 26.11 64-bit
+Oct 11 22:54:33.257391 nixos steam[5082]: steam.sh[5060]: STEAM_RUNTIME is enabled automatically
+Oct 11 22:54:33.263644 nixos steam[5082]: setup.sh[5121]: Steam runtime environment up-to-date!
+Oct 11 22:54:33.339274 nixos steam[5082]: steam.sh[5060]: Log already open
+Oct 11 22:54:33.364674 nixos steam[5082]: steam.sh[5060]: Steam client's requirements are satisfied
+Oct 11 22:54:33.366366 nixos steam[5082]: CProcessEnvironmentManager is ready, 5 preallocated environment variables.
+Oct 11 22:54:33.371906 nixos steam[5082]: [2026-10-11 22:54:33] Startup - updater built Sep  3 2026 01:31:48
+Oct 11 22:54:33.371924 nixos steam[5082]: [2026-10-11 22:54:33] Startup - Steam Client launched with: '/home/artem/.local/share/Steam/ubuntu12_32/steam' '-srt-logger-opened'
+Oct 11 22:54:33.372633 nixos steam[5082]: 10/11 22:54:33 minidumps folder is set to /tmp/dumps
+Oct 11 22:54:33.372658 nixos steam[5082]: 10/11 22:54:33 Init: Installing breakpad exception handler for appid(steam)/version(1788652215)/tid(5163)
+Oct 11 22:54:33.375891 nixos steam[5082]: CProcessEnvironmentManager is ready, 5 preallocated environment variables.
+Oct 11 22:54:33.379654 nixos steam[5082]: [2026-10-11 22:54:33] Process started with command-line: '/home/artem/.local/share/Steam/ubuntu12_32/steam' '-child-update-ui' '-child-update-ui-socket' '8' '-srt-logger-opened'
+Oct 11 22:54:33.379865 nixos steam[5082]: 10/11 22:54:33 minidumps folder is set to /tmp/dumps
+Oct 11 22:54:33.380576 nixos steam[5082]: [2026-10-11 22:54:33] Using update UI: xwin
+Oct 11 22:54:33.380590 nixos steam[5082]: 10/11 22:54:33 Init: Installing breakpad exception handler for appid(steam)/version(0)/tid(5164)
+Oct 11 22:54:33.380656 nixos steam[5082]: [2026-10-11 22:54:33] Create window
+Oct 11 22:54:33.391419 nixos steam[5082]: [2026-10-11 22:54:33] Loading cached metrics from disk (/home/artem/.local/share/Steam/package/steam_client_metrics.bin)
+Oct 11 22:54:33.391534 nixos steam[5082]: [2026-10-11 22:54:33] Using the following download hosts for Public, Realm steamglobal
+Oct 11 22:54:33.391542 nixos steam[5082]: [2026-10-11 22:54:33] 1. https://client-update.fastly.steamstatic.com, /, Realm 'steamglobal', weight was 900, source = 'update_hosts_cached.vdf'
+Oct 11 22:54:33.391542 nixos steam[5082]: [2026-10-11 22:54:33] 2. https://client-update.akamai.steamstatic.com, /, Realm 'steamglobal', weight was 400, source = 'update_hosts_cached.vdf'
+Oct 11 22:54:33.391559 nixos steam[5082]: [2026-10-11 22:54:33] 3. https://client-update.steamstatic.com, /, Realm 'steamglobal', weight was 1, source = 'baked in'
+Oct 11 22:54:33.391967 nixos steam[5082]: [2026-10-11 22:54:33] Verifying installation...
+Oct 11 22:54:33.392001 nixos steam[5082]: [2026-10-11 22:54:33] Verifying file sizes only
+Oct 11 22:54:33.429269 nixos steam[5082]: [2026-10-11 22:54:33] Verification complete
+Oct 11 22:54:33.430255 nixos steam[5082]: UpdateUI: skip show logo
+Oct 11 22:54:33.471753 nixos steam[5082]: [2026-10-11 22:54:33] ProcessNextMessage: socket disconnected
+Oct 11 22:54:33.471753 nixos steam[5082]: [2026-10-11 22:54:33] No more messages are expected - exiting
+Oct 11 22:54:33.509241 nixos steam[5082]: Steam logging initialized: directory: /home/artem/.local/share/Steam/logs
+Oct 11 22:54:33.538479 nixos steam[5082]: XOpenIM() failed, LANG = en_GB.UTF-8
+Oct 11 22:54:33.538865 nixos steam[5082]: XOpenIM() failed, LANG = en_GB.UTF-8XRRGetOutputInfo Workaround: initialized with override: 0 real: 0xee2e5d20
+Oct 11 22:54:33.538865 nixos steam[5082]: XRRGetCrtcInfo Workaround: initialized with override: 0 real: 0xee2e4240
+Oct 11 22:54:33.684577 nixos steam[5082]: 10/11 22:54:33 minidumps folder is set to /tmp/dumps
+Oct 11 22:54:33.684577 nixos steam[5082]: 10/11 22:54:33 Init: Installing breakpad exception handler for appid(steamsysinfo)/version(1788652215)/tid(5172)
+Oct 11 22:54:33.684788 nixos steam[5082]: Running query: 1 - GpuTopology
+Oct 11 22:54:33.766620 nixos steam[5082]: Response: gpu_topology {
+Oct 11 22:54:33.766682 nixos steam[5082]:   gpus {
+Oct 11 22:54:33.766682 nixos steam[5082]:     id: 1
+Oct 11 22:54:33.766682 nixos steam[5082]:     name: "NVIDIA GeForce RTX 5070 Laptop GPU"
+Oct 11 22:54:33.766682 nixos steam[5082]:     vram_size_bytes: 8546942976
+Oct 11 22:54:33.766682 nixos steam[5082]:     driver_id: k_EGpuDriverId_NvidiaProprietary
+Oct 11 22:54:33.766682 nixos steam[5082]:     driver_version_major: 615
+Oct 11 22:54:33.766682 nixos steam[5082]:     driver_version_minor: 71
+Oct 11 22:54:33.766682 nixos steam[5082]:     driver_version_patch: 9
+Oct 11 22:54:33.766682 nixos steam[5082]:     luid: 0
+Oct 11 22:54:33.766682 nixos steam[5082]:   }
+Oct 11 22:54:33.766682 nixos steam[5082]:   gpus {
+Oct 11 22:54:33.766682 nixos steam[5082]:     id: 2
+Oct 11 22:54:33.766682 nixos steam[5082]:     name: "Intel(R) Graphics (ARL)"
+Oct 11 22:54:33.766682 nixos steam[5082]:     vram_size_bytes: 24785836032
+Oct 11 22:54:33.766682 nixos steam[5082]:     driver_id: k_EGpuDriverId_MesaIntel
+Oct 11 22:54:33.766682 nixos steam[5082]:     driver_version_major: 26
+Oct 11 22:54:33.766682 nixos steam[5082]:     driver_version_minor: 2
+Oct 11 22:54:33.766682 nixos steam[5082]:     driver_version_patch: 4
+Oct 11 22:54:33.766682 nixos steam[5082]:     luid: 0
+Oct 11 22:54:33.766682 nixos steam[5082]:   }
+Oct 11 22:54:33.766682 nixos steam[5082]:   gpus {
+Oct 11 22:54:33.766682 nixos steam[5082]:     id: 3
+Oct 11 22:54:33.766682 nixos steam[5082]:     name: "Intel(R) Graphics (ARL)"
+Oct 11 22:54:33.766682 nixos steam[5082]:     vram_size_bytes: 24785836032
+Oct 11 22:54:33.766682 nixos steam[5082]:     driver_id: k_EGpuDriverId_MesaIntel
+Oct 11 22:54:33.766816 nixos steam[5082]:     driver_version_major: 26
+Oct 11 22:54:33.766816 nixos steam[5082]:     driver_version_minor: 2
+Oct 11 22:54:33.766816 nixos steam[5082]:     driver_version_patch: 4
+Oct 11 22:54:33.766816 nixos steam[5082]:     luid: 0
+Oct 11 22:54:33.766816 nixos steam[5082]:   }
+Oct 11 22:54:33.766816 nixos steam[5082]:   gpus {
+Oct 11 22:54:33.766816 nixos steam[5082]:     id: 4
+Oct 11 22:54:33.766816 nixos steam[5082]:     name: "llvmpipe (LLVM 21.1.8, 256 bits)"
+Oct 11 22:54:33.766816 nixos steam[5082]:     vram_size_bytes: 3221225472
+Oct 11 22:54:33.766816 nixos steam[5082]:     driver_id: k_EGpuDriverId_MesaLLVMPipe
+Oct 11 22:54:33.766816 nixos steam[5082]:     driver_version_major: 26
+Oct 11 22:54:33.766816 nixos steam[5082]:     driver_version_minor: 2
+Oct 11 22:54:33.766816 nixos steam[5082]:     driver_version_patch: 4
+Oct 11 22:54:33.766816 nixos steam[5082]:     luid: 0
+Oct 11 22:54:33.766816 nixos steam[5082]:   }
+Oct 11 22:54:33.766816 nixos steam[5082]:   gpus {
+Oct 11 22:54:33.766816 nixos steam[5082]:     id: 5
+Oct 11 22:54:33.766816 nixos steam[5082]:     name: "llvmpipe (LLVM 21.1.8, 256 bits)"
+Oct 11 22:54:33.766816 nixos steam[5082]:     vram_size_bytes: 3221225472
+Oct 11 22:54:33.766816 nixos steam[5082]:     driver_id: k_EGpuDriverId_MesaLLVMPipe
+Oct 11 22:54:33.766816 nixos steam[5082]:     driver_version_major: 26
+Oct 11 22:54:33.766816 nixos steam[5082]:     driver_version_minor: 2
+Oct 11 22:54:33.766816 nixos steam[5082]:     driver_version_patch: 4
+Oct 11 22:54:33.766816 nixos steam[5082]:     luid: 0
+Oct 11 22:54:33.766816 nixos steam[5082]:   }
+Oct 11 22:54:33.766816 nixos steam[5082]:   default_gpu_id: 1
+Oct 11 22:54:33.766816 nixos steam[5082]: }
+Oct 11 22:54:33.766816 nixos steam[5082]: Exit code: 0
+Oct 11 22:54:33.766816 nixos steam[5082]: Saving response to: /tmp/steamkHHbCg - 260 bytes
+Oct 11 22:54:33.825872 nixos steam[5082]: Fontconfig warning: line 5: unknown element "description"
+Oct 11 22:54:33.825872 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/10-hinting-slight.conf", line 4: unknown element "description"
+Oct 11 22:54:33.825949 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 4: unknown element "description"
+Oct 11 22:54:33.825949 nixos steam[5082]: Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 72: non-double matrix element
+Oct 11 22:54:33.825949 nixos steam[5082]: Fontconfig error: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 72: non-double matrix element
+Oct 11 22:54:33.825949 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/10-scale-bitmap-fonts.conf", line 80: saw unknown, expected number
+Oct 11 22:54:33.825949 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/10-sub-pixel-none.conf", line 4: unknown element "description"
+Oct 11 22:54:33.825984 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/10-yes-antialias.conf", line 4: unknown element "description"
+Oct 11 22:54:33.825992 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/11-lcdfilter-default.conf", line 4: unknown element "description"
+Oct 11 22:54:33.826152 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/20-unhint-small-vera.conf", line 4: unknown element "description"
+Oct 11 22:54:33.826152 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/30-metric-aliases.conf", line 4: unknown element "description"
+Oct 11 22:54:33.826338 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/40-nonlatin.conf", line 4: unknown element "description"
+Oct 11 22:54:33.826338 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/45-generic.conf", line 4: unknown element "description"
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/45-latin.conf", line 4: unknown element "description"
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 4: unknown element "description"
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 20: invalid constant used :
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 23: invalid constant used : monospace
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 43: invalid constant used :
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 46: invalid constant used : sans-serif
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 69: invalid constant used :
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 72: invalid constant used : serif
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 89: invalid constant used :
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 92: invalid constant used : emoji
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 109: invalid constant used :
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 112: invalid constant used : math
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 121: invalid constant used :
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 124: invalid constant used : system-ui
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 133: invalid constant used :
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 136: invalid constant used : cursive
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 145: invalid constant used :
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 148: invalid constant used : fantasy
+Oct 11 22:54:33.826589 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 157: invalid constant used :
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 160: invalid constant used : ui-sans-serif
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 169: invalid constant used :
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 172: invalid constant used : ui-serif
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 181: invalid constant used :
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 184: invalid constant used : ui-monospace
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 193: invalid constant used :
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 196: invalid constant used : ui-rounded
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 205: invalid constant used :
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-guessfamily.conf", line 208: invalid constant used : fangsong
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-spacing.conf", line 4: unknown element "description"
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/48-spacing.conf", line 14: invalid constant used : monospace
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 4: unknown element "description"
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 10: invalid constant used : serif
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 18: invalid constant used : sans-serif
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 26: invalid constant used : monospace
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 34: invalid constant used : emoji
+Oct 11 22:54:33.826743 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/49-sansserif.conf", line 42: invalid constant used : math
+Oct 11 22:54:33.826848 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/50-user.conf", line 4: unknown element "description"
+Oct 11 22:54:33.826848 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/51-local.conf", line 4: unknown element "description"
+Oct 11 22:54:33.826860 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/60-generic.conf", line 4: unknown element "description"
+Oct 11 22:54:33.827058 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/60-latin.conf", line 4: unknown element "description"
+Oct 11 22:54:33.827080 nixos steam[5082]: Fontconfig warning: "/etc/fonts/conf.d/65-nonlatin.conf", line 4: unknown element "description"
+Oct 11 22:54:33.837742 nixos steamwebhelper[5188]: steamwebhelper.sh[5178]: Starting steamwebhelper under bootstrap steamrt steam runtime via: /home/artem/.local/share/Steam/steamrt64/pv-runtime/steam-runtime-steamrt/_v2-entry-point
+Oct 11 22:54:33.838049 nixos steamwebhelper[5188]: steamwebhelper.sh[5178]: Starting steamwebhelper with steamrt steam runtime at /home/artem/.local/share/Steam/steamrt64/pv-runtime/steam-runtime-steamrt/_v2-entry-point
+Oct 11 22:54:34.018880 nixos rtkit-daemon[1399]: Successfully made thread 5218 of process 5163 owned by '1000' high priority at nice level -10.
+Oct 11 22:54:34.031769 nixos kernel: x86/split lock detection: #AC: CHTTPClientThre/5217 took a split_lock trap at address: 0xebabbcef
+Oct 11 22:54:34.050394 nixos rtkit-daemon[1399]: Successfully made thread 5219 of process 5163 owned by '1000' high priority at nice level -10.
+Oct 11 22:54:34.112120 nixos steam[5082]: sh: line 1: pactl: command not found
+Oct 11 22:54:34.116320 nixos steam[5082]: sh: line 1: pactl: command not found
+Oct 11 22:54:34.488263 nixos steam[5082]: Steam Runtime Launch Service: starting steam-runtime-launcher-service
+Oct 11 22:54:34.489744 nixos steam[5082]: Steam Runtime Launch Service: steam-runtime-launcher-service is running pid 5414
+Oct 11 22:54:34.499303 nixos steam[5082]: bus_name=com.steampowered.PressureVessel.LaunchAlongsideSteam
+Oct 11 22:54:34.603590 nixos steamwebhelper[5188]: pressure-vessel-wrap[5178]: W: "/run/current-system/sw/bin/getent" is unlikely to appear in "/run/host"
+Oct 11 22:54:34.603590 nixos steamwebhelper[5188]: pressure-vessel-wrap[5178]: W: Unable to determine architecture of provider / ldconfig: Error reading "(null)" ELF header: invalid `Elf' handle
+Oct 11 22:54:34.604015 nixos steamwebhelper[5188]: pressure-vessel-wrap[5178]: W: "run/opengl-driver/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:34.604015 nixos steamwebhelper[5188]: pressure-vessel-wrap[5178]: W: "run/opengl-driver-32/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:34.757261 nixos steamwebhelper[5188]: exec ./steamwebhelper -nocrashdialog -lang=en_US -cachedir=/home/artem/.local/share/Steam/config/htmlcache -steampid=5163 -buildid=1788652215 -steamid=0 -logdir=/home/artem/.local/share/Steam/logs -uimode=7 -startcount=0 -steamuniverse=Public -realm=Global -clientui=/home/artem/.local/share/Steam/clientui -steampath=/home/artem/.local/share/Steam/ubuntu12_32/steam -launcher=0 -use_xcomposite_workaround --valve-initial-threadpool-size=16 --valve-enable-site-isolation --enable-smooth-scrolling --password-store=basic --log-file=/home/artem/.local/share/Steam/logs/cef_log.txt --disable-quick-menu --disable-component-update --gaia-url=http://disabled.invalid --enable-features=PlatformHEVCDecoderSupport --disable-features=WinRetrieveSuggestionsOnlyOnDemand,SpareRendererForSitePerProcess,DcheckIsFatal,BlockPromptsIfIgnoredOften,WebUsbDeviceDetection,ValveFFmpegAllowLowDelayHEVC
+Oct 11 22:54:38.612900 nixos plasmashell[1772]: QQmlComponent: Component is not ready
+Oct 11 22:54:38.695896 nixos plasmashell[1772]: file:///nix/store/8pwx1f6m0lh99ziyakhcsdblsicg1nsm-plasma-desktop-6.7.5/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ConfigurationShortcuts.qml:13:1: QML ConfigurationShortcuts: Created graphical object was not placed in the graphics scene.
+Oct 11 22:54:38.695908 nixos plasmashell[1772]: file:///nix/store/8pwx1f6m0lh99ziyakhcsdblsicg1nsm-plasma-desktop-6.7.5/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ConfigurationShortcuts.qml: Setting initial properties failed: ConfigurationShortcuts does not have a property called cfg_barcodeType
+Oct 11 22:54:38.695912 nixos plasmashell[1772]: file:///nix/store/8pwx1f6m0lh99ziyakhcsdblsicg1nsm-plasma-desktop-6.7.5/share/plasma/shells/org.kde.plasma.desktop/contents/configuration/ConfigurationShortcuts.qml: Setting initial properties failed: ConfigurationShortcuts does not have a property called cfg_barcodeTypeDefault
+Oct 11 22:54:40.780691 nixos steam[5082]: Desktop state changed: desktop: { pos:    0,   0 size: 2560,1600 } primary: { pos:    0,   0 size: 2560,1600 }
+Oct 11 22:54:40.781026 nixos steam[5082]: Caching cursor image for , size 48x48, serial 3, cache size = 0
+Oct 11 22:54:41.413969 nixos steam[5082]: pressure-vessel-wrap[5629]: W: "/run/current-system/sw/bin/getent" is unlikely to appear in "/run/host"
+Oct 11 22:54:41.414103 nixos steam[5082]: pressure-vessel-wrap[5629]: W: Unable to determine architecture of provider / ldconfig: Error reading "(null)" ELF header: invalid `Elf' handle
+Oct 11 22:54:41.414551 nixos steam[5082]: pressure-vessel-wrap[5629]: W: "run/opengl-driver/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:41.414652 nixos steam[5082]: pressure-vessel-wrap[5629]: W: "run/opengl-driver-32/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:41.640943 nixos steam[5082]: ProtonFixes[5814] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:54:41.715020 nixos steam[5082]: ProtonFixes[5814] INFO: Setting up FSR4 version default.
+Oct 11 22:54:42.076978 nixos steam[5082]: ProtonFixes[5814] INFO: Automatic FSR4 upgrade enabled.
+Oct 11 22:54:42.077185 nixos steam[5082]: ProtonFixes[5814] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:54:42.080884 nixos steam[5082]: fsync: up and running.
+Oct 11 22:54:43.364259 nixos steam[5082]: Fossilize INFO: Overriding serialization path: "/home/artem/.local/share/Steam/shader_cache_temp_dir_d3d11_64/fozpipelinesv6/steamapprun_pipeline_cache".
+Oct 11 22:54:44.889646 nixos steam[5082]: pressure-vessel-wrap[5963]: W: "/run/current-system/sw/bin/getent" is unlikely to appear in "/run/host"
+Oct 11 22:54:44.889646 nixos steam[5082]: pressure-vessel-wrap[5963]: W: Unable to determine architecture of provider / ldconfig: Error reading "(null)" ELF header: invalid `Elf' handle
+Oct 11 22:54:44.890186 nixos steam[5082]: pressure-vessel-wrap[5963]: W: "run/opengl-driver/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:44.890186 nixos steam[5082]: pressure-vessel-wrap[5963]: W: "run/opengl-driver-32/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:54:44.939070 nixos systemd-logind[1077]: suspend requested from client PID 1772 ('.plasmashell-wr') (unit user@1000.service)...
+Oct 11 22:54:44.939649 nixos org_kde_powerdevil[1785]: [  1858][130.339272] (ldbus_handle_message)Received dbus signal PrepareForSleep(true=prepare)
+Oct 11 22:54:44.939827 nixos org_kde_powerdevil[1785]: Watching for display connection changes, resolved watch mode = Watch_Mode_Udev, poll loop interval = 500 millisec
+Oct 11 22:54:44.939827 nixos org_kde_powerdevil[1785]:                                          initial_stabilization_millisec: 0,  stabilization_poll_millisec: 100
+Oct 11 22:54:44.939777 nixos systemd-logind[1077]: The system will suspend now!
+Oct 11 22:54:44.939868 nixos ModemManager[1957]: <msg> [sleep-monitor-systemd] system is about to suspend
+Oct 11 22:54:44.939905 nixos ModemManager[1957]: <msg> [sleep-monitor-systemd] ready to sleep; dropping inhibitor
+Oct 11 22:54:44.940046 nixos rtkit-daemon[1399]: Demoting known real-time threads.
+Oct 11 22:54:44.940101 nixos rtkit-daemon[1399]: Successfully demoted thread 5219 of process 5163.
+Oct 11 22:54:44.940118 nixos rtkit-daemon[1399]: Successfully demoted thread 5218 of process 5163.
+Oct 11 22:54:44.940142 nixos rtkit-daemon[1399]: Successfully demoted thread 1851 of process 1838.
+Oct 11 22:54:44.940159 nixos rtkit-daemon[1399]: Successfully demoted thread 1838 of process 1838.
+Oct 11 22:54:44.940183 nixos rtkit-daemon[1399]: Successfully demoted thread 1749 of process 1715.
+Oct 11 22:54:44.940199 nixos rtkit-daemon[1399]: Successfully demoted thread 1741 of process 1715.
+Oct 11 22:54:44.940216 nixos rtkit-daemon[1399]: Successfully demoted thread 1715 of process 1715.
+Oct 11 22:54:44.940237 nixos rtkit-daemon[1399]: Successfully demoted thread 1718 of process 1713.
+Oct 11 22:54:44.940253 nixos rtkit-daemon[1399]: Successfully demoted thread 1713 of process 1713.
+Oct 11 22:54:44.940256 nixos rtkit-daemon[1399]: Demoted 9 threads.
+Oct 11 22:54:44.946852 nixos avahi-daemon[1022]: Leaving mDNS multicast group on interface wlp130s0.IPv4 with address 192.168.68.57.
+Oct 11 22:54:44.950223 nixos systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 22:54:44.950225 nixos avahi-daemon[1022]: Interface wlp130s0.IPv4 no longer relevant for mDNS.
+Oct 11 22:54:44.966689 nixos systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 22:54:44.982699 nixos cupsd[1292]: REQUEST localhost - - "POST /admin/ HTTP/1.1" 401 173 CUPS-Delete-Printer successful-ok
+Oct 11 22:54:44.984359 nixos cupsd[1292]: Printer "Pantum_BP2300W_Series_587E16" deleted by "root".
+Oct 11 22:54:44.984678 nixos cupsd[1292]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 173 CUPS-Delete-Printer successful-ok
+Oct 11 22:54:44.988026 nixos systemd[1]: Stopped target Host and Network Name Lookups.
+Oct 11 22:54:44.988039 nixos systemd[1]: Stopping Host and Network Name Lookups...
+Oct 11 22:54:44.988066 nixos systemd[1]: Stopped target User and Group Name Lookups.
+Oct 11 22:54:44.988070 nixos systemd[1]: Stopping User and Group Name Lookups...
+Oct 11 22:54:44.988171 nixos systemd[1]: Stopping Name Service Cache Daemon (nsncd)...
+Oct 11 22:54:44.988971 nixos systemd[1]: nscd.service: Deactivated successfully.
+Oct 11 22:54:44.989201 nixos systemd[1]: Stopped Name Service Cache Daemon (nsncd).
+Oct 11 22:54:44.989230 nixos systemd[1]: nscd.service: Consumed 135ms CPU time over 2min 35.122s wall clock time, 5.2M memory peak, 160K read from disk, 9.7K incoming IP traffic, 5.3K outgoing IP traffic.
+Oct 11 22:54:44.989503 nixos avahi-daemon[1022]: Got SIGHUP, reloading.
+Oct 11 22:54:44.989542 nixos avahi-daemon[1022]: No service file found in /etc/avahi/services.
+Oct 11 22:54:44.991409 nixos systemd[1]: Starting Name Service Cache Daemon (nsncd)...
+Oct 11 22:54:44.995766 nixos kernel: wlp130s0: deauthenticating from 14:eb:b6:e0:86:a7 by local choice (Reason: 3=DEAUTH_LEAVING)
+Oct 11 22:54:45.004931 nixos nsncd[6171]: Oct 11 22:54:45.004 INFO started, config: Config { ignored_request_types: {}, worker_count: 8, handoff_timeout: 10s }, path: "/var/run/nscd/socket"
+Oct 11 22:54:45.004924 nixos systemd[1]: Started Name Service Cache Daemon (nsncd).
+Oct 11 22:54:45.005096 nixos systemd[1]: Reached target Host and Network Name Lookups.
+Oct 11 22:54:45.005144 nixos systemd[1]: Reached target User and Group Name Lookups.
+Oct 11 22:54:45.143487 nixos steam[5082]: ProtonFixes[6219] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:54:45.224508 nixos steam[5082]: ProtonFixes[6219] INFO: Setting up FSR4 version default.
+Oct 11 22:54:45.230002 nixos steam[5082]: ProtonFixes[6219] CRIT: Failed to download "https://loathingkernel.github.io/proton-upscalers/manifest.json"
+Oct 11 22:54:45.230002 nixos steam[5082]: ProtonFixes[6219] CRIT: <urlopen error [Errno -3] Temporary failure in name resolution>
+Oct 11 22:54:45.252110 nixos wpa_supplicant[1234]: wlp130s0: CTRL-EVENT-DISCONNECTED bssid=14:eb:b6:e0:86:a7 reason=3 locally_generated=1
+Oct 11 22:54:45.252418 nixos wpa_supplicant[1234]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:54:45.253221 nixos avahi-daemon[1022]: Leaving mDNS multicast group on interface wlp130s0.IPv6 with address fe80::16b:6b8c:d6ce:be09.
+Oct 11 22:54:45.253238 nixos avahi-daemon[1022]: Interface wlp130s0.IPv6 no longer relevant for mDNS.
+Oct 11 22:54:45.403973 nixos steam[5082]: ProtonFixes[6219] INFO: Automatic FSR4 upgrade enabled.
+Oct 11 22:54:45.403973 nixos steam[5082]: ProtonFixes[6219] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:54:45.406219 nixos steam[5082]: fsync: up and running.
+Oct 11 22:54:45.473481 nixos wpa_supplicant[1234]: p2p-dev-wlp130s: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:54:45.473561 nixos wpa_supplicant[1234]: p2p-dev-wlp130s: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:54:45.473577 nixos wpa_supplicant[1234]: nl80211: deinit ifname=p2p-dev-wlp130s disabled_11b_rates=0
+Oct 11 22:54:45.503184 nixos wpa_supplicant[1234]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:54:45.525085 nixos wpa_supplicant[1234]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:54:45.525104 nixos wpa_supplicant[1234]: nl80211: deinit ifname=wlp130s0 disabled_11b_rates=0
+Oct 11 22:54:45.627016 nixos org_kde_powerdevil[1785]: [  1862][131.026635] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 22:54:45.723868 nixos systemd[1]: Starting Sleep Actions...
+Oct 11 22:54:45.747070 nixos systemd[1]: Finished Sleep Actions.
+Oct 11 22:54:45.747818 nixos systemd[1]: Reached target Sleep.
+Oct 11 22:54:45.748811 nixos systemd[1]: Starting System Suspend...
+Oct 11 22:54:45.756709 nixos systemd[1]: session-2.scope: Unit now frozen-by-parent.
+Oct 11 22:54:45.756719 nixos systemd[1]: user-175.slice: Unit now frozen-by-parent.
+Oct 11 22:54:45.756727 nixos systemd[1]: user.slice: Unit now frozen.
+Oct 11 22:54:45.756738 nixos systemd[1]: user-1000.slice: Unit now frozen-by-parent.
+Oct 11 22:54:45.756744 nixos systemd-sleep[6253]: Successfully froze unit 'user.slice'.
+Oct 11 22:54:45.756748 nixos systemd[1]: user@1000.service: Unit now frozen-by-parent.
+Oct 11 22:54:45.756993 nixos systemd-sleep[6253]: Performing sleep operation 'suspend'...
+Oct 11 22:54:45.757762 nixos kernel: PM: suspend entry (deep)
+Oct 11 22:54:45.829764 nixos kernel: Filesystems sync: 0.072 seconds
+Oct 11 22:54:59.416993 nixos kernel: Freezing user space processes
+Oct 11 22:54:59.417202 nixos kernel: Freezing user space processes completed (elapsed 0.001 seconds)
+Oct 11 22:54:59.417230 nixos kernel: OOM killer disabled.
+Oct 11 22:54:59.417253 nixos kernel: Freezing remaining freezable tasks
+Oct 11 22:54:59.417274 nixos kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+Oct 11 22:54:59.417293 nixos kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+Oct 11 22:54:59.417311 nixos kernel: ACPI: EC: interrupt blocked
+Oct 11 22:54:59.417331 nixos kernel: ACPI: PM: Preparing to enter system sleep state S3
+Oct 11 22:54:59.417352 nixos kernel: ACPI: EC: event blocked
+Oct 11 22:54:59.417373 nixos kernel: ACPI: EC: EC stopped
+Oct 11 22:54:59.417393 nixos kernel: ACPI: PM: Saving platform NVS memory
+Oct 11 22:54:59.417407 nixos kernel: Disabling non-boot CPUs ...
+Oct 11 22:54:59.417834 nixos kernel: ACPI: PM: Low-level resume complete
+Oct 11 22:54:59.417854 nixos kernel: ACPI: EC: EC started
+Oct 11 22:54:59.417874 nixos kernel: ACPI: PM: Restoring platform NVS memory
+Oct 11 22:54:59.417885 nixos kernel: Enabling non-boot CPUs ...
+Oct 11 22:54:59.418186 nixos kernel: core: The event 0x5d0 is not supported as an auto-counter reload event.
+Oct 11 22:54:59.418201 nixos kernel: core: cpu_atom PMU driver: 
+Oct 11 22:54:59.418218 nixos kernel: ... version:                   6
+Oct 11 22:54:59.418239 nixos kernel: ... bit width:                 48
+Oct 11 22:54:59.418249 nixos kernel: ... generic counters:          8
+Oct 11 22:54:59.418269 nixos kernel: ... generic bitmap:            00000000000000ff
+Oct 11 22:54:59.418283 nixos kernel: ... fixed-purpose counters:    6
+Oct 11 22:54:59.418302 nixos kernel: ... fixed-purpose bitmap:      0000000000000077
+Oct 11 22:54:59.418316 nixos kernel: ... value mask:                0000ffffffffffff
+Oct 11 22:54:59.418329 nixos kernel: ... max period:                00007fffffffffff
+Oct 11 22:54:59.418349 nixos kernel: ... global_ctrl mask:          00000077000000ff
+Oct 11 22:54:59.418795 nixos kernel: ACPI: PM: Waking up from system sleep state S3
+Oct 11 22:54:59.418812 nixos kernel: ACPI: button: [Firmware Bug]: Unexpected lid state reported by firmware
+Oct 11 22:54:59.418835 nixos kernel: ACPI: EC: interrupt unblocked
+Oct 11 22:54:59.418856 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 22:54:59.419297 nixos kernel: ACPI: EC: event unblocked
+Oct 11 22:54:59.419320 nixos kernel: xhci_hcd 0000:00:0d.0: xHC error in resume, USBSTS 0x401, Reinit
+Oct 11 22:54:59.419532 nixos kernel: usb usb1: root hub lost power or was reset
+Oct 11 22:54:59.419832 nixos kernel: usb usb2: root hub lost power or was reset
+Oct 11 22:54:59.420012 nixos kernel: spd5118 0-0051: Failed to write b = 0: -6
+Oct 11 22:54:59.420150 nixos kernel: spd5118 0-0051: PM: dpm_run_callback(): spd5118_resume [spd5118] returns -6
+Oct 11 22:54:59.420258 nixos kernel: spd5118 0-0051: PM: failed to resume async: error -6
+Oct 11 22:54:59.420361 nixos kernel: i915 0000:00:02.0: [drm] GT0: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+Oct 11 22:54:59.420486 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: submission enabled
+Oct 11 22:54:59.420601 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: SLPC enabled
+Oct 11 22:54:59.420710 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: RC enabled
+Oct 11 22:54:59.420827 nixos kernel: i915 0000:00:02.0: [drm] GT1: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+Oct 11 22:54:59.420940 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC firmware i915/mtl_huc_gsc.bin version 8.5.4
+Oct 11 22:54:59.421048 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC: authenticated for clear media
+Oct 11 22:54:59.421157 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: submission enabled
+Oct 11 22:54:59.421265 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: SLPC enabled
+Oct 11 22:54:59.421369 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: RC enabled
+Oct 11 22:54:59.421477 nixos kernel: i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io,decodes=io:owns=none
+Oct 11 22:54:59.421571 nixos kernel: i915 0000:00:02.0: [drm] GT1: Loaded GSC firmware i915/mtl_gsc_1.bin (cv1.0, r102.1.15.1926, svn 1)
+Oct 11 22:54:59.421650 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC: authenticated for all workloads
+Oct 11 22:54:59.421726 nixos kernel: nvme nvme0: 20/0/0 default/read/poll queues
+Oct 11 22:54:59.421825 nixos kernel: usb 3-11: reset high-speed USB device number 4 using xhci_hcd
+Oct 11 22:54:59.421934 nixos kernel: usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+Oct 11 22:54:59.422030 nixos kernel: mei_gsc_proxy 0000:80:16.0-0f73db04-97ab-4125-b893-e904ad0d5464: bound 0000:00:02.0 (ops i915_gsc_proxy_component_ops [i915])
+Oct 11 22:54:59.422076 nixos kernel: OOM killer enabled.
+Oct 11 22:54:59.422083 nixos kernel: Restarting tasks: Starting
+Oct 11 22:54:59.422091 nixos kernel: Restarting tasks: Done
+Oct 11 22:54:59.422097 nixos kernel: efivarfs: resyncing variable state
+Oct 11 22:54:59.749875 nixos kernel: efivarfs: finished resyncing variable state
+Oct 11 22:54:59.749970 nixos kernel: random: crng reseeded on system resumption
+Oct 11 22:55:01.345923 nixos bluetoothd[1023]: Controller resume with wake event 0x0
+Oct 11 22:55:01.346874 nixos kernel: PM: suspend exit
+Oct 11 22:55:01.374457 nixos systemd-sleep[6253]: System returned from sleep operation 'suspend'.
+Oct 11 22:55:01.377255 nixos systemd[1]: user.slice: Unit now thawed.
+Oct 11 22:55:01.377285 nixos systemd-sleep[6253]: Successfully thawed unit 'user.slice'.
+Oct 11 22:55:01.377624 nixos systemd[1]: user-175.slice: Unit now thawed.
+Oct 11 22:55:01.377730 nixos systemd[1]: user-1000.slice: Unit now thawed.
+Oct 11 22:55:01.377746 nixos systemd[1]: user@1000.service: Unit now thawed.
+Oct 11 22:55:01.377760 nixos systemd[1]: session-2.scope: Unit now thawed.
+Oct 11 22:55:01.378163 nixos systemd[1]: systemd-suspend.service: Deactivated successfully.
+Oct 11 22:55:01.378517 nixos systemd[1]: Finished System Suspend.
+Oct 11 22:55:01.378664 nixos systemd[1]: systemd-suspend.service: Consumed 2.833s CPU time over 6.429s wall clock time, 1G memory peak, 24K read from disk.
+Oct 11 22:55:01.380233 nixos systemd[1]: Stopped target Sleep.
+Oct 11 22:55:01.380321 nixos systemd[1]: Reached target Suspend.
+Oct 11 22:55:01.380537 nixos systemd-logind[1077]: Operation 'suspend' finished.
+Oct 11 22:55:01.380564 nixos systemd[1]: Stopped target Suspend.
+Oct 11 22:55:01.380885 nixos ModemManager[1957]: <msg> [sleep-monitor-systemd] system is resuming
+Oct 11 22:55:01.380952 nixos org_kde_powerdevil[1785]: [  1858][146.780574] (ldbus_handle_message)Received dbus signal PrepareForSleep(false=resume)
+Oct 11 22:55:01.381616 nixos rtkit-daemon[1399]: Resuming known real-time threads.
+Oct 11 22:55:01.381813 nixos systemd[1]: Stopping Sleep Actions...
+Oct 11 22:55:01.381695 nixos rtkit-daemon[1399]: Successfully made thread 5219 of process 5163 owned by '1000' high priority at nice level -10.
+Oct 11 22:55:01.381724 nixos rtkit-daemon[1399]: Successfully made thread 5218 of process 5163 owned by '1000' high priority at nice level -10.
+Oct 11 22:55:01.381824 nixos rtkit-daemon[1399]: Successfully made thread 1851 of process 1838 owned by '1000' RT at priority 20.
+Oct 11 22:55:01.381870 nixos rtkit-daemon[1399]: Successfully made thread 1838 of process 1838 owned by '1000' high priority at nice level -11.
+Oct 11 22:55:01.381965 nixos rtkit-daemon[1399]: Successfully made thread 1749 of process 1715 owned by '1000' RT at priority 20.
+Oct 11 22:55:01.382000 nixos rtkit-daemon[1399]: Successfully made thread 1741 of process 1715 owned by '1000' RT at priority 20.
+Oct 11 22:55:01.382023 nixos rtkit-daemon[1399]: Successfully made thread 1715 of process 1715 owned by '1000' high priority at nice level -11.
+Oct 11 22:55:01.382062 nixos rtkit-daemon[1399]: Successfully made thread 1718 of process 1713 owned by '1000' RT at priority 20.
+Oct 11 22:55:01.382085 nixos rtkit-daemon[1399]: Successfully made thread 1713 of process 1713 owned by '1000' high priority at nice level -11.
+Oct 11 22:55:01.382088 nixos rtkit-daemon[1399]: Resumed scheduling 9 threads.
+Oct 11 22:55:01.393985 nixos systemd[1]: sleep-actions.service: Deactivated successfully.
+Oct 11 22:55:01.394162 nixos systemd[1]: Stopped Sleep Actions.
+Oct 11 22:55:01.404775 nixos kernel: Generic FE-GE Realtek PHY r8169-0-8100:00: attached PHY driver (mii_bus:phy_addr=r8169-0-8100:00, irq=MAC)
+Oct 11 22:55:01.563980 nixos kernel: r8169 0000:81:00.0 enp129s0: Link is Down
+Oct 11 22:55:01.574489 nixos NetworkManager[1124]: <warn>  [1791744901.5744] device (p2p-dev-wlp130s0): error setting IPv4 forwarding to '0': Resource temporarily unavailable
+Oct 11 22:55:01.605548 nixos NetworkManager[1124]: <warn>  [1791744901.6055] device (p2p-dev-wlp130s0): error setting IPv4 forwarding to '0': Resource temporarily unavailable
+Oct 11 22:55:01.914263 nixos kwin_wayland[1656]: Applying output configuration failed!
+Oct 11 22:55:02.987175 nixos steam[5082]: Fossilize INFO: Overriding serialization path: "/home/artem/.local/share/Steam/shader_cache_temp_dir_d3d12_64/fozpipelinesv6/steamapprun_pipeline_cache".
+Oct 11 22:55:03.393009 nixos ModemManager[1957]: <wrn> [plugin-manager] task 3,wlp130s0: error when checking support with plugin 'generic': (generic) Missing port probe for port (net/wlp130s0)
+Oct 11 22:55:03.885092 nixos org_kde_powerdevil[1785]: [  1862][149.284706] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 22:55:04.597107 nixos steam[5082]: pressure-vessel-wrap[6574]: W: "/run/current-system/sw/bin/getent" is unlikely to appear in "/run/host"
+Oct 11 22:55:04.597348 nixos steam[5082]: pressure-vessel-wrap[6574]: W: Unable to determine architecture of provider / ldconfig: Error reading "(null)" ELF header: invalid `Elf' handle
+Oct 11 22:55:04.597562 nixos steam[5082]: pressure-vessel-wrap[6574]: W: "run/opengl-driver/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:55:04.597574 nixos steam[5082]: pressure-vessel-wrap[6574]: W: "run/opengl-driver-32/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:55:04.656962 nixos wpa_supplicant[1234]: wlp130s0: WPS-CANCEL
+Oct 11 22:55:04.659821 nixos wpa_supplicant[1234]: wlp130s0: SME: Trying to authenticate with 14:eb:b6:e0:86:a7 (SSID='tyoma' freq=5240 MHz)
+Oct 11 22:55:04.708775 nixos kernel: wlp130s0: authenticate with 14:eb:b6:e0:86:a7 (local address=f4:4e:b4:1a:65:0f)
+Oct 11 22:55:04.726771 nixos kernel: wlp130s0: send auth to 14:eb:b6:e0:86:a7 (try 1/3)
+Oct 11 22:55:04.735774 nixos kernel: wlp130s0: authenticated
+Oct 11 22:55:04.735773 nixos wpa_supplicant[1234]: wlp130s0: Trying to associate with 14:eb:b6:e0:86:a7 (SSID='tyoma' freq=5240 MHz)
+Oct 11 22:55:04.741016 nixos kernel: wlp130s0: associate with 14:eb:b6:e0:86:a7 (try 1/3)
+Oct 11 22:55:04.766038 nixos kernel: wlp130s0: RX AssocResp from 14:eb:b6:e0:86:a7 (capab=0x1511 status=0 aid=1)
+Oct 11 22:55:04.802863 nixos kernel: wlp130s0: associated
+Oct 11 22:55:04.805528 nixos wpa_supplicant[1234]: wlp130s0: Associated with 14:eb:b6:e0:86:a7
+Oct 11 22:55:04.805686 nixos wpa_supplicant[1234]: wlp130s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Oct 11 22:55:04.829736 nixos steam[5082]: ProtonFixes[6761] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:55:04.849145 nixos wpa_supplicant[1234]: wlp130s0: WPA: Key negotiation completed with 14:eb:b6:e0:86:a7 [PTK=CCMP GTK=CCMP]
+Oct 11 22:55:04.849163 nixos wpa_supplicant[1234]: wlp130s0: CTRL-EVENT-CONNECTED - Connection to 14:eb:b6:e0:86:a7 completed [id=0 id_str=]
+Oct 11 22:55:04.892777 nixos kernel: wlp130s0: Limiting TX power to 20 (23 - 3) dBm as advertised by 14:eb:b6:e0:86:a7
+Oct 11 22:55:04.896176 nixos systemd[1]: Stopped target Host and Network Name Lookups.
+Oct 11 22:55:04.896191 nixos systemd[1]: Stopping Host and Network Name Lookups...
+Oct 11 22:55:04.896222 nixos systemd[1]: Stopped target User and Group Name Lookups.
+Oct 11 22:55:04.896226 nixos systemd[1]: Stopping User and Group Name Lookups...
+Oct 11 22:55:04.896339 nixos systemd[1]: Stopping Name Service Cache Daemon (nsncd)...
+Oct 11 22:55:04.896976 nixos systemd[1]: nscd.service: Deactivated successfully.
+Oct 11 22:55:04.897192 nixos systemd[1]: Stopped Name Service Cache Daemon (nsncd).
+Oct 11 22:55:04.897223 nixos systemd[1]: nscd.service: Consumed 19ms CPU time over 10.705s wall clock time, 4.3M memory peak, 800B outgoing IP traffic.
+Oct 11 22:55:04.897253 nixos avahi-daemon[1022]: Got SIGHUP, reloading.
+Oct 11 22:55:04.897282 nixos avahi-daemon[1022]: No service file found in /etc/avahi/services.
+Oct 11 22:55:04.899162 nixos systemd[1]: Starting Name Service Cache Daemon (nsncd)...
+Oct 11 22:55:04.901281 nixos avahi-daemon[1022]: Joining mDNS multicast group on interface wlp130s0.IPv6 with address fe80::16b:6b8c:d6ce:be09.
+Oct 11 22:55:04.901303 nixos avahi-daemon[1022]: New relevant interface wlp130s0.IPv6 for mDNS.
+Oct 11 22:55:04.907970 nixos steam[5082]: Proton: Upgrading prefix from CachyOS-11.0-100 to dwproton-11.0-14 (/home/artem/.local/share/Steam/steamapps/compatdata/0/)
+Oct 11 22:55:04.907970 nixos steam[5082]: Proton: Prefix has an invalid version?! You may want to back up user files and delete this prefix.
+Oct 11 22:55:04.912257 nixos nsncd[6814]: Oct 11 22:55:04.912 INFO started, config: Config { ignored_request_types: {}, worker_count: 8, handoff_timeout: 10s }, path: "/var/run/nscd/socket"
+Oct 11 22:55:04.912453 nixos systemd[1]: Started Name Service Cache Daemon (nsncd).
+Oct 11 22:55:04.912610 nixos systemd[1]: Reached target Host and Network Name Lookups.
+Oct 11 22:55:04.912658 nixos systemd[1]: Reached target User and Group Name Lookups.
+Oct 11 22:55:05.038313 nixos avahi-daemon[1022]: Joining mDNS multicast group on interface wlp130s0.IPv4 with address 192.168.68.57.
+Oct 11 22:55:05.041809 nixos avahi-daemon[1022]: New relevant interface wlp130s0.IPv4 for mDNS.
+Oct 11 22:55:05.163154 nixos steam[5082]: [2026-10-11 22:55:05] Background update loop checking for update. . .
+Oct 11 22:55:05.163154 nixos steam[5082]: [2026-10-11 22:55:05] Checking for available updates...
+Oct 11 22:55:05.163269 nixos steam[5082]: [2026-10-11 22:55:05] Downloading manifest: https://client-update.fastly.steamstatic.com/steam_client_ubuntu12
+Oct 11 22:55:05.169839 nixos steam[5082]: ProtonFixes[6761] INFO: Setting up FSR4 version default.
+Oct 11 22:55:05.214041 nixos steam[5082]: [2026-10-11 22:55:05] Manifest download: send request
+Oct 11 22:55:05.394270 nixos ModemManager[1957]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:80/0000:80:1c.0/0000:81:00.0': not supported by any plugin
+Oct 11 22:55:05.394298 nixos ModemManager[1957]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:80/0000:80:1c.7/0000:82:00.0': not supported by any plugin
+Oct 11 22:55:05.413553 nixos steam[5082]: [2026-10-11 22:55:05] Manifest download: waiting for download to finish
+Oct 11 22:55:05.534759 nixos steam[5082]: ProtonFixes[6761] INFO: Automatic FSR4 upgrade enabled.
+Oct 11 22:55:05.534759 nixos steam[5082]: ProtonFixes[6761] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:55:05.559895 nixos steam[5082]: fsync: up and running.
+Oct 11 22:55:06.163873 nixos steam[5082]: [2026-10-11 22:55:06] Manifest download: finished
+Oct 11 22:55:06.164108 nixos steam[5082]: [2026-10-11 22:55:06] Download skipped: /steam_client_ubuntu12 version 1788652215, installed version 1788652215, existing pending version 0
+Oct 11 22:55:06.164108 nixos steam[5082]: [2026-10-11 22:55:06] Nothing to do
+Oct 11 22:55:06.395999 nixos org_kde_powerdevil[1785]: [  1862][151.795623] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 22:55:10.286543 nixos cupsd[1292]: REQUEST localhost - - "POST /admin/ HTTP/1.1" 401 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:55:10.287578 nixos cupsd[1292]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 1 (was 0.)
+Oct 11 22:55:10.287818 nixos cupsd[1292]: New printer "Pantum_BP2300W_Series_587E16" added by "root".
+Oct 11 22:55:10.287896 nixos cupsd[1292]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:55:10.288160 nixos cupsd[1292]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 0 (was 1.)
+Oct 11 22:55:10.288428 nixos cupsd[1292]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:55:10.288505 nixos cupsd[1292]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:55:10.289599 nixos cupsd[1292]: Setting Pantum_BP2300W_Series_587E16 device-uri to "implicitclass://Pantum_BP2300W_Series_587E16/" (was "file:///dev/null".)
+Oct 11 22:55:10.289603 nixos cupsd[1292]: Setting Pantum_BP2300W_Series_587E16 printer-is-accepting-jobs to 1 (was 0.)
+Oct 11 22:55:10.289793 nixos cupsd[1292]: Setting Pantum_BP2300W_Series_587E16 printer-state to 3 (was 5.)
+Oct 11 22:55:10.290392 nixos cupsd[1292]: CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:55:10.290420 nixos cupsd[1292]: CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:55:10.290422 nixos cupsd[1292]: Registering ICC color profiles for "Pantum_BP2300W_Series_587E16".
+Oct 11 22:55:10.290447 nixos cupsd[1292]: CreateDevice failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:55:10.291246 nixos cupsd[1292]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:55:10.291342 nixos cupsd[1292]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 6812 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:55:10.291594 nixos cupsd[1292]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 0 (was 0.)
+Oct 11 22:55:10.292090 nixos cupsd[1292]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:55:10.292165 nixos cupsd[1292]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 197 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:55:10.864365 nixos steam[5082]: Fossilize INFO: Overriding serialization path: "/home/artem/.local/share/Steam/shader_cache_temp_dir_d3d11_64/fozpipelinesv6/steamapprun_pipeline_cache".
+Oct 11 22:55:12.414784 nixos steam[5082]: pressure-vessel-wrap[7028]: W: "/run/current-system/sw/bin/getent" is unlikely to appear in "/run/host"
+Oct 11 22:55:12.415072 nixos steam[5082]: pressure-vessel-wrap[7028]: W: Unable to determine architecture of provider / ldconfig: Error reading "(null)" ELF header: invalid `Elf' handle
+Oct 11 22:55:12.415344 nixos steam[5082]: pressure-vessel-wrap[7028]: W: "run/opengl-driver/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:55:12.415356 nixos steam[5082]: pressure-vessel-wrap[7028]: W: "run/opengl-driver-32/share/drirc.d" is unlikely to appear in "/run/host"
+Oct 11 22:55:12.631946 nixos steam[5082]: ProtonFixes[7205] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:55:12.713230 nixos steam[5082]: ProtonFixes[7205] INFO: Setting up FSR4 version default.
+Oct 11 22:55:13.100671 nixos steam[5082]: ProtonFixes[7205] INFO: Automatic FSR4 upgrade enabled.
+Oct 11 22:55:13.100671 nixos steam[5082]: ProtonFixes[7205] WARN: Skipping fix execution. We are probably running a unit test.
+Oct 11 22:55:13.104826 nixos steam[5082]: fsync: up and running.
+Oct 11 22:55:14.715119 nixos steam[5082]: Fossilize INFO: Overriding serialization path: "/home/artem/.local/share/Steam/shader_cache_temp_dir_d3d12_64/fozpipelinesv6/steamapprun_pipeline_cache".
+Oct 11 22:55:14.999622 nixos steam[5082]: XIO:  fatal IO error 9 (Bad file descriptor) on X server ":0"
+Oct 11 22:55:14.999622 nixos steam[5082]:       after 24 requests (24 known processed) with 0 events remaining.
+Oct 11 22:55:15.081174 nixos systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 11 22:55:15.297212 nixos cupsd[1292]: Saving printers.conf...
+Oct 11 22:55:15.297375 nixos cupsd[1292]: Generating printcap /etc/printcap...
+Oct 11 22:55:15.297542 nixos cupsd[1292]: Saving subscriptions.conf...
+Oct 11 22:55:21.714839 nixos kscreenlocker_greet[6116]: pam_warn(kde-fingerprint:auth): function=[pam_sm_authenticate] flags=0 service=[kde-fingerprint] terminal=[<unknown>] user=[artem] ruser=[<unknown>] rhost=[<unknown>]
+Oct 11 22:55:21.714915 nixos kscreenlocker_greet[6116]: pam_warn(kde-smartcard:auth): function=[pam_sm_authenticate] flags=0 service=[kde-smartcard] terminal=[<unknown>] user=[artem] ruser=[<unknown>] rhost=[<unknown>]
+Oct 11 22:55:51.864742 nixos systemd-logind[1077]: Lid closed.
+Oct 11 22:55:52.985595 nixos systemd-logind[1077]: Lid opened.
+Oct 11 22:56:10.211631 nixos systemd-logind[1077]: Lid closed.
+Oct 11 22:56:15.660705 nixos systemd-logind[1077]: Lid opened.

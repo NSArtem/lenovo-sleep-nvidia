@@ -1,0 +1,318 @@
+Oct 11 22:31:05.054675 nixos systemd[1548]: Started KRunner provider for baloo file indexer.
+Oct 11 22:31:05.862008 nixos systemd[1548]: Started Konsole - Terminal.
+Oct 11 22:31:05.917756 nixos kwin_wayland[1637]: QDBusConnection: couldn't handle call to Teardown, no slot matched
+Oct 11 22:31:05.917761 nixos kwin_wayland[1637]: QDBusConnection: couldn't handle call to Teardown, no slot matched
+Oct 11 22:31:05.917767 nixos kwin_wayland[1637]: Could not find slot Krunner1Adaptor::Teardown
+Oct 11 22:31:05.925396 nixos konsole[2606]: Couldn't load pipewire-0.3 library
+Oct 11 22:31:05.925403 nixos konsole[2606]: Couldn't resolve pipewire-0.3 symbols
+Oct 11 22:31:06.025219 nixos systemd[1548]: Started app-org.kde.konsole-2606.scope.
+Oct 11 22:31:15.911794 nixos systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+Oct 11 22:31:17.654996 nixos cupsd[1284]: Saving printers.conf...
+Oct 11 22:31:17.655192 nixos cupsd[1284]: Generating printcap /etc/printcap...
+Oct 11 22:31:17.655445 nixos cupsd[1284]: Saving subscriptions.conf...
+Oct 11 22:31:31.891892 nixos systemd[1]: systemd-timedated.service: Deactivated successfully.
+Oct 11 22:31:44.967023 nixos systemd[1]: systemd-localed.service: Deactivated successfully.
+Oct 11 22:31:54.142050 nixos systemd[1]: dbus-:1.3-org.kde.kameleon.qmk.helper@0.service: Deactivated successfully.
+Oct 11 22:31:54.142393 nixos systemd[1]: dbus-:1.3-org.kde.kameleon.qmk.helper@0.service: Consumed 13ms CPU time over 1min 31ms wall clock time, 7.8M memory peak, 1.8M read from disk.
+Oct 11 22:31:54.146476 nixos drkonqi-coredump-processor[1767]: "/home/artem/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/lib/wine/x86_64-unix/wine64-preloader" 124906 "/var/lib/systemd/coredump/core.wine64-preloade.1000.1dac11cab1f342e3a640e79510e0ce29.124906.1790673159000000.zst"
+Oct 11 22:31:54.149315 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.214494 nixos drkonqi-coredump-processor[1767]: "/home/artem/.local/share/Steam/compatibilitytools.d/DW-Proton Latest/files/lib/wine/i386-unix/wine64-preloader" 114402 "/var/lib/systemd/coredump/core.wine64-preloade.1000.e62e6e5419e34b9a90c2693c5a64c1f7.114402.1790765422000000.zst"
+Oct 11 22:31:54.215034 nixos drkonqi-coredump-launcher[2791]: Unable to find file for pid 124906 expected at "kcrash-metadata/wine64-preloader.1dac11cab1f342e3a640e79510e0ce29.124906.ini"
+Oct 11 22:31:54.216453 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.278840 nixos drkonqi-coredump-processor[1767]: "/home/artem/.local/share/Steam/compatibilitytools.d/DW-Proton Latest/files/lib/wine/i386-unix/wine64-preloader" 5870 "/var/lib/systemd/coredump/core.wine64-preloade.1000.60acd4eed8a543dc8f2ae28a5b4c66d0.5870.1790804651000000.zst"
+Oct 11 22:31:54.279537 nixos drkonqi-coredump-launcher[2796]: Unable to find file for pid 114402 expected at "kcrash-metadata/wine64-preloader.e62e6e5419e34b9a90c2693c5a64c1f7.114402.ini"
+Oct 11 22:31:54.280643 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.334139 nixos drkonqi-coredump-processor[1767]: "/mnt/data/SteamLibrary/steamapps/common/Proton - Experimental/files/lib/wine/i386-unix/wine64-preloader" 13121 "/var/lib/systemd/coredump/core.wine64-preloade.1000.60acd4eed8a543dc8f2ae28a5b4c66d0.13121.1790805569000000.zst"
+Oct 11 22:31:54.334810 nixos drkonqi-coredump-launcher[2803]: Unable to find file for pid 5870 expected at "kcrash-metadata/wine64-preloader.60acd4eed8a543dc8f2ae28a5b4c66d0.5870.ini"
+Oct 11 22:31:54.336099 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.393050 nixos drkonqi-coredump-processor[1767]: "/home/artem/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/lib/wine/x86_64-unix/wine64-preloader" 25610 "/var/lib/systemd/coredump/core.reverse1999\\x2eexe.1000.60acd4eed8a543dc8f2ae28a5b4c66d0.25610.1790809993000000.zst"
+Oct 11 22:31:54.393488 nixos drkonqi-coredump-launcher[2809]: Unable to find file for pid 13121 expected at "kcrash-metadata/wine64-preloader.60acd4eed8a543dc8f2ae28a5b4c66d0.13121.ini"
+Oct 11 22:31:54.395123 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.451549 nixos drkonqi-coredump-launcher[2815]: Unable to find file for pid 25610 expected at "kcrash-metadata/wine64-preloader.60acd4eed8a543dc8f2ae28a5b4c66d0.25610.ini"
+Oct 11 22:31:54.456082 nixos drkonqi-coredump-processor[1767]: "/nix/store/9q50hwz7zil0j72xvbkpidziw46irkvf-mission-center-1.2.0/bin/.missioncenter-wrapped" 511088 "/var/lib/systemd/coredump/core.\\x2emissioncenter-.1000.ea9b93f8c6434c389b6902f2ceffdd55.511088.1790949507000000.zst"
+Oct 11 22:31:54.459043 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.520341 nixos drkonqi-coredump-processor[1767]: "/nix/store/isc654jwc1czqdkzad7n8r5vpl3iwz4x-glibc-2.44-25-bin/bin/ldconfig" 3772 "/var/lib/systemd/coredump/core.ldconfig.1000.ed7b027f56c24c40948482ea7ecc1d74.3772.1790951482000000.zst"
+Oct 11 22:31:54.521371 nixos drkonqi-coredump-launcher[2821]: Unable to find file for pid 511088 expected at "kcrash-metadata/.missioncenter-wrapped.ea9b93f8c6434c389b6902f2ceffdd55.511088.ini"
+Oct 11 22:31:54.522150 nixos drkonqi-coredump-processor[1767]: "/nix/store/9q50hwz7zil0j72xvbkpidziw46irkvf-mission-center-1.2.0/bin/.missioncenter-wrapped" 219474 "/var/lib/systemd/coredump/core.\\x2emissioncenter-.1000.ed7b027f56c24c40948482ea7ecc1d74.219474.1791047205000000.zst"
+Oct 11 22:31:54.524640 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.525441 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.593907 nixos drkonqi-coredump-launcher[2827]: Unable to find file for pid 3772 expected at "kcrash-metadata/ldconfig.ed7b027f56c24c40948482ea7ecc1d74.3772.ini"
+Oct 11 22:31:54.594255 nixos drkonqi-coredump-processor[1767]: "/home/artem/.local/share/shadPS4QtLauncher/versions/v0.19.0 - The Shadoween special - 2026-10-02/squashfs-root/usr/bin/shadps4" 5976 "/var/lib/systemd/coredump/core.shadPS4:Main.1000.d840dd680b76444192d71bdfbbdc014f.5976.1791243143000000.zst"
+Oct 11 22:31:54.595231 nixos drkonqi-coredump-launcher[2828]: Unable to find file for pid 219474 expected at "kcrash-metadata/.missioncenter-wrapped.ed7b027f56c24c40948482ea7ecc1d74.219474.ini"
+Oct 11 22:31:54.596182 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.650747 nixos drkonqi-coredump-processor[1767]: "/home/artem/.local/share/shadPS4QtLauncher/versions/v0.19.0 - The Shadoween special - 2026-10-02/squashfs-root/usr/bin/shadps4" 6128 "/var/lib/systemd/coredump/core.shadPS4:Main.1000.d840dd680b76444192d71bdfbbdc014f.6128.1791243166000000.zst"
+Oct 11 22:31:54.651233 nixos drkonqi-coredump-launcher[2837]: Unable to find file for pid 5976 expected at "kcrash-metadata/shadps4.d840dd680b76444192d71bdfbbdc014f.5976.ini"
+Oct 11 22:31:54.654134 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.711585 nixos drkonqi-coredump-processor[1767]: "/home/artem/.local/share/shadPS4QtLauncher/versions/v0.19.0 - The Shadoween special - 2026-10-02/squashfs-root/usr/bin/shadps4" 6361 "/var/lib/systemd/coredump/core.shadPS4:Main.1000.d840dd680b76444192d71bdfbbdc014f.6361.1791243262000000.zst"
+Oct 11 22:31:54.712082 nixos drkonqi-coredump-launcher[2845]: Unable to find file for pid 6128 expected at "kcrash-metadata/shadps4.d840dd680b76444192d71bdfbbdc014f.6128.ini"
+Oct 11 22:31:54.713500 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.768750 nixos drkonqi-coredump-processor[1767]: "/mnt/data/SteamLibrary/steamapps/common/Proton 11.0/files/lib/wine/x86_64-unix/wine64-preloader" 4715 "/var/lib/systemd/coredump/core.wine64-preloade.1000.91cd62bce6914a4cb2ec01a80d094e5d.4715.1791312069000000.zst"
+Oct 11 22:31:54.769186 nixos drkonqi-coredump-launcher[2851]: Unable to find file for pid 6361 expected at "kcrash-metadata/shadps4.d840dd680b76444192d71bdfbbdc014f.6361.ini"
+Oct 11 22:31:54.770733 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.830696 nixos drkonqi-coredump-launcher[2857]: Unable to find file for pid 4715 expected at "kcrash-metadata/wine64-preloader.91cd62bce6914a4cb2ec01a80d094e5d.4715.ini"
+Oct 11 22:31:54.834606 nixos drkonqi-coredump-processor[1767]: "/app/opt/XIVLauncher/XIVLauncher.Core" 218857 "/var/lib/systemd/coredump/core.xivlauncher.1000.91cd62bce6914a4cb2ec01a80d094e5d.218857.1791381472000000.zst"
+Oct 11 22:31:54.839478 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.891460 nixos drkonqi-coredump-launcher[2863]: Unable to find file for pid 218857 expected at "kcrash-metadata/XIVLauncher.Core.91cd62bce6914a4cb2ec01a80d094e5d.218857.ini"
+Oct 11 22:31:54.894398 nixos drkonqi-coredump-processor[1767]: "/home/artem/.xlcore/compatibilitytool/wine/wine-xiv-staging-fsync-git-10.8.r0.a2ca9e4-nolsc/lib/wine/x86_64-unix/wine64-preloader" 21490 "/var/lib/systemd/coredump/core.rundll32\\x2eexe.1000.9a22f367c1cb45a59cfdb9d6aba11443.21490.1791385387000000.zst"
+Oct 11 22:31:54.896171 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:54.947864 nixos drkonqi-coredump-launcher[2869]: Unable to find file for pid 21490 expected at "kcrash-metadata/wine64-preloader.9a22f367c1cb45a59cfdb9d6aba11443.21490.ini"
+Oct 11 22:31:54.950055 nixos drkonqi-coredump-processor[1767]: "/mnt/data/SteamLibrary/steamapps/common/Proton - Experimental/files/lib/wine/i386-unix/wine64-preloader" 139435 "/var/lib/systemd/coredump/core.wine64-preloade.1000.9a22f367c1cb45a59cfdb9d6aba11443.139435.1791458885000000.zst"
+Oct 11 22:31:54.951943 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:55.006923 nixos drkonqi-coredump-processor[1767]: "/home/artem/.local/share/Steam/compatibilitytools.d/Proton-CachyOS Latest/files/lib/wine/i386-unix/wine64-preloader" 140287 "/var/lib/systemd/coredump/core.GameThread.1000.9a22f367c1cb45a59cfdb9d6aba11443.140287.1791461088000000.zst"
+Oct 11 22:31:55.007611 nixos drkonqi-coredump-launcher[2875]: Unable to find file for pid 139435 expected at "kcrash-metadata/wine64-preloader.9a22f367c1cb45a59cfdb9d6aba11443.139435.ini"
+Oct 11 22:31:55.008991 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:55.065580 nixos drkonqi-coredump-processor[1767]: "/mnt/data/SteamLibrary/steamapps/common/Proton - Experimental/files/lib/wine/i386-unix/wine64-preloader" 254975 "/var/lib/systemd/coredump/core.wine64-preloade.1000.9a22f367c1cb45a59cfdb9d6aba11443.254975.1791535591000000.zst"
+Oct 11 22:31:55.067339 nixos drkonqi-coredump-launcher[2881]: Unable to find file for pid 140287 expected at "kcrash-metadata/wine64-preloader.9a22f367c1cb45a59cfdb9d6aba11443.140287.ini"
+Oct 11 22:31:55.067372 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:55.120376 nixos drkonqi-coredump-processor[1767]: "/mnt/data/SteamLibrary/steamapps/common/Proton - Experimental/files/lib/wine/i386-unix/wine64-preloader" 633012 "/var/lib/systemd/coredump/core.wine64-preloade.1000.9a22f367c1cb45a59cfdb9d6aba11443.633012.1791609149000000.zst"
+Oct 11 22:31:55.121103 nixos drkonqi-coredump-launcher[2887]: Unable to find file for pid 254975 expected at "kcrash-metadata/wine64-preloader.9a22f367c1cb45a59cfdb9d6aba11443.254975.ini"
+Oct 11 22:31:55.123298 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:55.174445 nixos drkonqi-coredump-processor[1767]: "/mnt/data/SteamLibrary/steamapps/common/Proton - Experimental/files/lib/wine/i386-unix/wine64-preloader" 838774 "/var/lib/systemd/coredump/core.wine64-preloade.1000.4f6d53fec9bb4c65af48b45b6e01dca2.838774.1791707968000000.zst"
+Oct 11 22:31:55.175207 nixos drkonqi-coredump-launcher[2893]: Unable to find file for pid 633012 expected at "kcrash-metadata/wine64-preloader.9a22f367c1cb45a59cfdb9d6aba11443.633012.ini"
+Oct 11 22:31:55.177161 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:55.233175 nixos drkonqi-coredump-processor[1767]: "/mnt/data/SteamLibrary/steamapps/common/Proton - Experimental/files/lib/wine/i386-unix/wine64-preloader" 871951 "/var/lib/systemd/coredump/core.wine64-preloade.1000.4f6d53fec9bb4c65af48b45b6e01dca2.871951.1791708095000000.zst"
+Oct 11 22:31:55.233967 nixos drkonqi-coredump-launcher[2899]: Unable to find file for pid 838774 expected at "kcrash-metadata/wine64-preloader.4f6d53fec9bb4c65af48b45b6e01dca2.838774.ini"
+Oct 11 22:31:55.235127 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:55.285952 nixos drkonqi-coredump-processor[1767]: "/nix/store/1ggxndc1gd5061j5hqprhnhx9p30yilv-gnused-4.10/bin/sed" 939754 "/var/lib/systemd/coredump/core.sed.1000.4f6d53fec9bb4c65af48b45b6e01dca2.939754.1791708377000000.zst"
+Oct 11 22:31:55.286738 nixos drkonqi-coredump-launcher[2905]: Unable to find file for pid 871951 expected at "kcrash-metadata/wine64-preloader.4f6d53fec9bb4c65af48b45b6e01dca2.871951.ini"
+Oct 11 22:31:55.287978 nixos systemd[1548]: Started Launch DrKonqi for a systemd-coredump crash (PID 1767/UID 1000).
+Oct 11 22:31:55.343872 nixos drkonqi-coredump-launcher[2911]: Unable to find file for pid 939754 expected at "kcrash-metadata/sed.4f6d53fec9bb4c65af48b45b6e01dca2.939754.ini"
+Oct 11 22:31:55.344998 nixos systemd[1548]: drkonqi-coredump-pickup.service: Consumed 85ms CPU time over 1min 1.443s wall clock time, 215.1M memory peak.
+Oct 11 22:32:05.070711 nixos systemd-logind[1045]: suspend requested from client PID 1754 ('.plasmashell-wr') (unit user@1000.service)...
+Oct 11 22:32:05.072330 nixos org_kde_powerdevil[1771]: [  1843][ 71.108943] (ldbus_handle_message)Received dbus signal PrepareForSleep(true=prepare)
+Oct 11 22:32:05.072737 nixos org_kde_powerdevil[1771]: Watching for display connection changes, resolved watch mode = Watch_Mode_Udev, poll loop interval = 500 millisec
+Oct 11 22:32:05.072737 nixos org_kde_powerdevil[1771]:                                          initial_stabilization_millisec: 0,  stabilization_poll_millisec: 100
+Oct 11 22:32:05.072524 nixos systemd-logind[1045]: The system will suspend now!
+Oct 11 22:32:05.072465 nixos rtkit-daemon[1385]: Demoting known real-time threads.
+Oct 11 22:32:05.072556 nixos ModemManager[1935]: <msg> [sleep-monitor-systemd] system is about to suspend
+Oct 11 22:32:05.072561 nixos rtkit-daemon[1385]: Successfully demoted thread 2379 of process 2237.
+Oct 11 22:32:05.072594 nixos rtkit-daemon[1385]: Successfully demoted thread 1832 of process 1822.
+Oct 11 22:32:05.072619 nixos rtkit-daemon[1385]: Successfully demoted thread 1822 of process 1822.
+Oct 11 22:32:05.072629 nixos ModemManager[1935]: <msg> [sleep-monitor-systemd] ready to sleep; dropping inhibitor
+Oct 11 22:32:05.072662 nixos rtkit-daemon[1385]: Successfully demoted thread 1731 of process 1696.
+Oct 11 22:32:05.072687 nixos rtkit-daemon[1385]: Successfully demoted thread 1722 of process 1696.
+Oct 11 22:32:05.072710 nixos rtkit-daemon[1385]: Successfully demoted thread 1696 of process 1696.
+Oct 11 22:32:05.072739 nixos rtkit-daemon[1385]: Successfully demoted thread 1699 of process 1694.
+Oct 11 22:32:05.072762 nixos rtkit-daemon[1385]: Successfully demoted thread 1694 of process 1694.
+Oct 11 22:32:05.072764 nixos rtkit-daemon[1385]: Demoted 8 threads.
+Oct 11 22:32:05.079133 nixos avahi-daemon[1017]: Leaving mDNS multicast group on interface wlp130s0.IPv4 with address 192.168.68.57.
+Oct 11 22:32:05.080800 nixos systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 22:32:05.098040 nixos avahi-daemon[1017]: Interface wlp130s0.IPv4 no longer relevant for mDNS.
+Oct 11 22:32:05.099084 nixos systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 22:32:05.144102 nixos systemd[1]: Stopped target Host and Network Name Lookups.
+Oct 11 22:32:05.144117 nixos systemd[1]: Stopping Host and Network Name Lookups...
+Oct 11 22:32:05.144149 nixos systemd[1]: Stopped target User and Group Name Lookups.
+Oct 11 22:32:05.144154 nixos systemd[1]: Stopping User and Group Name Lookups...
+Oct 11 22:32:05.144269 nixos systemd[1]: Stopping Name Service Cache Daemon (nsncd)...
+Oct 11 22:32:05.145366 nixos avahi-daemon[1017]: Got SIGHUP, reloading.
+Oct 11 22:32:05.145402 nixos avahi-daemon[1017]: No service file found in /etc/avahi/services.
+Oct 11 22:32:05.145591 nixos systemd[1]: nscd.service: Deactivated successfully.
+Oct 11 22:32:05.145798 nixos systemd[1]: Stopped Name Service Cache Daemon (nsncd).
+Oct 11 22:32:05.145829 nixos systemd[1]: nscd.service: Consumed 91ms CPU time over 1min 16.025s wall clock time, 6M memory peak, 160K read from disk, 9.3K incoming IP traffic, 4.9K outgoing IP traffic.
+Oct 11 22:32:05.147708 nixos systemd[1]: Starting Name Service Cache Daemon (nsncd)...
+Oct 11 22:32:05.150628 nixos kernel: wlp130s0: deauthenticating from 14:eb:b6:e0:86:a6 by local choice (Reason: 3=DEAUTH_LEAVING)
+Oct 11 22:32:05.172415 nixos nsncd[3012]: Oct 11 22:32:05.172 INFO started, config: Config { ignored_request_types: {}, worker_count: 8, handoff_timeout: 10s }, path: "/var/run/nscd/socket"
+Oct 11 22:32:05.172482 nixos systemd[1]: Started Name Service Cache Daemon (nsncd).
+Oct 11 22:32:05.172606 nixos systemd[1]: Reached target Host and Network Name Lookups.
+Oct 11 22:32:05.172640 nixos systemd[1]: Reached target User and Group Name Lookups.
+Oct 11 22:32:05.408999 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-DISCONNECTED bssid=14:eb:b6:e0:86:a6 reason=3 locally_generated=1
+Oct 11 22:32:05.409402 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:32:05.410046 nixos avahi-daemon[1017]: Leaving mDNS multicast group on interface wlp130s0.IPv6 with address fe80::16b:6b8c:d6ce:be09.
+Oct 11 22:32:05.410069 nixos avahi-daemon[1017]: Interface wlp130s0.IPv6 no longer relevant for mDNS.
+Oct 11 22:32:05.647445 nixos wpa_supplicant[1187]: p2p-dev-wlp130s: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:32:05.647535 nixos wpa_supplicant[1187]: p2p-dev-wlp130s: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:32:05.647555 nixos wpa_supplicant[1187]: nl80211: deinit ifname=p2p-dev-wlp130s disabled_11b_rates=0
+Oct 11 22:32:05.647661 nixos cupsd[1284]: REQUEST localhost - - "POST /admin/ HTTP/1.1" 401 173 CUPS-Delete-Printer successful-ok
+Oct 11 22:32:05.650577 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" deleted by "root".
+Oct 11 22:32:05.651060 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 173 CUPS-Delete-Printer successful-ok
+Oct 11 22:32:05.692370 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:32:05.708864 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-DSCP-POLICY clear_all
+Oct 11 22:32:05.708870 nixos wpa_supplicant[1187]: nl80211: deinit ifname=wlp130s0 disabled_11b_rates=0
+Oct 11 22:32:05.767355 nixos org_kde_powerdevil[1771]: [  1850][ 71.803968] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 22:32:05.861472 nixos systemd[1]: Starting Sleep Actions...
+Oct 11 22:32:05.873849 nixos systemd[1]: Finished Sleep Actions.
+Oct 11 22:32:05.874470 nixos systemd[1]: Reached target Sleep.
+Oct 11 22:32:05.875570 nixos systemd[1]: Starting System Suspend...
+Oct 11 22:32:05.882697 nixos systemd[1]: user.slice: Unit now frozen.
+Oct 11 22:32:05.882708 nixos systemd[1]: user-1000.slice: Unit now frozen-by-parent.
+Oct 11 22:32:05.882713 nixos systemd-sleep[3042]: Successfully froze unit 'user.slice'.
+Oct 11 22:32:05.882714 nixos systemd[1]: user@1000.service: Unit now frozen-by-parent.
+Oct 11 22:32:05.882719 nixos systemd[1]: session-2.scope: Unit now frozen-by-parent.
+Oct 11 22:32:05.882725 nixos systemd[1]: user-175.slice: Unit now frozen-by-parent.
+Oct 11 22:32:05.882904 nixos systemd-sleep[3042]: Performing sleep operation 'suspend'...
+Oct 11 22:32:05.883625 nixos kernel: PM: suspend entry (deep)
+Oct 11 22:32:05.898630 nixos kernel: Filesystems sync: 0.015 seconds
+Oct 11 22:32:49.512124 nixos kernel: Freezing user space processes
+Oct 11 22:32:49.512320 nixos kernel: Freezing user space processes completed (elapsed 0.001 seconds)
+Oct 11 22:32:49.512366 nixos kernel: OOM killer disabled.
+Oct 11 22:32:49.512389 nixos kernel: Freezing remaining freezable tasks
+Oct 11 22:32:49.512405 nixos kernel: Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+Oct 11 22:32:49.512426 nixos kernel: printk: Suspending console(s) (use no_console_suspend to debug)
+Oct 11 22:32:49.512447 nixos kernel: queueing ieee80211 work while going to suspend
+Oct 11 22:32:49.512487 nixos kernel: ACPI: EC: interrupt blocked
+Oct 11 22:32:49.512509 nixos kernel: ACPI: PM: Preparing to enter system sleep state S3
+Oct 11 22:32:49.512530 nixos kernel: ACPI: EC: event blocked
+Oct 11 22:32:49.512554 nixos kernel: ACPI: EC: EC stopped
+Oct 11 22:32:49.512574 nixos kernel: ACPI: PM: Saving platform NVS memory
+Oct 11 22:32:49.512588 nixos kernel: Disabling non-boot CPUs ...
+Oct 11 22:32:49.512999 nixos kernel: ACPI: PM: Low-level resume complete
+Oct 11 22:32:49.513018 nixos kernel: ACPI: EC: EC started
+Oct 11 22:32:49.513037 nixos kernel: ACPI: PM: Restoring platform NVS memory
+Oct 11 22:32:49.513055 nixos kernel: Enabling non-boot CPUs ...
+Oct 11 22:32:49.513383 nixos kernel: core: The event 0x5d0 is not supported as an auto-counter reload event.
+Oct 11 22:32:49.513403 nixos kernel: core: cpu_atom PMU driver: 
+Oct 11 22:32:49.513423 nixos kernel: ... version:                   6
+Oct 11 22:32:49.513451 nixos kernel: ... bit width:                 48
+Oct 11 22:32:49.513462 nixos kernel: ... generic counters:          8
+Oct 11 22:32:49.513481 nixos kernel: ... generic bitmap:            00000000000000ff
+Oct 11 22:32:49.513495 nixos kernel: ... fixed-purpose counters:    6
+Oct 11 22:32:49.513515 nixos kernel: ... fixed-purpose bitmap:      0000000000000077
+Oct 11 22:32:49.513529 nixos kernel: ... value mask:                0000ffffffffffff
+Oct 11 22:32:49.513546 nixos kernel: ... max period:                00007fffffffffff
+Oct 11 22:32:49.513563 nixos kernel: ... global_ctrl mask:          00000077000000ff
+Oct 11 22:32:49.514000 nixos kernel: ACPI: PM: Waking up from system sleep state S3
+Oct 11 22:32:49.514020 nixos kernel: ACPI: button: [Firmware Bug]: Unexpected lid state reported by firmware
+Oct 11 22:32:49.514037 nixos kernel: ACPI: EC: interrupt unblocked
+Oct 11 22:32:49.514057 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 22:32:49.514478 nixos kernel: ACPI: EC: event unblocked
+Oct 11 22:32:49.514498 nixos kernel: spd5118 0-0051: Failed to write b = 0: -6
+Oct 11 22:32:49.514718 nixos kernel: spd5118 0-0051: PM: dpm_run_callback(): spd5118_resume [spd5118] returns -6
+Oct 11 22:32:49.514880 nixos kernel: spd5118 0-0051: PM: failed to resume async: error -6
+Oct 11 22:32:49.515033 nixos kernel: xhci_hcd 0000:00:0d.0: xHC error in resume, USBSTS 0x401, Reinit
+Oct 11 22:32:49.515230 nixos kernel: usb usb1: root hub lost power or was reset
+Oct 11 22:32:49.515509 nixos kernel: usb usb2: root hub lost power or was reset
+Oct 11 22:32:49.515742 nixos kernel: i915 0000:00:02.0: [drm] GT0: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+Oct 11 22:32:49.515934 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: submission enabled
+Oct 11 22:32:49.516101 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: SLPC enabled
+Oct 11 22:32:49.516237 nixos kernel: i915 0000:00:02.0: [drm] GT0: GUC: RC enabled
+Oct 11 22:32:49.516364 nixos kernel: i915 0000:00:02.0: [drm] GT1: GuC firmware i915/mtl_guc_70.bin version 70.53.0
+Oct 11 22:32:49.516484 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC firmware i915/mtl_huc_gsc.bin version 8.5.4
+Oct 11 22:32:49.516603 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC: authenticated for clear media
+Oct 11 22:32:49.516722 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: submission enabled
+Oct 11 22:32:49.516839 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: SLPC enabled
+Oct 11 22:32:49.516954 nixos kernel: i915 0000:00:02.0: [drm] GT1: GUC: RC enabled
+Oct 11 22:32:49.517075 nixos kernel: i915 0000:00:02.0: vgaarb: VGA decodes changed: olddecodes=io,decodes=io:owns=none
+Oct 11 22:32:49.517193 nixos kernel: i915 0000:00:02.0: [drm] GT1: Loaded GSC firmware i915/mtl_gsc_1.bin (cv1.0, r102.1.15.1926, svn 1)
+Oct 11 22:32:49.517317 nixos kernel: i915 0000:00:02.0: [drm] GT1: HuC: authenticated for all workloads
+Oct 11 22:32:49.517440 nixos kernel: nvme nvme0: 20/0/0 default/read/poll queues
+Oct 11 22:32:49.517558 nixos kernel: usb 3-2: reset full-speed USB device number 2 using xhci_hcd
+Oct 11 22:32:49.517729 nixos kernel: usb 3-11: reset high-speed USB device number 4 using xhci_hcd
+Oct 11 22:32:49.517886 nixos kernel: mei_gsc_proxy 0000:80:16.0-0f73db04-97ab-4125-b893-e904ad0d5464: bound 0000:00:02.0 (ops i915_gsc_proxy_component_ops [i915])
+Oct 11 22:32:49.517954 nixos kernel: OOM killer enabled.
+Oct 11 22:32:49.517963 nixos kernel: Restarting tasks: Starting
+Oct 11 22:32:49.517978 nixos kernel: Restarting tasks: Done
+Oct 11 22:32:49.517990 nixos kernel: efivarfs: resyncing variable state
+Oct 11 22:32:49.807459 nixos kernel: efivarfs: finished resyncing variable state
+Oct 11 22:32:49.807555 nixos kernel: random: crng reseeded on system resumption
+Oct 11 22:32:50.513571 nixos cupsd[1284]: Saving printers.conf...
+Oct 11 22:32:50.513700 nixos cupsd[1284]: Generating printcap /etc/printcap...
+Oct 11 22:32:50.513854 nixos cupsd[1284]: Saving subscriptions.conf...
+Oct 11 22:32:51.238286 nixos bluetoothd[1018]: Controller resume with wake event 0x0
+Oct 11 22:32:51.239414 nixos kernel: PM: suspend exit
+Oct 11 22:32:51.259271 nixos systemd-sleep[3042]: System returned from sleep operation 'suspend'.
+Oct 11 22:32:51.260887 nixos systemd[1]: user-175.slice: Unit now thawed.
+Oct 11 22:32:51.260892 nixos systemd[1]: user@1000.service: Unit now thawed.
+Oct 11 22:32:51.260897 nixos systemd[1]: session-2.scope: Unit now thawed.
+Oct 11 22:32:51.260901 nixos systemd[1]: user-1000.slice: Unit now thawed.
+Oct 11 22:32:51.260904 nixos systemd[1]: user.slice: Unit now thawed.
+Oct 11 22:32:51.260926 nixos systemd-sleep[3042]: Successfully thawed unit 'user.slice'.
+Oct 11 22:32:51.261466 nixos systemd[1]: systemd-suspend.service: Deactivated successfully.
+Oct 11 22:32:51.261657 nixos systemd[1]: Finished System Suspend.
+Oct 11 22:32:51.261730 nixos systemd[1]: systemd-suspend.service: Consumed 3.512s CPU time over 7.119s wall clock time, 799.9M memory peak, 24K read from disk.
+Oct 11 22:32:51.262127 nixos systemd[1]: Stopped target Sleep.
+Oct 11 22:32:51.262173 nixos systemd[1]: Reached target Suspend.
+Oct 11 22:32:51.262214 nixos systemd-logind[1045]: Operation 'suspend' finished.
+Oct 11 22:32:51.262310 nixos systemd[1]: Stopped target Suspend.
+Oct 11 22:32:51.262286 nixos org_kde_powerdevil[1771]: [  1843][117.298909] (ldbus_handle_message)Received dbus signal PrepareForSleep(false=resume)
+Oct 11 22:32:51.262339 nixos ModemManager[1935]: <msg> [sleep-monitor-systemd] system is resuming
+Oct 11 22:32:51.262731 nixos rtkit-daemon[1385]: Resuming known real-time threads.
+Oct 11 22:32:51.262840 nixos rtkit-daemon[1385]: Successfully made thread 2379 of process 2237 owned by '1000' RT at priority 10.
+Oct 11 22:32:51.262893 nixos rtkit-daemon[1385]: Successfully made thread 1832 of process 1822 owned by '1000' RT at priority 20.
+Oct 11 22:32:51.262924 nixos rtkit-daemon[1385]: Successfully made thread 1822 of process 1822 owned by '1000' high priority at nice level -11.
+Oct 11 22:32:51.262974 nixos rtkit-daemon[1385]: Successfully made thread 1731 of process 1696 owned by '1000' RT at priority 20.
+Oct 11 22:32:51.263019 nixos rtkit-daemon[1385]: Successfully made thread 1722 of process 1696 owned by '1000' RT at priority 20.
+Oct 11 22:32:51.263049 nixos rtkit-daemon[1385]: Successfully made thread 1696 of process 1696 owned by '1000' high priority at nice level -11.
+Oct 11 22:32:51.263096 nixos rtkit-daemon[1385]: Successfully made thread 1699 of process 1694 owned by '1000' RT at priority 20.
+Oct 11 22:32:51.263098 nixos systemd[1]: Stopping Sleep Actions...
+Oct 11 22:32:51.263125 nixos rtkit-daemon[1385]: Successfully made thread 1694 of process 1694 owned by '1000' high priority at nice level -11.
+Oct 11 22:32:51.263128 nixos rtkit-daemon[1385]: Resumed scheduling 8 threads.
+Oct 11 22:32:51.276741 nixos systemd[1]: sleep-actions.service: Deactivated successfully.
+Oct 11 22:32:51.276883 nixos systemd[1]: Stopped Sleep Actions.
+Oct 11 22:32:51.285446 nixos kernel: Generic FE-GE Realtek PHY r8169-0-8100:00: attached PHY driver (mii_bus:phy_addr=r8169-0-8100:00, irq=MAC)
+Oct 11 22:32:51.441362 nixos kernel: r8169 0000:81:00.0 enp129s0: Link is Down
+Oct 11 22:32:51.461984 nixos NetworkManager[1179]: <warn>  [1791743571.4619] device (p2p-dev-wlp130s0): error setting IPv4 forwarding to '0': Resource temporarily unavailable
+Oct 11 22:32:51.489490 nixos NetworkManager[1179]: <warn>  [1791743571.4894] device (p2p-dev-wlp130s0): error setting IPv4 forwarding to '0': Resource temporarily unavailable
+Oct 11 22:32:51.864208 nixos kwin_wayland[1637]: Applying output configuration failed!
+Oct 11 22:32:53.278756 nixos ModemManager[1935]: <wrn> [plugin-manager] task 3,wlp130s0: error when checking support with plugin 'generic': (generic) Missing port probe for port (net/wlp130s0)
+Oct 11 22:32:53.765314 nixos org_kde_powerdevil[1771]: [  1850][119.801929] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 22:32:55.224358 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=DE
+Oct 11 22:32:55.224587 nixos wpa_supplicant[1187]: p2p-dev-wlp130s: Channel list changed: 6 GHz was enabled
+Oct 11 22:32:55.224772 nixos wpa_supplicant[1187]: wlp130s0: Channel list changed: 6 GHz was enabled
+Oct 11 22:32:55.224820 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=DE
+Oct 11 22:32:55.230109 nixos wpa_supplicant[1187]: wlp130s0: WPS-PBC-ACTIVE
+Oct 11 22:32:55.257230 nixos wpa_supplicant[1187]: wlp130s0: WPS-CANCEL
+Oct 11 22:32:55.273098 nixos wpa_supplicant[1187]: wlp130s0: SME: Trying to authenticate with 14:eb:b6:e0:86:a7 (SSID='tyoma' freq=5240 MHz)
+Oct 11 22:32:55.279197 nixos ModemManager[1935]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:80/0000:80:1c.0/0000:81:00.0': not supported by any plugin
+Oct 11 22:32:55.279227 nixos ModemManager[1935]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:80/0000:80:1c.7/0000:82:00.0': not supported by any plugin
+Oct 11 22:32:55.312450 nixos kernel: wlp130s0: authenticate with 14:eb:b6:e0:86:a7 (local address=f4:4e:b4:1a:65:0f)
+Oct 11 22:32:55.675453 nixos kernel: wlp130s0: send auth to 14:eb:b6:e0:86:a7 (try 1/3)
+Oct 11 22:32:55.680478 nixos kernel: wlp130s0: authenticated
+Oct 11 22:32:55.680429 nixos wpa_supplicant[1187]: wlp130s0: Trying to associate with 14:eb:b6:e0:86:a7 (SSID='tyoma' freq=5240 MHz)
+Oct 11 22:32:55.683528 nixos kernel: wlp130s0: associate with 14:eb:b6:e0:86:a7 (try 1/3)
+Oct 11 22:32:55.708529 nixos kernel: wlp130s0: RX AssocResp from 14:eb:b6:e0:86:a7 (capab=0x1511 status=0 aid=1)
+Oct 11 22:32:55.743533 nixos kernel: wlp130s0: associated
+Oct 11 22:32:55.746489 nixos kernel: wlp130s0: Limiting TX power to 20 (23 - 3) dBm as advertised by 14:eb:b6:e0:86:a7
+Oct 11 22:32:55.746537 nixos wpa_supplicant[1187]: wlp130s0: Associated with 14:eb:b6:e0:86:a7
+Oct 11 22:32:55.746644 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-SUBNET-STATUS-UPDATE status=0
+Oct 11 22:32:55.909005 nixos wpa_supplicant[1187]: wlp130s0: WPA: Key negotiation completed with 14:eb:b6:e0:86:a7 [PTK=CCMP GTK=CCMP]
+Oct 11 22:32:55.909020 nixos wpa_supplicant[1187]: wlp130s0: CTRL-EVENT-CONNECTED - Connection to 14:eb:b6:e0:86:a7 completed [id=0 id_str=]
+Oct 11 22:32:55.962622 nixos systemd[1]: Stopped target Host and Network Name Lookups.
+Oct 11 22:32:55.962645 nixos systemd[1]: Stopping Host and Network Name Lookups...
+Oct 11 22:32:55.962674 nixos systemd[1]: Stopped target User and Group Name Lookups.
+Oct 11 22:32:55.962678 nixos systemd[1]: Stopping User and Group Name Lookups...
+Oct 11 22:32:55.962827 nixos systemd[1]: Stopping Name Service Cache Daemon (nsncd)...
+Oct 11 22:32:55.963882 nixos systemd[1]: nscd.service: Deactivated successfully.
+Oct 11 22:32:55.964015 nixos avahi-daemon[1017]: Got SIGHUP, reloading.
+Oct 11 22:32:55.964061 nixos avahi-daemon[1017]: No service file found in /etc/avahi/services.
+Oct 11 22:32:55.964171 nixos systemd[1]: Stopped Name Service Cache Daemon (nsncd).
+Oct 11 22:32:55.964236 nixos systemd[1]: nscd.service: Consumed 19ms CPU time over 12.549s wall clock time, 3.6M memory peak, 2K outgoing IP traffic.
+Oct 11 22:32:55.966555 nixos systemd[1]: Starting Name Service Cache Daemon (nsncd)...
+Oct 11 22:32:55.968533 nixos avahi-daemon[1017]: Joining mDNS multicast group on interface wlp130s0.IPv6 with address fe80::16b:6b8c:d6ce:be09.
+Oct 11 22:32:55.968554 nixos avahi-daemon[1017]: New relevant interface wlp130s0.IPv6 for mDNS.
+Oct 11 22:32:55.981897 nixos nsncd[3247]: Oct 11 22:32:55.981 INFO started, config: Config { ignored_request_types: {}, worker_count: 8, handoff_timeout: 10s }, path: "/var/run/nscd/socket"
+Oct 11 22:32:55.982079 nixos systemd[1]: Started Name Service Cache Daemon (nsncd).
+Oct 11 22:32:55.982239 nixos systemd[1]: Reached target Host and Network Name Lookups.
+Oct 11 22:32:55.982283 nixos systemd[1]: Reached target User and Group Name Lookups.
+Oct 11 22:32:56.107925 nixos avahi-daemon[1017]: Joining mDNS multicast group on interface wlp130s0.IPv4 with address 192.168.68.57.
+Oct 11 22:32:56.111578 nixos avahi-daemon[1017]: New relevant interface wlp130s0.IPv4 for mDNS.
+Oct 11 22:32:57.520721 nixos org_kde_powerdevil[1771]: [  1850][123.557323] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 22:33:00.051133 nixos cupsd[1284]: REQUEST localhost - - "POST /admin/ HTTP/1.1" 401 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:33:00.053339 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 1 (was 0.)
+Oct 11 22:33:00.053705 nixos cupsd[1284]: New printer "Pantum_BP2300W_Series_587E16" added by "root".
+Oct 11 22:33:00.053819 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:33:00.055248 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 0 (was 1.)
+Oct 11 22:33:00.055562 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:33:00.055654 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 223 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:33:00.058089 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 device-uri to "implicitclass://Pantum_BP2300W_Series_587E16/" (was "file:///dev/null".)
+Oct 11 22:33:00.058095 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-is-accepting-jobs to 1 (was 0.)
+Oct 11 22:33:00.058370 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-state to 3 (was 5.)
+Oct 11 22:33:00.059208 nixos cupsd[1284]: CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:33:00.059250 nixos cupsd[1284]: CreateProfile failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:33:00.059253 nixos cupsd[1284]: Registering ICC color profiles for "Pantum_BP2300W_Series_587E16".
+Oct 11 22:33:00.059296 nixos cupsd[1284]: CreateDevice failed: org.freedesktop.DBus.Error.ServiceUnknown:The name is not activatable
+Oct 11 22:33:00.060735 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:33:00.060852 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 6812 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:33:00.061313 nixos cupsd[1284]: Setting Pantum_BP2300W_Series_587E16 printer-is-shared to 0 (was 0.)
+Oct 11 22:33:00.061877 nixos cupsd[1284]: Printer "Pantum_BP2300W_Series_587E16" modified by "root".
+Oct 11 22:33:00.062091 nixos cupsd[1284]: REQUEST localhost - root "POST /admin/ HTTP/1.1" 200 197 CUPS-Add-Modify-Printer successful-ok
+Oct 11 22:33:06.189371 nixos systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 11 22:33:31.106812 nixos cupsd[1284]: Saving printers.conf...
+Oct 11 22:33:31.107057 nixos cupsd[1284]: Generating printcap /etc/printcap...
+Oct 11 22:33:31.107404 nixos cupsd[1284]: Saving subscriptions.conf...
+Oct 11 22:33:36.133008 nixos kscreenlocker_greet[2951]: pam_warn(kde-fingerprint:auth): function=[pam_sm_authenticate] flags=0 service=[kde-fingerprint] terminal=[<unknown>] user=[artem] ruser=[<unknown>] rhost=[<unknown>]
+Oct 11 22:33:36.133179 nixos kscreenlocker_greet[2951]: pam_warn(kde-smartcard:auth): function=[pam_sm_authenticate] flags=0 service=[kde-smartcard] terminal=[<unknown>] user=[artem] ruser=[<unknown>] rhost=[<unknown>]
+Oct 11 22:33:54.908394 nixos systemd-timesyncd[523]: Contacted time server 162.159.200.1:123 (0.nixos.pool.ntp.org).
+Oct 11 22:34:40.600794 nixos org_kde_powerdevil[1771]: [  1850][226.637402] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 22:34:44.092508 nixos kscreenlocker_greet[2951]: pam_kwallet5(kde:auth): pam_kwallet5: pam_sm_authenticate
+Oct 11 22:34:44.092524 nixos kscreenlocker_greet[2951]: pam_kwallet5(kde:auth): pam_kwallet5: we were already executed
+Oct 11 22:34:44.148484 nixos kscreenlocker_greet[2951]: pam_kwallet5(kde:setcred): pam_kwallet5: pam_sm_setcred

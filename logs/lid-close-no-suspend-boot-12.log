@@ -1,0 +1,1039 @@
+Oct 11 19:11:23.495465 nixos systemd-logind[1044]: Lid closed.
+Oct 11 19:14:03.629369 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:14:18.401153 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:15:50.195225 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:16:07.209604 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:16:27.186528 nixos systemd[1]: Started dbus-:1.3-org.kde.powerdevil.backlighthelper@1.service.
+Oct 11 19:16:38.177687 nixos systemd[1]: dbus-:1.3-org.kde.powerdevil.backlighthelper@1.service: Deactivated successfully.
+Oct 11 19:17:22.373089 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:17:28.856862 nixos org_kde_powerdevil[1764]: [  1840][9694.151379] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 19:17:41.520698 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:17:42.198418 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:18:01.469193 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:18:01.966405 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:18:08.979233 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:18:15.220957 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:18:28.433141 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:18:28.926429 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:18:34.732246 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:18:36.785246 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:18:42.867944 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:18:44.609413 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:19:32.738621 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:19:33.238398 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:19:55.331223 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:19:55.830406 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:21:12.077189 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:21:12.575439 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:21:25.480896 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:21:25.974421 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:21:32.342819 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:21:44.685235 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:21:50.868942 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:21:52.416277 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:22:00.409220 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:22:15.357576 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:22:15.854430 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:22:29.930471 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:22:30.430297 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:22:30.924654 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:22:46.213369 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:22:47.198418 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:22:59.683131 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:23:00.182447 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:23:15.086383 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:23:36.768698 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:23:37.262390 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:23:43.129122 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:23:47.612521 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:24:12.284265 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:24:12.782426 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:24:16.710589 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:25:14.748774 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:25:15.246400 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:25:16.049407 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:26:51.400007 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:26:51.894401 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:27:04.368998 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:27:04.862403 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:27:05.656847 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:27:15.105254 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:27:22.559634 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:27:25.759715 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:27:28.812292 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:27:57.450093 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:27:57.951296 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:30:41.841622 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:30:42.335448 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:30:46.544364 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:30:54.265419 nixos cupsd[1289]: REQUEST localhost - - "POST / HTTP/1.1" 200 199 Renew-Subscription successful-ok
+Oct 11 19:30:57.265087 nixos cupsd[1289]: REQUEST localhost - - "POST / HTTP/1.1" 200 199 Renew-Subscription successful-ok
+Oct 11 19:31:25.292930 nixos cupsd[1289]: Saving subscriptions.conf...
+Oct 11 19:31:38.118658 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:31:38.614471 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:35:33.014957 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:35:33.510405 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:35:36.661053 nixos systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 19:35:36.683614 nixos systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 19:35:46.703220 nixos systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 11 19:37:16.166314 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:37:16.662393 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:37:40.767115 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:37:41.262387 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:37:46.390579 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:38:18.138226 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:38:18.639430 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:38:33.110434 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:38:33.606307 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:40:45.123700 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:40:45.622445 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:42:43.910418 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:42:44.422165 nixos kscreenlocker_greet[124855]: pam_warn(kde-smartcard:auth): function=[pam_sm_authenticate] flags=0 service=[kde-smartcard] terminal=[<unknown>] user=[artem] ruser=[<unknown>] rhost=[<unknown>]
+Oct 11 19:42:44.422231 nixos kscreenlocker_greet[124855]: pam_warn(kde-fingerprint:auth): function=[pam_sm_authenticate] flags=0 service=[kde-fingerprint] terminal=[<unknown>] user=[artem] ruser=[<unknown>] rhost=[<unknown>]
+Oct 11 19:42:44.664122 nixos systemd[1]: Started dbus-:1.3-org.kde.powerdevil.backlighthelper@2.service.
+Oct 11 19:42:47.452647 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:42:55.177423 nixos systemd[1]: dbus-:1.3-org.kde.powerdevil.backlighthelper@2.service: Deactivated successfully.
+Oct 11 19:43:44.876823 nixos org_kde_powerdevil[1764]: [  1840][11270.171365] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 19:44:00.494387 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:47:16.893751 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:47:17.390413 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:48:27.714940 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:48:28.214407 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:48:56.724465 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:48:57.222293 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:49:41.263958 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:49:41.759387 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:50:10.442347 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:50:10.934396 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:51:23.872528 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:51:24.366405 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:51:30.029299 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:53:49.576100 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:53:50.070378 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:53:53.370707 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:54:45.390526 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:54:45.886296 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:54:48.663872 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:54:56.031540 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:55:00.645539 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:55:34.953850 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:55:35.454486 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 19:55:41.554027 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:55:46.323577 nixos systemd[1]: Starting Refresh fwupd metadata and update motd...
+Oct 11 19:55:46.378984 nixos fwupd[42631]: 15:55:46.378 FuPluginLinuxSwap    could not parse /proc/swaps: no volumes for devnum 51
+Oct 11 19:55:46.464329 nixos fwupdmgr[128571]: Idle…
+Oct 11 19:55:46.478170 nixos fwupdmgr[128571]: Updating lvfs
+Oct 11 19:55:46.506009 nixos fwupdmgr[128571]: Downloading…
+Oct 11 19:55:46.664821 nixos fwupdmgr[128571]: Downloading…: 53.1%
+Oct 11 19:55:46.665680 nixos fwupdmgr[128571]: Downloading…: 71.4%
+Oct 11 19:55:46.668330 nixos fwupdmgr[128571]: Downloading…: 100.0%
+Oct 11 19:55:46.673821 nixos fwupdmgr[128571]: Successfully downloaded new metadata:
+Oct 11 19:55:46.673821 nixos fwupdmgr[128571]:  • 6 devices are updatable
+Oct 11 19:55:46.673821 nixos fwupdmgr[128571]:  • 3 devices are supported in the enabled remotes (an update has been published)
+Oct 11 19:55:46.679167 nixos systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Oct 11 19:55:46.679519 nixos systemd[1]: Finished Refresh fwupd metadata and update motd.
+Oct 11 19:55:46.679746 nixos systemd[1]: fwupd-refresh.service: Consumed 58ms CPU time over 355ms wall clock time, 6.4M memory peak, 19.2K incoming IP traffic, 2.8K outgoing IP traffic.
+Oct 11 19:55:54.026011 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:55:56.861923 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:56:01.635603 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:56:09.870332 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:56:24.311012 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 19:56:24.806401 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:00:01.160179 nixos systemd[1]: Starting Logrotate Service...
+Oct 11 20:00:01.199423 nixos systemd[1]: logrotate.service: Deactivated successfully.
+Oct 11 20:00:01.199692 nixos systemd[1]: Finished Logrotate Service.
+Oct 11 20:00:27.062746 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:00:27.558416 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:00:38.726026 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:00:39.310410 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:00:41.882980 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:01:01.403461 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:01:01.902389 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:01:05.998370 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:02:24.147410 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:02:24.646440 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:03:04.276828 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:03:04.774429 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:03:08.521539 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:03:51.852199 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:03:52.350299 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:03:57.741360 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:04:40.584300 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:04:41.078410 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:04:46.688389 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:04:55.405889 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:05:08.705804 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:05:09.198395 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:05:10.809161 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:05:21.333268 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:05:32.443161 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:05:42.248525 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:05:46.563779 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:06:08.613846 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:06:09.110440 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:06:11.066429 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:07:52.021630 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:07:52.518468 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:07:59.902142 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:09:27.398425 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:09:27.910755 nixos systemd[1]: Started dbus-:1.3-org.kde.powerdevil.backlighthelper@3.service.
+Oct 11 20:09:38.178159 nixos systemd[1]: dbus-:1.3-org.kde.powerdevil.backlighthelper@3.service: Deactivated successfully.
+Oct 11 20:09:52.252458 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:10:34.844913 nixos org_kde_powerdevil[1764]: [  1840][12880.139457] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 20:11:00.494442 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:11:19.293039 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:11:19.790384 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:12:07.593058 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:12:08.087407 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:12:41.167508 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:12:41.662428 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:13:49.820342 nixos org_kde_powerdevil[1764]: [  1840][13075.114885] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 20:28:02.322660 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:28:02.822434 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:29:14.265275 nixos cupsd[1289]: REQUEST localhost - - "POST / HTTP/1.1" 200 199 Renew-Subscription successful-ok
+Oct 11 20:29:17.182008 nixos cupsd[1289]: REQUEST localhost - - "POST / HTTP/1.1" 200 199 Renew-Subscription successful-ok
+Oct 11 20:29:45.209621 nixos cupsd[1289]: Saving subscriptions.conf...
+Oct 11 20:31:08.429569 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:31:08.926403 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:31:10.118404 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:32:58.405799 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:32:58.902432 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:33:15.737958 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:33:16.238427 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:34:25.806636 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:34:26.302430 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:35:36.645070 nixos systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 20:35:36.667620 nixos systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 20:35:46.686443 nixos systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 11 20:35:55.211531 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:35:55.711435 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:36:17.745072 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:36:18.238390 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:36:20.455091 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:36:23.966696 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:36:28.451946 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:37:49.247793 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:37:49.743300 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:38:59.435216 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:38:59.934456 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:39:55.338705 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:39:55.838298 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:40:02.305063 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:41:44.412257 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:41:44.910443 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:42:59.497126 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:42:59.998337 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:43:06.948112 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:43:09.305016 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:43:12.990735 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:43:16.983303 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:43:31.822759 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:43:32.318572 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:43:41.279848 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:44:13.022979 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:44:13.518412 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:45:13.928284 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:45:14.422294 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:53:27.129351 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:53:27.630375 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:55:57.446420 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:55:57.980349 nixos systemd[1]: Started dbus-:1.3-org.kde.powerdevil.backlighthelper@4.service.
+Oct 11 20:56:08.178322 nixos systemd[1]: dbus-:1.3-org.kde.powerdevil.backlighthelper@4.service: Deactivated successfully.
+Oct 11 20:57:00.804082 nixos org_kde_powerdevil[1764]: [  1840][15666.098623] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 20:57:23.073236 nixos systemd[1]: Starting Refresh fwupd metadata and update motd...
+Oct 11 20:57:23.111534 nixos fwupdmgr[133606]: Idle…
+Oct 11 20:57:23.122673 nixos fwupdmgr[133606]: Updating lvfs
+Oct 11 20:57:23.152169 nixos fwupdmgr[133606]: Downloading…
+Oct 11 20:57:23.326586 nixos fwupdmgr[133606]: Downloading…: 71.4%
+Oct 11 20:57:23.327630 nixos fwupdmgr[133606]: Downloading…: 89.7%
+Oct 11 20:57:23.328535 nixos fwupdmgr[133606]: Downloading…: 100.0%
+Oct 11 20:57:23.334718 nixos fwupdmgr[133606]: Successfully downloaded new metadata:
+Oct 11 20:57:23.334718 nixos fwupdmgr[133606]:  • 6 devices are updatable
+Oct 11 20:57:23.334718 nixos fwupdmgr[133606]:  • 3 devices are supported in the enabled remotes (an update has been published)
+Oct 11 20:57:23.339699 nixos systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Oct 11 20:57:23.340071 nixos systemd[1]: Finished Refresh fwupd metadata and update motd.
+Oct 11 20:57:23.340348 nixos systemd[1]: fwupd-refresh.service: Consumed 56ms CPU time over 266ms wall clock time, 6.7M memory peak, 19.2K incoming IP traffic, 2.7K outgoing IP traffic.
+Oct 11 20:57:44.198407 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:58:18.936472 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:58:57.833495 nixos org_kde_powerdevil[1764]: [  1840][15783.128037] Could not find I2C_Bus_Info for connector id: 1221
+Oct 11 20:59:11.572202 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:59:12.070406 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 20:59:14.950317 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 20:59:23.552427 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:00:01.159962 nixos systemd[1]: Starting Logrotate Service...
+Oct 11 21:00:01.192835 nixos systemd[1]: logrotate.service: Deactivated successfully.
+Oct 11 21:00:01.193126 nixos systemd[1]: Finished Logrotate Service.
+Oct 11 21:01:17.342484 nixos kernel: nvidia 0000:02:00.0: Enabling HDA controller
+Oct 11 21:03:04.531084 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:03:43.534369 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked for more than 122 seconds.
+Oct 11 21:03:43.534538 nixos kernel:       Tainted: G           O        7.2.9 #1-NixOS
+Oct 11 21:03:43.534549 nixos kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Oct 11 21:03:43.534558 nixos kernel: task:.kwin_wayland-w state:D stack:0     pid:1635  tgid:1635  ppid:1628   task_flags:0x400100 flags:0x00080000
+Oct 11 21:03:43.534570 nixos kernel: Call Trace:
+Oct 11 21:03:43.534579 nixos kernel:  <TASK>
+Oct 11 21:03:43.534586 nixos kernel:  __schedule+0x420/0x1780
+Oct 11 21:03:43.534596 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:03:43.534604 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:03:43.534610 nixos kernel:  schedule+0x27/0xa0
+Oct 11 21:03:43.534619 nixos kernel:  schedule_timeout+0xdc/0x120
+Oct 11 21:03:43.534627 nixos kernel:  __down_common+0xfe/0x320
+Oct 11 21:03:43.534636 nixos kernel:  ? drm_prime_add_buf_handle+0x183/0x210
+Oct 11 21:03:43.534644 nixos kernel:  down+0x53/0x70
+Oct 11 21:03:43.534659 nixos kernel:  nvkms_ioctl_from_kapi+0x58/0xe0 [nvidia_modeset]
+Oct 11 21:03:43.534667 nixos kernel:  CreateSurface+0x214/0x2c0 [nvidia_modeset]
+Oct 11 21:03:43.534675 nixos kernel:  ? drm_framebuffer_init+0x20a/0x2a0
+Oct 11 21:03:43.534683 nixos kernel:  nv_drm_framebuffer_create+0x365/0x570 [nvidia_drm]
+Oct 11 21:03:43.534691 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:03:43.534698 nixos kernel:  drm_internal_framebuffer_create+0x496/0x5c0
+Oct 11 21:03:43.534705 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:03:43.534710 nixos kernel:  drm_mode_addfb2+0x4e/0x130
+Oct 11 21:03:43.534719 nixos kernel:  ? drm_dev_enter+0x1d/0x60
+Oct 11 21:03:43.534727 nixos kernel:  drm_ioctl_kernel+0xae/0x100
+Oct 11 21:03:43.534737 nixos kernel:  drm_ioctl+0x2b9/0x5d0
+Oct 11 21:03:43.534746 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:03:43.534750 nixos kernel:  __x64_sys_ioctl+0xb9/0x100
+Oct 11 21:03:43.534756 nixos kernel:  do_syscall_64+0x134/0x6b0
+Oct 11 21:03:43.534764 nixos kernel:  ? do_user_addr_fault+0x190/0x730
+Oct 11 21:03:43.534772 nixos kernel:  ? do_syscall_64+0xeb/0x6b0
+Oct 11 21:03:43.534788 nixos kernel:  ? exc_page_fault+0x83/0x1a0
+Oct 11 21:03:43.534795 nixos kernel:  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+Oct 11 21:03:43.534801 nixos kernel: RIP: 0033:0x797b2d726c5d
+Oct 11 21:03:43.534808 nixos kernel: RSP: 002b:00007ffee300d660 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Oct 11 21:03:43.534816 nixos kernel: RAX: ffffffffffffffda RBX: 00007ffee300d7d4 RCX: 0000797b2d726c5d
+Oct 11 21:03:43.534823 nixos kernel: RDX: 00007ffee300d6f0 RSI: 00000000c06864b8 RDI: 0000000000000055
+Oct 11 21:03:43.534830 nixos kernel: RBP: 00007ffee300d6b0 R08: 00007ffee300d820 R09: 000056f8e2f4fde8
+Oct 11 21:03:43.534837 nixos kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffee300d6f0
+Oct 11 21:03:43.534843 nixos kernel: R13: 00000000c06864b8 R14: 0000000000000055 R15: 000056f8e2f4fd60
+Oct 11 21:03:43.534850 nixos kernel:  </TASK>
+Oct 11 21:03:43.534856 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked on a semaphore likely last held by task nvidia-modeset/:781
+Oct 11 21:03:43.534863 nixos kernel: task:nvidia-modeset/ state:R  running task     stack:0     pid:781   tgid:781   ppid:2      task_flags:0x208040 flags:0x00080020
+Oct 11 21:03:43.534870 nixos kernel: Call Trace:
+Oct 11 21:03:43.534876 nixos kernel:  <TASK>
+Oct 11 21:03:43.534878 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:03:43.534885 nixos kernel:  ? __schedule+0xfba/0x1780
+Oct 11 21:03:43.534891 nixos kernel:  ? clockevents_program_event+0x77/0x230
+Oct 11 21:03:43.534896 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:03:43.534902 nixos kernel:  ? irqentry_exit+0x155/0x6a0
+Oct 11 21:03:43.534908 nixos kernel:  ? sysvec_reschedule_ipi+0x2d/0x100
+Oct 11 21:03:43.534915 nixos kernel:  ? sysvec_apic_timer_interrupt+0xe/0x80
+Oct 11 21:03:43.534921 nixos kernel:  ? nvWriteGpEntry+0x112/0x3f0 [nvidia_modeset]
+Oct 11 21:03:43.534928 nixos kernel:  ? nvPushSetObject+0xb1/0x170 [nvidia_modeset]
+Oct 11 21:03:43.534934 nixos kernel:  ? nvPushKickoff+0x2c/0x50 [nvidia_modeset]
+Oct 11 21:03:43.534941 nixos kernel:  ? PrefetchHelperSurfaceEvo+0x4df/0x700 [nvidia_modeset]
+Oct 11 21:03:43.534946 nixos kernel:  ? nvDIFRPrefetchSurfaces+0x155/0x240 [nvidia_modeset]
+Oct 11 21:03:43.534953 nixos kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset]
+Oct 11 21:03:43.534959 nixos kernel:  ? DifrPrefetchEventDeferredWork+0x16/0x30 [nvidia_modeset]
+Oct 11 21:03:43.534962 nixos kernel:  ? nvkms_kthread_q_callback+0xe6/0x170 [nvidia_modeset]
+Oct 11 21:03:43.534968 nixos kernel:  ? _main_loop+0x10e/0x160 [nvidia_modeset]
+Oct 11 21:03:43.534974 nixos kernel:  ? kthread+0xe4/0x120
+Oct 11 21:03:43.534980 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:03:43.534992 nixos kernel:  ? ret_from_fork+0x250/0x330
+Oct 11 21:03:43.534998 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:03:43.535003 nixos kernel:  ? ret_from_fork_asm+0x1a/0x30
+Oct 11 21:03:43.535008 nixos kernel:  </TASK>
+Oct 11 21:04:35.907038 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:05:30.672291 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:05:46.414413 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked for more than 245 seconds.
+Oct 11 21:05:46.449445 nixos kernel:       Tainted: G           O        7.2.9 #1-NixOS
+Oct 11 21:05:46.449489 nixos kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Oct 11 21:05:46.449508 nixos kernel: task:.kwin_wayland-w state:D stack:0     pid:1635  tgid:1635  ppid:1628   task_flags:0x400100 flags:0x00080000
+Oct 11 21:05:46.449529 nixos kernel: Call Trace:
+Oct 11 21:05:46.449551 nixos kernel:  <TASK>
+Oct 11 21:05:46.449569 nixos kernel:  __schedule+0x420/0x1780
+Oct 11 21:05:46.449584 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:05:46.449600 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:05:46.449615 nixos kernel:  schedule+0x27/0xa0
+Oct 11 21:05:46.449627 nixos kernel:  schedule_timeout+0xdc/0x120
+Oct 11 21:05:46.449642 nixos kernel:  __down_common+0xfe/0x320
+Oct 11 21:05:46.449657 nixos kernel:  ? drm_prime_add_buf_handle+0x183/0x210
+Oct 11 21:05:46.449683 nixos kernel:  down+0x53/0x70
+Oct 11 21:05:46.449704 nixos kernel:  nvkms_ioctl_from_kapi+0x58/0xe0 [nvidia_modeset]
+Oct 11 21:05:46.449718 nixos kernel:  CreateSurface+0x214/0x2c0 [nvidia_modeset]
+Oct 11 21:05:46.449732 nixos kernel:  ? drm_framebuffer_init+0x20a/0x2a0
+Oct 11 21:05:46.449747 nixos kernel:  nv_drm_framebuffer_create+0x365/0x570 [nvidia_drm]
+Oct 11 21:05:46.449762 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:05:46.449777 nixos kernel:  drm_internal_framebuffer_create+0x496/0x5c0
+Oct 11 21:05:46.449792 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:05:46.449807 nixos kernel:  drm_mode_addfb2+0x4e/0x130
+Oct 11 21:05:46.449821 nixos kernel:  ? drm_dev_enter+0x1d/0x60
+Oct 11 21:05:46.449842 nixos kernel:  drm_ioctl_kernel+0xae/0x100
+Oct 11 21:05:46.449857 nixos kernel:  drm_ioctl+0x2b9/0x5d0
+Oct 11 21:05:46.449878 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:05:46.449892 nixos kernel:  __x64_sys_ioctl+0xb9/0x100
+Oct 11 21:05:46.449908 nixos kernel:  do_syscall_64+0x134/0x6b0
+Oct 11 21:05:46.449922 nixos kernel:  ? do_user_addr_fault+0x190/0x730
+Oct 11 21:05:46.449937 nixos kernel:  ? do_syscall_64+0xeb/0x6b0
+Oct 11 21:05:46.449953 nixos kernel:  ? exc_page_fault+0x83/0x1a0
+Oct 11 21:05:46.449973 nixos kernel:  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+Oct 11 21:05:46.449989 nixos kernel: RIP: 0033:0x797b2d726c5d
+Oct 11 21:05:46.450007 nixos kernel: RSP: 002b:00007ffee300d660 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Oct 11 21:05:46.450022 nixos kernel: RAX: ffffffffffffffda RBX: 00007ffee300d7d4 RCX: 0000797b2d726c5d
+Oct 11 21:05:46.450038 nixos kernel: RDX: 00007ffee300d6f0 RSI: 00000000c06864b8 RDI: 0000000000000055
+Oct 11 21:05:46.450053 nixos kernel: RBP: 00007ffee300d6b0 R08: 00007ffee300d820 R09: 000056f8e2f4fde8
+Oct 11 21:05:46.450068 nixos kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffee300d6f0
+Oct 11 21:05:46.450084 nixos kernel: R13: 00000000c06864b8 R14: 0000000000000055 R15: 000056f8e2f4fd60
+Oct 11 21:05:46.450100 nixos kernel:  </TASK>
+Oct 11 21:05:46.450114 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked on a semaphore likely last held by task nvidia-modeset/:781
+Oct 11 21:05:46.450129 nixos kernel: task:nvidia-modeset/ state:R  running task     stack:0     pid:781   tgid:781   ppid:2      task_flags:0x208040 flags:0x00080000
+Oct 11 21:05:46.450149 nixos kernel: Call Trace:
+Oct 11 21:05:46.450164 nixos kernel:  <TASK>
+Oct 11 21:05:46.450178 nixos kernel:  ? __schedule+0x428/0x1780
+Oct 11 21:05:46.450194 nixos kernel:  ? preempt_schedule_irq+0x38/0x60
+Oct 11 21:05:46.450211 nixos kernel:  ? irqentry_exit+0x155/0x6a0
+Oct 11 21:05:46.450226 nixos kernel:  ? sysvec_reschedule_ipi+0x2d/0x100
+Oct 11 21:05:46.450239 nixos kernel:  ? sysvec_apic_timer_interrupt+0xe/0x80
+Oct 11 21:05:46.450259 nixos kernel:  ? nvWriteGpEntry+0x10e/0x3f0 [nvidia_modeset]
+Oct 11 21:05:46.450276 nixos kernel:  ? nvPushSetObject+0xb1/0x170 [nvidia_modeset]
+Oct 11 21:05:46.450301 nixos kernel:  ? nvPushKickoff+0x2c/0x50 [nvidia_modeset]
+Oct 11 21:05:46.450317 nixos kernel:  ? PrefetchHelperSurfaceEvo+0x4df/0x700 [nvidia_modeset]
+Oct 11 21:05:46.450332 nixos kernel:  ? nvDIFRPrefetchSurfaces+0x155/0x240 [nvidia_modeset]
+Oct 11 21:05:46.450347 nixos kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset]
+Oct 11 21:05:46.450367 nixos kernel:  ? DifrPrefetchEventDeferredWork+0x16/0x30 [nvidia_modeset]
+Oct 11 21:05:46.450383 nixos kernel:  ? nvkms_kthread_q_callback+0xe6/0x170 [nvidia_modeset]
+Oct 11 21:05:46.450398 nixos kernel:  ? _main_loop+0x10e/0x160 [nvidia_modeset]
+Oct 11 21:05:46.450410 nixos kernel:  ? kthread+0xe4/0x120
+Oct 11 21:05:46.450425 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:05:46.450440 nixos kernel:  ? ret_from_fork+0x250/0x330
+Oct 11 21:05:46.450455 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:05:46.450470 nixos kernel:  ? ret_from_fork_asm+0x1a/0x30
+Oct 11 21:05:46.450485 nixos kernel:  </TASK>
+Oct 11 21:07:11.565200 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:07:33.358823 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:07:49.225532 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:07:49.294294 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked for more than 368 seconds.
+Oct 11 21:07:49.294439 nixos kernel:       Tainted: G           O        7.2.9 #1-NixOS
+Oct 11 21:07:49.294464 nixos kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Oct 11 21:07:49.294489 nixos kernel: task:.kwin_wayland-w state:D stack:0     pid:1635  tgid:1635  ppid:1628   task_flags:0x400100 flags:0x00080000
+Oct 11 21:07:49.294511 nixos kernel: Call Trace:
+Oct 11 21:07:49.294533 nixos kernel:  <TASK>
+Oct 11 21:07:49.294548 nixos kernel:  __schedule+0x420/0x1780
+Oct 11 21:07:49.294566 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:07:49.294584 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:07:49.294599 nixos kernel:  schedule+0x27/0xa0
+Oct 11 21:07:49.294614 nixos kernel:  schedule_timeout+0xdc/0x120
+Oct 11 21:07:49.294629 nixos kernel:  __down_common+0xfe/0x320
+Oct 11 21:07:49.294644 nixos kernel:  ? drm_prime_add_buf_handle+0x183/0x210
+Oct 11 21:07:49.294660 nixos kernel:  down+0x53/0x70
+Oct 11 21:07:49.294680 nixos kernel:  nvkms_ioctl_from_kapi+0x58/0xe0 [nvidia_modeset]
+Oct 11 21:07:49.294696 nixos kernel:  CreateSurface+0x214/0x2c0 [nvidia_modeset]
+Oct 11 21:07:49.294712 nixos kernel:  ? drm_framebuffer_init+0x20a/0x2a0
+Oct 11 21:07:49.294725 nixos kernel:  nv_drm_framebuffer_create+0x365/0x570 [nvidia_drm]
+Oct 11 21:07:49.294741 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:07:49.294760 nixos kernel:  drm_internal_framebuffer_create+0x496/0x5c0
+Oct 11 21:07:49.294775 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:07:49.294789 nixos kernel:  drm_mode_addfb2+0x4e/0x130
+Oct 11 21:07:49.294802 nixos kernel:  ? drm_dev_enter+0x1d/0x60
+Oct 11 21:07:49.294821 nixos kernel:  drm_ioctl_kernel+0xae/0x100
+Oct 11 21:07:49.294837 nixos kernel:  drm_ioctl+0x2b9/0x5d0
+Oct 11 21:07:49.294852 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:07:49.294867 nixos kernel:  __x64_sys_ioctl+0xb9/0x100
+Oct 11 21:07:49.294883 nixos kernel:  do_syscall_64+0x134/0x6b0
+Oct 11 21:07:49.294897 nixos kernel:  ? do_user_addr_fault+0x190/0x730
+Oct 11 21:07:49.294910 nixos kernel:  ? do_syscall_64+0xeb/0x6b0
+Oct 11 21:07:49.294925 nixos kernel:  ? exc_page_fault+0x83/0x1a0
+Oct 11 21:07:49.294938 nixos kernel:  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+Oct 11 21:07:49.294955 nixos kernel: RIP: 0033:0x797b2d726c5d
+Oct 11 21:07:49.294974 nixos kernel: RSP: 002b:00007ffee300d660 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Oct 11 21:07:49.294990 nixos kernel: RAX: ffffffffffffffda RBX: 00007ffee300d7d4 RCX: 0000797b2d726c5d
+Oct 11 21:07:49.295005 nixos kernel: RDX: 00007ffee300d6f0 RSI: 00000000c06864b8 RDI: 0000000000000055
+Oct 11 21:07:49.295024 nixos kernel: RBP: 00007ffee300d6b0 R08: 00007ffee300d820 R09: 000056f8e2f4fde8
+Oct 11 21:07:49.295038 nixos kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffee300d6f0
+Oct 11 21:07:49.295050 nixos kernel: R13: 00000000c06864b8 R14: 0000000000000055 R15: 000056f8e2f4fd60
+Oct 11 21:07:49.295066 nixos kernel:  </TASK>
+Oct 11 21:07:49.295080 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked on a semaphore likely last held by task nvidia-modeset/:781
+Oct 11 21:07:49.295095 nixos kernel: task:nvidia-modeset/ state:R  running task     stack:0     pid:781   tgid:781   ppid:2      task_flags:0x208040 flags:0x00080020
+Oct 11 21:07:49.295112 nixos kernel: Call Trace:
+Oct 11 21:07:49.295126 nixos kernel:  <TASK>
+Oct 11 21:07:49.295141 nixos kernel:  ? __schedule+0x428/0x1780
+Oct 11 21:07:49.295157 nixos kernel:  ? clockevents_program_event+0x77/0x230
+Oct 11 21:07:49.295172 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:07:49.295187 nixos kernel:  ? irqentry_exit+0x155/0x6a0
+Oct 11 21:07:49.295206 nixos kernel:  ? common_interrupt+0x13/0xa0
+Oct 11 21:07:49.295225 nixos kernel:  ? sysvec_apic_timer_interrupt+0xe/0x80
+Oct 11 21:07:49.295244 nixos kernel:  ? nvWriteGpEntry+0x115/0x3f0 [nvidia_modeset]
+Oct 11 21:07:49.295264 nixos kernel:  ? nvPushSetObject+0xb1/0x170 [nvidia_modeset]
+Oct 11 21:07:49.295276 nixos kernel:  ? nvPushKickoff+0x2c/0x50 [nvidia_modeset]
+Oct 11 21:07:49.295297 nixos kernel:  ? PrefetchHelperSurfaceEvo+0x4df/0x700 [nvidia_modeset]
+Oct 11 21:07:49.295314 nixos kernel:  ? nvDIFRPrefetchSurfaces+0x155/0x240 [nvidia_modeset]
+Oct 11 21:07:49.295326 nixos kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset]
+Oct 11 21:07:49.295340 nixos kernel:  ? DifrPrefetchEventDeferredWork+0x16/0x30 [nvidia_modeset]
+Oct 11 21:07:49.295356 nixos kernel:  ? nvkms_kthread_q_callback+0xe6/0x170 [nvidia_modeset]
+Oct 11 21:07:49.295370 nixos kernel:  ? _main_loop+0x10e/0x160 [nvidia_modeset]
+Oct 11 21:07:49.295385 nixos kernel:  ? kthread+0xe4/0x120
+Oct 11 21:07:49.295399 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:07:49.295413 nixos kernel:  ? ret_from_fork+0x250/0x330
+Oct 11 21:07:49.295429 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:07:49.295442 nixos kernel:  ? ret_from_fork_asm+0x1a/0x30
+Oct 11 21:07:49.295457 nixos kernel:  </TASK>
+Oct 11 21:08:01.040107 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:08:12.341144 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:08:26.408121 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:08:30.675349 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:09:49.324693 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:09:52.174320 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked for more than 491 seconds.
+Oct 11 21:09:52.177977 nixos kernel:       Tainted: G           O        7.2.9 #1-NixOS
+Oct 11 21:09:52.177997 nixos kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Oct 11 21:09:52.178008 nixos kernel: task:.kwin_wayland-w state:D stack:0     pid:1635  tgid:1635  ppid:1628   task_flags:0x400100 flags:0x00080000
+Oct 11 21:09:52.178019 nixos kernel: Call Trace:
+Oct 11 21:09:52.178030 nixos kernel:  <TASK>
+Oct 11 21:09:52.178038 nixos kernel:  __schedule+0x420/0x1780
+Oct 11 21:09:52.178046 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:09:52.178061 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:09:52.178069 nixos kernel:  schedule+0x27/0xa0
+Oct 11 21:09:52.178076 nixos kernel:  schedule_timeout+0xdc/0x120
+Oct 11 21:09:52.178084 nixos kernel:  __down_common+0xfe/0x320
+Oct 11 21:09:52.178090 nixos kernel:  ? drm_prime_add_buf_handle+0x183/0x210
+Oct 11 21:09:52.178097 nixos kernel:  down+0x53/0x70
+Oct 11 21:09:52.178107 nixos kernel:  nvkms_ioctl_from_kapi+0x58/0xe0 [nvidia_modeset]
+Oct 11 21:09:52.178114 nixos kernel:  CreateSurface+0x214/0x2c0 [nvidia_modeset]
+Oct 11 21:09:52.178121 nixos kernel:  ? drm_framebuffer_init+0x20a/0x2a0
+Oct 11 21:09:52.178127 nixos kernel:  nv_drm_framebuffer_create+0x365/0x570 [nvidia_drm]
+Oct 11 21:09:52.178133 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:09:52.178141 nixos kernel:  drm_internal_framebuffer_create+0x496/0x5c0
+Oct 11 21:09:52.178147 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:09:52.178154 nixos kernel:  drm_mode_addfb2+0x4e/0x130
+Oct 11 21:09:52.178159 nixos kernel:  ? drm_dev_enter+0x1d/0x60
+Oct 11 21:09:52.178166 nixos kernel:  drm_ioctl_kernel+0xae/0x100
+Oct 11 21:09:52.178172 nixos kernel:  drm_ioctl+0x2b9/0x5d0
+Oct 11 21:09:52.178178 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:09:52.178183 nixos kernel:  __x64_sys_ioctl+0xb9/0x100
+Oct 11 21:09:52.178195 nixos kernel:  do_syscall_64+0x134/0x6b0
+Oct 11 21:09:52.178201 nixos kernel:  ? do_user_addr_fault+0x190/0x730
+Oct 11 21:09:52.178207 nixos kernel:  ? do_syscall_64+0xeb/0x6b0
+Oct 11 21:09:52.178213 nixos kernel:  ? exc_page_fault+0x83/0x1a0
+Oct 11 21:09:52.178218 nixos kernel:  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+Oct 11 21:09:52.178222 nixos kernel: RIP: 0033:0x797b2d726c5d
+Oct 11 21:09:52.178229 nixos kernel: RSP: 002b:00007ffee300d660 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Oct 11 21:09:52.178235 nixos kernel: RAX: ffffffffffffffda RBX: 00007ffee300d7d4 RCX: 0000797b2d726c5d
+Oct 11 21:09:52.178241 nixos kernel: RDX: 00007ffee300d6f0 RSI: 00000000c06864b8 RDI: 0000000000000055
+Oct 11 21:09:52.178247 nixos kernel: RBP: 00007ffee300d6b0 R08: 00007ffee300d820 R09: 000056f8e2f4fde8
+Oct 11 21:09:52.178253 nixos kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffee300d6f0
+Oct 11 21:09:52.178258 nixos kernel: R13: 00000000c06864b8 R14: 0000000000000055 R15: 000056f8e2f4fd60
+Oct 11 21:09:52.178264 nixos kernel:  </TASK>
+Oct 11 21:09:52.178270 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked on a semaphore likely last held by task nvidia-modeset/:781
+Oct 11 21:09:52.178278 nixos kernel: task:nvidia-modeset/ state:R  running task     stack:0     pid:781   tgid:781   ppid:2      task_flags:0x208040 flags:0x00080020
+Oct 11 21:09:52.178288 nixos kernel: Call Trace:
+Oct 11 21:09:52.178301 nixos kernel:  <TASK>
+Oct 11 21:09:52.178304 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:09:52.178311 nixos kernel:  ? __schedule+0xfba/0x1780
+Oct 11 21:09:52.178317 nixos kernel:  ? clockevents_program_event+0x77/0x230
+Oct 11 21:09:52.178321 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:09:52.178326 nixos kernel:  ? irqentry_exit+0x155/0x6a0
+Oct 11 21:09:52.178334 nixos kernel:  ? sysvec_reschedule_ipi+0x2d/0x100
+Oct 11 21:09:52.178340 nixos kernel:  ? sysvec_apic_timer_interrupt+0xe/0x80
+Oct 11 21:09:52.178346 nixos kernel:  ? nvWriteGpEntry+0x115/0x3f0 [nvidia_modeset]
+Oct 11 21:09:52.178353 nixos kernel:  ? nvPushSetObject+0xb1/0x170 [nvidia_modeset]
+Oct 11 21:09:52.178360 nixos kernel:  ? nvPushKickoff+0x2c/0x50 [nvidia_modeset]
+Oct 11 21:09:52.178365 nixos kernel:  ? PrefetchHelperSurfaceEvo+0x4df/0x700 [nvidia_modeset]
+Oct 11 21:09:52.178371 nixos kernel:  ? nvDIFRPrefetchSurfaces+0x155/0x240 [nvidia_modeset]
+Oct 11 21:09:52.178377 nixos kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset]
+Oct 11 21:09:52.178384 nixos kernel:  ? DifrPrefetchEventDeferredWork+0x16/0x30 [nvidia_modeset]
+Oct 11 21:09:52.178389 nixos kernel:  ? nvkms_kthread_q_callback+0xe6/0x170 [nvidia_modeset]
+Oct 11 21:09:52.178394 nixos kernel:  ? _main_loop+0x10e/0x160 [nvidia_modeset]
+Oct 11 21:09:52.178400 nixos kernel:  ? kthread+0xe4/0x120
+Oct 11 21:09:52.178406 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:09:52.178411 nixos kernel:  ? ret_from_fork+0x250/0x330
+Oct 11 21:09:52.178417 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:09:52.178422 nixos kernel:  ? ret_from_fork_asm+0x1a/0x30
+Oct 11 21:09:52.178428 nixos kernel:  </TASK>
+Oct 11 21:10:01.516424 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:11:29.783915 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:11:34.599575 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:11:55.054369 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked for more than 614 seconds.
+Oct 11 21:11:55.054544 nixos kernel:       Tainted: G           O        7.2.9 #1-NixOS
+Oct 11 21:11:55.054558 nixos kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Oct 11 21:11:55.054568 nixos kernel: task:.kwin_wayland-w state:D stack:0     pid:1635  tgid:1635  ppid:1628   task_flags:0x400100 flags:0x00080000
+Oct 11 21:11:55.054579 nixos kernel: Call Trace:
+Oct 11 21:11:55.054587 nixos kernel:  <TASK>
+Oct 11 21:11:55.054594 nixos kernel:  __schedule+0x420/0x1780
+Oct 11 21:11:55.054602 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:11:55.054612 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:11:55.054618 nixos kernel:  schedule+0x27/0xa0
+Oct 11 21:11:55.054626 nixos kernel:  schedule_timeout+0xdc/0x120
+Oct 11 21:11:55.054633 nixos kernel:  __down_common+0xfe/0x320
+Oct 11 21:11:55.054639 nixos kernel:  ? drm_prime_add_buf_handle+0x183/0x210
+Oct 11 21:11:55.054645 nixos kernel:  down+0x53/0x70
+Oct 11 21:11:55.054655 nixos kernel:  nvkms_ioctl_from_kapi+0x58/0xe0 [nvidia_modeset]
+Oct 11 21:11:55.054662 nixos kernel:  CreateSurface+0x214/0x2c0 [nvidia_modeset]
+Oct 11 21:11:55.054668 nixos kernel:  ? drm_framebuffer_init+0x20a/0x2a0
+Oct 11 21:11:55.054676 nixos kernel:  nv_drm_framebuffer_create+0x365/0x570 [nvidia_drm]
+Oct 11 21:11:55.054683 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:11:55.054695 nixos kernel:  drm_internal_framebuffer_create+0x496/0x5c0
+Oct 11 21:11:55.054701 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:11:55.054707 nixos kernel:  drm_mode_addfb2+0x4e/0x130
+Oct 11 21:11:55.054715 nixos kernel:  ? drm_dev_enter+0x1d/0x60
+Oct 11 21:11:55.054724 nixos kernel:  drm_ioctl_kernel+0xae/0x100
+Oct 11 21:11:55.054730 nixos kernel:  drm_ioctl+0x2b9/0x5d0
+Oct 11 21:11:55.054737 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:11:55.054744 nixos kernel:  __x64_sys_ioctl+0xb9/0x100
+Oct 11 21:11:55.054751 nixos kernel:  do_syscall_64+0x134/0x6b0
+Oct 11 21:11:55.054758 nixos kernel:  ? do_user_addr_fault+0x190/0x730
+Oct 11 21:11:55.054763 nixos kernel:  ? do_syscall_64+0xeb/0x6b0
+Oct 11 21:11:55.054770 nixos kernel:  ? exc_page_fault+0x83/0x1a0
+Oct 11 21:11:55.054781 nixos kernel:  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+Oct 11 21:11:55.054787 nixos kernel: RIP: 0033:0x797b2d726c5d
+Oct 11 21:11:55.054793 nixos kernel: RSP: 002b:00007ffee300d660 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Oct 11 21:11:55.054798 nixos kernel: RAX: ffffffffffffffda RBX: 00007ffee300d7d4 RCX: 0000797b2d726c5d
+Oct 11 21:11:55.054804 nixos kernel: RDX: 00007ffee300d6f0 RSI: 00000000c06864b8 RDI: 0000000000000055
+Oct 11 21:11:55.054810 nixos kernel: RBP: 00007ffee300d6b0 R08: 00007ffee300d820 R09: 000056f8e2f4fde8
+Oct 11 21:11:55.054816 nixos kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffee300d6f0
+Oct 11 21:11:55.054819 nixos kernel: R13: 00000000c06864b8 R14: 0000000000000055 R15: 000056f8e2f4fd60
+Oct 11 21:11:55.054828 nixos kernel:  </TASK>
+Oct 11 21:11:55.054834 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked on a semaphore likely last held by task nvidia-modeset/:781
+Oct 11 21:11:55.054841 nixos kernel: task:nvidia-modeset/ state:R  running task     stack:0     pid:781   tgid:781   ppid:2      task_flags:0x208040 flags:0x00080020
+Oct 11 21:11:55.054847 nixos kernel: Call Trace:
+Oct 11 21:11:55.054852 nixos kernel:  <TASK>
+Oct 11 21:11:55.054858 nixos kernel:  ? __schedule+0x428/0x1780
+Oct 11 21:11:55.054864 nixos kernel:  ? clockevents_program_event+0x77/0x230
+Oct 11 21:11:55.054869 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:11:55.054875 nixos kernel:  ? irqentry_exit+0x155/0x6a0
+Oct 11 21:11:55.054881 nixos kernel:  ? sysvec_reschedule_ipi+0x2d/0x100
+Oct 11 21:11:55.054886 nixos kernel:  ? sysvec_apic_timer_interrupt+0xe/0x80
+Oct 11 21:11:55.054892 nixos kernel:  ? nvWriteGpEntry+0xc6/0x3f0 [nvidia_modeset]
+Oct 11 21:11:55.054898 nixos kernel:  ? nvPushSetObject+0xb1/0x170 [nvidia_modeset]
+Oct 11 21:11:55.054903 nixos kernel:  ? nvPushKickoff+0x2c/0x50 [nvidia_modeset]
+Oct 11 21:11:55.054909 nixos kernel:  ? PrefetchHelperSurfaceEvo+0x4df/0x700 [nvidia_modeset]
+Oct 11 21:11:55.054915 nixos kernel:  ? nvDIFRPrefetchSurfaces+0x155/0x240 [nvidia_modeset]
+Oct 11 21:11:55.054921 nixos kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset]
+Oct 11 21:11:55.054924 nixos kernel:  ? DifrPrefetchEventDeferredWork+0x16/0x30 [nvidia_modeset]
+Oct 11 21:11:55.054930 nixos kernel:  ? nvkms_kthread_q_callback+0xe6/0x170 [nvidia_modeset]
+Oct 11 21:11:55.054936 nixos kernel:  ? _main_loop+0x10e/0x160 [nvidia_modeset]
+Oct 11 21:11:55.054941 nixos kernel:  ? kthread+0xe4/0x120
+Oct 11 21:11:55.054946 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:11:55.054952 nixos kernel:  ? ret_from_fork+0x250/0x330
+Oct 11 21:11:55.054958 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:11:55.054963 nixos kernel:  ? ret_from_fork_asm+0x1a/0x30
+Oct 11 21:11:55.054969 nixos kernel:  </TASK>
+Oct 11 21:12:02.771333 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:12:25.606726 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:12:31.220979 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:12:35.826015 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:12:45.782196 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:13:28.791969 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:13:32.766150 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:13:57.934389 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked for more than 737 seconds.
+Oct 11 21:13:57.934598 nixos kernel:       Tainted: G           O        7.2.9 #1-NixOS
+Oct 11 21:13:57.934625 nixos kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Oct 11 21:13:57.934646 nixos kernel: task:.kwin_wayland-w state:D stack:0     pid:1635  tgid:1635  ppid:1628   task_flags:0x400100 flags:0x00080000
+Oct 11 21:13:57.934668 nixos kernel: Call Trace:
+Oct 11 21:13:57.934690 nixos kernel:  <TASK>
+Oct 11 21:13:57.934706 nixos kernel:  __schedule+0x420/0x1780
+Oct 11 21:13:57.934723 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:13:57.934743 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:13:57.934759 nixos kernel:  schedule+0x27/0xa0
+Oct 11 21:13:57.934776 nixos kernel:  schedule_timeout+0xdc/0x120
+Oct 11 21:13:57.934791 nixos kernel:  __down_common+0xfe/0x320
+Oct 11 21:13:57.934807 nixos kernel:  ? drm_prime_add_buf_handle+0x183/0x210
+Oct 11 21:13:57.934832 nixos kernel:  down+0x53/0x70
+Oct 11 21:13:57.934849 nixos kernel:  nvkms_ioctl_from_kapi+0x58/0xe0 [nvidia_modeset]
+Oct 11 21:13:57.934865 nixos kernel:  CreateSurface+0x214/0x2c0 [nvidia_modeset]
+Oct 11 21:13:57.934880 nixos kernel:  ? drm_framebuffer_init+0x20a/0x2a0
+Oct 11 21:13:57.934895 nixos kernel:  nv_drm_framebuffer_create+0x365/0x570 [nvidia_drm]
+Oct 11 21:13:57.934910 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:13:57.934929 nixos kernel:  drm_internal_framebuffer_create+0x496/0x5c0
+Oct 11 21:13:57.934950 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:13:57.934964 nixos kernel:  drm_mode_addfb2+0x4e/0x130
+Oct 11 21:13:57.934979 nixos kernel:  ? drm_dev_enter+0x1d/0x60
+Oct 11 21:13:57.934997 nixos kernel:  drm_ioctl_kernel+0xae/0x100
+Oct 11 21:13:57.935012 nixos kernel:  drm_ioctl+0x2b9/0x5d0
+Oct 11 21:13:57.935030 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:13:57.935044 nixos kernel:  __x64_sys_ioctl+0xb9/0x100
+Oct 11 21:13:57.935059 nixos kernel:  do_syscall_64+0x134/0x6b0
+Oct 11 21:13:57.935074 nixos kernel:  ? do_user_addr_fault+0x190/0x730
+Oct 11 21:13:57.935089 nixos kernel:  ? do_syscall_64+0xeb/0x6b0
+Oct 11 21:13:57.935104 nixos kernel:  ? exc_page_fault+0x83/0x1a0
+Oct 11 21:13:57.935119 nixos kernel:  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+Oct 11 21:13:57.935131 nixos kernel: RIP: 0033:0x797b2d726c5d
+Oct 11 21:13:57.935149 nixos kernel: RSP: 002b:00007ffee300d660 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Oct 11 21:13:57.935164 nixos kernel: RAX: ffffffffffffffda RBX: 00007ffee300d7d4 RCX: 0000797b2d726c5d
+Oct 11 21:13:57.935178 nixos kernel: RDX: 00007ffee300d6f0 RSI: 00000000c06864b8 RDI: 0000000000000055
+Oct 11 21:13:57.935195 nixos kernel: RBP: 00007ffee300d6b0 R08: 00007ffee300d820 R09: 000056f8e2f4fde8
+Oct 11 21:13:57.935210 nixos kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffee300d6f0
+Oct 11 21:13:57.935225 nixos kernel: R13: 00000000c06864b8 R14: 0000000000000055 R15: 000056f8e2f4fd60
+Oct 11 21:13:57.935239 nixos kernel:  </TASK>
+Oct 11 21:13:57.935257 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked on a semaphore likely last held by task nvidia-modeset/:781
+Oct 11 21:13:57.935275 nixos kernel: task:nvidia-modeset/ state:R  running task     stack:0     pid:781   tgid:781   ppid:2      task_flags:0x208040 flags:0x00080020
+Oct 11 21:13:57.935299 nixos kernel: Call Trace:
+Oct 11 21:13:57.935313 nixos kernel:  <TASK>
+Oct 11 21:13:57.935325 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:13:57.935342 nixos kernel:  ? __schedule+0xfba/0x1780
+Oct 11 21:13:57.935359 nixos kernel:  ? clockevents_program_event+0x77/0x230
+Oct 11 21:13:57.935373 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:13:57.935387 nixos kernel:  ? irqentry_exit+0x155/0x6a0
+Oct 11 21:13:57.935404 nixos kernel:  ? sysvec_reschedule_ipi+0x2d/0x100
+Oct 11 21:13:57.935419 nixos kernel:  ? sysvec_apic_timer_interrupt+0xe/0x80
+Oct 11 21:13:57.935446 nixos kernel:  ? nvWriteGpEntry+0x10e/0x3f0 [nvidia_modeset]
+Oct 11 21:13:57.935461 nixos kernel:  ? nvPushSetObject+0xb1/0x170 [nvidia_modeset]
+Oct 11 21:13:57.935481 nixos kernel:  ? nvPushKickoff+0x2c/0x50 [nvidia_modeset]
+Oct 11 21:13:57.935503 nixos kernel:  ? PrefetchHelperSurfaceEvo+0x4df/0x700 [nvidia_modeset]
+Oct 11 21:13:57.935518 nixos kernel:  ? nvDIFRPrefetchSurfaces+0x155/0x240 [nvidia_modeset]
+Oct 11 21:13:57.935531 nixos kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset]
+Oct 11 21:13:57.935545 nixos kernel:  ? DifrPrefetchEventDeferredWork+0x16/0x30 [nvidia_modeset]
+Oct 11 21:13:57.935557 nixos kernel:  ? nvkms_kthread_q_callback+0xe6/0x170 [nvidia_modeset]
+Oct 11 21:13:57.935572 nixos kernel:  ? _main_loop+0x10e/0x160 [nvidia_modeset]
+Oct 11 21:13:57.935586 nixos kernel:  ? kthread+0xe4/0x120
+Oct 11 21:13:57.935601 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:13:57.935615 nixos kernel:  ? ret_from_fork+0x250/0x330
+Oct 11 21:13:57.935629 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:13:57.935643 nixos kernel:  ? ret_from_fork_asm+0x1a/0x30
+Oct 11 21:13:57.935658 nixos kernel:  </TASK>
+Oct 11 21:14:31.824582 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:14:37.907384 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:15:14.610206 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:16:00.686495 nixos kernel: CPU0: Package temperature is above threshold, cpu clock is throttled (total events = 232761)
+Oct 11 21:16:00.721199 nixos kernel: CPU6: Package temperature is above threshold, cpu clock is throttled (total events = 421153)
+Oct 11 21:16:00.721218 nixos kernel: CPU14: Package temperature is above threshold, cpu clock is throttled (total events = 1044333)
+Oct 11 21:16:00.814476 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked for more than 860 seconds.
+Oct 11 21:16:00.814522 nixos kernel:       Tainted: G           O        7.2.9 #1-NixOS
+Oct 11 21:16:00.814536 nixos kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Oct 11 21:16:00.814547 nixos kernel: task:.kwin_wayland-w state:D stack:0     pid:1635  tgid:1635  ppid:1628   task_flags:0x400100 flags:0x00080000
+Oct 11 21:16:00.814558 nixos kernel: Call Trace:
+Oct 11 21:16:00.814569 nixos kernel:  <TASK>
+Oct 11 21:16:00.814576 nixos kernel:  __schedule+0x420/0x1780
+Oct 11 21:16:00.814584 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:16:00.814593 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:16:00.814599 nixos kernel:  schedule+0x27/0xa0
+Oct 11 21:16:00.814607 nixos kernel:  schedule_timeout+0xdc/0x120
+Oct 11 21:16:00.814622 nixos kernel:  __down_common+0xfe/0x320
+Oct 11 21:16:00.814633 nixos kernel:  ? drm_prime_add_buf_handle+0x183/0x210
+Oct 11 21:16:00.814639 nixos kernel:  down+0x53/0x70
+Oct 11 21:16:00.814647 nixos kernel:  nvkms_ioctl_from_kapi+0x58/0xe0 [nvidia_modeset]
+Oct 11 21:16:00.814653 nixos kernel:  CreateSurface+0x214/0x2c0 [nvidia_modeset]
+Oct 11 21:16:00.814660 nixos kernel:  ? drm_framebuffer_init+0x20a/0x2a0
+Oct 11 21:16:00.814666 nixos kernel:  nv_drm_framebuffer_create+0x365/0x570 [nvidia_drm]
+Oct 11 21:16:00.814673 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:16:00.814680 nixos kernel:  drm_internal_framebuffer_create+0x496/0x5c0
+Oct 11 21:16:00.814688 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:16:00.814693 nixos kernel:  drm_mode_addfb2+0x4e/0x130
+Oct 11 21:16:00.814699 nixos kernel:  ? drm_dev_enter+0x1d/0x60
+Oct 11 21:16:00.814705 nixos kernel:  drm_ioctl_kernel+0xae/0x100
+Oct 11 21:16:00.814711 nixos kernel:  drm_ioctl+0x2b9/0x5d0
+Oct 11 21:16:00.814716 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:16:00.814721 nixos kernel:  __x64_sys_ioctl+0xb9/0x100
+Oct 11 21:16:00.814726 nixos kernel:  do_syscall_64+0x134/0x6b0
+Oct 11 21:16:00.814731 nixos kernel:  ? do_user_addr_fault+0x190/0x730
+Oct 11 21:16:00.814737 nixos kernel:  ? do_syscall_64+0xeb/0x6b0
+Oct 11 21:16:00.814743 nixos kernel:  ? exc_page_fault+0x83/0x1a0
+Oct 11 21:16:00.814748 nixos kernel:  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+Oct 11 21:16:00.814754 nixos kernel: RIP: 0033:0x797b2d726c5d
+Oct 11 21:16:00.814761 nixos kernel: RSP: 002b:00007ffee300d660 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Oct 11 21:16:00.814767 nixos kernel: RAX: ffffffffffffffda RBX: 00007ffee300d7d4 RCX: 0000797b2d726c5d
+Oct 11 21:16:00.814773 nixos kernel: RDX: 00007ffee300d6f0 RSI: 00000000c06864b8 RDI: 0000000000000055
+Oct 11 21:16:00.814779 nixos kernel: RBP: 00007ffee300d6b0 R08: 00007ffee300d820 R09: 000056f8e2f4fde8
+Oct 11 21:16:00.814785 nixos kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffee300d6f0
+Oct 11 21:16:00.814791 nixos kernel: R13: 00000000c06864b8 R14: 0000000000000055 R15: 000056f8e2f4fd60
+Oct 11 21:16:00.814796 nixos kernel:  </TASK>
+Oct 11 21:16:00.814803 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked on a semaphore likely last held by task nvidia-modeset/:781
+Oct 11 21:16:00.814811 nixos kernel: task:nvidia-modeset/ state:R  running task     stack:0     pid:781   tgid:781   ppid:2      task_flags:0x208040 flags:0x00080020
+Oct 11 21:16:00.814817 nixos kernel: Call Trace:
+Oct 11 21:16:00.814821 nixos kernel:  <TASK>
+Oct 11 21:16:00.814826 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:16:00.814832 nixos kernel:  ? __schedule+0xfba/0x1780
+Oct 11 21:16:00.814839 nixos kernel:  ? clockevents_program_event+0x77/0x230
+Oct 11 21:16:00.814845 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:16:00.814850 nixos kernel:  ? irqentry_exit+0x155/0x6a0
+Oct 11 21:16:00.814862 nixos kernel:  ? sysvec_reschedule_ipi+0x2d/0x100
+Oct 11 21:16:00.814869 nixos kernel:  ? sysvec_apic_timer_interrupt+0xe/0x80
+Oct 11 21:16:00.814876 nixos kernel:  ? nvWriteGpEntry+0x40/0x3f0 [nvidia_modeset]
+Oct 11 21:16:00.814881 nixos kernel:  ? nvPushSetObject+0xb1/0x170 [nvidia_modeset]
+Oct 11 21:16:00.814887 nixos kernel:  ? nvPushKickoff+0x2c/0x50 [nvidia_modeset]
+Oct 11 21:16:00.814894 nixos kernel:  ? PrefetchHelperSurfaceEvo+0x4df/0x700 [nvidia_modeset]
+Oct 11 21:16:00.814900 nixos kernel:  ? nvDIFRPrefetchSurfaces+0x155/0x240 [nvidia_modeset]
+Oct 11 21:16:00.814905 nixos kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset]
+Oct 11 21:16:00.814911 nixos kernel:  ? DifrPrefetchEventDeferredWork+0x16/0x30 [nvidia_modeset]
+Oct 11 21:16:00.814917 nixos kernel:  ? nvkms_kthread_q_callback+0xe6/0x170 [nvidia_modeset]
+Oct 11 21:16:00.814923 nixos kernel:  ? _main_loop+0x10e/0x160 [nvidia_modeset]
+Oct 11 21:16:00.814931 nixos kernel:  ? kthread+0xe4/0x120
+Oct 11 21:16:00.814937 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:16:00.814943 nixos kernel:  ? ret_from_fork+0x250/0x330
+Oct 11 21:16:00.814949 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:16:00.814954 nixos kernel:  ? ret_from_fork_asm+0x1a/0x30
+Oct 11 21:16:00.814960 nixos kernel:  </TASK>
+Oct 11 21:16:01.710384 nixos kernel: CPU18: Package temperature is above threshold, cpu clock is throttled (total events = 976005)
+Oct 11 21:16:01.710501 nixos kernel: CPU16: Package temperature is above threshold, cpu clock is throttled (total events = 975688)
+Oct 11 21:16:01.710512 nixos kernel: CPU17: Package temperature is above threshold, cpu clock is throttled (total events = 975956)
+Oct 11 21:16:01.710522 nixos kernel: CPU2: Package temperature is above threshold, cpu clock is throttled (total events = 448868)
+Oct 11 21:16:01.710529 nixos kernel: CPU1: Package temperature is above threshold, cpu clock is throttled (total events = 288071)
+Oct 11 21:16:01.710538 nixos kernel: CPU19: Package temperature is above threshold, cpu clock is throttled (total events = 976013)
+Oct 11 21:16:01.710547 nixos kernel: CPU9: Package temperature is above threshold, cpu clock is throttled (total events = 738940)
+Oct 11 21:16:01.710553 nixos kernel: CPU8: Package temperature is above threshold, cpu clock is throttled (total events = 738774)
+Oct 11 21:16:01.710559 nixos kernel: CPU10: Package temperature is above threshold, cpu clock is throttled (total events = 738931)
+Oct 11 21:16:01.710568 nixos kernel: CPU13: Package temperature is above threshold, cpu clock is throttled (total events = 1044295)
+Oct 11 21:16:01.710577 nixos kernel: CPU11: Package temperature is above threshold, cpu clock is throttled (total events = 737446)
+Oct 11 21:16:01.710586 nixos kernel: CPU15: Package temperature is above threshold, cpu clock is throttled (total events = 1044355)
+Oct 11 21:16:05.806304 nixos kernel: CPU1: Package temperature/speed normal (total events = 288135)
+Oct 11 21:16:05.806467 nixos kernel: CPU18: Package temperature/speed normal (total events = 976069)
+Oct 11 21:16:05.806490 nixos kernel: CPU9: Package temperature/speed normal (total events = 739004)
+Oct 11 21:16:05.806500 nixos kernel: CPU16: Package temperature/speed normal (total events = 975752)
+Oct 11 21:16:05.806514 nixos kernel: CPU11: Package temperature/speed normal (total events = 737510)
+Oct 11 21:16:05.806531 nixos kernel: CPU2: Package temperature/speed normal (total events = 448932)
+Oct 11 21:16:05.806547 nixos kernel: CPU17: Package temperature/speed normal (total events = 976020)
+Oct 11 21:16:05.806561 nixos kernel: CPU10: Package temperature/speed normal (total events = 738995)
+Oct 11 21:16:05.806571 nixos kernel: CPU6: Package temperature/speed normal (total events = 421217)
+Oct 11 21:16:05.806584 nixos kernel: CPU0: Package temperature/speed normal (total events = 232825)
+Oct 11 21:16:05.806599 nixos kernel: CPU8: Package temperature/speed normal (total events = 738838)
+Oct 11 21:16:05.806608 nixos kernel: CPU19: Package temperature/speed normal (total events = 976077)
+Oct 11 21:16:05.806633 nixos kernel: CPU15: Package temperature/speed normal (total events = 1044419)
+Oct 11 21:16:05.806646 nixos kernel: CPU13: Package temperature/speed normal (total events = 1044359)
+Oct 11 21:16:05.806659 nixos kernel: CPU14: Package temperature/speed normal (total events = 1044397)
+Oct 11 21:18:03.694448 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked for more than 983 seconds.
+Oct 11 21:18:03.694596 nixos kernel:       Tainted: G           O        7.2.9 #1-NixOS
+Oct 11 21:18:03.694611 nixos kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Oct 11 21:18:03.694620 nixos kernel: task:.kwin_wayland-w state:D stack:0     pid:1635  tgid:1635  ppid:1628   task_flags:0x400100 flags:0x00080000
+Oct 11 21:18:03.694633 nixos kernel: Call Trace:
+Oct 11 21:18:03.694644 nixos kernel:  <TASK>
+Oct 11 21:18:03.694651 nixos kernel:  __schedule+0x420/0x1780
+Oct 11 21:18:03.694660 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:18:03.694669 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:18:03.694675 nixos kernel:  schedule+0x27/0xa0
+Oct 11 21:18:03.694683 nixos kernel:  schedule_timeout+0xdc/0x120
+Oct 11 21:18:03.694691 nixos kernel:  __down_common+0xfe/0x320
+Oct 11 21:18:03.694699 nixos kernel:  ? drm_prime_add_buf_handle+0x183/0x210
+Oct 11 21:18:03.694705 nixos kernel:  down+0x53/0x70
+Oct 11 21:18:03.694713 nixos kernel:  nvkms_ioctl_from_kapi+0x58/0xe0 [nvidia_modeset]
+Oct 11 21:18:03.694720 nixos kernel:  CreateSurface+0x214/0x2c0 [nvidia_modeset]
+Oct 11 21:18:03.694726 nixos kernel:  ? drm_framebuffer_init+0x20a/0x2a0
+Oct 11 21:18:03.694733 nixos kernel:  nv_drm_framebuffer_create+0x365/0x570 [nvidia_drm]
+Oct 11 21:18:03.694740 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:18:03.694750 nixos kernel:  drm_internal_framebuffer_create+0x496/0x5c0
+Oct 11 21:18:03.694756 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:18:03.694762 nixos kernel:  drm_mode_addfb2+0x4e/0x130
+Oct 11 21:18:03.694769 nixos kernel:  ? drm_dev_enter+0x1d/0x60
+Oct 11 21:18:03.694776 nixos kernel:  drm_ioctl_kernel+0xae/0x100
+Oct 11 21:18:03.694783 nixos kernel:  drm_ioctl+0x2b9/0x5d0
+Oct 11 21:18:03.694791 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:18:03.694797 nixos kernel:  __x64_sys_ioctl+0xb9/0x100
+Oct 11 21:18:03.694804 nixos kernel:  do_syscall_64+0x134/0x6b0
+Oct 11 21:18:03.694811 nixos kernel:  ? do_user_addr_fault+0x190/0x730
+Oct 11 21:18:03.694816 nixos kernel:  ? do_syscall_64+0xeb/0x6b0
+Oct 11 21:18:03.694822 nixos kernel:  ? exc_page_fault+0x83/0x1a0
+Oct 11 21:18:03.694829 nixos kernel:  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+Oct 11 21:18:03.694835 nixos kernel: RIP: 0033:0x797b2d726c5d
+Oct 11 21:18:03.694842 nixos kernel: RSP: 002b:00007ffee300d660 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Oct 11 21:18:03.694848 nixos kernel: RAX: ffffffffffffffda RBX: 00007ffee300d7d4 RCX: 0000797b2d726c5d
+Oct 11 21:18:03.694854 nixos kernel: RDX: 00007ffee300d6f0 RSI: 00000000c06864b8 RDI: 0000000000000055
+Oct 11 21:18:03.694860 nixos kernel: RBP: 00007ffee300d6b0 R08: 00007ffee300d820 R09: 000056f8e2f4fde8
+Oct 11 21:18:03.694866 nixos kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffee300d6f0
+Oct 11 21:18:03.694873 nixos kernel: R13: 00000000c06864b8 R14: 0000000000000055 R15: 000056f8e2f4fd60
+Oct 11 21:18:03.694879 nixos kernel:  </TASK>
+Oct 11 21:18:03.694887 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked on a semaphore likely last held by task nvidia-modeset/:781
+Oct 11 21:18:03.694895 nixos kernel: task:nvidia-modeset/ state:R  running task     stack:0     pid:781   tgid:781   ppid:2      task_flags:0x208040 flags:0x00080020
+Oct 11 21:18:03.694902 nixos kernel: Call Trace:
+Oct 11 21:18:03.694907 nixos kernel:  <TASK>
+Oct 11 21:18:03.694913 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:18:03.694920 nixos kernel:  ? __schedule+0xfba/0x1780
+Oct 11 21:18:03.694928 nixos kernel:  ? clockevents_program_event+0x77/0x230
+Oct 11 21:18:03.694933 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:18:03.694939 nixos kernel:  ? irqentry_exit+0x155/0x6a0
+Oct 11 21:18:03.694944 nixos kernel:  ? sysvec_reschedule_ipi+0x2d/0x100
+Oct 11 21:18:03.694951 nixos kernel:  ? sysvec_apic_timer_interrupt+0xe/0x80
+Oct 11 21:18:03.694959 nixos kernel:  ? nvWriteGpEntry+0x40/0x3f0 [nvidia_modeset]
+Oct 11 21:18:03.694965 nixos kernel:  ? nvPushSetObject+0xb1/0x170 [nvidia_modeset]
+Oct 11 21:18:03.694970 nixos kernel:  ? nvPushKickoff+0x2c/0x50 [nvidia_modeset]
+Oct 11 21:18:03.694977 nixos kernel:  ? PrefetchHelperSurfaceEvo+0x4df/0x700 [nvidia_modeset]
+Oct 11 21:18:03.694982 nixos kernel:  ? nvDIFRPrefetchSurfaces+0x155/0x240 [nvidia_modeset]
+Oct 11 21:18:03.694988 nixos kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset]
+Oct 11 21:18:03.694994 nixos kernel:  ? DifrPrefetchEventDeferredWork+0x16/0x30 [nvidia_modeset]
+Oct 11 21:18:03.695000 nixos kernel:  ? nvkms_kthread_q_callback+0xe6/0x170 [nvidia_modeset]
+Oct 11 21:18:03.695006 nixos kernel:  ? _main_loop+0x10e/0x160 [nvidia_modeset]
+Oct 11 21:18:03.695013 nixos kernel:  ? kthread+0xe4/0x120
+Oct 11 21:18:03.695019 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:18:03.695024 nixos kernel:  ? ret_from_fork+0x250/0x330
+Oct 11 21:18:03.695030 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:18:03.695035 nixos kernel:  ? ret_from_fork_asm+0x1a/0x30
+Oct 11 21:18:03.695041 nixos kernel:  </TASK>
+Oct 11 21:20:06.574398 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked for more than 1105 seconds.
+Oct 11 21:20:06.574558 nixos kernel:       Tainted: G           O        7.2.9 #1-NixOS
+Oct 11 21:20:06.574571 nixos kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Oct 11 21:20:06.574581 nixos kernel: task:.kwin_wayland-w state:D stack:0     pid:1635  tgid:1635  ppid:1628   task_flags:0x400100 flags:0x00080000
+Oct 11 21:20:06.574592 nixos kernel: Call Trace:
+Oct 11 21:20:06.574602 nixos kernel:  <TASK>
+Oct 11 21:20:06.574609 nixos kernel:  __schedule+0x420/0x1780
+Oct 11 21:20:06.574619 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:20:06.574628 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:20:06.574632 nixos kernel:  schedule+0x27/0xa0
+Oct 11 21:20:06.574641 nixos kernel:  schedule_timeout+0xdc/0x120
+Oct 11 21:20:06.574648 nixos kernel:  __down_common+0xfe/0x320
+Oct 11 21:20:06.574655 nixos kernel:  ? drm_prime_add_buf_handle+0x183/0x210
+Oct 11 21:20:06.574661 nixos kernel:  down+0x53/0x70
+Oct 11 21:20:06.574668 nixos kernel:  nvkms_ioctl_from_kapi+0x58/0xe0 [nvidia_modeset]
+Oct 11 21:20:06.574675 nixos kernel:  CreateSurface+0x214/0x2c0 [nvidia_modeset]
+Oct 11 21:20:06.574682 nixos kernel:  ? drm_framebuffer_init+0x20a/0x2a0
+Oct 11 21:20:06.574687 nixos kernel:  nv_drm_framebuffer_create+0x365/0x570 [nvidia_drm]
+Oct 11 21:20:06.574698 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:20:06.574705 nixos kernel:  drm_internal_framebuffer_create+0x496/0x5c0
+Oct 11 21:20:06.574712 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:20:06.574717 nixos kernel:  drm_mode_addfb2+0x4e/0x130
+Oct 11 21:20:06.574723 nixos kernel:  ? drm_dev_enter+0x1d/0x60
+Oct 11 21:20:06.574730 nixos kernel:  drm_ioctl_kernel+0xae/0x100
+Oct 11 21:20:06.574736 nixos kernel:  drm_ioctl+0x2b9/0x5d0
+Oct 11 21:20:06.574742 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:20:06.574749 nixos kernel:  __x64_sys_ioctl+0xb9/0x100
+Oct 11 21:20:06.574754 nixos kernel:  do_syscall_64+0x134/0x6b0
+Oct 11 21:20:06.574760 nixos kernel:  ? do_user_addr_fault+0x190/0x730
+Oct 11 21:20:06.574767 nixos kernel:  ? do_syscall_64+0xeb/0x6b0
+Oct 11 21:20:06.574773 nixos kernel:  ? exc_page_fault+0x83/0x1a0
+Oct 11 21:20:06.574779 nixos kernel:  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+Oct 11 21:20:06.574786 nixos kernel: RIP: 0033:0x797b2d726c5d
+Oct 11 21:20:06.574792 nixos kernel: RSP: 002b:00007ffee300d660 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Oct 11 21:20:06.574797 nixos kernel: RAX: ffffffffffffffda RBX: 00007ffee300d7d4 RCX: 0000797b2d726c5d
+Oct 11 21:20:06.574801 nixos kernel: RDX: 00007ffee300d6f0 RSI: 00000000c06864b8 RDI: 0000000000000055
+Oct 11 21:20:06.574808 nixos kernel: RBP: 00007ffee300d6b0 R08: 00007ffee300d820 R09: 000056f8e2f4fde8
+Oct 11 21:20:06.574813 nixos kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffee300d6f0
+Oct 11 21:20:06.574818 nixos kernel: R13: 00000000c06864b8 R14: 0000000000000055 R15: 000056f8e2f4fd60
+Oct 11 21:20:06.574823 nixos kernel:  </TASK>
+Oct 11 21:20:06.574830 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked on a semaphore likely last held by task nvidia-modeset/:781
+Oct 11 21:20:06.574840 nixos kernel: task:nvidia-modeset/ state:R  running task     stack:0     pid:781   tgid:781   ppid:2      task_flags:0x208040 flags:0x00080020
+Oct 11 21:20:06.574845 nixos kernel: Call Trace:
+Oct 11 21:20:06.574850 nixos kernel:  <TASK>
+Oct 11 21:20:06.574853 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:20:06.574859 nixos kernel:  ? __schedule+0xfba/0x1780
+Oct 11 21:20:06.574866 nixos kernel:  ? clockevents_program_event+0x77/0x230
+Oct 11 21:20:06.574872 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:20:06.574877 nixos kernel:  ? irqentry_exit+0x155/0x6a0
+Oct 11 21:20:06.574883 nixos kernel:  ? common_interrupt+0x13/0xa0
+Oct 11 21:20:06.574890 nixos kernel:  ? sysvec_apic_timer_interrupt+0xe/0x80
+Oct 11 21:20:06.574897 nixos kernel:  ? nvWriteGpEntry+0x115/0x3f0 [nvidia_modeset]
+Oct 11 21:20:06.574904 nixos kernel:  ? nvPushSetObject+0xb1/0x170 [nvidia_modeset]
+Oct 11 21:20:06.574908 nixos kernel:  ? nvPushKickoff+0x2c/0x50 [nvidia_modeset]
+Oct 11 21:20:06.574915 nixos kernel:  ? PrefetchHelperSurfaceEvo+0x4df/0x700 [nvidia_modeset]
+Oct 11 21:20:06.574921 nixos kernel:  ? nvDIFRPrefetchSurfaces+0x155/0x240 [nvidia_modeset]
+Oct 11 21:20:06.574929 nixos kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset]
+Oct 11 21:20:06.574934 nixos kernel:  ? DifrPrefetchEventDeferredWork+0x16/0x30 [nvidia_modeset]
+Oct 11 21:20:06.574938 nixos kernel:  ? nvkms_kthread_q_callback+0xe6/0x170 [nvidia_modeset]
+Oct 11 21:20:06.574949 nixos kernel:  ? _main_loop+0x10e/0x160 [nvidia_modeset]
+Oct 11 21:20:06.574956 nixos kernel:  ? kthread+0xe4/0x120
+Oct 11 21:20:06.574962 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:20:06.574968 nixos kernel:  ? ret_from_fork+0x250/0x330
+Oct 11 21:20:06.574974 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:20:06.574979 nixos kernel:  ? ret_from_fork_asm+0x1a/0x30
+Oct 11 21:20:06.574984 nixos kernel:  </TASK>
+Oct 11 21:21:18.427057 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:22:02.029237 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:22:09.454408 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked for more than 1228 seconds.
+Oct 11 21:22:09.457684 nixos kernel:       Tainted: G           O        7.2.9 #1-NixOS
+Oct 11 21:22:09.457719 nixos kernel: "echo 0 > /proc/sys/kernel/hung_task_timeout_secs" disables this message.
+Oct 11 21:22:09.457737 nixos kernel: task:.kwin_wayland-w state:D stack:0     pid:1635  tgid:1635  ppid:1628   task_flags:0x400100 flags:0x00080000
+Oct 11 21:22:09.457757 nixos kernel: Call Trace:
+Oct 11 21:22:09.457777 nixos kernel:  <TASK>
+Oct 11 21:22:09.457792 nixos kernel:  __schedule+0x420/0x1780
+Oct 11 21:22:09.457808 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:22:09.457827 nixos kernel:  ? radix_tree_node_alloc.constprop.0+0xea/0x150
+Oct 11 21:22:09.457841 nixos kernel:  schedule+0x27/0xa0
+Oct 11 21:22:09.457859 nixos kernel:  schedule_timeout+0xdc/0x120
+Oct 11 21:22:09.457874 nixos kernel:  __down_common+0xfe/0x320
+Oct 11 21:22:09.457890 nixos kernel:  ? drm_prime_add_buf_handle+0x183/0x210
+Oct 11 21:22:09.457905 nixos kernel:  down+0x53/0x70
+Oct 11 21:22:09.457924 nixos kernel:  nvkms_ioctl_from_kapi+0x58/0xe0 [nvidia_modeset]
+Oct 11 21:22:09.457939 nixos kernel:  CreateSurface+0x214/0x2c0 [nvidia_modeset]
+Oct 11 21:22:09.457953 nixos kernel:  ? drm_framebuffer_init+0x20a/0x2a0
+Oct 11 21:22:09.457968 nixos kernel:  nv_drm_framebuffer_create+0x365/0x570 [nvidia_drm]
+Oct 11 21:22:09.457982 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:22:09.457999 nixos kernel:  drm_internal_framebuffer_create+0x496/0x5c0
+Oct 11 21:22:09.458016 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:22:09.458031 nixos kernel:  drm_mode_addfb2+0x4e/0x130
+Oct 11 21:22:09.458046 nixos kernel:  ? drm_dev_enter+0x1d/0x60
+Oct 11 21:22:09.458063 nixos kernel:  drm_ioctl_kernel+0xae/0x100
+Oct 11 21:22:09.458075 nixos kernel:  drm_ioctl+0x2b9/0x5d0
+Oct 11 21:22:09.458091 nixos kernel:  ? __pfx_drm_mode_addfb2_ioctl+0x10/0x10
+Oct 11 21:22:09.458107 nixos kernel:  __x64_sys_ioctl+0xb9/0x100
+Oct 11 21:22:09.458122 nixos kernel:  do_syscall_64+0x134/0x6b0
+Oct 11 21:22:09.458138 nixos kernel:  ? do_user_addr_fault+0x190/0x730
+Oct 11 21:22:09.458153 nixos kernel:  ? do_syscall_64+0xeb/0x6b0
+Oct 11 21:22:09.458169 nixos kernel:  ? exc_page_fault+0x83/0x1a0
+Oct 11 21:22:09.458188 nixos kernel:  entry_SYSCALL_64_after_hwframe+0x77/0x7f
+Oct 11 21:22:09.458203 nixos kernel: RIP: 0033:0x797b2d726c5d
+Oct 11 21:22:09.458219 nixos kernel: RSP: 002b:00007ffee300d660 EFLAGS: 00000246 ORIG_RAX: 0000000000000010
+Oct 11 21:22:09.458233 nixos kernel: RAX: ffffffffffffffda RBX: 00007ffee300d7d4 RCX: 0000797b2d726c5d
+Oct 11 21:22:09.458249 nixos kernel: RDX: 00007ffee300d6f0 RSI: 00000000c06864b8 RDI: 0000000000000055
+Oct 11 21:22:09.458264 nixos kernel: RBP: 00007ffee300d6b0 R08: 00007ffee300d820 R09: 000056f8e2f4fde8
+Oct 11 21:22:09.458279 nixos kernel: R10: 0000000000000000 R11: 0000000000000246 R12: 00007ffee300d6f0
+Oct 11 21:22:09.458308 nixos kernel: R13: 00000000c06864b8 R14: 0000000000000055 R15: 000056f8e2f4fd60
+Oct 11 21:22:09.458324 nixos kernel:  </TASK>
+Oct 11 21:22:09.458340 nixos kernel: INFO: task .kwin_wayland-w:1635 blocked on a semaphore likely last held by task nvidia-modeset/:781
+Oct 11 21:22:09.458358 nixos kernel: task:nvidia-modeset/ state:R  running task     stack:0     pid:781   tgid:781   ppid:2      task_flags:0x208040 flags:0x00080020
+Oct 11 21:22:09.458373 nixos kernel: Call Trace:
+Oct 11 21:22:09.458388 nixos kernel:  <TASK>
+Oct 11 21:22:09.458402 nixos kernel:  ? __schedule+0x428/0x1780
+Oct 11 21:22:09.458420 nixos kernel:  ? clockevents_program_event+0x77/0x230
+Oct 11 21:22:09.458434 nixos kernel:  ? __hrtimer_rearm_deferred+0x62/0x140
+Oct 11 21:22:09.458453 nixos kernel:  ? irqentry_exit+0x155/0x6a0
+Oct 11 21:22:09.458468 nixos kernel:  ? sysvec_reschedule_ipi+0x2d/0x100
+Oct 11 21:22:09.458487 nixos kernel:  ? sysvec_apic_timer_interrupt+0xe/0x80
+Oct 11 21:22:09.458504 nixos kernel:  ? nvWriteGpEntry+0x112/0x3f0 [nvidia_modeset]
+Oct 11 21:22:09.458520 nixos kernel:  ? nvPushSetObject+0xb1/0x170 [nvidia_modeset]
+Oct 11 21:22:09.458534 nixos kernel:  ? nvPushKickoff+0x2c/0x50 [nvidia_modeset]
+Oct 11 21:22:09.458553 nixos kernel:  ? PrefetchHelperSurfaceEvo+0x4df/0x700 [nvidia_modeset]
+Oct 11 21:22:09.458565 nixos kernel:  ? nvDIFRPrefetchSurfaces+0x155/0x240 [nvidia_modeset]
+Oct 11 21:22:09.458577 nixos kernel:  ? __pfx__main_loop+0x10/0x10 [nvidia_modeset]
+Oct 11 21:22:09.458592 nixos kernel:  ? DifrPrefetchEventDeferredWork+0x16/0x30 [nvidia_modeset]
+Oct 11 21:22:09.458607 nixos kernel:  ? nvkms_kthread_q_callback+0xe6/0x170 [nvidia_modeset]
+Oct 11 21:22:09.458622 nixos kernel:  ? _main_loop+0x10e/0x160 [nvidia_modeset]
+Oct 11 21:22:09.458640 nixos kernel:  ? kthread+0xe4/0x120
+Oct 11 21:22:09.458654 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:22:09.458669 nixos kernel:  ? ret_from_fork+0x250/0x330
+Oct 11 21:22:09.458684 nixos kernel:  ? __pfx_kthread+0x10/0x10
+Oct 11 21:22:09.458698 nixos kernel:  ? ret_from_fork_asm+0x1a/0x30
+Oct 11 21:22:09.458712 nixos kernel:  </TASK>
+Oct 11 21:22:09.458726 nixos kernel: Future hung task reports are suppressed, see sysctl kernel.hung_task_warnings
+Oct 11 21:22:44.830933 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:22:51.267342 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:24:16.538787 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:24:27.447994 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:24:40.851549 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:25:17.299670 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:25:22.627324 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:25:37.974158 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:25:46.645570 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:26:02.255615 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:26:07.410090 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:26:17.411949 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:26:26.629210 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:26:40.408167 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:26:44.445563 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:27:03.906225 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:27:08.308479 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:27:11.055936 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:27:25.192717 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:27:26.517134 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:27:33.604371 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:27:34.252599 nixos cupsd[1289]: REQUEST localhost - - "POST / HTTP/1.1" 200 199 Renew-Subscription successful-ok
+Oct 11 21:27:37.265394 nixos cupsd[1289]: REQUEST localhost - - "POST / HTTP/1.1" 200 199 Renew-Subscription successful-ok
+Oct 11 21:28:04.567966 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:28:05.293875 nixos cupsd[1289]: Saving subscriptions.conf...
+Oct 11 21:28:23.134194 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:29:02.438750 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:29:27.880296 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:30:02.888427 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:30:26.174198 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:30:40.382506 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:30:52.822834 nixos systemd[1]: Starting Refresh fwupd metadata and update motd...
+Oct 11 21:30:52.890189 nixos fwupd[42631]: 17:30:52.890 FuPluginLinuxSwap    could not parse /proc/swaps: no volumes for devnum 51
+Oct 11 21:30:52.979831 nixos fwupdmgr[136217]: Idle…
+Oct 11 21:30:52.990347 nixos fwupdmgr[136217]: Updating lvfs
+Oct 11 21:30:53.006130 nixos fwupdmgr[136217]: Downloading…
+Oct 11 21:30:53.151033 nixos fwupdmgr[136217]: Downloading…: 54.9%
+Oct 11 21:30:53.155696 nixos fwupdmgr[136217]: Downloading…: 100.0%
+Oct 11 21:30:53.158944 nixos fwupdmgr[136217]: Successfully downloaded new metadata:
+Oct 11 21:30:53.158944 nixos fwupdmgr[136217]:  • 5 devices are updatable
+Oct 11 21:30:53.158944 nixos fwupdmgr[136217]:  • 3 devices are supported in the enabled remotes (an update has been published)
+Oct 11 21:30:53.164183 nixos systemd[1]: fwupd-refresh.service: Deactivated successfully.
+Oct 11 21:30:53.164640 nixos systemd[1]: Finished Refresh fwupd metadata and update motd.
+Oct 11 21:30:53.164938 nixos systemd[1]: fwupd-refresh.service: Consumed 68ms CPU time over 341ms wall clock time, 7M memory peak, 19.3K incoming IP traffic, 2.7K outgoing IP traffic.
+Oct 11 21:31:57.088095 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:33:31.187362 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:33:35.487453 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:34:01.886276 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:34:55.657575 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:35:36.628006 nixos systemd[1]: Starting Network Manager Script Dispatcher Service...
+Oct 11 21:35:36.647793 nixos systemd[1]: Started Network Manager Script Dispatcher Service.
+Oct 11 21:35:46.668744 nixos systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+Oct 11 21:36:34.977601 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:42:35.309481 nixos cupsd[1289]: Subscription 218 has expired...
+Oct 11 21:42:35.309550 nixos cupsd[1289]: Subscription 219 has expired...
+Oct 11 21:43:06.340707 nixos cupsd[1289]: Saving subscriptions.conf...
+Oct 11 21:45:15.914923 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:49:00.063369 nixos plasmashell[1751]: qrc:/qt/qml/plasma/applet/org/kde/plasma/notifications/global/Globals.qml:575:17: Unable to assign QString to int
+Oct 11 21:56:10.862381 nixos kernel: CPU16: Package temperature is above threshold, cpu clock is throttled (total events = 1046735)
+Oct 11 21:56:13.934439 nixos kernel: CPU16: Package temperature/speed normal (total events = 1046737)
+Oct 11 21:57:04.632288 nixos systemd-logind[1044]: Lid opened.
